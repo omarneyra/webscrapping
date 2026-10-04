@@ -371,3 +371,225 @@ def fetch_shopify_suggest_products(store_name: str, base_url: str, queries: List
             print(f"[Aviso] Error al consultar Shopify {store_name} ({q}): {e}")
 
     return results
+
+
+def parse_clean_price(price_str: str) -> Optional[float]:
+    """
+    Limpia cadenas como '$ 42.990' o '$42990' a float.
+    """
+    if not price_str:
+        return None
+    cleaned = re.sub(r"[^\d]", "", price_str)
+    try:
+        val = float(cleaned)
+        return val if val > 0 else None
+    except ValueError:
+        return None
+
+
+def fetch_jumpseller_products(store_name: str, base_url: str, queries: List[str]) -> List[Dict[str, Any]]:
+    """
+    Scraper para tiendas basadas en Jumpseller (ej. OutletFit).
+    """
+    from bs4 import BeautifulSoup
+    results = []
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+
+    for q in queries:
+        url = f"{base_url.rstrip('/')}/search/{requests.utils.quote(q)}"
+        try:
+            resp = requests.get(url, headers=headers, timeout=10)
+            if resp.status_code != 200:
+                continue
+            soup = BeautifulSoup(resp.text, "html.parser")
+            cards = soup.select(".product-block")
+
+            for card in cards:
+                anchor = card.select_one("a.product-block__anchor")
+                title = anchor.get("title", "") if anchor else ""
+                title = title.replace("Ir a ", "").strip()
+                if not title or not is_valid_powder_supplement(title):
+                    continue
+
+                price_new = card.select_one(".product-block__price--new")
+                price_old = card.select_one(".product-block__price--old")
+
+                price = parse_clean_price(price_new.get_text() if price_new else None)
+                if not price or price <= 0:
+                    continue
+
+                original_price = parse_clean_price(price_old.get_text() if price_old else None)
+                discount = calculate_discount(original_price, price)
+                weight_g = extract_weight_grams(title)
+                category = detect_protein_category(title)
+                net_protein_g = estimate_protein_grams(weight_g, category) if weight_g else None
+                cost_per_g = calculate_cost_per_gram(price, net_protein_g) if net_protein_g else None
+
+                raw_href = anchor.get("href", "")
+                permalink = f"{base_url.rstrip('/')}{raw_href}" if raw_href.startswith("/") else raw_href
+
+                results.append({
+                    "source": store_name,
+                    "title": title,
+                    "price": price,
+                    "original_price": original_price,
+                    "discount_pct": discount,
+                    "category": category,
+                    "weight_grams": weight_g,
+                    "net_protein_grams": net_protein_g,
+                    "cost_per_gram_clp": cost_per_g,
+                    "permalink": permalink,
+                    "available": True,
+                })
+        except Exception as e:
+            print(f"[Aviso] Error al consultar Jumpseller {store_name} ({q}): {e}")
+
+    return results
+
+
+def fetch_bsale_products(store_name: str, base_url: str, collection_paths: List[str]) -> List[Dict[str, Any]]:
+    """
+    Scraper para tiendas basadas en Bsale (ej. Strongest.cl).
+    """
+    from bs4 import BeautifulSoup
+    results = []
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+
+    for path in collection_paths:
+        url = f"{base_url.rstrip('/')}/{path.lstrip('/')}"
+        try:
+            resp = requests.get(url, headers=headers, timeout=10)
+            if resp.status_code != 200:
+                continue
+            soup = BeautifulSoup(resp.text, "html.parser")
+
+            seen_urls = set()
+            for a in soup.find_all("a", href=True):
+                href = a["href"]
+                if "/product/" not in href or href in seen_urls:
+                    continue
+                seen_urls.add(href)
+
+                parent = a.find_parent("div")
+                if not parent:
+                    continue
+                text = parent.get_text(" ", strip=True)
+                if "$" not in text:
+                    continue
+
+                # Extraer precios con formato CLP ej: $ 64.990 o $ 72.990
+                prices_found = re.findall(r"\$\s*(\d{1,3}(?:\.\d{3})+)", text)
+                if not prices_found:
+                    continue
+
+                prices_num = [parse_clean_price(p) for p in prices_found if parse_clean_price(p)]
+                if not prices_num:
+                    continue
+
+                # El precio menor es el actual si hay oferta
+                price = min(prices_num)
+                original_price = max(prices_num) if len(prices_num) > 1 and max(prices_num) > price else None
+
+                # Extraer título del enlace o texto
+                title = a.get_text(strip=True)
+                if not title or len(title) < 5 or "$" in title:
+                    # Limpiar texto del contenedor
+                    title = text.split("$")[0].strip()
+
+                if not is_valid_powder_supplement(title):
+                    continue
+
+                discount = calculate_discount(original_price, price)
+                weight_g = extract_weight_grams(title)
+                category = detect_protein_category(title)
+                net_protein_g = estimate_protein_grams(weight_g, category) if weight_g else None
+                cost_per_g = calculate_cost_per_gram(price, net_protein_g) if net_protein_g else None
+
+                permalink = f"{base_url.rstrip('/')}{href}" if href.startswith("/") else href
+
+                results.append({
+                    "source": store_name,
+                    "title": title,
+                    "price": price,
+                    "original_price": original_price,
+                    "discount_pct": discount,
+                    "category": category,
+                    "weight_grams": weight_g,
+                    "net_protein_grams": net_protein_g,
+                    "cost_per_gram_clp": cost_per_g,
+                    "permalink": permalink,
+                    "available": True,
+                })
+        except Exception as e:
+            print(f"[Aviso] Error al consultar Bsale {store_name} ({path}): {e}")
+
+    return results
+
+
+def fetch_woocommerce_html_products(store_name: str, base_url: str, category_paths: List[str]) -> List[Dict[str, Any]]:
+    """
+    Scraper HTML para tiendas WooCommerce con navegación por categorías (ej. ChileSuplementos).
+    """
+    from bs4 import BeautifulSoup
+    results = []
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+
+    for path in category_paths:
+        url = f"{base_url.rstrip('/')}/{path.lstrip('/')}"
+        try:
+            resp = requests.get(url, headers=headers, timeout=10)
+            if resp.status_code != 200:
+                continue
+            soup = BeautifulSoup(resp.text, "html.parser")
+
+            seen_links = set()
+            for a in soup.find_all("a", href=True):
+                href = a["href"]
+                if "/producto/" not in href or href in seen_links:
+                    continue
+                seen_links.add(href)
+
+                text = a.get_text(" ", strip=True)
+                prices_found = re.findall(r"\$\s*(\d{1,3}(?:\.\d{3})+)", text)
+                if not prices_found:
+                    continue
+
+                prices_num = [parse_clean_price(p) for p in prices_found if parse_clean_price(p)]
+                if not prices_num:
+                    continue
+
+                price = prices_num[-1]
+                original_price = prices_num[0] if len(prices_num) > 1 and prices_num[0] > price else None
+
+                # Limpiar el título removiendo prefijos comunes de tienda
+                title = text.split("$")[0]
+                for prefix in ["Ahorras", "Más Vendido", "Nuevo", "Regalos"]:
+                    title = title.replace(prefix, "")
+                title = title.strip()
+
+                if not is_valid_powder_supplement(title):
+                    continue
+
+                discount = calculate_discount(original_price, price)
+                weight_g = extract_weight_grams(title)
+                category = detect_protein_category(title)
+                net_protein_g = estimate_protein_grams(weight_g, category) if weight_g else None
+                cost_per_g = calculate_cost_per_gram(price, net_protein_g) if net_protein_g else None
+
+                results.append({
+                    "source": store_name,
+                    "title": title,
+                    "price": price,
+                    "original_price": original_price,
+                    "discount_pct": discount,
+                    "category": category,
+                    "weight_grams": weight_g,
+                    "net_protein_grams": net_protein_g,
+                    "cost_per_gram_clp": cost_per_g,
+                    "permalink": href,
+                    "available": True,
+                })
+        except Exception as e:
+            print(f"[Aviso] Error al consultar WooCommerce {store_name} ({path}): {e}")
+
+    return results

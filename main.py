@@ -4,6 +4,9 @@ import json
 from deal_finder import (
     fetch_vtex_products,
     fetch_shopify_suggest_products,
+    fetch_jumpseller_products,
+    fetch_bsale_products,
+    fetch_woocommerce_html_products,
     filter_and_rank_deals,
 )
 from analytics import (
@@ -170,6 +173,49 @@ def run_tracker(
     winkler_items = fetch_shopify_suggest_products("Winkler Nutrition", "https://winklernutrition.cl", queries=SEARCH_QUERIES)
     print(f"    -> {len(winkler_items)} productos procesados en Winkler Nutrition.")
     all_products.extend(winkler_items)
+
+    print("[*] Consultando catálogo en SportNutriShop (Shopify)...")
+    sport_items = fetch_shopify_suggest_products("SportNutriShop", "https://www.sportnutrishop.cl", queries=SEARCH_QUERIES)
+    print(f"    -> {len(sport_items)} productos procesados en SportNutriShop.")
+    all_products.extend(sport_items)
+
+    print("[*] Consultando catálogo en T4T (Shopify)...")
+    t4t_items = fetch_shopify_suggest_products("T4T", "https://t4t.cl", queries=SEARCH_QUERIES)
+    print(f"    -> {len(t4t_items)} productos procesados en T4T.")
+    all_products.extend(t4t_items)
+
+    print("[*] Consultando catálogo en MixGreen (Shopify)...")
+    mix_items = fetch_shopify_suggest_products("MixGreen", "https://www.mixgreen.cl", queries=SEARCH_QUERIES)
+    print(f"    -> {len(mix_items)} productos procesados en MixGreen.")
+    all_products.extend(mix_items)
+
+    print("[*] Consultando catálogo en GlobalNutrition (Shopify)...")
+    global_items = fetch_shopify_suggest_products("GlobalNutrition", "https://globalnutrition.cl", queries=SEARCH_QUERIES)
+    print(f"    -> {len(global_items)} productos procesados en GlobalNutrition.")
+    all_products.extend(global_items)
+
+    print("[*] Consultando catálogo en OutletFit (Jumpseller)...")
+    outlet_items = fetch_jumpseller_products("OutletFit", "https://www.outletfit.cl", queries=["whey", "caseina", "proteina"])
+    print(f"    -> {len(outlet_items)} productos procesados en OutletFit.")
+    all_products.extend(outlet_items)
+
+    print("[*] Consultando catálogo en Strongest (Bsale)...")
+    strongest_items = fetch_bsale_products("Strongest", "https://www.strongest.cl", collection_paths=["/collection/proteinas"])
+    print(f"    -> {len(strongest_items)} productos procesados en Strongest.")
+    all_products.extend(strongest_items)
+
+    print("[*] Consultando catálogo en ChileSuplementos (WooCommerce)...")
+    cs_items = fetch_woocommerce_html_products(
+        "ChileSuplementos",
+        "https://www.chilesuplementos.cl",
+        category_paths=[
+            "/categoria/productos/tipo-de-proteina/whey-protein/",
+            "/categoria/productos/tipo-de-proteina/caseina/",
+            "/categoria/productos/tipo-de-proteina/whey-isolate/",
+        ]
+    )
+    print(f"    -> {len(cs_items)} productos procesados en ChileSuplementos.")
+    all_products.extend(cs_items)
 
     categories = None
     if target_category in ["whey", "casein", "isolate"]:

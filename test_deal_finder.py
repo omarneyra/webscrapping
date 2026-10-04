@@ -98,6 +98,13 @@ class TestDealFinder(unittest.TestCase):
         self.assertEqual(ranked[0]["title"], "Whey Bueno")
         self.assertEqual(ranked[1]["title"], "Casein Ganga")
 
+    def test_parse_clean_price(self):
+        from deal_finder import parse_clean_price
+        self.assertEqual(parse_clean_price("$ 42.990"), 42990.0)
+        self.assertEqual(parse_clean_price("$64990"), 64990.0)
+        self.assertIsNone(parse_clean_price(""))
+        self.assertIsNone(parse_clean_price("Sin stock"))
+
 
 if __name__ == "__main__":
     unittest.main()
