@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyber Tracker Chile | Whey & Caseína</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #0b0f19;
+      --card-bg: #111827;
+      --card-border: #1f293d;
+      --card-hover: #1e293b;
+      --text-main: #f9fafb;
+      --text-muted: #94a3b8;
+      --accent-cyan: #06b6d4;
+      --accent-emerald: #10b981;
+      --accent-amber: #f59e0b;
+      --accent-rose: #f43f5e;
+      --accent-indigo: #6366f1;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: radial-gradient(circle at top right, #1e1b4b 0%, var(--bg-dark) 40%);
+      color: var(--text-main);
+      min-height: 100vh;
+      padding: 24px;
+    }
+
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+
+    header {
+      margin-bottom: 28px;
+    }
+
+    .badge-live {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      background: rgba(16, 185, 129, 0.15);
+      color: var(--accent-emerald);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      padding: 4px 10px;
+      border-radius: 9999px;
+      margin-bottom: 12px;
+    }
+
+    .badge-live::before {
+      content: '';
+      width: 7px;
+      height: 7px;
+      background: var(--accent-emerald);
+      border-radius: 50%;
+      box-shadow: 0 0 8px var(--accent-emerald);
+      animation: pulse 1.8s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.85); }
+    }
+
+    h1 {
+      font-size: 2.25rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      background: linear-gradient(135deg, #ffffff 30%, #94a3b8 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 8px;
+    }
+
+    p.subtitle {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      max-width: 720px;
+    }
+
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-bottom: 28px;
+    }
+
+    .kpi-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 14px;
+      padding: 16px 20px;
+    }
+
+    .kpi-label {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 6px;
+    }
+
+    .kpi-value {
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: var(--text-main);
+    }
+
+    .kpi-sub {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    .controls-panel {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 20px;
+      margin-bottom: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .search-row {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .search-box {
+      flex: 1;
+      min-width: 260px;
+      position: relative;
+    }
+
+    .search-box input {
+      width: 100%;
+      background: #0d1322;
+      border: 1px solid var(--card-border);
+      color: var(--text-main);
+      padding: 12px 16px;
+      border-radius: 10px;
+      font-size: 0.95rem;
+      outline: none;
+      transition: all 0.2s;
+    }
+
+    .search-box input:focus {
+      border-color: var(--accent-cyan);
+      box-shadow: 0 0 0 2px rgba(6, 182, 212, 0.2);
+    }
+
+    .sort-box select {
+      background: #0d1322;
+      border: 1px solid var(--card-border);
+      color: var(--text-main);
+      padding: 12px 16px;
+      border-radius: 10px;
+      font-size: 0.95rem;
+      outline: none;
+      cursor: pointer;
+    }
+
+    .filters-row {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .filter-label {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      margin-right: 4px;
+    }
+
+    .chips-group {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .chip {
+      background: #0d1322;
+      border: 1px solid var(--card-border);
+      color: var(--text-muted);
+      padding: 6px 14px;
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .chip:hover {
+      background: #1a2336;
+      color: var(--text-main);
+    }
+
+    .chip.active {
+      background: rgba(99, 102, 241, 0.2);
+      border-color: var(--accent-indigo);
+      color: #818cf8;
+      font-weight: 600;
+    }
+
+    .deals-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 20px;
+    }
+
+    .deal-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.15s ease, border-color 0.15s ease;
+      position: relative;
+    }
+
+    .deal-card:hover {
+      transform: translateY(-2px);
+      border-color: #334155;
+      background: var(--card-hover);
+    }
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 12px;
+    }
+
+    .store-badge {
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 6px;
+      background: rgba(255, 255, 255, 0.08);
+      color: #cbd5e1;
+    }
+
+    .category-badge {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: 6px;
+    }
+
+    .cat-whey { background: rgba(59, 130, 246, 0.2); color: #60a5fa; }
+    .cat-casein { background: rgba(168, 85, 247, 0.2); color: #c084fc; }
+    .cat-isolate { background: rgba(20, 184, 166, 0.2); color: #2dd4bf; }
+
+    .card-title {
+      font-size: 1.05rem;
+      font-weight: 600;
+      line-height: 1.4;
+      margin-bottom: 16px;
+      color: var(--text-main);
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      min-height: 2.8em;
+    }
+
+    .price-container {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    .current-price {
+      font-size: 1.75rem;
+      font-weight: 800;
+      color: #ffffff;
+    }
+
+    .original-price {
+      font-size: 1rem;
+      color: #64748b;
+      text-decoration: line-through;
+    }
+
+    .discount-pill {
+      font-size: 0.75rem;
+      font-weight: 700;
+      background: rgba(244, 63, 94, 0.2);
+      color: var(--accent-rose);
+      padding: 3px 8px;
+      border-radius: 6px;
+    }
+
+    .metrics-box {
+      background: #0d1322;
+      border-radius: 10px;
+      padding: 12px;
+      margin-bottom: 18px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: 1px dashed #1e293b;
+    }
+
+    .metric-item {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .metric-item .m-title {
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+
+    .metric-item .m-val {
+      font-size: 1.15rem;
+      font-weight: 700;
+    }
+
+    .cost-great { color: var(--accent-emerald); }
+    .cost-good { color: var(--accent-cyan); }
+    .cost-normal { color: var(--accent-amber); }
+
+    .cta-btn {
+      display: block;
+      width: 100%;
+      text-align: center;
+      text-decoration: none;
+      background: linear-gradient(135deg, #4f46e5 0%, #3730a3 100%);
+      color: #ffffff;
+      padding: 12px;
+      border-radius: 10px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+
+    .cta-btn:hover {
+      background: linear-gradient(135deg, #6366f1 0%, #4338ca 100%);
+      box-shadow: 0 4px 14px rgba(79, 70, 229, 0.4);
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--text-muted);
+      grid-column: 1 / -1;
+    }
+
+    footer {
+      margin-top: 48px;
+      text-align: center;
+      font-size: 0.8rem;
+      color: #475569;
+      border-top: 1px solid var(--card-border);
+      padding-top: 24px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="badge-live">CyberMonday Chile Tracker</div>
+      <h1>Monitor Inteligente de Proteína & Caseína</h1>
+      <p class="subtitle">
+        Cálculo en tiempo real del costo por gramo de proteína neta real. Identifica ofertas verdaderas frente a precios inflados en suplementos deportivos.
+      </p>
+    </header>
+
+    <!-- KPI Summary -->
+    <section class="kpi-grid">
+      <div class="kpi-card">
+        <div class="kpi-label">Mejor Precio por Gramo</div>
+        <div class="kpi-value" id="kpi-best-cost">-</div>
+        <div class="kpi-sub" id="kpi-best-product">Analizando...</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Mayor Descuento</div>
+        <div class="kpi-value" id="kpi-max-discount">-</div>
+        <div class="kpi-sub" id="kpi-discount-store">Tiendas monitoreadas</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Ofertas Disponibles</div>
+        <div class="kpi-value" id="kpi-total-deals">0</div>
+        <div class="kpi-sub">Filtradas y validadas</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Promedio de Ahorro</div>
+        <div class="kpi-value" id="kpi-avg-discount">0%</div>
+        <div class="kpi-sub">En productos con rebaja</div>
+      </div>
+    </section>
+
+    <!-- Controls & Filters -->
+    <section class="controls-panel">
+      <div class="search-row">
+        <div class="search-box">
+          <input type="text" id="search-input" placeholder="Buscar por marca, sabor, formato (ej. Mutant, Ghost, 5 Lb, Caseína)...">
+        </div>
+        <div class="sort-box">
+          <select id="sort-select">
+            <option value="cost_asc">⚡ Mejor Costo/g Proteína (Menor a Mayor)</option>
+            <option value="discount_desc">🔥 Mayor % de Descuento</option>
+            <option value="price_asc">💵 Menor Precio Total</option>
+            <option value="price_desc">💎 Mayor Precio Total</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="filters-row">
+        <span class="filter-label">Tipo:</span>
+        <div class="chips-group" id="category-chips">
+          <button class="chip active" data-cat="all">Todos</button>
+          <button class="chip" data-cat="whey">Whey Protein</button>
+          <button class="chip" data-cat="casein">Caseína</button>
+          <button class="chip" data-cat="isolate">Isolate (Aislada)</button>
+        </div>
+      </div>
+
+      <div class="filters-row">
+        <span class="filter-label">Tienda:</span>
+        <div class="chips-group" id="store-chips">
+          <button class="chip active" data-store="all">Todas</button>
+          <button class="chip" data-store="All Nutrition">All Nutrition</button>
+          <button class="chip" data-store="Supletech">Supletech</button>
+          <button class="chip" data-store="Winkler Nutrition">Winkler Nutrition</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Deals Grid -->
+    <main class="deals-grid" id="deals-container">
+      <!-- Los productos se inyectan dinámicamente -->
+    </main>
+
+    <footer>
+      <p>Actualizado para CyberMonday Chile. Los precios y el stock son recopilados directamente desde los catálogos públicos oficiales.</p>
+    </footer>
+  </div>
+
+  <!-- Fallback dataset cargable directamente sin servidor local (evita CORS) -->
+  <script src="cyber_deals.js"></script>
+
+  <script>
+    let allDeals = [];
+    let currentCategory = 'all';
+    let currentStore = 'all';
+    let currentSearch = '';
+    let currentSort = 'cost_asc';
+
+    const dealsContainer = document.getElementById('deals-container');
+    const searchInput = document.getElementById('search-input');
+    const sortSelect = document.getElementById('sort-select');
+
+    // Inicializar datos: primero verificar si está cargado por cyber_deals.js, si no intentar fetch
+    async function loadData() {
+      if (window.CYBER_DEALS && Array.isArray(window.CYBER_DEALS) && window.CYBER_DEALS.length > 0) {
+        allDeals = window.CYBER_DEALS;
+        applyFiltersAndRender();
+        return;
+      }
+
+      try {
+        const response = await fetch('cyber_deals.json');
+        if (response.ok) {
+          allDeals = await response.json();
+        }
+      } catch (err) {
+        console.warn('Fetch fallback no disponible:', err);
+      }
+      applyFiltersAndRender();
+    }
+
+    function formatCLP(val) {
+      if (!val) return '$0';
+      return '$' + Math.round(val).toLocaleString('es-CL');
+    }
+
+    function updateKPIs(deals) {
+      if (!deals.length) {
+        document.getElementById('kpi-total-deals').textContent = '0';
+        return;
+      }
+
+      document.getElementById('kpi-total-deals').textContent = deals.length;
+
+      // Mejor costo por gramo
+      const validCostDeals = deals.filter(d => d.cost_per_gram_clp > 0);
+      if (validCostDeals.length > 0) {
+        const best = validCostDeals.reduce((prev, curr) => curr.cost_per_gram_clp < prev.cost_per_gram_clp ? curr : prev);
+        document.getElementById('kpi-best-cost').textContent = `$${best.cost_per_gram_clp} CLP/g`;
+        document.getElementById('kpi-best-product').textContent = `${best.title.substring(0, 30)}...`;
+      }
+
+      // Mayor descuento
+      const discountedDeals = deals.filter(d => d.discount_pct > 0);
+      if (discountedDeals.length > 0) {
+        const maxDisc = discountedDeals.reduce((prev, curr) => curr.discount_pct > prev.discount_pct ? curr : prev);
+        document.getElementById('kpi-max-discount').textContent = `-${maxDisc.discount_pct}%`;
+        document.getElementById('kpi-discount-store').textContent = maxDisc.source;
+
+        const avgDisc = discountedDeals.reduce((acc, curr) => acc + curr.discount_pct, 0) / discountedDeals.length;
+        document.getElementById('kpi-avg-discount').textContent = `${Math.round(avgDisc)}%`;
+      } else {
+        document.getElementById('kpi-max-discount').textContent = '0%';
+        document.getElementById('kpi-avg-discount').textContent = '0%';
+      }
+    }
+
+    function getCostClass(cost) {
+      if (!cost) return '';
+      if (cost <= 40) return 'cost-great';
+      if (cost <= 52) return 'cost-good';
+      return 'cost-normal';
+    }
+
+    function renderDeals(deals) {
+      updateKPIs(deals);
+
+      if (deals.length === 0) {
+        dealsContainer.innerHTML = `
+          <div class="empty-state">
+            <h3>No se encontraron productos con estos filtros</h3>
+            <p>Prueba buscando con otros términos o seleccionando otra categoría.</p>
+          </div>
+        `;
+        return;
+      }
+
+      dealsContainer.innerHTML = deals.map(item => {
+        const catClass = `cat-${item.category || 'whey'}`;
+        const costClass = getCostClass(item.cost_per_gram_clp);
+        const originalPriceHtml = item.original_price && item.original_price > item.price
+          ? `<span class="original-price">${formatCLP(item.original_price)}</span>`
+          : '';
+        const discountHtml = item.discount_pct > 0
+          ? `<span class="discount-pill">-${item.discount_pct}% OFF</span>`
+          : '';
+
+        const costDisplay = item.cost_per_gram_clp ? `$${item.cost_per_gram_clp} CLP` : 'No det.';
+        const netProtDisplay = item.net_protein_grams ? `${Math.round(item.net_protein_grams)} g` : 'Estimada';
+
+        return `
+          <article class="deal-card">
+            <div>
+              <div class="card-top">
+                <span class="store-badge">${item.source}</span>
+                <span class="category-badge ${catClass}">${item.category || 'Whey'}</span>
+              </div>
+              <h2 class="card-title" title="${item.title}">${item.title}</h2>
+              <div class="price-container">
+                <span class="current-price">${formatCLP(item.price)}</span>
+                ${originalPriceHtml}
+                ${discountHtml}
+              </div>
+              <div class="metrics-box">
+                <div class="metric-item">
+                  <span class="m-title">Costo por gramo</span>
+                  <span class="m-val ${costClass}">${costDisplay}</span>
+                </div>
+                <div class="metric-item" style="text-align: right;">
+                  <span class="m-title">Proteína Neta</span>
+                  <span class="m-val" style="color: #94a3b8;">${netProtDisplay}</span>
+                </div>
+              </div>
+            </div>
+            <a href="${item.permalink}" target="_blank" rel="noopener noreferrer" class="cta-btn">
+              Ver Oferta en Tienda ↗
+            </a>
+          </article>
+        `;
+      }).join('');
+    }
+
+    function applyFiltersAndRender() {
+      let filtered = [...allDeals];
+
+      // Filtro Categoría
+      if (currentCategory !== 'all') {
+        filtered = filtered.filter(d => d.category === currentCategory);
+      }
+
+      // Filtro Tienda
+      if (currentStore !== 'all') {
+        filtered = filtered.filter(d => d.source.toLowerCase().includes(currentStore.toLowerCase()));
+      }
+
+      // Filtro Búsqueda
+      if (currentSearch.trim() !== '') {
+        const query = currentSearch.toLowerCase();
+        filtered = filtered.filter(d => d.title.toLowerCase().includes(query) || d.source.toLowerCase().includes(query));
+      }
+
+      // Ordenamiento
+      filtered.sort((a, b) => {
+        if (currentSort === 'cost_asc') {
+          return (a.cost_per_gram_clp || 999999) - (b.cost_per_gram_clp || 999999);
+        } else if (currentSort === 'discount_desc') {
+          return (b.discount_pct || 0) - (a.discount_pct || 0);
+        } else if (currentSort === 'price_asc') {
+          return a.price - b.price;
+        } else if (currentSort === 'price_desc') {
+          return b.price - a.price;
+        }
+        return 0;
+      });
+
+      renderDeals(filtered);
+    }
+
+    // Event Listeners
+    searchInput.addEventListener('input', (e) => {
+      currentSearch = e.target.value;
+      applyFiltersAndRender();
+    });
+
+    sortSelect.addEventListener('change', (e) => {
+      currentSort = e.target.value;
+      applyFiltersAndRender();
+    });
+
+    document.querySelectorAll('#category-chips .chip').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('#category-chips .chip').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentCategory = btn.getAttribute('data-cat');
+        applyFiltersAndRender();
+      });
+    });
+
+    document.querySelectorAll('#store-chips .chip').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('#store-chips .chip').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentStore = btn.getAttribute('data-store');
+        applyFiltersAndRender();
+      });
+    });
+
+    // Iniciar
+    loadData();
+  </script>
+</body>
+</html>
