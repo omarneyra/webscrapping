@@ -555,26 +555,26 @@
           <span>🧠</span> Insights Tácticos & Veredicto General
         </div>
         <div style="font-size: 0.8rem; color: #94a3b8;">
-          10 Tiendas Nacionales Monitoreadas
+          12 Tiendas Nacionales Monitoreadas (Retail & Mayoristas)
         </div>
       </div>
       <div class="insights-grid">
         <div class="insight-card">
           <h3 style="color: #34d399;"><span>🎯</span> Ganador Whey Certificada</h3>
           <p>
-            <strong>Mutant Whey 5 Lb en OutletFit a $56.990</strong> ($34.42 CLP/g). Fabricación cGMP en Canadá con sello Informed-Choice. Es $4.600 más económica que en All Nutrition ($61.590).
+            <strong>Animal Whey Isolate 4 Lbs en SuplementosMayoristas a $52.400</strong> ($33.58 CLP/g) y <strong>Mutant Whey 5 Lb en OutletFit a $56.990</strong> ($34.42 CLP/g). Ambas Tier A con auditoría cGMP/Informed-Choice.
           </p>
         </div>
         <div class="insight-card">
-          <h3 style="color: #c084fc;"><span>🌙</span> Ganador Caseína Certificada</h3>
+          <h3 style="color: #c084fc;"><span>🌙</span> Ganador Caseína Mayorista & Retail</h3>
           <p>
-            <strong>BioTechUSA Micellar Casein 2.27 kg en GlobalNutrition a $85.990</strong> ($49.84 CLP/g). 5 Lbs de caseína micelar europea pura con estándar EFSA. Rompe el sobreprecio retail.
+            <strong>OstroVit Caseína 700g en SuplementosAlMayor a $22.990</strong> ($43.21 CLP/g - Norma UE) y <strong>BioTechUSA 2.27 kg en GlobalNutrition a $85.990</strong> ($49.84 CLP/g). Las mejores opciones con balance pureza/costo.
           </p>
         </div>
         <div class="insight-card">
           <h3 style="color: #f43f5e;"><span>🛡️</span> Cuidado con las "Gangas" Tier C</h3>
           <p>
-            Proteínas a $22 CLP/g como Fit Protein o Briahlabs parecen insuperables, pero carecen de auditoría externa. El score de conveniencia prioriza calidad biológica verificada.
+            Proteínas a $22-$27 CLP/g (Fit Protein, Briahlabs, mezclas sin certificar) tienen alto riesgo de amino spiking. El score de conveniencia prioriza calidad biológica verificada.
           </p>
         </div>
       </div>
@@ -658,7 +658,10 @@
       <div class="filters-row">
         <span class="filter-label">Tienda:</span>
         <div class="chips-group" id="store-chips">
-          <button class="chip active" data-store="all">Todas (10 tiendas)</button>
+          <button class="chip active" data-store="all">Todas (12 tiendas)</button>
+          <button class="chip" data-store="SuplementosMayoristas">SuplementosMayoristas 📦</button>
+          <button class="chip" data-store="SuplementosAlMayor">SuplementosAlMayor 📦</button>
+          <button class="chip" data-store="Strongest">Strongest</button>
           <button class="chip" data-store="OutletFit">OutletFit</button>
           <button class="chip" data-store="GlobalNutrition">GlobalNutrition</button>
           <button class="chip" data-store="All Nutrition">All Nutrition</button>
@@ -696,7 +699,9 @@
     const sortSelect = document.getElementById('sort-select');
 
     async function init() {
-      if (window.CYBER_DATA) {
+      if (window.CYBER_DEALS_DATA) {
+        appData = window.CYBER_DEALS_DATA;
+      } else if (window.CYBER_DATA) {
         appData = window.CYBER_DATA;
       } else if (window.CYBER_DEALS) {
         appData.deals = window.CYBER_DEALS;
@@ -723,7 +728,7 @@
 
     function renderBasket(months) {
       const key = `${months}_month${months > 1 ? 's' : ''}`;
-      const basket = (appData.baskets && appData.baskets[key]) || null;
+      const basket = appData.optimal_basket || (appData.baskets && appData.baskets[key]) || null;
       if (!basket || !basket.items) return;
 
       const container = document.getElementById('basket-items-container');
