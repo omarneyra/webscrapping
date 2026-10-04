@@ -139,6 +139,38 @@ BRAND_TRUST_DATABASE = {
         "spiking_risk": "Alto",
         "notes": "Marca económica sin auditorías de terceros publicadas.",
     },
+    "rule 1": {
+        "tier": "Tier A",
+        "brand_name": "Rule 1 (R1)",
+        "trust_score": 90,
+        "certifications": ["Informed-Choice", "cGMP (USA)", "Fundadores de Optimum Nutrition"],
+        "spiking_risk": "Muy Bajo",
+        "notes": "Creada por los fundadores originales de Optimum Nutrition tras vender a Glanbia. Instalaciones propias con certificación cGMP e Informed-Choice.",
+    },
+    "animal": {
+        "tier": "Tier A",
+        "brand_name": "Animal (Universal Nutrition)",
+        "trust_score": 88,
+        "certifications": ["cGMP Certified (USA)", "Fabricación propia New Jersey"],
+        "spiking_risk": "Muy Bajo",
+        "notes": "Línea hardcore de Universal Nutrition con más de 40 años en el mercado y formulaciones consistentes.",
+    },
+    "nutrex": {
+        "tier": "Tier B",
+        "brand_name": "Nutrex Research",
+        "trust_score": 77,
+        "certifications": ["cGMP Certified (USA)"],
+        "spiking_risk": "Bajo",
+        "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP.",
+    },
+    "foodtech": {
+        "tier": "Tier C",
+        "brand_name": "Foodtech",
+        "trust_score": 55,
+        "certifications": ["Resolución Seremi Salud Chile"],
+        "spiking_risk": "Medio",
+        "notes": "Marca chilena económica de entrada; sin auditorías independientes de terceros publicadas.",
+    },
     "default": {
         "tier": "Tier C",
         "brand_name": "Marca No Auditada",
@@ -166,6 +198,14 @@ def detect_brand(title: str) -> str:
         if key != "default" and key in t:
             return key
 
+    if "rule1" in t or "rule 1" in t or "r1 " in t:
+        return "rule 1"
+    if "animal" in t or "universal" in t:
+        return "animal"
+    if "nutrex" in t:
+        return "nutrex"
+    if "foodtech" in t:
+        return "foodtech"
     if "gold standard" in t or "on " in t:
         return "optimum nutrition"
     if "iso 100" in t or "iso100" in t:

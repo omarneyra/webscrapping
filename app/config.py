@@ -70,7 +70,7 @@ STORES_CATALOG = [
         "name": "Strongest",
         "type": "bsale",
         "url": "https://www.strongest.cl",
-        "paths": ["/collection/proteinas"],
+        "paths": ["/collection/proteinas", "/collection/pack-s-x2"],
     },
     {
         "name": "ChileSuplementos",
@@ -80,6 +80,22 @@ STORES_CATALOG = [
             "/categoria/productos/tipo-de-proteina/whey-protein/",
             "/categoria/productos/tipo-de-proteina/caseina/",
             "/categoria/productos/tipo-de-proteina/whey-isolate/",
+        ],
+    },
+    {
+        "name": "SuplementosMayoristas",
+        "type": "vtex",
+        "url": "https://www.suplementosmayoristas.cl",
+        "terms": ["whey", "proteina"],
+    },
+    {
+        "name": "SuplementosAlMayor",
+        "type": "suplementosalmayor",
+        "url": "https://suplementosalmayor.cl",
+        "paths": [
+            "/product-category/productos/tipo-de-proteina/whey-protein/",
+            "/product-category/productos/tipo-de-proteina/caseina/",
+            "/product-category/productos/tipo-de-proteina/whey-isolate/",
         ],
     },
 ]

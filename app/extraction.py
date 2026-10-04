@@ -321,6 +321,58 @@ def extract_woocommerce(
     return results
 
 
+def extract_suplementosalmayor(
+    store_name: str,
+    base_url: str,
+    paths: List[str],
+    cache_store: Dict[str, Any],
+) -> List[Dict[str, Any]]:
+    """
+    Extrae productos de la tienda mayorista suplementosalmayor.cl parseando su estructura de tarjetas (.shop-card).
+    """
+    results: List[Dict[str, Any]] = []
+
+    for path in paths:
+        url = f"{base_url.rstrip('/')}/{path.lstrip('/')}"
+        content, updated, status = fetch_url_conditional(url, cache_store)
+        if not content:
+            continue
+
+        soup = BeautifulSoup(content, "html.parser")
+        cards = soup.select(".shop-card")
+
+        for card in cards:
+            name_el = card.select_one(".shop-card-name")
+            if not name_el:
+                continue
+            title = name_el.get_text(strip=True)
+            if not is_valid_powder_supplement(title):
+                continue
+
+            link = name_el.get("href", "")
+
+            price_el = card.select_one(".shop-cp-price")
+            orig_price_el = card.select_one(".shop-cp-regular") or card.select_one(".shop-cp-old")
+
+            price = parse_clean_price(price_el.get_text(strip=True) if price_el else None)
+            if not price or price <= 0:
+                continue
+
+            original_price = parse_clean_price(orig_price_el.get_text(strip=True) if orig_price_el else None)
+
+            record = normalize_product_record(
+                source=store_name,
+                title=title,
+                price=price,
+                original_price=original_price,
+                permalink=link,
+                available=True,
+            )
+            results.append(record)
+
+    return results
+
+
 def scrape_all_stores(
     stores_catalog: List[Dict[str, Any]],
     search_queries: List[str],
@@ -351,6 +403,9 @@ def scrape_all_stores(
             elif stype == "woocommerce":
                 paths = store.get("paths", [])
                 extracted = extract_woocommerce(name, url, paths, cache_store)
+            elif stype == "suplementosalmayor":
+                paths = store.get("paths", [])
+                extracted = extract_suplementosalmayor(name, url, paths, cache_store)
             else:
                 extracted = []
 

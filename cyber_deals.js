@@ -1,118 +1,114 @@
 window.CYBER_DEALS_DATA = {
   "meta": {
-    "timestamp": "2026-10-04 13:20:34",
-    "total_stores_scanned": 10,
-    "total_products_scanned": 439,
-    "analyzed_deals_count": 271
+    "timestamp": "2026-10-04 14:23:10",
+    "total_stores_scanned": 12,
+    "total_products_scanned": 588,
+    "analyzed_deals_count": 366
   },
   "insights": {
     "avg_costs": {
-      "whey": 500.85,
-      "casein": 55.77,
-      "isolate": 102.65
+      "whey": 414.26,
+      "casein": 51.01,
+      "isolate": 88.73
     },
     "best_picks": {
       "whey": {
-        "source": "OutletFit",
-        "title": "Proteina Whey Gourmet 5lb | Mutant",
-        "price": 56990.0,
-        "original_price": 66990.0,
-        "discount_pct": 14.9,
+        "source": "SuplementosMayoristas",
+        "title": "100% Whey  5 lbs  - Nutrex Chocolate",
+        "price": 51947.0,
+        "original_price": null,
+        "discount_pct": 0.0,
         "category": "whey",
         "weight_grams": 2268.0,
         "net_protein_grams": 1655.6,
-        "cost_per_gram_clp": 34.42,
-        "permalink": "https://www.outletfit.cl/proteina-whey-gourmet-5lb-mutant",
+        "cost_per_gram_clp": 31.38,
+        "permalink": "https://www.suplementosmayoristas.cl/100--whey--5lbs-nutrex/p",
         "available": true,
-        "value_score": 85,
+        "value_score": 75,
+        "verdict": {
+          "status": "COMPRA_INMEDIATA",
+          "badge": "🔥 Ganga Certificada (Tier B)",
+          "badge_color": "emerald",
+          "action": "Comprar ahora",
+          "reason": "Excelente ratio de $31.38 CLP/g en marca auditada (Nutrex Research). Sellos: cGMP Certified (USA).",
+          "value_score": 75,
+          "trust": {
+            "tier": "Tier B",
+            "brand_name": "Nutrex Research",
+            "trust_score": 77,
+            "certifications": [
+              "cGMP Certified (USA)"
+            ],
+            "spiking_risk": "Bajo",
+            "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+          }
+        },
+        "brand_trust": {
+          "tier": "Tier B",
+          "brand_name": "Nutrex Research",
+          "trust_score": 77,
+          "certifications": [
+            "cGMP Certified (USA)"
+          ],
+          "spiking_risk": "Bajo",
+          "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+        }
+      },
+      "casein": {
+        "source": "SuplementosAlMayor",
+        "title": "Caseina Micelar 700 G Sin Sabor Ostrovit",
+        "price": 22990.0,
+        "original_price": null,
+        "discount_pct": 0.0,
+        "category": "casein",
+        "weight_grams": 700.0,
+        "net_protein_grams": 532.0,
+        "cost_per_gram_clp": 43.21,
+        "permalink": "https://suplementosalmayor.cl/producto/micellar-casein-700-gr-natural/",
+        "available": true,
+        "value_score": 72,
         "verdict": {
           "status": "COMPRA_INMEDIATA",
           "badge": "🔥 Ganga Certificada (Tier A)",
           "badge_color": "emerald",
           "action": "Comprar ahora",
-          "reason": "Excelente ratio de $34.42 CLP/g en marca auditada (Mutant (PVL / Fit Foods)). Sellos: Informed-Choice, cGMP Certified (Canadá).",
-          "value_score": 85,
+          "reason": "Excelente ratio de $43.21 CLP/g en marca auditada (OstroVit). Sellos: Estándar UE (Polonia), Análisis J.S. Hamilton por lote.",
+          "value_score": 72,
           "trust": {
             "tier": "Tier A",
-            "brand_name": "Mutant (PVL / Fit Foods)",
-            "trust_score": 88,
+            "brand_name": "OstroVit",
+            "trust_score": 86,
             "certifications": [
-              "Informed-Choice",
-              "cGMP Certified (Canadá)"
+              "Estándar UE (Polonia)",
+              "Análisis J.S. Hamilton por lote",
+              "HACCP"
             ],
-            "spiking_risk": "Muy Bajo",
-            "notes": "Planta propia en Canadá (Fit Foods). Sellos Informed-Choice en cada formulación."
+            "spiking_risk": "Bajo",
+            "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
           }
         },
         "brand_trust": {
           "tier": "Tier A",
-          "brand_name": "Mutant (PVL / Fit Foods)",
-          "trust_score": 88,
+          "brand_name": "OstroVit",
+          "trust_score": 86,
           "certifications": [
-            "Informed-Choice",
-            "cGMP Certified (Canadá)"
+            "Estándar UE (Polonia)",
+            "Análisis J.S. Hamilton por lote",
+            "HACCP"
           ],
-          "spiking_risk": "Muy Bajo",
-          "notes": "Planta propia en Canadá (Fit Foods). Sellos Informed-Choice en cada formulación."
-        }
-      },
-      "casein": {
-        "source": "GlobalNutrition",
-        "title": "BioTechUSA Micellar Casein 2270g | Proteína de Liberación Lenta · Recuperación · Muscle Support",
-        "price": 85990.0,
-        "original_price": 98990.0,
-        "discount_pct": 13.1,
-        "category": "casein",
-        "weight_grams": 2270.0,
-        "net_protein_grams": 1725.2,
-        "cost_per_gram_clp": 49.84,
-        "permalink": "https://globalnutrition.cl/products/biotechusa-micellar-casein-2270g-proteina-de-liberacion-lenta-recuperacion-muscle-support?_pos=1&_psq=caseina&_psid=b1ac945e7&_ss=e",
-        "available": true,
-        "value_score": 85,
-        "verdict": {
-          "status": "BUENA_OPCION",
-          "badge": "✅ Calidad Confiable (Tier A)",
-          "badge_color": "cyan",
-          "action": "Recomendado",
-          "reason": "Precio justo Cyber ($49.84 CLP/g) con respaldo de calidad (BioTechUSA).",
-          "value_score": 85,
-          "trust": {
-            "tier": "Tier A",
-            "brand_name": "BioTechUSA",
-            "trust_score": 91,
-            "certifications": [
-              "EFSA (Unión Europea)",
-              "ISO 22000",
-              "HACCP",
-              "GMP"
-            ],
-            "spiking_risk": "Muy Bajo",
-            "notes": "Fabricante europeo bajo estricta regulación de la EFSA. Caseína micelar pura sin rellenos."
-          }
-        },
-        "brand_trust": {
-          "tier": "Tier A",
-          "brand_name": "BioTechUSA",
-          "trust_score": 91,
-          "certifications": [
-            "EFSA (Unión Europea)",
-            "ISO 22000",
-            "HACCP",
-            "GMP"
-          ],
-          "spiking_risk": "Muy Bajo",
-          "notes": "Fabricante europeo bajo estricta regulación de la EFSA. Caseína micelar pura sin rellenos."
+          "spiking_risk": "Bajo",
+          "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
         }
       }
     },
     "tier_counts": {
-      "Tier S": 56,
-      "Tier A": 27,
-      "Tier B": 22,
-      "Tier C": 128
+      "Tier S": 78,
+      "Tier A": 66,
+      "Tier B": 37,
+      "Tier C": 140
     },
-    "casein_premium_pct": -88.9,
-    "casein_tactical_advice": "La caseína tiene un sobreprecio de +-88.9% respecto a la Whey. En marcas auditadas, la BioTechUSA de 2.27 kg en GlobalNutrition ($49.84/g) o Winkler Micellar 1 kg ($56.57/g) son las únicas con balance calidad/precio verificado."
+    "casein_premium_pct": -87.7,
+    "casein_tactical_advice": "La caseína tiene un sobreprecio de +-87.7% respecto a la Whey. En marcas auditadas, la BioTechUSA de 2.27 kg en GlobalNutrition ($49.84/g) o Winkler Micellar 1 kg ($56.57/g) son las únicas con balance calidad/precio verificado."
   },
   "optimal_basket": {
     "target_months": 3,
@@ -188,7 +184,7 @@ window.CYBER_DEALS_DATA = {
           "weight_grams": 2270.0,
           "net_protein_grams": 1725.2,
           "cost_per_gram_clp": 49.84,
-          "permalink": "https://globalnutrition.cl/products/biotechusa-micellar-casein-2270g-proteina-de-liberacion-lenta-recuperacion-muscle-support?_pos=1&_psq=caseina&_psid=b1ac945e7&_ss=e",
+          "permalink": "https://globalnutrition.cl/products/biotechusa-micellar-casein-2270g-proteina-de-liberacion-lenta-recuperacion-muscle-support?_pos=1&_psq=caseina&_psid=f04e0df23&_ss=e",
           "available": true,
           "value_score": 85,
           "verdict": {
@@ -252,6 +248,52 @@ window.CYBER_DEALS_DATA = {
   },
   "deals": [
     {
+      "source": "ChileSuplementos",
+      "title": "Rule 1 Rule1 Mass Gainer 11.29 Lb",
+      "price": 54190.0,
+      "original_price": 79990.0,
+      "discount_pct": 32.3,
+      "category": "default",
+      "weight_grams": 5121.1,
+      "net_protein_grams": 3738.4,
+      "cost_per_gram_clp": 14.5,
+      "permalink": "https://www.chilesuplementos.cl/producto/rule1-mass-gainer-11-29-lb/",
+      "available": true,
+      "value_score": 95,
+      "verdict": {
+        "status": "COMPRA_INMEDIATA",
+        "badge": "🔥 Ganga Certificada (Tier A)",
+        "badge_color": "emerald",
+        "action": "Comprar ahora",
+        "reason": "Excelente ratio de $14.5 CLP/g en marca auditada (Rule 1 (R1)). Sellos: Informed-Choice, cGMP (USA).",
+        "value_score": 95,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "Rule 1 (R1)",
+          "trust_score": 90,
+          "certifications": [
+            "Informed-Choice",
+            "cGMP (USA)",
+            "Fundadores de Optimum Nutrition"
+          ],
+          "spiking_risk": "Muy Bajo",
+          "notes": "Creada por los fundadores originales de Optimum Nutrition tras vender a Glanbia. Instalaciones propias con certificación cGMP e Informed-Choice."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "Rule 1 (R1)",
+        "trust_score": 90,
+        "certifications": [
+          "Informed-Choice",
+          "cGMP (USA)",
+          "Fundadores de Optimum Nutrition"
+        ],
+        "spiking_risk": "Muy Bajo",
+        "notes": "Creada por los fundadores originales de Optimum Nutrition tras vender a Glanbia. Instalaciones propias con certificación cGMP e Informed-Choice."
+      }
+    },
+    {
       "source": "OutletFit",
       "title": "OstroVit Protein Fusion Pro Vanilla Pistachio Dream 2 kg | 21 g Proteína",
       "price": 43990.0,
@@ -295,48 +337,6 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
-      }
-    },
-    {
-      "source": "ChileSuplementos",
-      "title": "Rule 1 Rule1 Mass Gainer 11.29 Lb",
-      "price": 54190.0,
-      "original_price": 79990.0,
-      "discount_pct": 32.3,
-      "category": "default",
-      "weight_grams": 5121.1,
-      "net_protein_grams": 3738.4,
-      "cost_per_gram_clp": 14.5,
-      "permalink": "https://www.chilesuplementos.cl/producto/rule1-mass-gainer-11-29-lb/",
-      "available": true,
-      "value_score": 86,
-      "verdict": {
-        "status": "PRECAUCION_MARCA",
-        "badge": "⚠️ Barata pero Sin Certificación",
-        "badge_color": "amber",
-        "action": "Comprar con reserva",
-        "reason": "Precio tentador de $14.5 CLP/g, pero la marca carece de sellos independientes (Informed-Choice/NSF). Riesgo de subdosificación o amino spiking (estudio SERNAC/ODECU).",
-        "value_score": 86,
-        "trust": {
-          "tier": "Tier C",
-          "brand_name": "Marca No Auditada",
-          "trust_score": 55,
-          "certifications": [
-            "Sin sellos auditados"
-          ],
-          "spiking_risk": "Medio / Alto",
-          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
-        }
-      },
-      "brand_trust": {
-        "tier": "Tier C",
-        "brand_name": "Marca No Auditada",
-        "trust_score": 55,
-        "certifications": [
-          "Sin sellos auditados"
-        ],
-        "spiking_risk": "Medio / Alto",
-        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
       }
     },
     {
@@ -441,7 +441,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 2268.0,
       "net_protein_grams": 1655.6,
       "cost_per_gram_clp": 37.2,
-      "permalink": "https://allnutrition.cl/products/whey-mutant-whey-protein-5-lb?_pos=7&_psq=whey&_psid=cfb3057a4&_ss=e",
+      "permalink": "https://allnutrition.cl/products/whey-mutant-whey-protein-5-lb?_pos=7&_psq=whey&_psid=32554aadf&_ss=e",
       "available": true,
       "value_score": 85,
       "verdict": {
@@ -485,7 +485,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 2270.0,
       "net_protein_grams": 1725.2,
       "cost_per_gram_clp": 49.84,
-      "permalink": "https://globalnutrition.cl/products/biotechusa-micellar-casein-2270g-proteina-de-liberacion-lenta-recuperacion-muscle-support?_pos=1&_psq=caseina&_psid=b1ac945e7&_ss=e",
+      "permalink": "https://globalnutrition.cl/products/biotechusa-micellar-casein-2270g-proteina-de-liberacion-lenta-recuperacion-muscle-support?_pos=1&_psq=caseina&_psid=f04e0df23&_ss=e",
       "available": true,
       "value_score": 85,
       "verdict": {
@@ -533,7 +533,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 2268.0,
       "net_protein_grams": 1950.5,
       "cost_per_gram_clp": 38.96,
-      "permalink": "https://globalnutrition.cl/products/bpi-sports-iso-hd-proteina-whey-aislada-5lb-69-servicios?_pos=9&_psq=isolate&_psid=0541c65e6&_ss=e",
+      "permalink": "https://globalnutrition.cl/products/bpi-sports-iso-hd-proteina-whey-aislada-5lb-69-servicios?_pos=9&_psq=isolate&_psid=7c9ab2a1a&_ss=e",
       "available": true,
       "value_score": 84,
       "verdict": {
@@ -671,7 +671,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 2270.0,
       "net_protein_grams": 1657.1,
       "cost_per_gram_clp": 25.94,
-      "permalink": "https://globalnutrition.cl/products/4active-dualforce-proteina-whey-caseina-900-g-30-servicios-24g-proteina-sin-azucar-copy?_pos=4&_psq=caseina&_psid=b1ac945e7&_ss=e",
+      "permalink": "https://globalnutrition.cl/products/4active-dualforce-proteina-whey-caseina-900-g-30-servicios-24g-proteina-sin-azucar-copy?_pos=4&_psq=caseina&_psid=f04e0df23&_ss=e",
       "available": true,
       "value_score": 81,
       "verdict": {
@@ -757,7 +757,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 2268.0,
       "net_protein_grams": 1950.5,
       "cost_per_gram_clp": 50.11,
-      "permalink": "https://allnutrition.cl/products/iso-surge-triple-chocolate-5lb-mtant?_pos=5&_psq=isolate&_psid=be9adf1a4&_ss=e",
+      "permalink": "https://allnutrition.cl/products/iso-surge-triple-chocolate-5lb-mtant?_pos=5&_psq=isolate&_psid=92ca47293&_ss=e",
       "available": true,
       "value_score": 79,
       "verdict": {
@@ -843,7 +843,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 2250.0,
       "net_protein_grams": 1642.5,
       "cost_per_gram_clp": 42.0,
-      "permalink": "https://globalnutrition.cl/products/dynutrition-whey-complex-tempro-dorian-yates-2-25kg-75-servicios?_pos=8&_psq=whey&_psid=c51d49bb5&_ss=e",
+      "permalink": "https://globalnutrition.cl/products/dynutrition-whey-complex-tempro-dorian-yates-2-25kg-75-servicios?_pos=8&_psq=whey&_psid=bc297e051&_ss=e",
       "available": true,
       "value_score": 78,
       "verdict": {
@@ -1056,6 +1056,94 @@ window.CYBER_DEALS_DATA = {
       }
     },
     {
+      "source": "SuplementosMayoristas",
+      "title": "Animal Whey isolate 4lbs - Animal Chocolate",
+      "price": 52400.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 1814.4,
+      "net_protein_grams": 1560.4,
+      "cost_per_gram_clp": 33.58,
+      "permalink": "https://www.suplementosmayoristas.cl/animal-whey-isolate-4lbs-animal/p",
+      "available": true,
+      "value_score": 76,
+      "verdict": {
+        "status": "COMPRA_INMEDIATA",
+        "badge": "🔥 Ganga Certificada (Tier A)",
+        "badge_color": "emerald",
+        "action": "Comprar ahora",
+        "reason": "Excelente ratio de $33.58 CLP/g en marca auditada (Animal (Universal Nutrition)). Sellos: cGMP Certified (USA), Fabricación propia New Jersey.",
+        "value_score": 76,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "Animal (Universal Nutrition)",
+          "trust_score": 88,
+          "certifications": [
+            "cGMP Certified (USA)",
+            "Fabricación propia New Jersey"
+          ],
+          "spiking_risk": "Muy Bajo",
+          "notes": "Línea hardcore de Universal Nutrition con más de 40 años en el mercado y formulaciones consistentes."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "Animal (Universal Nutrition)",
+        "trust_score": 88,
+        "certifications": [
+          "cGMP Certified (USA)",
+          "Fabricación propia New Jersey"
+        ],
+        "spiking_risk": "Muy Bajo",
+        "notes": "Línea hardcore de Universal Nutrition con más de 40 años en el mercado y formulaciones consistentes."
+      }
+    },
+    {
+      "source": "SuplementosMayoristas",
+      "title": "Animal Whey isolate 4lbs - Animal Vainilla",
+      "price": 52400.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 1814.4,
+      "net_protein_grams": 1560.4,
+      "cost_per_gram_clp": 33.58,
+      "permalink": "https://www.suplementosmayoristas.cl/animal-whey-isolate-4lbs-animal/p",
+      "available": true,
+      "value_score": 76,
+      "verdict": {
+        "status": "COMPRA_INMEDIATA",
+        "badge": "🔥 Ganga Certificada (Tier A)",
+        "badge_color": "emerald",
+        "action": "Comprar ahora",
+        "reason": "Excelente ratio de $33.58 CLP/g en marca auditada (Animal (Universal Nutrition)). Sellos: cGMP Certified (USA), Fabricación propia New Jersey.",
+        "value_score": 76,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "Animal (Universal Nutrition)",
+          "trust_score": 88,
+          "certifications": [
+            "cGMP Certified (USA)",
+            "Fabricación propia New Jersey"
+          ],
+          "spiking_risk": "Muy Bajo",
+          "notes": "Línea hardcore de Universal Nutrition con más de 40 años en el mercado y formulaciones consistentes."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "Animal (Universal Nutrition)",
+        "trust_score": 88,
+        "certifications": [
+          "cGMP Certified (USA)",
+          "Fabricación propia New Jersey"
+        ],
+        "spiking_risk": "Muy Bajo",
+        "notes": "Línea hardcore de Universal Nutrition con más de 40 años en el mercado y formulaciones consistentes."
+      }
+    },
+    {
       "source": "SportNutriShop",
       "title": "PROTEINA 100% WHEY PROTEIN ISOLATE 1KILO 33 SV - ALPHA MEDICA",
       "price": 28990.0,
@@ -1188,6 +1276,50 @@ window.CYBER_DEALS_DATA = {
       }
     },
     {
+      "source": "Supletech",
+      "title": "Animal Whey isolate 4lbs - Animal Vainilla",
+      "price": 76990.0,
+      "original_price": 89990.0,
+      "discount_pct": 14.4,
+      "category": "isolate",
+      "weight_grams": 1814.4,
+      "net_protein_grams": 1560.4,
+      "cost_per_gram_clp": 49.34,
+      "permalink": "https://www.supletech.cl/animal-whey-isolate-4lbs-animal/p",
+      "available": true,
+      "value_score": 76,
+      "verdict": {
+        "status": "BUENA_OPCION",
+        "badge": "✅ Calidad Confiable (Tier A)",
+        "badge_color": "cyan",
+        "action": "Recomendado",
+        "reason": "Precio justo Cyber ($49.34 CLP/g) con respaldo de calidad (Animal (Universal Nutrition)).",
+        "value_score": 76,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "Animal (Universal Nutrition)",
+          "trust_score": 88,
+          "certifications": [
+            "cGMP Certified (USA)",
+            "Fabricación propia New Jersey"
+          ],
+          "spiking_risk": "Muy Bajo",
+          "notes": "Línea hardcore de Universal Nutrition con más de 40 años en el mercado y formulaciones consistentes."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "Animal (Universal Nutrition)",
+        "trust_score": 88,
+        "certifications": [
+          "cGMP Certified (USA)",
+          "Fabricación propia New Jersey"
+        ],
+        "spiking_risk": "Muy Bajo",
+        "notes": "Línea hardcore de Universal Nutrition con más de 40 años en el mercado y formulaciones consistentes."
+      }
+    },
+    {
       "source": "GlobalNutrition",
       "title": "Dynutrition ShadoWhey Isolate Dorian Yates 2 kg | 66 Servicios · 26g Proteína · Bajo en Carbos",
       "price": 91990.0,
@@ -1197,7 +1329,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 2000.0,
       "net_protein_grams": 1720.0,
       "cost_per_gram_clp": 53.48,
-      "permalink": "https://globalnutrition.cl/products/dynutrition-shadowhey-isolate-dorian-yates-2kg-66-servicios?_pos=5&_psq=isolate&_psid=0541c65e6&_ss=e",
+      "permalink": "https://globalnutrition.cl/products/dynutrition-shadowhey-isolate-dorian-yates-2kg-66-servicios?_pos=5&_psq=isolate&_psid=7c9ab2a1a&_ss=e",
       "available": true,
       "value_score": 76,
       "verdict": {
@@ -1278,6 +1410,48 @@ window.CYBER_DEALS_DATA = {
       }
     },
     {
+      "source": "SuplementosMayoristas",
+      "title": "100% Whey  5 lbs  - Nutrex Chocolate",
+      "price": 51947.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "whey",
+      "weight_grams": 2268.0,
+      "net_protein_grams": 1655.6,
+      "cost_per_gram_clp": 31.38,
+      "permalink": "https://www.suplementosmayoristas.cl/100--whey--5lbs-nutrex/p",
+      "available": true,
+      "value_score": 75,
+      "verdict": {
+        "status": "COMPRA_INMEDIATA",
+        "badge": "🔥 Ganga Certificada (Tier B)",
+        "badge_color": "emerald",
+        "action": "Comprar ahora",
+        "reason": "Excelente ratio de $31.38 CLP/g en marca auditada (Nutrex Research). Sellos: cGMP Certified (USA).",
+        "value_score": 75,
+        "trust": {
+          "tier": "Tier B",
+          "brand_name": "Nutrex Research",
+          "trust_score": 77,
+          "certifications": [
+            "cGMP Certified (USA)"
+          ],
+          "spiking_risk": "Bajo",
+          "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier B",
+        "brand_name": "Nutrex Research",
+        "trust_score": 77,
+        "certifications": [
+          "cGMP Certified (USA)"
+        ],
+        "spiking_risk": "Bajo",
+        "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+      }
+    },
+    {
       "source": "MixGreen",
       "title": "Proteína Vegetal, Lean Active, Sabor Vainilla Manzana, 900gr",
       "price": 21390.0,
@@ -1287,7 +1461,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 900.0,
       "net_protein_grams": 657.0,
       "cost_per_gram_clp": 32.56,
-      "permalink": "https://www.mixgreen.cl/products/prote-na-vegetal-lean-active-sabor-vainilla-manzana-900gr-cascara-foods?_pos=2&_psq=caseina&_psid=7c1cbc227&_ss=e",
+      "permalink": "https://www.mixgreen.cl/products/prote-na-vegetal-lean-active-sabor-vainilla-manzana-900gr-cascara-foods?_pos=2&_psq=caseina&_psid=df94191cd&_ss=e",
       "available": true,
       "value_score": 75,
       "verdict": {
@@ -1362,6 +1536,54 @@ window.CYBER_DEALS_DATA = {
       }
     },
     {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina Whey 5 Lb Boston Cream Donut Basic",
+      "price": 65190.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "whey",
+      "weight_grams": 2268.0,
+      "net_protein_grams": 1655.6,
+      "cost_per_gram_clp": 39.38,
+      "permalink": "https://suplementosalmayor.cl/producto/basic-whey-boston-cream-donut-5-lb/",
+      "available": true,
+      "value_score": 75,
+      "verdict": {
+        "status": "BUENA_OPCION",
+        "badge": "✅ Calidad Confiable (Tier S)",
+        "badge_color": "cyan",
+        "action": "Recomendado",
+        "reason": "Precio justo Cyber ($39.38 CLP/g) con respaldo de calidad (Optimum Nutrition (ON)).",
+        "value_score": 75,
+        "trust": {
+          "tier": "Tier S",
+          "brand_name": "Optimum Nutrition (ON)",
+          "trust_score": 98,
+          "certifications": [
+            "Informed-Choice",
+            "NSF for Sport",
+            "Labdoor Score A+",
+            "Glanbia QA"
+          ],
+          "spiking_risk": "Nulo",
+          "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier S",
+        "brand_name": "Optimum Nutrition (ON)",
+        "trust_score": 98,
+        "certifications": [
+          "Informed-Choice",
+          "NSF for Sport",
+          "Labdoor Score A+",
+          "Glanbia QA"
+        ],
+        "spiking_risk": "Nulo",
+        "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      }
+    },
+    {
       "source": "T4T",
       "title": "SYNTHA-6 Ultra PREMIUM Protein Matrix - 5 lbs / 48 servicios, sabores",
       "price": 65990.0,
@@ -1415,7 +1637,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 2270.0,
       "net_protein_grams": 1657.1,
       "cost_per_gram_clp": 45.25,
-      "permalink": "https://globalnutrition.cl/products/biotechusa-100-pure-whey-2-27kg-81-servicios?_pos=7&_psq=whey&_psid=c51d49bb5&_ss=e",
+      "permalink": "https://globalnutrition.cl/products/biotechusa-100-pure-whey-2-27kg-81-servicios?_pos=7&_psq=whey&_psid=bc297e051&_ss=e",
       "available": true,
       "value_score": 75,
       "verdict": {
@@ -1582,6 +1804,94 @@ window.CYBER_DEALS_DATA = {
       }
     },
     {
+      "source": "SuplementosMayoristas",
+      "title": "Animal Whey 4lbs - Animal Chocolate",
+      "price": 47933.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "whey",
+      "weight_grams": 1814.4,
+      "net_protein_grams": 1324.5,
+      "cost_per_gram_clp": 36.19,
+      "permalink": "https://www.suplementosmayoristas.cl/animal-100--whey-4lbs-animal/p",
+      "available": true,
+      "value_score": 73,
+      "verdict": {
+        "status": "BUENA_OPCION",
+        "badge": "✅ Calidad Confiable (Tier A)",
+        "badge_color": "cyan",
+        "action": "Recomendado",
+        "reason": "Precio justo Cyber ($36.19 CLP/g) con respaldo de calidad (Animal (Universal Nutrition)).",
+        "value_score": 73,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "Animal (Universal Nutrition)",
+          "trust_score": 88,
+          "certifications": [
+            "cGMP Certified (USA)",
+            "Fabricación propia New Jersey"
+          ],
+          "spiking_risk": "Muy Bajo",
+          "notes": "Línea hardcore de Universal Nutrition con más de 40 años en el mercado y formulaciones consistentes."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "Animal (Universal Nutrition)",
+        "trust_score": 88,
+        "certifications": [
+          "cGMP Certified (USA)",
+          "Fabricación propia New Jersey"
+        ],
+        "spiking_risk": "Muy Bajo",
+        "notes": "Línea hardcore de Universal Nutrition con más de 40 años en el mercado y formulaciones consistentes."
+      }
+    },
+    {
+      "source": "SuplementosMayoristas",
+      "title": "Animal Whey 4lbs - Animal Vainilla",
+      "price": 47933.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "whey",
+      "weight_grams": 1814.4,
+      "net_protein_grams": 1324.5,
+      "cost_per_gram_clp": 36.19,
+      "permalink": "https://www.suplementosmayoristas.cl/animal-100--whey-4lbs-animal/p",
+      "available": true,
+      "value_score": 73,
+      "verdict": {
+        "status": "BUENA_OPCION",
+        "badge": "✅ Calidad Confiable (Tier A)",
+        "badge_color": "cyan",
+        "action": "Recomendado",
+        "reason": "Precio justo Cyber ($36.19 CLP/g) con respaldo de calidad (Animal (Universal Nutrition)).",
+        "value_score": 73,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "Animal (Universal Nutrition)",
+          "trust_score": 88,
+          "certifications": [
+            "cGMP Certified (USA)",
+            "Fabricación propia New Jersey"
+          ],
+          "spiking_risk": "Muy Bajo",
+          "notes": "Línea hardcore de Universal Nutrition con más de 40 años en el mercado y formulaciones consistentes."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "Animal (Universal Nutrition)",
+        "trust_score": 88,
+        "certifications": [
+          "cGMP Certified (USA)",
+          "Fabricación propia New Jersey"
+        ],
+        "spiking_risk": "Muy Bajo",
+        "notes": "Línea hardcore de Universal Nutrition con más de 40 años en el mercado y formulaciones consistentes."
+      }
+    },
+    {
       "source": "SportNutriShop",
       "title": "Proteina 100% Pure Whey 5libras 81 Servicios - Biotechusa",
       "price": 69990.0,
@@ -1630,6 +1940,48 @@ window.CYBER_DEALS_DATA = {
       }
     },
     {
+      "source": "SuplementosMayoristas",
+      "title": "Diet Rhino vegan Protein isolate 5lbs - Naos Kingdom Chocolate Milk",
+      "price": 55992.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 2268.0,
+      "net_protein_grams": 1950.5,
+      "cost_per_gram_clp": 28.71,
+      "permalink": "https://www.suplementosmayoristas.cl/diet-rhino-vegan-protein-isolate-5lbs-naos-kingdom/p",
+      "available": true,
+      "value_score": 72,
+      "verdict": {
+        "status": "PRECAUCION_MARCA",
+        "badge": "⚠️ Barata pero Sin Certificación",
+        "badge_color": "amber",
+        "action": "Comprar con reserva",
+        "reason": "Precio tentador de $28.71 CLP/g, pero la marca carece de sellos independientes (Informed-Choice/NSF). Riesgo de subdosificación o amino spiking (estudio SERNAC/ODECU).",
+        "value_score": 72,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Marca No Auditada",
+          "trust_score": 55,
+          "certifications": [
+            "Sin sellos auditados"
+          ],
+          "spiking_risk": "Medio / Alto",
+          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Marca No Auditada",
+        "trust_score": 55,
+        "certifications": [
+          "Sin sellos auditados"
+        ],
+        "spiking_risk": "Medio / Alto",
+        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
       "source": "SportNutriShop",
       "title": "PROTEINA 100% WHEY 1 KILO - BRIAHLABS",
       "price": 24990.0,
@@ -1672,6 +2024,144 @@ window.CYBER_DEALS_DATA = {
       }
     },
     {
+      "source": "SuplementosAlMayor",
+      "title": "PROTEINA SOURCE 7 3.98 LB CHOCOLATE RULE1",
+      "price": 48990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "default",
+      "weight_grams": 1805.3,
+      "net_protein_grams": 1317.9,
+      "cost_per_gram_clp": 37.17,
+      "permalink": "https://suplementosalmayor.cl/producto/rule1-proteina-source-7-4-lb-chocolate/",
+      "available": true,
+      "value_score": 72,
+      "verdict": {
+        "status": "BUENA_OPCION",
+        "badge": "✅ Calidad Confiable (Tier A)",
+        "badge_color": "cyan",
+        "action": "Recomendado",
+        "reason": "Precio justo Cyber ($37.17 CLP/g) con respaldo de calidad (Rule 1 (R1)).",
+        "value_score": 72,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "Rule 1 (R1)",
+          "trust_score": 90,
+          "certifications": [
+            "Informed-Choice",
+            "cGMP (USA)",
+            "Fundadores de Optimum Nutrition"
+          ],
+          "spiking_risk": "Muy Bajo",
+          "notes": "Creada por los fundadores originales de Optimum Nutrition tras vender a Glanbia. Instalaciones propias con certificación cGMP e Informed-Choice."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "Rule 1 (R1)",
+        "trust_score": 90,
+        "certifications": [
+          "Informed-Choice",
+          "cGMP (USA)",
+          "Fundadores de Optimum Nutrition"
+        ],
+        "spiking_risk": "Muy Bajo",
+        "notes": "Creada por los fundadores originales de Optimum Nutrition tras vender a Glanbia. Instalaciones propias con certificación cGMP e Informed-Choice."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "PROTEINA SOURCE 7 3.96 LB VANILLA RULE1",
+      "price": 48990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "default",
+      "weight_grams": 1796.2,
+      "net_protein_grams": 1311.2,
+      "cost_per_gram_clp": 37.36,
+      "permalink": "https://suplementosalmayor.cl/producto/rule1-proteina-source-7-4-lb-vanilla/",
+      "available": true,
+      "value_score": 72,
+      "verdict": {
+        "status": "BUENA_OPCION",
+        "badge": "✅ Calidad Confiable (Tier A)",
+        "badge_color": "cyan",
+        "action": "Recomendado",
+        "reason": "Precio justo Cyber ($37.36 CLP/g) con respaldo de calidad (Rule 1 (R1)).",
+        "value_score": 72,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "Rule 1 (R1)",
+          "trust_score": 90,
+          "certifications": [
+            "Informed-Choice",
+            "cGMP (USA)",
+            "Fundadores de Optimum Nutrition"
+          ],
+          "spiking_risk": "Muy Bajo",
+          "notes": "Creada por los fundadores originales de Optimum Nutrition tras vender a Glanbia. Instalaciones propias con certificación cGMP e Informed-Choice."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "Rule 1 (R1)",
+        "trust_score": 90,
+        "certifications": [
+          "Informed-Choice",
+          "cGMP (USA)",
+          "Fundadores de Optimum Nutrition"
+        ],
+        "spiking_risk": "Muy Bajo",
+        "notes": "Creada por los fundadores originales de Optimum Nutrition tras vender a Glanbia. Instalaciones propias con certificación cGMP e Informed-Choice."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "PROTEINA SOURCE 7 3.96 LB PISTACHIO RULE1",
+      "price": 48990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "default",
+      "weight_grams": 1796.2,
+      "net_protein_grams": 1311.2,
+      "cost_per_gram_clp": 37.36,
+      "permalink": "https://suplementosalmayor.cl/producto/rule1-proteina-source-7-4-lb-pistachio/",
+      "available": true,
+      "value_score": 72,
+      "verdict": {
+        "status": "BUENA_OPCION",
+        "badge": "✅ Calidad Confiable (Tier A)",
+        "badge_color": "cyan",
+        "action": "Recomendado",
+        "reason": "Precio justo Cyber ($37.36 CLP/g) con respaldo de calidad (Rule 1 (R1)).",
+        "value_score": 72,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "Rule 1 (R1)",
+          "trust_score": 90,
+          "certifications": [
+            "Informed-Choice",
+            "cGMP (USA)",
+            "Fundadores de Optimum Nutrition"
+          ],
+          "spiking_risk": "Muy Bajo",
+          "notes": "Creada por los fundadores originales de Optimum Nutrition tras vender a Glanbia. Instalaciones propias con certificación cGMP e Informed-Choice."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "Rule 1 (R1)",
+        "trust_score": 90,
+        "certifications": [
+          "Informed-Choice",
+          "cGMP (USA)",
+          "Fundadores de Optimum Nutrition"
+        ],
+        "spiking_risk": "Muy Bajo",
+        "notes": "Creada por los fundadores originales de Optimum Nutrition tras vender a Glanbia. Instalaciones propias con certificación cGMP e Informed-Choice."
+      }
+    },
+    {
       "source": "SportNutriShop",
       "title": "PROTEINA 100% WHEY PROTEIN CONCENTRATE 900GR - XPRO NUTRITION",
       "price": 24990.0,
@@ -1711,6 +2201,328 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Caseina Micelar 700 G Sin Sabor Ostrovit",
+      "price": 22990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "casein",
+      "weight_grams": 700.0,
+      "net_protein_grams": 532.0,
+      "cost_per_gram_clp": 43.21,
+      "permalink": "https://suplementosalmayor.cl/producto/micellar-casein-700-gr-natural/",
+      "available": true,
+      "value_score": 72,
+      "verdict": {
+        "status": "COMPRA_INMEDIATA",
+        "badge": "🔥 Ganga Certificada (Tier A)",
+        "badge_color": "emerald",
+        "action": "Comprar ahora",
+        "reason": "Excelente ratio de $43.21 CLP/g en marca auditada (OstroVit). Sellos: Estándar UE (Polonia), Análisis J.S. Hamilton por lote.",
+        "value_score": 72,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "OstroVit",
+          "trust_score": 86,
+          "certifications": [
+            "Estándar UE (Polonia)",
+            "Análisis J.S. Hamilton por lote",
+            "HACCP"
+          ],
+          "spiking_risk": "Bajo",
+          "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "OstroVit",
+        "trust_score": 86,
+        "certifications": [
+          "Estándar UE (Polonia)",
+          "Análisis J.S. Hamilton por lote",
+          "HACCP"
+        ],
+        "spiking_risk": "Bajo",
+        "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "PROTEINA SOURCE 7 1.99 LB CHOCOLATE RULE1",
+      "price": 24990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "default",
+      "weight_grams": 902.6,
+      "net_protein_grams": 658.9,
+      "cost_per_gram_clp": 37.93,
+      "permalink": "https://suplementosalmayor.cl/producto/rule1-proteina-source-7-1-8-lb-chocolate/",
+      "available": true,
+      "value_score": 71,
+      "verdict": {
+        "status": "BUENA_OPCION",
+        "badge": "✅ Calidad Confiable (Tier A)",
+        "badge_color": "cyan",
+        "action": "Recomendado",
+        "reason": "Precio justo Cyber ($37.93 CLP/g) con respaldo de calidad (Rule 1 (R1)).",
+        "value_score": 71,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "Rule 1 (R1)",
+          "trust_score": 90,
+          "certifications": [
+            "Informed-Choice",
+            "cGMP (USA)",
+            "Fundadores de Optimum Nutrition"
+          ],
+          "spiking_risk": "Muy Bajo",
+          "notes": "Creada por los fundadores originales de Optimum Nutrition tras vender a Glanbia. Instalaciones propias con certificación cGMP e Informed-Choice."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "Rule 1 (R1)",
+        "trust_score": 90,
+        "certifications": [
+          "Informed-Choice",
+          "cGMP (USA)",
+          "Fundadores de Optimum Nutrition"
+        ],
+        "spiking_risk": "Muy Bajo",
+        "notes": "Creada por los fundadores originales de Optimum Nutrition tras vender a Glanbia. Instalaciones propias con certificación cGMP e Informed-Choice."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina 100% Whey 2000 G Chocolate Dream Ostrovit",
+      "price": 59490.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "whey",
+      "weight_grams": 2000.0,
+      "net_protein_grams": 1460.0,
+      "cost_per_gram_clp": 40.75,
+      "permalink": "https://suplementosalmayor.cl/producto/100-whey-protein-2000-gr-chocolate-dream/",
+      "available": true,
+      "value_score": 71,
+      "verdict": {
+        "status": "BUENA_OPCION",
+        "badge": "✅ Calidad Confiable (Tier A)",
+        "badge_color": "cyan",
+        "action": "Recomendado",
+        "reason": "Precio justo Cyber ($40.75 CLP/g) con respaldo de calidad (OstroVit).",
+        "value_score": 71,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "OstroVit",
+          "trust_score": 86,
+          "certifications": [
+            "Estándar UE (Polonia)",
+            "Análisis J.S. Hamilton por lote",
+            "HACCP"
+          ],
+          "spiking_risk": "Bajo",
+          "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "OstroVit",
+        "trust_score": 86,
+        "certifications": [
+          "Estándar UE (Polonia)",
+          "Análisis J.S. Hamilton por lote",
+          "HACCP"
+        ],
+        "spiking_risk": "Bajo",
+        "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina 100% Whey 2000 G French Vanilla Ostrovit",
+      "price": 59490.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "whey",
+      "weight_grams": 2000.0,
+      "net_protein_grams": 1460.0,
+      "cost_per_gram_clp": 40.75,
+      "permalink": "https://suplementosalmayor.cl/producto/100-whey-protein-2000-gr-french-vanilla/",
+      "available": true,
+      "value_score": 71,
+      "verdict": {
+        "status": "BUENA_OPCION",
+        "badge": "✅ Calidad Confiable (Tier A)",
+        "badge_color": "cyan",
+        "action": "Recomendado",
+        "reason": "Precio justo Cyber ($40.75 CLP/g) con respaldo de calidad (OstroVit).",
+        "value_score": 71,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "OstroVit",
+          "trust_score": 86,
+          "certifications": [
+            "Estándar UE (Polonia)",
+            "Análisis J.S. Hamilton por lote",
+            "HACCP"
+          ],
+          "spiking_risk": "Bajo",
+          "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "OstroVit",
+        "trust_score": 86,
+        "certifications": [
+          "Estándar UE (Polonia)",
+          "Análisis J.S. Hamilton por lote",
+          "HACCP"
+        ],
+        "spiking_risk": "Bajo",
+        "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina 100% Whey 2000 G Peanut Butter Ostrovit",
+      "price": 59490.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "whey",
+      "weight_grams": 2000.0,
+      "net_protein_grams": 1460.0,
+      "cost_per_gram_clp": 40.75,
+      "permalink": "https://suplementosalmayor.cl/producto/100-whey-protein-2000-gr-peanut-butter/",
+      "available": true,
+      "value_score": 71,
+      "verdict": {
+        "status": "BUENA_OPCION",
+        "badge": "✅ Calidad Confiable (Tier A)",
+        "badge_color": "cyan",
+        "action": "Recomendado",
+        "reason": "Precio justo Cyber ($40.75 CLP/g) con respaldo de calidad (OstroVit).",
+        "value_score": 71,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "OstroVit",
+          "trust_score": 86,
+          "certifications": [
+            "Estándar UE (Polonia)",
+            "Análisis J.S. Hamilton por lote",
+            "HACCP"
+          ],
+          "spiking_risk": "Bajo",
+          "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "OstroVit",
+        "trust_score": 86,
+        "certifications": [
+          "Estándar UE (Polonia)",
+          "Análisis J.S. Hamilton por lote",
+          "HACCP"
+        ],
+        "spiking_risk": "Bajo",
+        "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina 100% Whey 2000 G Hazelnut Cream Ostrovit",
+      "price": 59490.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "whey",
+      "weight_grams": 2000.0,
+      "net_protein_grams": 1460.0,
+      "cost_per_gram_clp": 40.75,
+      "permalink": "https://suplementosalmayor.cl/producto/100-whey-protein-2000-gr-hazelnut-cream/",
+      "available": true,
+      "value_score": 71,
+      "verdict": {
+        "status": "BUENA_OPCION",
+        "badge": "✅ Calidad Confiable (Tier A)",
+        "badge_color": "cyan",
+        "action": "Recomendado",
+        "reason": "Precio justo Cyber ($40.75 CLP/g) con respaldo de calidad (OstroVit).",
+        "value_score": 71,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "OstroVit",
+          "trust_score": 86,
+          "certifications": [
+            "Estándar UE (Polonia)",
+            "Análisis J.S. Hamilton por lote",
+            "HACCP"
+          ],
+          "spiking_risk": "Bajo",
+          "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "OstroVit",
+        "trust_score": 86,
+        "certifications": [
+          "Estándar UE (Polonia)",
+          "Análisis J.S. Hamilton por lote",
+          "HACCP"
+        ],
+        "spiking_risk": "Bajo",
+        "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina 100% Whey 2000 G Creme Brulee Ostrovit",
+      "price": 59490.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "whey",
+      "weight_grams": 2000.0,
+      "net_protein_grams": 1460.0,
+      "cost_per_gram_clp": 40.75,
+      "permalink": "https://suplementosalmayor.cl/producto/100-whey-protein-2000-gr-creme-brulee/",
+      "available": true,
+      "value_score": 71,
+      "verdict": {
+        "status": "BUENA_OPCION",
+        "badge": "✅ Calidad Confiable (Tier A)",
+        "badge_color": "cyan",
+        "action": "Recomendado",
+        "reason": "Precio justo Cyber ($40.75 CLP/g) con respaldo de calidad (OstroVit).",
+        "value_score": 71,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "OstroVit",
+          "trust_score": 86,
+          "certifications": [
+            "Estándar UE (Polonia)",
+            "Análisis J.S. Hamilton por lote",
+            "HACCP"
+          ],
+          "spiking_risk": "Bajo",
+          "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "OstroVit",
+        "trust_score": 86,
+        "certifications": [
+          "Estándar UE (Polonia)",
+          "Análisis J.S. Hamilton por lote",
+          "HACCP"
+        ],
+        "spiking_risk": "Bajo",
+        "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
       }
     },
     {
@@ -1765,7 +2577,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 3900.0,
       "net_protein_grams": 2847.0,
       "cost_per_gram_clp": 27.39,
-      "permalink": "https://winklernutrition.cl/products/ganador-de-peso-mass-pro-win-3-9-kg?_pos=9&_psq=whey&_psid=cdf830225&_ss=e",
+      "permalink": "https://winklernutrition.cl/products/ganador-de-peso-mass-pro-win-3-9-kg?_pos=9&_psq=whey&_psid=cddecd662&_ss=e",
       "available": true,
       "value_score": 70,
       "verdict": {
@@ -1774,6 +2586,90 @@ window.CYBER_DEALS_DATA = {
         "badge_color": "amber",
         "action": "Comprar con reserva",
         "reason": "Precio tentador de $27.39 CLP/g, pero la marca carece de sellos independientes (Informed-Choice/NSF). Riesgo de subdosificación o amino spiking (estudio SERNAC/ODECU).",
+        "value_score": 70,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Marca No Auditada",
+          "trust_score": 55,
+          "certifications": [
+            "Sin sellos auditados"
+          ],
+          "spiking_risk": "Medio / Alto",
+          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Marca No Auditada",
+        "trust_score": 55,
+        "certifications": [
+          "Sin sellos auditados"
+        ],
+        "spiking_risk": "Medio / Alto",
+        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina Premium Whey 5 Lb Chocolate USN",
+      "price": 53990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "whey",
+      "weight_grams": 2268.0,
+      "net_protein_grams": 1655.6,
+      "cost_per_gram_clp": 32.61,
+      "permalink": "https://suplementosalmayor.cl/producto/premium-whey-protein-5-lb-chocolate/",
+      "available": true,
+      "value_score": 70,
+      "verdict": {
+        "status": "REGULAR",
+        "badge": "ℹ️ Opción Regular (Tier C)",
+        "badge_color": "blue",
+        "action": "Evaluar según stock",
+        "reason": "Precio de mercado estándar sin descuento llamativo en Marca No Auditada.",
+        "value_score": 70,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Marca No Auditada",
+          "trust_score": 55,
+          "certifications": [
+            "Sin sellos auditados"
+          ],
+          "spiking_risk": "Medio / Alto",
+          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Marca No Auditada",
+        "trust_score": 55,
+        "certifications": [
+          "Sin sellos auditados"
+        ],
+        "spiking_risk": "Medio / Alto",
+        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina Premium Whey 5 Lb Vanilla Ice Cream USN",
+      "price": 53990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "whey",
+      "weight_grams": 2268.0,
+      "net_protein_grams": 1655.6,
+      "cost_per_gram_clp": 32.61,
+      "permalink": "https://suplementosalmayor.cl/producto/premium-whey-protein-5-lb-vanilla-ice-cream/",
+      "available": true,
+      "value_score": 70,
+      "verdict": {
+        "status": "REGULAR",
+        "badge": "ℹ️ Opción Regular (Tier C)",
+        "badge_color": "blue",
+        "action": "Evaluar según stock",
+        "reason": "Precio de mercado estándar sin descuento llamativo en Marca No Auditada.",
         "value_score": 70,
         "trust": {
           "tier": "Tier C",
@@ -1816,6 +2712,232 @@ window.CYBER_DEALS_DATA = {
         "badge_color": "cyan",
         "action": "Recomendado",
         "reason": "Precio justo Cyber ($44.51 CLP/g) con respaldo de calidad (OstroVit).",
+        "value_score": 70,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "OstroVit",
+          "trust_score": 86,
+          "certifications": [
+            "Estándar UE (Polonia)",
+            "Análisis J.S. Hamilton por lote",
+            "HACCP"
+          ],
+          "spiking_risk": "Bajo",
+          "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "OstroVit",
+        "trust_score": 86,
+        "certifications": [
+          "Estándar UE (Polonia)",
+          "Análisis J.S. Hamilton por lote",
+          "HACCP"
+        ],
+        "spiking_risk": "Bajo",
+        "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+      }
+    },
+    {
+      "source": "SuplementosMayoristas",
+      "title": "Animal Whey isolate 2lbs - Animal Chocolate",
+      "price": 37990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 907.2,
+      "net_protein_grams": 780.2,
+      "cost_per_gram_clp": 48.69,
+      "permalink": "https://www.suplementosmayoristas.cl/animal-whey-isolate-2lbs-animal/p",
+      "available": true,
+      "value_score": 70,
+      "verdict": {
+        "status": "BUENA_OPCION",
+        "badge": "✅ Calidad Confiable (Tier A)",
+        "badge_color": "cyan",
+        "action": "Recomendado",
+        "reason": "Precio justo Cyber ($48.69 CLP/g) con respaldo de calidad (Animal (Universal Nutrition)).",
+        "value_score": 70,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "Animal (Universal Nutrition)",
+          "trust_score": 88,
+          "certifications": [
+            "cGMP Certified (USA)",
+            "Fabricación propia New Jersey"
+          ],
+          "spiking_risk": "Muy Bajo",
+          "notes": "Línea hardcore de Universal Nutrition con más de 40 años en el mercado y formulaciones consistentes."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "Animal (Universal Nutrition)",
+        "trust_score": 88,
+        "certifications": [
+          "cGMP Certified (USA)",
+          "Fabricación propia New Jersey"
+        ],
+        "spiking_risk": "Muy Bajo",
+        "notes": "Línea hardcore de Universal Nutrition con más de 40 años en el mercado y formulaciones consistentes."
+      }
+    },
+    {
+      "source": "SuplementosMayoristas",
+      "title": "Animal Whey isolate 2lbs - Animal Vainilla",
+      "price": 37990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 907.2,
+      "net_protein_grams": 780.2,
+      "cost_per_gram_clp": 48.69,
+      "permalink": "https://www.suplementosmayoristas.cl/animal-whey-isolate-2lbs-animal/p",
+      "available": true,
+      "value_score": 70,
+      "verdict": {
+        "status": "BUENA_OPCION",
+        "badge": "✅ Calidad Confiable (Tier A)",
+        "badge_color": "cyan",
+        "action": "Recomendado",
+        "reason": "Precio justo Cyber ($48.69 CLP/g) con respaldo de calidad (Animal (Universal Nutrition)).",
+        "value_score": 70,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "Animal (Universal Nutrition)",
+          "trust_score": 88,
+          "certifications": [
+            "cGMP Certified (USA)",
+            "Fabricación propia New Jersey"
+          ],
+          "spiking_risk": "Muy Bajo",
+          "notes": "Línea hardcore de Universal Nutrition con más de 40 años en el mercado y formulaciones consistentes."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "Animal (Universal Nutrition)",
+        "trust_score": 88,
+        "certifications": [
+          "cGMP Certified (USA)",
+          "Fabricación propia New Jersey"
+        ],
+        "spiking_risk": "Muy Bajo",
+        "notes": "Línea hardcore de Universal Nutrition con más de 40 años en el mercado y formulaciones consistentes."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Caseina Micelar 700 G Chocolate Ostrovit",
+      "price": 25990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "casein",
+      "weight_grams": 700.0,
+      "net_protein_grams": 532.0,
+      "cost_per_gram_clp": 48.85,
+      "permalink": "https://suplementosalmayor.cl/producto/caseina-miscellar-700-gr-chocolate/",
+      "available": true,
+      "value_score": 70,
+      "verdict": {
+        "status": "BUENA_OPCION",
+        "badge": "✅ Calidad Confiable (Tier A)",
+        "badge_color": "cyan",
+        "action": "Recomendado",
+        "reason": "Precio justo Cyber ($48.85 CLP/g) con respaldo de calidad (OstroVit).",
+        "value_score": 70,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "OstroVit",
+          "trust_score": 86,
+          "certifications": [
+            "Estándar UE (Polonia)",
+            "Análisis J.S. Hamilton por lote",
+            "HACCP"
+          ],
+          "spiking_risk": "Bajo",
+          "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "OstroVit",
+        "trust_score": 86,
+        "certifications": [
+          "Estándar UE (Polonia)",
+          "Análisis J.S. Hamilton por lote",
+          "HACCP"
+        ],
+        "spiking_risk": "Bajo",
+        "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Caseina Micelar 700 G Strawberry Ostrovit",
+      "price": 25990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "casein",
+      "weight_grams": 700.0,
+      "net_protein_grams": 532.0,
+      "cost_per_gram_clp": 48.85,
+      "permalink": "https://suplementosalmayor.cl/producto/caseina-miscellar-700-gr-strawberry/",
+      "available": true,
+      "value_score": 70,
+      "verdict": {
+        "status": "BUENA_OPCION",
+        "badge": "✅ Calidad Confiable (Tier A)",
+        "badge_color": "cyan",
+        "action": "Recomendado",
+        "reason": "Precio justo Cyber ($48.85 CLP/g) con respaldo de calidad (OstroVit).",
+        "value_score": 70,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "OstroVit",
+          "trust_score": 86,
+          "certifications": [
+            "Estándar UE (Polonia)",
+            "Análisis J.S. Hamilton por lote",
+            "HACCP"
+          ],
+          "spiking_risk": "Bajo",
+          "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "OstroVit",
+        "trust_score": 86,
+        "certifications": [
+          "Estándar UE (Polonia)",
+          "Análisis J.S. Hamilton por lote",
+          "HACCP"
+        ],
+        "spiking_risk": "Bajo",
+        "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Caseina Micelar 700 G Vanilla Ostrovit",
+      "price": 25990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "casein",
+      "weight_grams": 700.0,
+      "net_protein_grams": 532.0,
+      "cost_per_gram_clp": 48.85,
+      "permalink": "https://suplementosalmayor.cl/producto/caseina-miscellar-700-gr-vainilla/",
+      "available": true,
+      "value_score": 70,
+      "verdict": {
+        "status": "BUENA_OPCION",
+        "badge": "✅ Calidad Confiable (Tier A)",
+        "badge_color": "cyan",
+        "action": "Recomendado",
+        "reason": "Precio justo Cyber ($48.85 CLP/g) con respaldo de calidad (OstroVit).",
         "value_score": 70,
         "trust": {
           "tier": "Tier A",
@@ -1895,7 +3017,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 900.0,
       "net_protein_grams": 657.0,
       "cost_per_gram_clp": 35.45,
-      "permalink": "https://www.mixgreen.cl/products/proteina-lean-active-sabor-frutilla-pop-900gr?_pos=5&_psq=caseina&_psid=7c1cbc227&_ss=e",
+      "permalink": "https://www.mixgreen.cl/products/proteina-lean-active-sabor-frutilla-pop-900gr?_pos=5&_psq=caseina&_psid=df94191cd&_ss=e",
       "available": true,
       "value_score": 69,
       "verdict": {
@@ -1937,7 +3059,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 1000.0,
       "net_protein_grams": 730.0,
       "cost_per_gram_clp": 35.6,
-      "permalink": "https://www.mixgreen.cl/products/proteina-suero-de-leche-vainilla-1kg-copia?_pos=7&_psq=casein&_psid=6aae7f933&_ss=e",
+      "permalink": "https://www.mixgreen.cl/products/proteina-suero-de-leche-vainilla-1kg-copia?_pos=7&_psq=casein&_psid=afa3f2d8c&_ss=e",
       "available": true,
       "value_score": 69,
       "verdict": {
@@ -1979,7 +3101,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 2000.0,
       "net_protein_grams": 1460.0,
       "cost_per_gram_clp": 41.09,
-      "permalink": "https://globalnutrition.cl/products/whey-protein-4active-2000-grs-71-servicios?_pos=2&_psq=whey&_psid=c51d49bb5&_ss=e",
+      "permalink": "https://globalnutrition.cl/products/whey-protein-4active-2000-grs-71-servicios?_pos=2&_psq=whey&_psid=bc297e051&_ss=e",
       "available": true,
       "value_score": 69,
       "verdict": {
@@ -2021,7 +3143,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 2270.0,
       "net_protein_grams": 1657.1,
       "cost_per_gram_clp": 50.08,
-      "permalink": "https://globalnutrition.cl/products/biotechusa-platinum-whey-proteina-aislada-2-27kg-88-servicios?_pos=3&_psq=whey&_psid=c51d49bb5&_ss=e",
+      "permalink": "https://globalnutrition.cl/products/biotechusa-platinum-whey-proteina-aislada-2-27kg-88-servicios?_pos=3&_psq=whey&_psid=bc297e051&_ss=e",
       "available": true,
       "value_score": 69,
       "verdict": {
@@ -2057,6 +3179,94 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Fabricante europeo bajo estricta regulación de la EFSA. Caseína micelar pura sin rellenos."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina Iso Surge 5 Lb Vanilla Mutant",
+      "price": 99990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 2268.0,
+      "net_protein_grams": 1950.5,
+      "cost_per_gram_clp": 51.26,
+      "permalink": "https://suplementosalmayor.cl/producto/iso-surge-5-lb-vanilla/",
+      "available": true,
+      "value_score": 69,
+      "verdict": {
+        "status": "BUENA_OPCION",
+        "badge": "✅ Calidad Confiable (Tier A)",
+        "badge_color": "cyan",
+        "action": "Recomendado",
+        "reason": "Precio justo Cyber ($51.26 CLP/g) con respaldo de calidad (Mutant (PVL / Fit Foods)).",
+        "value_score": 69,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "Mutant (PVL / Fit Foods)",
+          "trust_score": 88,
+          "certifications": [
+            "Informed-Choice",
+            "cGMP Certified (Canadá)"
+          ],
+          "spiking_risk": "Muy Bajo",
+          "notes": "Planta propia en Canadá (Fit Foods). Sellos Informed-Choice en cada formulación."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "Mutant (PVL / Fit Foods)",
+        "trust_score": 88,
+        "certifications": [
+          "Informed-Choice",
+          "cGMP Certified (Canadá)"
+        ],
+        "spiking_risk": "Muy Bajo",
+        "notes": "Planta propia en Canadá (Fit Foods). Sellos Informed-Choice en cada formulación."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina Iso Surge 5 Lb Chocolate Brownie Mutant",
+      "price": 99990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 2268.0,
+      "net_protein_grams": 1950.5,
+      "cost_per_gram_clp": 51.26,
+      "permalink": "https://suplementosalmayor.cl/producto/iso-surge-5-lb-chocolate-brownie/",
+      "available": true,
+      "value_score": 69,
+      "verdict": {
+        "status": "BUENA_OPCION",
+        "badge": "✅ Calidad Confiable (Tier A)",
+        "badge_color": "cyan",
+        "action": "Recomendado",
+        "reason": "Precio justo Cyber ($51.26 CLP/g) con respaldo de calidad (Mutant (PVL / Fit Foods)).",
+        "value_score": 69,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "Mutant (PVL / Fit Foods)",
+          "trust_score": 88,
+          "certifications": [
+            "Informed-Choice",
+            "cGMP Certified (Canadá)"
+          ],
+          "spiking_risk": "Muy Bajo",
+          "notes": "Planta propia en Canadá (Fit Foods). Sellos Informed-Choice en cada formulación."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "Mutant (PVL / Fit Foods)",
+        "trust_score": 88,
+        "certifications": [
+          "Informed-Choice",
+          "cGMP Certified (Canadá)"
+        ],
+        "spiking_risk": "Muy Bajo",
+        "notes": "Planta propia en Canadá (Fit Foods). Sellos Informed-Choice en cada formulación."
       }
     },
     {
@@ -2113,7 +3323,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 900.0,
       "net_protein_grams": 657.0,
       "cost_per_gram_clp": 34.99,
-      "permalink": "https://www.mixgreen.cl/products/10301-leche-de-cabra-en-polvo-entera-900-g-dagoat?_pos=4&_psq=caseina&_psid=7c1cbc227&_ss=e",
+      "permalink": "https://www.mixgreen.cl/products/10301-leche-de-cabra-en-polvo-entera-900-g-dagoat?_pos=4&_psq=caseina&_psid=df94191cd&_ss=e",
       "available": true,
       "value_score": 68,
       "verdict": {
@@ -2146,16 +3356,16 @@ window.CYBER_DEALS_DATA = {
       }
     },
     {
-      "source": "Supletech",
-      "title": "Animal Whey isolate 4lbs - Animal Vainilla",
-      "price": 76990.0,
-      "original_price": 89990.0,
-      "discount_pct": 14.4,
+      "source": "SuplementosMayoristas",
+      "title": "Diet Rhino vegan Protein isolate 2lbs - Naos Kingdom Creamy Vainilla",
+      "price": 27992.0,
+      "original_price": null,
+      "discount_pct": 0.0,
       "category": "isolate",
-      "weight_grams": 1814.4,
-      "net_protein_grams": 1560.4,
-      "cost_per_gram_clp": 49.34,
-      "permalink": "https://www.supletech.cl/animal-whey-isolate-4lbs-animal/p",
+      "weight_grams": 907.2,
+      "net_protein_grams": 780.2,
+      "cost_per_gram_clp": 35.88,
+      "permalink": "https://www.suplementosmayoristas.cl/diet-rhino-vegan-protein-isolate-2lbs-naos-kingdom/p",
       "available": true,
       "value_score": 68,
       "verdict": {
@@ -2185,6 +3395,178 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "SuplementosMayoristas",
+      "title": "Diet Rhino vegan Protein isolate 2lbs - Naos Kingdom Chocolate Milk",
+      "price": 27992.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 907.2,
+      "net_protein_grams": 780.2,
+      "cost_per_gram_clp": 35.88,
+      "permalink": "https://www.suplementosmayoristas.cl/diet-rhino-vegan-protein-isolate-2lbs-naos-kingdom/p",
+      "available": true,
+      "value_score": 68,
+      "verdict": {
+        "status": "REGULAR",
+        "badge": "ℹ️ Opción Regular (Tier C)",
+        "badge_color": "blue",
+        "action": "Evaluar según stock",
+        "reason": "Precio de mercado estándar sin descuento llamativo en Marca No Auditada.",
+        "value_score": 68,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Marca No Auditada",
+          "trust_score": 55,
+          "certifications": [
+            "Sin sellos auditados"
+          ],
+          "spiking_risk": "Medio / Alto",
+          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Marca No Auditada",
+        "trust_score": 55,
+        "certifications": [
+          "Sin sellos auditados"
+        ],
+        "spiking_risk": "Medio / Alto",
+        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "SuplementosMayoristas",
+      "title": "Blue Rhino vegan Protein isolate 2lbs - Naos Kingdom Creamy Vainilla",
+      "price": 31192.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 907.2,
+      "net_protein_grams": 780.2,
+      "cost_per_gram_clp": 39.98,
+      "permalink": "https://www.suplementosmayoristas.cl/blue-rhino-vegan-protein-isolate-2lbs-naos-kingdom/p",
+      "available": true,
+      "value_score": 68,
+      "verdict": {
+        "status": "REGULAR",
+        "badge": "ℹ️ Opción Regular (Tier C)",
+        "badge_color": "blue",
+        "action": "Evaluar según stock",
+        "reason": "Precio de mercado estándar sin descuento llamativo en Marca No Auditada.",
+        "value_score": 68,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Marca No Auditada",
+          "trust_score": 55,
+          "certifications": [
+            "Sin sellos auditados"
+          ],
+          "spiking_risk": "Medio / Alto",
+          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Marca No Auditada",
+        "trust_score": 55,
+        "certifications": [
+          "Sin sellos auditados"
+        ],
+        "spiking_risk": "Medio / Alto",
+        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "SuplementosMayoristas",
+      "title": "Blue Rhino vegan Protein isolate 2lbs - Naos Kingdom Chocolate Milk",
+      "price": 31192.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 907.2,
+      "net_protein_grams": 780.2,
+      "cost_per_gram_clp": 39.98,
+      "permalink": "https://www.suplementosmayoristas.cl/blue-rhino-vegan-protein-isolate-2lbs-naos-kingdom/p",
+      "available": true,
+      "value_score": 68,
+      "verdict": {
+        "status": "REGULAR",
+        "badge": "ℹ️ Opción Regular (Tier C)",
+        "badge_color": "blue",
+        "action": "Evaluar según stock",
+        "reason": "Precio de mercado estándar sin descuento llamativo en Marca No Auditada.",
+        "value_score": 68,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Marca No Auditada",
+          "trust_score": 55,
+          "certifications": [
+            "Sin sellos auditados"
+          ],
+          "spiking_risk": "Medio / Alto",
+          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Marca No Auditada",
+        "trust_score": 55,
+        "certifications": [
+          "Sin sellos auditados"
+        ],
+        "spiking_risk": "Medio / Alto",
+        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "PROTEINA ISOLATE 5.03 LB LIGHTY SALTED CARAMEL RULE1",
+      "price": 102990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 2281.6,
+      "net_protein_grams": 1962.2,
+      "cost_per_gram_clp": 52.49,
+      "permalink": "https://suplementosalmayor.cl/producto/rule1-proteina-isolate-5-03-lb-lighty-salted-caramel/",
+      "available": true,
+      "value_score": 68,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($52.49 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 68,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "Rule 1 (R1)",
+          "trust_score": 90,
+          "certifications": [
+            "Informed-Choice",
+            "cGMP (USA)",
+            "Fundadores de Optimum Nutrition"
+          ],
+          "spiking_risk": "Muy Bajo",
+          "notes": "Creada por los fundadores originales de Optimum Nutrition tras vender a Glanbia. Instalaciones propias con certificación cGMP e Informed-Choice."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "Rule 1 (R1)",
+        "trust_score": 90,
+        "certifications": [
+          "Informed-Choice",
+          "cGMP (USA)",
+          "Fundadores de Optimum Nutrition"
+        ],
+        "spiking_risk": "Muy Bajo",
+        "notes": "Creada por los fundadores originales de Optimum Nutrition tras vender a Glanbia. Instalaciones propias con certificación cGMP e Informed-Choice."
       }
     },
     {
@@ -2227,6 +3609,98 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "PROTEINA SOURCE 7 1.98 LB VANILLA RULE1",
+      "price": 24990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "default",
+      "weight_grams": 898.1,
+      "net_protein_grams": 655.6,
+      "cost_per_gram_clp": 38.12,
+      "permalink": "https://suplementosalmayor.cl/producto/rule1-proteina-source-7-1-8-lb-vanilla/",
+      "available": true,
+      "value_score": 67,
+      "verdict": {
+        "status": "BUENA_OPCION",
+        "badge": "✅ Calidad Confiable (Tier A)",
+        "badge_color": "cyan",
+        "action": "Recomendado",
+        "reason": "Precio justo Cyber ($38.12 CLP/g) con respaldo de calidad (Rule 1 (R1)).",
+        "value_score": 67,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "Rule 1 (R1)",
+          "trust_score": 90,
+          "certifications": [
+            "Informed-Choice",
+            "cGMP (USA)",
+            "Fundadores de Optimum Nutrition"
+          ],
+          "spiking_risk": "Muy Bajo",
+          "notes": "Creada por los fundadores originales de Optimum Nutrition tras vender a Glanbia. Instalaciones propias con certificación cGMP e Informed-Choice."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "Rule 1 (R1)",
+        "trust_score": 90,
+        "certifications": [
+          "Informed-Choice",
+          "cGMP (USA)",
+          "Fundadores de Optimum Nutrition"
+        ],
+        "spiking_risk": "Muy Bajo",
+        "notes": "Creada por los fundadores originales de Optimum Nutrition tras vender a Glanbia. Instalaciones propias con certificación cGMP e Informed-Choice."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "PROTEINA SOURCE 7 1.98 LB PISTACHIO RULE1",
+      "price": 24990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "default",
+      "weight_grams": 898.1,
+      "net_protein_grams": 655.6,
+      "cost_per_gram_clp": 38.12,
+      "permalink": "https://suplementosalmayor.cl/producto/rule1-proteina-source-7-1-8-lb-pistachio/",
+      "available": true,
+      "value_score": 67,
+      "verdict": {
+        "status": "BUENA_OPCION",
+        "badge": "✅ Calidad Confiable (Tier A)",
+        "badge_color": "cyan",
+        "action": "Recomendado",
+        "reason": "Precio justo Cyber ($38.12 CLP/g) con respaldo de calidad (Rule 1 (R1)).",
+        "value_score": 67,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "Rule 1 (R1)",
+          "trust_score": 90,
+          "certifications": [
+            "Informed-Choice",
+            "cGMP (USA)",
+            "Fundadores de Optimum Nutrition"
+          ],
+          "spiking_risk": "Muy Bajo",
+          "notes": "Creada por los fundadores originales de Optimum Nutrition tras vender a Glanbia. Instalaciones propias con certificación cGMP e Informed-Choice."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "Rule 1 (R1)",
+        "trust_score": 90,
+        "certifications": [
+          "Informed-Choice",
+          "cGMP (USA)",
+          "Fundadores de Optimum Nutrition"
+        ],
+        "spiking_risk": "Muy Bajo",
+        "notes": "Creada por los fundadores originales de Optimum Nutrition tras vender a Glanbia. Instalaciones propias con certificación cGMP e Informed-Choice."
       }
     },
     {
@@ -2281,7 +3755,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 907.2,
       "net_protein_grams": 662.3,
       "cost_per_gram_clp": 37.22,
-      "permalink": "https://www.mixgreen.cl/products/vegan-protein-sabor-vainilla-ice-cream-2lbs-foodtech?_pos=10&_psq=isolate&_psid=aec7b9cfc&_ss=e",
+      "permalink": "https://www.mixgreen.cl/products/vegan-protein-sabor-vainilla-ice-cream-2lbs-foodtech?_pos=10&_psq=isolate&_psid=7ffd73f4f&_ss=e",
       "available": true,
       "value_score": 66,
       "verdict": {
@@ -2323,7 +3797,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 900.0,
       "net_protein_grams": 657.0,
       "cost_per_gram_clp": 39.56,
-      "permalink": "https://globalnutrition.cl/products/4active-dualforce-proteina-whey-caseina-900g-30-servicios?_pos=2&_psq=caseina&_psid=b1ac945e7&_ss=e",
+      "permalink": "https://globalnutrition.cl/products/4active-dualforce-proteina-whey-caseina-900g-30-servicios?_pos=2&_psq=caseina&_psid=f04e0df23&_ss=e",
       "available": true,
       "value_score": 66,
       "verdict": {
@@ -2365,7 +3839,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 1000.0,
       "net_protein_grams": 730.0,
       "cost_per_gram_clp": 39.71,
-      "permalink": "https://globalnutrition.cl/products/nutrend-isodrinx-1000-g-bebida-isotonica-en-polvo-hidratacion-y-reposicion-de-electrolitos?_pos=8&_psq=iso+100&_psid=ccc2b819e&_ss=e",
+      "permalink": "https://globalnutrition.cl/products/nutrend-isodrinx-1000-g-bebida-isotonica-en-polvo-hidratacion-y-reposicion-de-electrolitos?_pos=8&_psq=iso+100&_psid=0e7dd02e1&_ss=e",
       "available": true,
       "value_score": 66,
       "verdict": {
@@ -2395,6 +3869,52 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "PROTEINA ISOLATE 4.94 LB FROZEN BANANA RULE1",
+      "price": 102990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 2240.7,
+      "net_protein_grams": 1927.0,
+      "cost_per_gram_clp": 53.45,
+      "permalink": "https://suplementosalmayor.cl/producto/rule1-proteina-isolate-4-94-lb-frozen-banana/",
+      "available": true,
+      "value_score": 66,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($53.45 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 66,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "Rule 1 (R1)",
+          "trust_score": 90,
+          "certifications": [
+            "Informed-Choice",
+            "cGMP (USA)",
+            "Fundadores de Optimum Nutrition"
+          ],
+          "spiking_risk": "Muy Bajo",
+          "notes": "Creada por los fundadores originales de Optimum Nutrition tras vender a Glanbia. Instalaciones propias con certificación cGMP e Informed-Choice."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "Rule 1 (R1)",
+        "trust_score": 90,
+        "certifications": [
+          "Informed-Choice",
+          "cGMP (USA)",
+          "Fundadores de Optimum Nutrition"
+        ],
+        "spiking_risk": "Muy Bajo",
+        "notes": "Creada por los fundadores originales de Optimum Nutrition tras vender a Glanbia. Instalaciones propias con certificación cGMP e Informed-Choice."
       }
     },
     {
@@ -2533,7 +4053,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 400.0,
       "net_protein_grams": 292.0,
       "cost_per_gram_clp": 34.55,
-      "permalink": "https://www.mixgreen.cl/products/10302-leche-de-cabra-en-polvo-entera-400-g-dagoat?_pos=6&_psq=caseina&_psid=7c1cbc227&_ss=e",
+      "permalink": "https://www.mixgreen.cl/products/10302-leche-de-cabra-en-polvo-entera-400-g-dagoat?_pos=6&_psq=caseina&_psid=df94191cd&_ss=e",
       "available": true,
       "value_score": 64,
       "verdict": {
@@ -2617,7 +4137,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 350.0,
       "net_protein_grams": 255.5,
       "cost_per_gram_clp": 42.47,
-      "permalink": "https://www.mixgreen.cl/products/proteina-suero-de-leche-vainilla-350g?_pos=8&_psq=casein&_psid=6aae7f933&_ss=e",
+      "permalink": "https://www.mixgreen.cl/products/proteina-suero-de-leche-vainilla-350g?_pos=8&_psq=casein&_psid=afa3f2d8c&_ss=e",
       "available": true,
       "value_score": 64,
       "verdict": {
@@ -2659,7 +4179,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 2268.0,
       "net_protein_grams": 1655.6,
       "cost_per_gram_clp": 47.71,
-      "permalink": "https://globalnutrition.cl/products/bsn-syntha-6-proteina-whey-2-27kg-48-servicios?_pos=10&_psq=caseina&_psid=b1ac945e7&_ss=e",
+      "permalink": "https://globalnutrition.cl/products/bsn-syntha-6-proteina-whey-2-27kg-48-servicios?_pos=10&_psq=caseina&_psid=f04e0df23&_ss=e",
       "available": true,
       "value_score": 64,
       "verdict": {
@@ -2703,7 +4223,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 2268.0,
       "net_protein_grams": 1655.6,
       "cost_per_gram_clp": 50.13,
-      "permalink": "https://allnutrition.cl/products/syntha-6-5-lb?_pos=2&_psq=caseina&_psid=d741a7761&_ss=e",
+      "permalink": "https://allnutrition.cl/products/syntha-6-5-lb?_pos=2&_psq=caseina&_psid=67fc499ff&_ss=e",
       "available": true,
       "value_score": 64,
       "verdict": {
@@ -2795,7 +4315,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 2000.0,
       "net_protein_grams": 1720.0,
       "cost_per_gram_clp": 57.55,
-      "permalink": "https://globalnutrition.cl/products/4active-100-isolate-protein-2000g?_pos=2&_psq=isolate&_psid=0541c65e6&_ss=e",
+      "permalink": "https://globalnutrition.cl/products/4active-100-isolate-protein-2000g?_pos=2&_psq=isolate&_psid=7c9ab2a1a&_ss=e",
       "available": true,
       "value_score": 64,
       "verdict": {
@@ -2879,7 +4399,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 2268.0,
       "net_protein_grams": 1655.6,
       "cost_per_gram_clp": 46.5,
-      "permalink": "https://allnutrition.cl/products/whey-gold-5lb?_pos=9&_psq=mutant+whey&_psid=ada29f348&_ss=e",
+      "permalink": "https://allnutrition.cl/products/whey-gold-5lb?_pos=9&_psq=mutant+whey&_psid=f5515ff2c&_ss=e",
       "available": true,
       "value_score": 62,
       "verdict": {
@@ -2923,7 +4443,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 2268.0,
       "net_protein_grams": 1950.5,
       "cost_per_gram_clp": 61.0,
-      "permalink": "https://globalnutrition.cl/products/raw-nutrition-itholate-protein-5-lb-76-servicios-whey-isolate-alta-pureza-y-recuperacion-muscular?_pos=3&_psq=isolate&_psid=0541c65e6&_ss=e",
+      "permalink": "https://globalnutrition.cl/products/raw-nutrition-itholate-protein-5-lb-76-servicios-whey-isolate-alta-pureza-y-recuperacion-muscular?_pos=3&_psq=isolate&_psid=7c9ab2a1a&_ss=e",
       "available": true,
       "value_score": 62,
       "verdict": {
@@ -2959,6 +4479,90 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      }
+    },
+    {
+      "source": "SuplementosMayoristas",
+      "title": "100% Whey 2 lbs - Nutrex Chocolate",
+      "price": 28873.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "whey",
+      "weight_grams": 907.2,
+      "net_protein_grams": 662.3,
+      "cost_per_gram_clp": 43.6,
+      "permalink": "https://www.suplementosmayoristas.cl/100--whey-2lbs-nutrex/p",
+      "available": true,
+      "value_score": 61,
+      "verdict": {
+        "status": "BUENA_OPCION",
+        "badge": "✅ Calidad Confiable (Tier B)",
+        "badge_color": "cyan",
+        "action": "Recomendado",
+        "reason": "Precio justo Cyber ($43.6 CLP/g) con respaldo de calidad (Nutrex Research).",
+        "value_score": 61,
+        "trust": {
+          "tier": "Tier B",
+          "brand_name": "Nutrex Research",
+          "trust_score": 77,
+          "certifications": [
+            "cGMP Certified (USA)"
+          ],
+          "spiking_risk": "Bajo",
+          "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier B",
+        "brand_name": "Nutrex Research",
+        "trust_score": 77,
+        "certifications": [
+          "cGMP Certified (USA)"
+        ],
+        "spiking_risk": "Bajo",
+        "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+      }
+    },
+    {
+      "source": "SuplementosMayoristas",
+      "title": "100% Whey 2 lbs - Nutrex Vainilla",
+      "price": 28873.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "whey",
+      "weight_grams": 907.2,
+      "net_protein_grams": 662.3,
+      "cost_per_gram_clp": 43.6,
+      "permalink": "https://www.suplementosmayoristas.cl/100--whey-2lbs-nutrex/p",
+      "available": true,
+      "value_score": 61,
+      "verdict": {
+        "status": "BUENA_OPCION",
+        "badge": "✅ Calidad Confiable (Tier B)",
+        "badge_color": "cyan",
+        "action": "Recomendado",
+        "reason": "Precio justo Cyber ($43.6 CLP/g) con respaldo de calidad (Nutrex Research).",
+        "value_score": 61,
+        "trust": {
+          "tier": "Tier B",
+          "brand_name": "Nutrex Research",
+          "trust_score": 77,
+          "certifications": [
+            "cGMP Certified (USA)"
+          ],
+          "spiking_risk": "Bajo",
+          "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier B",
+        "brand_name": "Nutrex Research",
+        "trust_score": 77,
+        "certifications": [
+          "cGMP Certified (USA)"
+        ],
+        "spiking_risk": "Bajo",
+        "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
       }
     },
     {
@@ -3143,7 +4747,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 900.0,
       "net_protein_grams": 657.0,
       "cost_per_gram_clp": 39.86,
-      "permalink": "https://www.mixgreen.cl/products/10303-leche-de-cabra-en-polvo-descremada-900-g-dagoat?_pos=3&_psq=caseina&_psid=7c1cbc227&_ss=e",
+      "permalink": "https://www.mixgreen.cl/products/10303-leche-de-cabra-en-polvo-descremada-900-g-dagoat?_pos=3&_psq=caseina&_psid=df94191cd&_ss=e",
       "available": true,
       "value_score": 60,
       "verdict": {
@@ -3215,6 +4819,94 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "Supletech",
+      "title": "Animal Whey 4lbs - Animal Chocolate",
+      "price": 68990.0,
+      "original_price": 79990.0,
+      "discount_pct": 13.8,
+      "category": "whey",
+      "weight_grams": 1814.4,
+      "net_protein_grams": 1324.5,
+      "cost_per_gram_clp": 52.09,
+      "permalink": "https://www.supletech.cl/animal-100--whey-4lbs-animal/p",
+      "available": true,
+      "value_score": 60,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($52.09 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 60,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "Animal (Universal Nutrition)",
+          "trust_score": 88,
+          "certifications": [
+            "cGMP Certified (USA)",
+            "Fabricación propia New Jersey"
+          ],
+          "spiking_risk": "Muy Bajo",
+          "notes": "Línea hardcore de Universal Nutrition con más de 40 años en el mercado y formulaciones consistentes."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "Animal (Universal Nutrition)",
+        "trust_score": 88,
+        "certifications": [
+          "cGMP Certified (USA)",
+          "Fabricación propia New Jersey"
+        ],
+        "spiking_risk": "Muy Bajo",
+        "notes": "Línea hardcore de Universal Nutrition con más de 40 años en el mercado y formulaciones consistentes."
+      }
+    },
+    {
+      "source": "Supletech",
+      "title": "Animal Whey 4lbs - Animal Vainilla",
+      "price": 68990.0,
+      "original_price": 79990.0,
+      "discount_pct": 13.8,
+      "category": "whey",
+      "weight_grams": 1814.4,
+      "net_protein_grams": 1324.5,
+      "cost_per_gram_clp": 52.09,
+      "permalink": "https://www.supletech.cl/animal-100--whey-4lbs-animal/p",
+      "available": true,
+      "value_score": 60,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($52.09 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 60,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "Animal (Universal Nutrition)",
+          "trust_score": 88,
+          "certifications": [
+            "cGMP Certified (USA)",
+            "Fabricación propia New Jersey"
+          ],
+          "spiking_risk": "Muy Bajo",
+          "notes": "Línea hardcore de Universal Nutrition con más de 40 años en el mercado y formulaciones consistentes."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "Animal (Universal Nutrition)",
+        "trust_score": 88,
+        "certifications": [
+          "cGMP Certified (USA)",
+          "Fabricación propia New Jersey"
+        ],
+        "spiking_risk": "Muy Bajo",
+        "notes": "Línea hardcore de Universal Nutrition con más de 40 años en el mercado y formulaciones consistentes."
       }
     },
     {
@@ -3313,7 +5005,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 2268.0,
       "net_protein_grams": 1655.6,
       "cost_per_gram_clp": 48.31,
-      "permalink": "https://allnutrition.cl/products/trophix-5-lb-syntrax?_pos=4&_psq=caseina&_psid=d741a7761&_ss=e",
+      "permalink": "https://allnutrition.cl/products/trophix-5-lb-syntrax?_pos=4&_psq=caseina&_psid=67fc499ff&_ss=e",
       "available": true,
       "value_score": 59,
       "verdict": {
@@ -3345,6 +5037,132 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Proteína estadounidense con tecnología Promina y buena biodisponibilidad."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "PROTEINA ISO XP 1 KG CHOCOLATE Applied Nutrition",
+      "price": 42990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 1000.0,
+      "net_protein_grams": 860.0,
+      "cost_per_gram_clp": 49.99,
+      "permalink": "https://suplementosalmayor.cl/producto/an-proteina-iso-xp-1-kg-chocolate/",
+      "available": true,
+      "value_score": 59,
+      "verdict": {
+        "status": "REGULAR",
+        "badge": "ℹ️ Opción Regular (Tier C)",
+        "badge_color": "blue",
+        "action": "Evaluar según stock",
+        "reason": "Precio de mercado estándar sin descuento llamativo en Marca No Auditada.",
+        "value_score": 59,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Marca No Auditada",
+          "trust_score": 55,
+          "certifications": [
+            "Sin sellos auditados"
+          ],
+          "spiking_risk": "Medio / Alto",
+          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Marca No Auditada",
+        "trust_score": 55,
+        "certifications": [
+          "Sin sellos auditados"
+        ],
+        "spiking_risk": "Medio / Alto",
+        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "PROTEINA ISO XP 1 KG CHOCO CANDIES Applied Nutrition",
+      "price": 42990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 1000.0,
+      "net_protein_grams": 860.0,
+      "cost_per_gram_clp": 49.99,
+      "permalink": "https://suplementosalmayor.cl/producto/an-proteina-iso-xp-1-kg-choco-candies/",
+      "available": true,
+      "value_score": 59,
+      "verdict": {
+        "status": "REGULAR",
+        "badge": "ℹ️ Opción Regular (Tier C)",
+        "badge_color": "blue",
+        "action": "Evaluar según stock",
+        "reason": "Precio de mercado estándar sin descuento llamativo en Marca No Auditada.",
+        "value_score": 59,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Marca No Auditada",
+          "trust_score": 55,
+          "certifications": [
+            "Sin sellos auditados"
+          ],
+          "spiking_risk": "Medio / Alto",
+          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Marca No Auditada",
+        "trust_score": 55,
+        "certifications": [
+          "Sin sellos auditados"
+        ],
+        "spiking_risk": "Medio / Alto",
+        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "PROTEINA ISO XP 1 KG CHOCO HONEYCOMB Applied Nutrition",
+      "price": 42990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 1000.0,
+      "net_protein_grams": 860.0,
+      "cost_per_gram_clp": 49.99,
+      "permalink": "https://suplementosalmayor.cl/producto/an-proteina-iso-xp-1-kg-choco-honeycomb/",
+      "available": true,
+      "value_score": 59,
+      "verdict": {
+        "status": "REGULAR",
+        "badge": "ℹ️ Opción Regular (Tier C)",
+        "badge_color": "blue",
+        "action": "Evaluar según stock",
+        "reason": "Precio de mercado estándar sin descuento llamativo en Marca No Auditada.",
+        "value_score": 59,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Marca No Auditada",
+          "trust_score": 55,
+          "certifications": [
+            "Sin sellos auditados"
+          ],
+          "spiking_risk": "Medio / Alto",
+          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Marca No Auditada",
+        "trust_score": 55,
+        "certifications": [
+          "Sin sellos auditados"
+        ],
+        "spiking_risk": "Medio / Alto",
+        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
       }
     },
     {
@@ -3399,7 +5217,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 400.0,
       "net_protein_grams": 292.0,
       "cost_per_gram_clp": 47.91,
-      "permalink": "https://www.mixgreen.cl/products/proteina-vegana-capuccino-400g?_pos=8&_psq=isolate&_psid=aec7b9cfc&_ss=e",
+      "permalink": "https://www.mixgreen.cl/products/proteina-vegana-capuccino-400g?_pos=8&_psq=isolate&_psid=7ffd73f4f&_ss=e",
       "available": true,
       "value_score": 58,
       "verdict": {
@@ -3577,7 +5395,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 1000.0,
       "net_protein_grams": 730.0,
       "cost_per_gram_clp": 42.45,
-      "permalink": "https://winklernutrition.cl/products/proteina-pea-protein-1-kg?_pos=1&_psq=isolate&_psid=b8e5bfaa5&_ss=e",
+      "permalink": "https://winklernutrition.cl/products/proteina-pea-protein-1-kg?_pos=1&_psq=isolate&_psid=9bcc89cd6&_ss=e",
       "available": true,
       "value_score": 57,
       "verdict": {
@@ -3711,7 +5529,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 1000.0,
       "net_protein_grams": 760.0,
       "cost_per_gram_clp": 56.57,
-      "permalink": "https://winklernutrition.cl/products/proteina-caseina-micellar-casein-1-kg?_pos=1&_psq=caseina&_psid=4f6e21961&_ss=e",
+      "permalink": "https://winklernutrition.cl/products/proteina-caseina-micellar-casein-1-kg?_pos=1&_psq=caseina&_psid=1bf604a03&_ss=e",
       "available": true,
       "value_score": 57,
       "verdict": {
@@ -3753,7 +5571,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 2268.0,
       "net_protein_grams": 1655.6,
       "cost_per_gram_clp": 58.7,
-      "permalink": "https://allnutrition.cl/products/100-whey-protein-5lb-gold-standard-optimum-nutrition?_pos=1&_psq=whey&_psid=cfb3057a4&_ss=e",
+      "permalink": "https://allnutrition.cl/products/100-whey-protein-5lb-gold-standard-optimum-nutrition?_pos=1&_psq=whey&_psid=32554aadf&_ss=e",
       "available": true,
       "value_score": 57,
       "verdict": {
@@ -3801,7 +5619,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 907.2,
       "net_protein_grams": 662.3,
       "cost_per_gram_clp": 49.6,
-      "permalink": "https://www.mixgreen.cl/products/100-whey-protein-sabor-vainilla-2lb-nutrex?_pos=3&_psq=whey&_psid=981f76ae6&_ss=e",
+      "permalink": "https://www.mixgreen.cl/products/100-whey-protein-sabor-vainilla-2lb-nutrex?_pos=3&_psq=whey&_psid=68042562a&_ss=e",
       "available": true,
       "value_score": 56,
       "verdict": {
@@ -3831,6 +5649,132 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "SuplementosMayoristas",
+      "title": "Iso100% Hydro Whey 2lbs - Foodtech Vainilla",
+      "price": 40555.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 907.2,
+      "net_protein_grams": 780.2,
+      "cost_per_gram_clp": 51.98,
+      "permalink": "https://www.suplementosmayoristas.cl/iso100--hydro-whey-2lbs-foodtech/p",
+      "available": true,
+      "value_score": 56,
+      "verdict": {
+        "status": "REGULAR",
+        "badge": "ℹ️ Opción Regular (Tier C)",
+        "badge_color": "blue",
+        "action": "Evaluar según stock",
+        "reason": "Precio de mercado estándar sin descuento llamativo en Foodtech.",
+        "value_score": 56,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Foodtech",
+          "trust_score": 55,
+          "certifications": [
+            "Resolución Seremi Salud Chile"
+          ],
+          "spiking_risk": "Medio",
+          "notes": "Marca chilena económica de entrada; sin auditorías independientes de terceros publicadas."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Foodtech",
+        "trust_score": 55,
+        "certifications": [
+          "Resolución Seremi Salud Chile"
+        ],
+        "spiking_risk": "Medio",
+        "notes": "Marca chilena económica de entrada; sin auditorías independientes de terceros publicadas."
+      }
+    },
+    {
+      "source": "SuplementosMayoristas",
+      "title": "Iso100% Hydro Whey 2lbs - Foodtech Frutos Rojos",
+      "price": 40555.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 907.2,
+      "net_protein_grams": 780.2,
+      "cost_per_gram_clp": 51.98,
+      "permalink": "https://www.suplementosmayoristas.cl/iso100--hydro-whey-2lbs-foodtech/p",
+      "available": true,
+      "value_score": 56,
+      "verdict": {
+        "status": "REGULAR",
+        "badge": "ℹ️ Opción Regular (Tier C)",
+        "badge_color": "blue",
+        "action": "Evaluar según stock",
+        "reason": "Precio de mercado estándar sin descuento llamativo en Foodtech.",
+        "value_score": 56,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Foodtech",
+          "trust_score": 55,
+          "certifications": [
+            "Resolución Seremi Salud Chile"
+          ],
+          "spiking_risk": "Medio",
+          "notes": "Marca chilena económica de entrada; sin auditorías independientes de terceros publicadas."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Foodtech",
+        "trust_score": 55,
+        "certifications": [
+          "Resolución Seremi Salud Chile"
+        ],
+        "spiking_risk": "Medio",
+        "notes": "Marca chilena económica de entrada; sin auditorías independientes de terceros publicadas."
+      }
+    },
+    {
+      "source": "Supletech",
+      "title": "100% Whey  5 lbs  - Nutrex Chocolate",
+      "price": 86990.0,
+      "original_price": 90990.0,
+      "discount_pct": 4.4,
+      "category": "whey",
+      "weight_grams": 2268.0,
+      "net_protein_grams": 1655.6,
+      "cost_per_gram_clp": 52.54,
+      "permalink": "https://www.supletech.cl/100--whey--5lbs-nutrex/p",
+      "available": true,
+      "value_score": 56,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($52.54 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 56,
+        "trust": {
+          "tier": "Tier B",
+          "brand_name": "Nutrex Research",
+          "trust_score": 77,
+          "certifications": [
+            "cGMP Certified (USA)"
+          ],
+          "spiking_risk": "Bajo",
+          "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier B",
+        "brand_name": "Nutrex Research",
+        "trust_score": 77,
+        "certifications": [
+          "cGMP Certified (USA)"
+        ],
+        "spiking_risk": "Bajo",
+        "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
       }
     },
     {
@@ -3875,6 +5819,54 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Línea ProStar con buena reputación histórica en pruebas de nitrógeno y laboratorio."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina Gold Standard 100% Whey 5 Lb Double Rich Chocolate Optimum",
+      "price": 91090.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "whey",
+      "weight_grams": 2268.0,
+      "net_protein_grams": 1655.6,
+      "cost_per_gram_clp": 55.02,
+      "permalink": "https://suplementosalmayor.cl/producto/gold-standard-100-whey-5-lb-double-rich-chocolate/",
+      "available": true,
+      "value_score": 56,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($55.02 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 56,
+        "trust": {
+          "tier": "Tier S",
+          "brand_name": "Optimum Nutrition (ON)",
+          "trust_score": 98,
+          "certifications": [
+            "Informed-Choice",
+            "NSF for Sport",
+            "Labdoor Score A+",
+            "Glanbia QA"
+          ],
+          "spiking_risk": "Nulo",
+          "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier S",
+        "brand_name": "Optimum Nutrition (ON)",
+        "trust_score": 98,
+        "certifications": [
+          "Informed-Choice",
+          "NSF for Sport",
+          "Labdoor Score A+",
+          "Glanbia QA"
+        ],
+        "spiking_risk": "Nulo",
+        "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
       }
     },
     {
@@ -3969,6 +5961,48 @@ window.CYBER_DEALS_DATA = {
     },
     {
       "source": "All Nutrition",
+      "title": "Isofit, Nutrex Isolate Protein 5 Lb",
+      "price": 113990.0,
+      "original_price": 115990.0,
+      "discount_pct": 1.7,
+      "category": "isolate",
+      "weight_grams": 2268.0,
+      "net_protein_grams": 1950.5,
+      "cost_per_gram_clp": 58.44,
+      "permalink": "https://allnutrition.cl/products/isofit-5-1-lb?_pos=8&_psq=isolate&_psid=92ca47293&_ss=e",
+      "available": true,
+      "value_score": 56,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($58.44 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 56,
+        "trust": {
+          "tier": "Tier B",
+          "brand_name": "Nutrex Research",
+          "trust_score": 77,
+          "certifications": [
+            "cGMP Certified (USA)"
+          ],
+          "spiking_risk": "Bajo",
+          "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier B",
+        "brand_name": "Nutrex Research",
+        "trust_score": 77,
+        "certifications": [
+          "cGMP Certified (USA)"
+        ],
+        "spiking_risk": "Bajo",
+        "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+      }
+    },
+    {
+      "source": "All Nutrition",
       "title": "MICELLAR CREME 2 LB, SYNTRAX",
       "price": 41990.0,
       "original_price": null,
@@ -3977,7 +6011,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 907.2,
       "net_protein_grams": 689.5,
       "cost_per_gram_clp": 60.9,
-      "permalink": "https://allnutrition.cl/products/micellar-creme-2-lb-milkshake-syntrax?_pos=1&_psq=caseina&_psid=d741a7761&_ss=e",
+      "permalink": "https://allnutrition.cl/products/micellar-creme-2-lb-milkshake-syntrax?_pos=1&_psq=caseina&_psid=67fc499ff&_ss=e",
       "available": true,
       "value_score": 56,
       "verdict": {
@@ -4021,7 +6055,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 400.0,
       "net_protein_grams": 292.0,
       "cost_per_gram_clp": 40.72,
-      "permalink": "https://www.mixgreen.cl/products/10304-leche-de-cabra-en-polvo-descremada-400-g-dagoat?_pos=8&_psq=caseina&_psid=7c1cbc227&_ss=e",
+      "permalink": "https://www.mixgreen.cl/products/10304-leche-de-cabra-en-polvo-descremada-400-g-dagoat?_pos=8&_psq=caseina&_psid=df94191cd&_ss=e",
       "available": true,
       "value_score": 55,
       "verdict": {
@@ -4051,6 +6085,50 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "SuplementosMayoristas",
+      "title": "Iso 100 - 5lbs - Dymatize Nutrition Fudge Brownie",
+      "price": 122837.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 2268.0,
+      "net_protein_grams": 1950.5,
+      "cost_per_gram_clp": 62.98,
+      "permalink": "https://www.suplementosmayoristas.cl/iso-100/p",
+      "available": true,
+      "value_score": 55,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($62.98 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 55,
+        "trust": {
+          "tier": "Tier S",
+          "brand_name": "Dymatize",
+          "trust_score": 97,
+          "certifications": [
+            "Informed-Choice",
+            "cGMP Certified (USA)"
+          ],
+          "spiking_risk": "Nulo",
+          "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier S",
+        "brand_name": "Dymatize",
+        "trust_score": 97,
+        "certifications": [
+          "Informed-Choice",
+          "cGMP Certified (USA)"
+        ],
+        "spiking_risk": "Nulo",
+        "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
       }
     },
     {
@@ -4107,7 +6185,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 2268.0,
       "net_protein_grams": 1655.6,
       "cost_per_gram_clp": 57.07,
-      "permalink": "https://allnutrition.cl/products/prostar-whey-5-lb-ul?_pos=5&_psq=whey&_psid=cfb3057a4&_ss=e",
+      "permalink": "https://allnutrition.cl/products/prostar-whey-5-lb-ul?_pos=5&_psq=whey&_psid=32554aadf&_ss=e",
       "available": true,
       "value_score": 54,
       "verdict": {
@@ -4151,7 +6229,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 1000.0,
       "net_protein_grams": 730.0,
       "cost_per_gram_clp": 61.63,
-      "permalink": "https://globalnutrition.cl/products/biotechusa-100-pure-whey-natural-1kg-sin-sabor?_pos=6&_psq=whey&_psid=c51d49bb5&_ss=e",
+      "permalink": "https://globalnutrition.cl/products/biotechusa-100-pure-whey-natural-1kg-sin-sabor?_pos=6&_psq=whey&_psid=bc297e051&_ss=e",
       "available": true,
       "value_score": 54,
       "verdict": {
@@ -4190,6 +6268,314 @@ window.CYBER_DEALS_DATA = {
       }
     },
     {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina ISO 100 5 Lb Gourmet Chocolate Dymatize",
+      "price": 124490.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 2268.0,
+      "net_protein_grams": 1950.5,
+      "cost_per_gram_clp": 63.82,
+      "permalink": "https://suplementosalmayor.cl/producto/iso-100-5-lb-gourmet-chocolate/",
+      "available": true,
+      "value_score": 54,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($63.82 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 54,
+        "trust": {
+          "tier": "Tier S",
+          "brand_name": "Dymatize",
+          "trust_score": 97,
+          "certifications": [
+            "Informed-Choice",
+            "cGMP Certified (USA)"
+          ],
+          "spiking_risk": "Nulo",
+          "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier S",
+        "brand_name": "Dymatize",
+        "trust_score": 97,
+        "certifications": [
+          "Informed-Choice",
+          "cGMP Certified (USA)"
+        ],
+        "spiking_risk": "Nulo",
+        "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina ISO 100 5 Lb Chocolate Peanut Butter Dymatize",
+      "price": 124490.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 2268.0,
+      "net_protein_grams": 1950.5,
+      "cost_per_gram_clp": 63.82,
+      "permalink": "https://suplementosalmayor.cl/producto/iso-100-5-lb-chocolate-peanut-butter/",
+      "available": true,
+      "value_score": 54,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($63.82 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 54,
+        "trust": {
+          "tier": "Tier S",
+          "brand_name": "Dymatize",
+          "trust_score": 97,
+          "certifications": [
+            "Informed-Choice",
+            "cGMP Certified (USA)"
+          ],
+          "spiking_risk": "Nulo",
+          "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier S",
+        "brand_name": "Dymatize",
+        "trust_score": 97,
+        "certifications": [
+          "Informed-Choice",
+          "cGMP Certified (USA)"
+        ],
+        "spiking_risk": "Nulo",
+        "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina ISO 100 5 Lb Fruity Pebbles Dymatize",
+      "price": 124490.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 2268.0,
+      "net_protein_grams": 1950.5,
+      "cost_per_gram_clp": 63.82,
+      "permalink": "https://suplementosalmayor.cl/iso-100-4/",
+      "available": true,
+      "value_score": 54,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($63.82 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 54,
+        "trust": {
+          "tier": "Tier S",
+          "brand_name": "Dymatize",
+          "trust_score": 97,
+          "certifications": [
+            "Informed-Choice",
+            "cGMP Certified (USA)"
+          ],
+          "spiking_risk": "Nulo",
+          "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier S",
+        "brand_name": "Dymatize",
+        "trust_score": 97,
+        "certifications": [
+          "Informed-Choice",
+          "cGMP Certified (USA)"
+        ],
+        "spiking_risk": "Nulo",
+        "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina ISO 100 5 Lb Birthday Cake Pebbles Dymatize",
+      "price": 124490.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 2268.0,
+      "net_protein_grams": 1950.5,
+      "cost_per_gram_clp": 63.82,
+      "permalink": "https://suplementosalmayor.cl/iso-100-5/",
+      "available": true,
+      "value_score": 54,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($63.82 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 54,
+        "trust": {
+          "tier": "Tier S",
+          "brand_name": "Dymatize",
+          "trust_score": 97,
+          "certifications": [
+            "Informed-Choice",
+            "cGMP Certified (USA)"
+          ],
+          "spiking_risk": "Nulo",
+          "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier S",
+        "brand_name": "Dymatize",
+        "trust_score": 97,
+        "certifications": [
+          "Informed-Choice",
+          "cGMP Certified (USA)"
+        ],
+        "spiking_risk": "Nulo",
+        "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina ISO 100 5 Lb Cocoa Pebbles Dymatize",
+      "price": 124490.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 2268.0,
+      "net_protein_grams": 1950.5,
+      "cost_per_gram_clp": 63.82,
+      "permalink": "https://suplementosalmayor.cl/producto/iso-100-5-lb-cocoa-pebbles/",
+      "available": true,
+      "value_score": 54,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($63.82 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 54,
+        "trust": {
+          "tier": "Tier S",
+          "brand_name": "Dymatize",
+          "trust_score": 97,
+          "certifications": [
+            "Informed-Choice",
+            "cGMP Certified (USA)"
+          ],
+          "spiking_risk": "Nulo",
+          "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier S",
+        "brand_name": "Dymatize",
+        "trust_score": 97,
+        "certifications": [
+          "Informed-Choice",
+          "cGMP Certified (USA)"
+        ],
+        "spiking_risk": "Nulo",
+        "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina ISO 100 5 Lb Strawberry Dymatize",
+      "price": 124490.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 2268.0,
+      "net_protein_grams": 1950.5,
+      "cost_per_gram_clp": 63.82,
+      "permalink": "https://suplementosalmayor.cl/iso-100-8/",
+      "available": true,
+      "value_score": 54,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($63.82 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 54,
+        "trust": {
+          "tier": "Tier S",
+          "brand_name": "Dymatize",
+          "trust_score": 97,
+          "certifications": [
+            "Informed-Choice",
+            "cGMP Certified (USA)"
+          ],
+          "spiking_risk": "Nulo",
+          "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier S",
+        "brand_name": "Dymatize",
+        "trust_score": 97,
+        "certifications": [
+          "Informed-Choice",
+          "cGMP Certified (USA)"
+        ],
+        "spiking_risk": "Nulo",
+        "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina ISO 100 5 Lb Cinnamon Churro Dymatize",
+      "price": 124490.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 2268.0,
+      "net_protein_grams": 1950.5,
+      "cost_per_gram_clp": 63.82,
+      "permalink": "https://suplementosalmayor.cl/producto/iso-100-5-lb-cinnamon-churro/",
+      "available": true,
+      "value_score": 54,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($63.82 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 54,
+        "trust": {
+          "tier": "Tier S",
+          "brand_name": "Dymatize",
+          "trust_score": 97,
+          "certifications": [
+            "Informed-Choice",
+            "cGMP Certified (USA)"
+          ],
+          "spiking_risk": "Nulo",
+          "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier S",
+        "brand_name": "Dymatize",
+        "trust_score": 97,
+        "certifications": [
+          "Informed-Choice",
+          "cGMP Certified (USA)"
+        ],
+        "spiking_risk": "Nulo",
+        "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      }
+    },
+    {
       "source": "All Nutrition",
       "title": "PROTEINA LEAN ACTIVE 900G, CASCARA FOODS",
       "price": 29990.0,
@@ -4199,7 +6585,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 900.0,
       "net_protein_grams": 657.0,
       "cost_per_gram_clp": 45.65,
-      "permalink": "https://allnutrition.cl/products/proteina-lean-active-vainilla-manzana-900g-cascara-foods?_pos=6&_psq=caseina&_psid=d741a7761&_ss=e",
+      "permalink": "https://allnutrition.cl/products/proteina-lean-active-vainilla-manzana-900g-cascara-foods?_pos=6&_psq=caseina&_psid=67fc499ff&_ss=e",
       "available": true,
       "value_score": 53,
       "verdict": {
@@ -4283,7 +6669,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 2500.0,
       "net_protein_grams": 1825.0,
       "cost_per_gram_clp": 49.86,
-      "permalink": "https://allnutrition.cl/products/impact-whey-protein-2-5kg-chocolate-smooth-mpro?_pos=6&_psq=whey&_psid=cfb3057a4&_ss=e",
+      "permalink": "https://allnutrition.cl/products/impact-whey-protein-2-5kg-chocolate-smooth-mpro?_pos=6&_psq=whey&_psid=32554aadf&_ss=e",
       "available": true,
       "value_score": 53,
       "verdict": {
@@ -4488,90 +6874,6 @@ window.CYBER_DEALS_DATA = {
       }
     },
     {
-      "source": "Supletech",
-      "title": "Animal Whey 4lbs - Animal Chocolate",
-      "price": 68990.0,
-      "original_price": 79990.0,
-      "discount_pct": 13.8,
-      "category": "whey",
-      "weight_grams": 1814.4,
-      "net_protein_grams": 1324.5,
-      "cost_per_gram_clp": 52.09,
-      "permalink": "https://www.supletech.cl/animal-100--whey-4lbs-animal/p",
-      "available": true,
-      "value_score": 52,
-      "verdict": {
-        "status": "NO_CONVIENE",
-        "badge": "⚠️ Sobreprecio / Esperar",
-        "badge_color": "amber",
-        "action": "Esperar rebaja",
-        "reason": "Costo por gramo ($52.09 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
-        "value_score": 52,
-        "trust": {
-          "tier": "Tier C",
-          "brand_name": "Marca No Auditada",
-          "trust_score": 55,
-          "certifications": [
-            "Sin sellos auditados"
-          ],
-          "spiking_risk": "Medio / Alto",
-          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
-        }
-      },
-      "brand_trust": {
-        "tier": "Tier C",
-        "brand_name": "Marca No Auditada",
-        "trust_score": 55,
-        "certifications": [
-          "Sin sellos auditados"
-        ],
-        "spiking_risk": "Medio / Alto",
-        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
-      }
-    },
-    {
-      "source": "Supletech",
-      "title": "Animal Whey 4lbs - Animal Vainilla",
-      "price": 68990.0,
-      "original_price": 79990.0,
-      "discount_pct": 13.8,
-      "category": "whey",
-      "weight_grams": 1814.4,
-      "net_protein_grams": 1324.5,
-      "cost_per_gram_clp": 52.09,
-      "permalink": "https://www.supletech.cl/animal-100--whey-4lbs-animal/p",
-      "available": true,
-      "value_score": 52,
-      "verdict": {
-        "status": "NO_CONVIENE",
-        "badge": "⚠️ Sobreprecio / Esperar",
-        "badge_color": "amber",
-        "action": "Esperar rebaja",
-        "reason": "Costo por gramo ($52.09 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
-        "value_score": 52,
-        "trust": {
-          "tier": "Tier C",
-          "brand_name": "Marca No Auditada",
-          "trust_score": 55,
-          "certifications": [
-            "Sin sellos auditados"
-          ],
-          "spiking_risk": "Medio / Alto",
-          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
-        }
-      },
-      "brand_trust": {
-        "tier": "Tier C",
-        "brand_name": "Marca No Auditada",
-        "trust_score": 55,
-        "certifications": [
-          "Sin sellos auditados"
-        ],
-        "spiking_risk": "Medio / Alto",
-        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
-      }
-    },
-    {
       "source": "T4T",
       "title": "ISO 100 Hydrolyzed – 5 lbs / 75 servicios, sabores",
       "price": 128990.0,
@@ -4669,7 +6971,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 907.2,
       "net_protein_grams": 780.2,
       "cost_per_gram_clp": 76.89,
-      "permalink": "https://globalnutrition.cl/products/pack-raw-nutrition-cbum-itholate-protein-2-lb-protein-rtd-gratis-whey-isolate-25-servicios-batido-alto-en-proteina?_pos=10&_psq=isolate&_psid=0541c65e6&_ss=e",
+      "permalink": "https://globalnutrition.cl/products/pack-raw-nutrition-cbum-itholate-protein-2-lb-protein-rtd-gratis-whey-isolate-25-servicios-batido-alto-en-proteina?_pos=10&_psq=isolate&_psid=7c9ab2a1a&_ss=e",
       "available": true,
       "value_score": 52,
       "verdict": {
@@ -4717,7 +7019,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 294.0,
       "net_protein_grams": 214.6,
       "cost_per_gram_clp": 50.75,
-      "permalink": "https://www.mixgreen.cl/products/modulo-proteico-294-g?_pos=1&_psq=caseina&_psid=7c1cbc227&_ss=e",
+      "permalink": "https://www.mixgreen.cl/products/modulo-proteico-294-g?_pos=1&_psq=caseina&_psid=df94191cd&_ss=e",
       "available": true,
       "value_score": 51,
       "verdict": {
@@ -4750,16 +7052,16 @@ window.CYBER_DEALS_DATA = {
       }
     },
     {
-      "source": "Supletech",
-      "title": "100% Whey  5 lbs  - Nutrex Chocolate",
-      "price": 86990.0,
-      "original_price": 90990.0,
-      "discount_pct": 4.4,
-      "category": "whey",
-      "weight_grams": 2268.0,
-      "net_protein_grams": 1655.6,
-      "cost_per_gram_clp": 52.54,
-      "permalink": "https://www.supletech.cl/100--whey--5lbs-nutrex/p",
+      "source": "SuplementosMayoristas",
+      "title": "MRE Lite 2lbs - Redcon1 Fudge Brownie",
+      "price": 34255.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "default",
+      "weight_grams": 907.2,
+      "net_protein_grams": 662.3,
+      "cost_per_gram_clp": 51.72,
+      "permalink": "https://www.suplementosmayoristas.cl/mre-lite-2lbs-redcon1/p",
       "available": true,
       "value_score": 51,
       "verdict": {
@@ -4767,28 +7069,28 @@ window.CYBER_DEALS_DATA = {
         "badge": "⚠️ Sobreprecio / Esperar",
         "badge_color": "amber",
         "action": "Esperar rebaja",
-        "reason": "Costo por gramo ($52.54 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "reason": "Costo por gramo ($51.72 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
         "value_score": 51,
         "trust": {
-          "tier": "Tier C",
-          "brand_name": "Marca No Auditada",
-          "trust_score": 55,
+          "tier": "Tier B",
+          "brand_name": "Redcon1",
+          "trust_score": 75,
           "certifications": [
-            "Sin sellos auditados"
+            "cGMP (USA)"
           ],
-          "spiking_risk": "Medio / Alto",
-          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+          "spiking_risk": "Bajo / Medio",
+          "notes": "Marca norteamericana con presencia en gimnasios y formulaciones estándar."
         }
       },
       "brand_trust": {
-        "tier": "Tier C",
-        "brand_name": "Marca No Auditada",
-        "trust_score": 55,
+        "tier": "Tier B",
+        "brand_name": "Redcon1",
+        "trust_score": 75,
         "certifications": [
-          "Sin sellos auditados"
+          "cGMP (USA)"
         ],
-        "spiking_risk": "Medio / Alto",
-        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        "spiking_risk": "Bajo / Medio",
+        "notes": "Marca norteamericana con presencia en gimnasios y formulaciones estándar."
       }
     },
     {
@@ -4834,16 +7136,16 @@ window.CYBER_DEALS_DATA = {
       }
     },
     {
-      "source": "All Nutrition",
-      "title": "Isofit, Nutrex Isolate Protein 5 Lb",
-      "price": 113990.0,
-      "original_price": 115990.0,
-      "discount_pct": 1.7,
-      "category": "isolate",
-      "weight_grams": 2268.0,
-      "net_protein_grams": 1950.5,
-      "cost_per_gram_clp": 58.44,
-      "permalink": "https://allnutrition.cl/products/isofit-5-1-lb?_pos=8&_psq=isolate&_psid=be9adf1a4&_ss=e",
+      "source": "SuplementosMayoristas",
+      "title": "Whey Protein 2lbs - Ghost Marshmallow Cereal Milk",
+      "price": 36854.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "whey",
+      "weight_grams": 907.2,
+      "net_protein_grams": 662.3,
+      "cost_per_gram_clp": 55.65,
+      "permalink": "https://www.suplementosmayoristas.cl/whey-protein-2lbs-ghost/p",
       "available": true,
       "value_score": 51,
       "verdict": {
@@ -4851,28 +7153,162 @@ window.CYBER_DEALS_DATA = {
         "badge": "⚠️ Sobreprecio / Esperar",
         "badge_color": "amber",
         "action": "Esperar rebaja",
-        "reason": "Costo por gramo ($58.44 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "reason": "Costo por gramo ($55.65 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
         "value_score": 51,
         "trust": {
-          "tier": "Tier C",
-          "brand_name": "Marca No Auditada",
-          "trust_score": 55,
+          "tier": "Tier S",
+          "brand_name": "Ghost Lifestyle",
+          "trust_score": 95,
           "certifications": [
-            "Sin sellos auditados"
+            "100% Transparent Label",
+            "cGMP (USA)"
           ],
-          "spiking_risk": "Medio / Alto",
-          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+          "spiking_risk": "Nulo",
+          "notes": "Etiqueta 100% transparente: desglosa los gramos exactos de WPI y WPC sin mezclas ocultas."
         }
       },
       "brand_trust": {
-        "tier": "Tier C",
-        "brand_name": "Marca No Auditada",
-        "trust_score": 55,
+        "tier": "Tier S",
+        "brand_name": "Ghost Lifestyle",
+        "trust_score": 95,
         "certifications": [
-          "Sin sellos auditados"
+          "100% Transparent Label",
+          "cGMP (USA)"
         ],
-        "spiking_risk": "Medio / Alto",
-        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        "spiking_risk": "Nulo",
+        "notes": "Etiqueta 100% transparente: desglosa los gramos exactos de WPI y WPC sin mezclas ocultas."
+      }
+    },
+    {
+      "source": "SuplementosMayoristas",
+      "title": "Whey Protein 2lbs - Ghost Fruity Cereal Milk",
+      "price": 36854.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "whey",
+      "weight_grams": 907.2,
+      "net_protein_grams": 662.3,
+      "cost_per_gram_clp": 55.65,
+      "permalink": "https://www.suplementosmayoristas.cl/whey-protein-2lbs-ghost/p",
+      "available": true,
+      "value_score": 51,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($55.65 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 51,
+        "trust": {
+          "tier": "Tier S",
+          "brand_name": "Ghost Lifestyle",
+          "trust_score": 95,
+          "certifications": [
+            "100% Transparent Label",
+            "cGMP (USA)"
+          ],
+          "spiking_risk": "Nulo",
+          "notes": "Etiqueta 100% transparente: desglosa los gramos exactos de WPI y WPC sin mezclas ocultas."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier S",
+        "brand_name": "Ghost Lifestyle",
+        "trust_score": 95,
+        "certifications": [
+          "100% Transparent Label",
+          "cGMP (USA)"
+        ],
+        "spiking_risk": "Nulo",
+        "notes": "Etiqueta 100% transparente: desglosa los gramos exactos de WPI y WPC sin mezclas ocultas."
+      }
+    },
+    {
+      "source": "SuplementosMayoristas",
+      "title": "Whey Protein 2lbs - Ghost Cinnabon",
+      "price": 36855.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "whey",
+      "weight_grams": 907.2,
+      "net_protein_grams": 662.3,
+      "cost_per_gram_clp": 55.65,
+      "permalink": "https://www.suplementosmayoristas.cl/whey-protein-2lbs-ghost/p",
+      "available": true,
+      "value_score": 51,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($55.65 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 51,
+        "trust": {
+          "tier": "Tier S",
+          "brand_name": "Ghost Lifestyle",
+          "trust_score": 95,
+          "certifications": [
+            "100% Transparent Label",
+            "cGMP (USA)"
+          ],
+          "spiking_risk": "Nulo",
+          "notes": "Etiqueta 100% transparente: desglosa los gramos exactos de WPI y WPC sin mezclas ocultas."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier S",
+        "brand_name": "Ghost Lifestyle",
+        "trust_score": 95,
+        "certifications": [
+          "100% Transparent Label",
+          "cGMP (USA)"
+        ],
+        "spiking_risk": "Nulo",
+        "notes": "Etiqueta 100% transparente: desglosa los gramos exactos de WPI y WPC sin mezclas ocultas."
+      }
+    },
+    {
+      "source": "SuplementosMayoristas",
+      "title": "Whey Protein 2lbs - Ghost Milk Chocolate",
+      "price": 36854.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "whey",
+      "weight_grams": 907.2,
+      "net_protein_grams": 662.3,
+      "cost_per_gram_clp": 55.65,
+      "permalink": "https://www.suplementosmayoristas.cl/whey-protein-2lbs-ghost/p",
+      "available": true,
+      "value_score": 51,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($55.65 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 51,
+        "trust": {
+          "tier": "Tier S",
+          "brand_name": "Ghost Lifestyle",
+          "trust_score": 95,
+          "certifications": [
+            "100% Transparent Label",
+            "cGMP (USA)"
+          ],
+          "spiking_risk": "Nulo",
+          "notes": "Etiqueta 100% transparente: desglosa los gramos exactos de WPI y WPC sin mezclas ocultas."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier S",
+        "brand_name": "Ghost Lifestyle",
+        "trust_score": 95,
+        "certifications": [
+          "100% Transparent Label",
+          "cGMP (USA)"
+        ],
+        "spiking_risk": "Nulo",
+        "notes": "Etiqueta 100% transparente: desglosa los gramos exactos de WPI y WPC sin mezclas ocultas."
       }
     },
     {
@@ -4933,7 +7369,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 1000.0,
       "net_protein_grams": 730.0,
       "cost_per_gram_clp": 47.93,
-      "permalink": "https://winklernutrition.cl/products/proteina-vegana-vegan-shake-1-kg?_pos=2&_psq=isolate&_psid=b8e5bfaa5&_ss=e",
+      "permalink": "https://winklernutrition.cl/products/proteina-vegana-vegan-shake-1-kg?_pos=2&_psq=isolate&_psid=9bcc89cd6&_ss=e",
       "available": true,
       "value_score": 50,
       "verdict": {
@@ -4963,6 +7399,98 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina 100% Whey 700 G Chocolate Dream Ostrovit",
+      "price": 25990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "whey",
+      "weight_grams": 700.0,
+      "net_protein_grams": 511.0,
+      "cost_per_gram_clp": 50.86,
+      "permalink": "https://suplementosalmayor.cl/producto/100-whey-protein-700-gr-chocolate-dream/",
+      "available": true,
+      "value_score": 50,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($50.86 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 50,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "OstroVit",
+          "trust_score": 86,
+          "certifications": [
+            "Estándar UE (Polonia)",
+            "Análisis J.S. Hamilton por lote",
+            "HACCP"
+          ],
+          "spiking_risk": "Bajo",
+          "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "OstroVit",
+        "trust_score": 86,
+        "certifications": [
+          "Estándar UE (Polonia)",
+          "Análisis J.S. Hamilton por lote",
+          "HACCP"
+        ],
+        "spiking_risk": "Bajo",
+        "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina 100% Whey 700 G Strawberry Cream Ostrovit",
+      "price": 25990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "whey",
+      "weight_grams": 700.0,
+      "net_protein_grams": 511.0,
+      "cost_per_gram_clp": 50.86,
+      "permalink": "https://suplementosalmayor.cl/producto/100-whey-protein-700-gr-strawberry-cream/",
+      "available": true,
+      "value_score": 50,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($50.86 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 50,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "OstroVit",
+          "trust_score": 86,
+          "certifications": [
+            "Estándar UE (Polonia)",
+            "Análisis J.S. Hamilton por lote",
+            "HACCP"
+          ],
+          "spiking_risk": "Bajo",
+          "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "OstroVit",
+        "trust_score": 86,
+        "certifications": [
+          "Estándar UE (Polonia)",
+          "Análisis J.S. Hamilton por lote",
+          "HACCP"
+        ],
+        "spiking_risk": "Bajo",
+        "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
       }
     },
     {
@@ -5008,6 +7536,52 @@ window.CYBER_DEALS_DATA = {
       }
     },
     {
+      "source": "ChileSuplementos",
+      "title": "Rule 1 Rule1 Whey Protein 1 LB",
+      "price": 21490.0,
+      "original_price": 35190.0,
+      "discount_pct": 38.9,
+      "category": "whey",
+      "weight_grams": 453.6,
+      "net_protein_grams": 331.1,
+      "cost_per_gram_clp": 64.9,
+      "permalink": "https://www.chilesuplementos.cl/producto/rule1-whey-protein-blend-1-lb/",
+      "available": true,
+      "value_score": 50,
+      "verdict": {
+        "status": "INFLADO",
+        "badge": "❌ Falsa Oferta (Precio Inflado)",
+        "badge_color": "rose",
+        "action": "No comprar",
+        "reason": "Muestra un supuesto descuento del 38.9%, pero su costo real por gramo ($64.9) sigue siendo excesivo.",
+        "value_score": 50,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "Rule 1 (R1)",
+          "trust_score": 90,
+          "certifications": [
+            "Informed-Choice",
+            "cGMP (USA)",
+            "Fundadores de Optimum Nutrition"
+          ],
+          "spiking_risk": "Muy Bajo",
+          "notes": "Creada por los fundadores originales de Optimum Nutrition tras vender a Glanbia. Instalaciones propias con certificación cGMP e Informed-Choice."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "Rule 1 (R1)",
+        "trust_score": 90,
+        "certifications": [
+          "Informed-Choice",
+          "cGMP (USA)",
+          "Fundadores de Optimum Nutrition"
+        ],
+        "spiking_risk": "Muy Bajo",
+        "notes": "Creada por los fundadores originales de Optimum Nutrition tras vender a Glanbia. Instalaciones propias con certificación cGMP e Informed-Choice."
+      }
+    },
+    {
       "source": "GlobalNutrition",
       "title": "4Active Whey Protein 840 g | 30 Servicios · 22g Proteína · Recuperación Muscular Diaria",
       "price": 29990.0,
@@ -5017,7 +7591,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 840.0,
       "net_protein_grams": 613.2,
       "cost_per_gram_clp": 48.91,
-      "permalink": "https://globalnutrition.cl/products/4active-whey-protein-840g-30-servicios?_pos=1&_psq=whey&_psid=c51d49bb5&_ss=e",
+      "permalink": "https://globalnutrition.cl/products/4active-whey-protein-840g-30-servicios?_pos=1&_psq=whey&_psid=bc297e051&_ss=e",
       "available": true,
       "value_score": 49,
       "verdict": {
@@ -5050,6 +7624,52 @@ window.CYBER_DEALS_DATA = {
       }
     },
     {
+      "source": "SuplementosAlMayor",
+      "title": "PROTEINA ISOLATE 1.98 LB LIGHTY SALTED CARAMEL RULE1",
+      "price": 45990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 898.1,
+      "net_protein_grams": 772.4,
+      "cost_per_gram_clp": 59.54,
+      "permalink": "https://suplementosalmayor.cl/producto/rule1-proteina-isolate-1-98-lb-lighty-salted-caramel/",
+      "available": true,
+      "value_score": 49,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($59.54 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 49,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "Rule 1 (R1)",
+          "trust_score": 90,
+          "certifications": [
+            "Informed-Choice",
+            "cGMP (USA)",
+            "Fundadores de Optimum Nutrition"
+          ],
+          "spiking_risk": "Muy Bajo",
+          "notes": "Creada por los fundadores originales de Optimum Nutrition tras vender a Glanbia. Instalaciones propias con certificación cGMP e Informed-Choice."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "Rule 1 (R1)",
+        "trust_score": 90,
+        "certifications": [
+          "Informed-Choice",
+          "cGMP (USA)",
+          "Fundadores de Optimum Nutrition"
+        ],
+        "spiking_risk": "Muy Bajo",
+        "notes": "Creada por los fundadores originales de Optimum Nutrition tras vender a Glanbia. Instalaciones propias con certificación cGMP e Informed-Choice."
+      }
+    },
+    {
       "source": "GlobalNutrition",
       "title": "RAW Nutrition CBum Itholate Protein 2 lb | 25 Servicios · Whey Isolate · Alta Pureza y Absorción",
       "price": 59990.0,
@@ -5059,7 +7679,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 907.2,
       "net_protein_grams": 780.2,
       "cost_per_gram_clp": 76.89,
-      "permalink": "https://globalnutrition.cl/products/raw-nutrition-cbum-itholate-protein-2-lb-25-servicios-whey-isolate-alta-pureza-y-absorcion?_pos=5&_psq=caseina&_psid=b1ac945e7&_ss=e",
+      "permalink": "https://globalnutrition.cl/products/raw-nutrition-cbum-itholate-protein-2-lb-25-servicios-whey-isolate-alta-pureza-y-absorcion?_pos=5&_psq=caseina&_psid=f04e0df23&_ss=e",
       "available": true,
       "value_score": 49,
       "verdict": {
@@ -5149,7 +7769,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 908.0,
       "net_protein_grams": 780.9,
       "cost_per_gram_clp": 76.82,
-      "permalink": "https://globalnutrition.cl/products/biotechusa-iso-whey-zero-908-g-36-servicios-whey-isolate-sin-azucar-y-gluten?_pos=9&_psq=whey&_psid=c51d49bb5&_ss=e",
+      "permalink": "https://globalnutrition.cl/products/biotechusa-iso-whey-zero-908-g-36-servicios-whey-isolate-sin-azucar-y-gluten?_pos=9&_psq=whey&_psid=bc297e051&_ss=e",
       "available": true,
       "value_score": 48,
       "verdict": {
@@ -5197,7 +7817,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 2268.0,
       "net_protein_grams": 1950.5,
       "cost_per_gram_clp": 82.03,
-      "permalink": "https://allnutrition.cl/products/iso-100-5lb-proteina-isolada?_pos=1&_psq=isolate&_psid=be9adf1a4&_ss=e",
+      "permalink": "https://allnutrition.cl/products/iso-100-5lb-proteina-isolada?_pos=1&_psq=isolate&_psid=92ca47293&_ss=e",
       "available": true,
       "value_score": 48,
       "verdict": {
@@ -5241,7 +7861,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 2268.0,
       "net_protein_grams": 1950.5,
       "cost_per_gram_clp": 82.03,
-      "permalink": "https://allnutrition.cl/products/iso-100-0-carb-whey-5-lb-vainilla-dm?_pos=2&_psq=iso+100&_psid=7bbb45275&_ss=e",
+      "permalink": "https://allnutrition.cl/products/iso-100-0-carb-whey-5-lb-vainilla-dm?_pos=2&_psq=iso+100&_psid=cb990ff0f&_ss=e",
       "available": true,
       "value_score": 48,
       "verdict": {
@@ -5297,24 +7917,24 @@ window.CYBER_DEALS_DATA = {
         "value_score": 47,
         "trust": {
           "tier": "Tier C",
-          "brand_name": "Marca No Auditada",
+          "brand_name": "Foodtech",
           "trust_score": 55,
           "certifications": [
-            "Sin sellos auditados"
+            "Resolución Seremi Salud Chile"
           ],
-          "spiking_risk": "Medio / Alto",
-          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+          "spiking_risk": "Medio",
+          "notes": "Marca chilena económica de entrada; sin auditorías independientes de terceros publicadas."
         }
       },
       "brand_trust": {
         "tier": "Tier C",
-        "brand_name": "Marca No Auditada",
+        "brand_name": "Foodtech",
         "trust_score": 55,
         "certifications": [
-          "Sin sellos auditados"
+          "Resolución Seremi Salud Chile"
         ],
-        "spiking_risk": "Medio / Alto",
-        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        "spiking_risk": "Medio",
+        "notes": "Marca chilena económica de entrada; sin auditorías independientes de terceros publicadas."
       }
     },
     {
@@ -5339,24 +7959,24 @@ window.CYBER_DEALS_DATA = {
         "value_score": 47,
         "trust": {
           "tier": "Tier C",
-          "brand_name": "Marca No Auditada",
+          "brand_name": "Foodtech",
           "trust_score": 55,
           "certifications": [
-            "Sin sellos auditados"
+            "Resolución Seremi Salud Chile"
           ],
-          "spiking_risk": "Medio / Alto",
-          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+          "spiking_risk": "Medio",
+          "notes": "Marca chilena económica de entrada; sin auditorías independientes de terceros publicadas."
         }
       },
       "brand_trust": {
         "tier": "Tier C",
-        "brand_name": "Marca No Auditada",
+        "brand_name": "Foodtech",
         "trust_score": 55,
         "certifications": [
-          "Sin sellos auditados"
+          "Resolución Seremi Salud Chile"
         ],
-        "spiking_risk": "Medio / Alto",
-        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        "spiking_risk": "Medio",
+        "notes": "Marca chilena económica de entrada; sin auditorías independientes de terceros publicadas."
       }
     },
     {
@@ -5369,7 +7989,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 907.2,
       "net_protein_grams": 780.2,
       "cost_per_gram_clp": 62.79,
-      "permalink": "https://allnutrition.cl/products/protein-isolate-2lb-proteina-vegetariana?_pos=10&_psq=isolate&_psid=be9adf1a4&_ss=e",
+      "permalink": "https://allnutrition.cl/products/protein-isolate-2lb-proteina-vegetariana?_pos=10&_psq=isolate&_psid=92ca47293&_ss=e",
       "available": true,
       "value_score": 47,
       "verdict": {
@@ -5413,7 +8033,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 2268.0,
       "net_protein_grams": 1950.5,
       "cost_per_gram_clp": 72.28,
-      "permalink": "https://allnutrition.cl/products/100-whey-protein-isolate-gf-5-lb?_pos=9&_psq=caseina&_psid=d741a7761&_ss=e",
+      "permalink": "https://allnutrition.cl/products/100-whey-protein-isolate-gf-5-lb?_pos=9&_psq=caseina&_psid=67fc499ff&_ss=e",
       "available": true,
       "value_score": 47,
       "verdict": {
@@ -5461,7 +8081,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 908.0,
       "net_protein_grams": 780.9,
       "cost_per_gram_clp": 78.1,
-      "permalink": "https://globalnutrition.cl/products/biotechusa-iso-whey-zero-natural-908g-sin-sabor?_pos=5&_psq=whey&_psid=c51d49bb5&_ss=e",
+      "permalink": "https://globalnutrition.cl/products/biotechusa-iso-whey-zero-natural-908g-sin-sabor?_pos=5&_psq=whey&_psid=bc297e051&_ss=e",
       "available": true,
       "value_score": 47,
       "verdict": {
@@ -5509,7 +8129,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 1315.4,
       "net_protein_grams": 960.2,
       "cost_per_gram_clp": 59.35,
-      "permalink": "https://allnutrition.cl/products/syntha-6-2-9-lb?_pos=3&_psq=caseina&_psid=d741a7761&_ss=e",
+      "permalink": "https://allnutrition.cl/products/syntha-6-2-9-lb?_pos=3&_psq=caseina&_psid=67fc499ff&_ss=e",
       "available": true,
       "value_score": 46,
       "verdict": {
@@ -5733,7 +8353,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 2268.0,
       "net_protein_grams": 1655.6,
       "cost_per_gram_clp": 56.17,
-      "permalink": "https://allnutrition.cl/products/whey-matrix-5-lb?_pos=1&_psq=casein&_psid=eaf61a785&_ss=e",
+      "permalink": "https://allnutrition.cl/products/whey-matrix-5-lb?_pos=1&_psq=casein&_psid=3af4cab68&_ss=e",
       "available": true,
       "value_score": 45,
       "verdict": {
@@ -5775,7 +8395,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 2268.0,
       "net_protein_grams": 1655.6,
       "cost_per_gram_clp": 57.37,
-      "permalink": "https://allnutrition.cl/products/nitro-tech-100-whey-gold-5-5-lb?_pos=8&_psq=whey&_psid=cfb3057a4&_ss=e",
+      "permalink": "https://allnutrition.cl/products/nitro-tech-100-whey-gold-5-5-lb?_pos=8&_psq=whey&_psid=32554aadf&_ss=e",
       "available": true,
       "value_score": 45,
       "verdict": {
@@ -5817,7 +8437,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 907.2,
       "net_protein_grams": 780.2,
       "cost_per_gram_clp": 60.05,
-      "permalink": "https://www.mixgreen.cl/products/protein-isolate-prote-na-vegana-sabor-vainilla-2-lb-ultimate-nutrition?_pos=5&_psq=isolate&_psid=aec7b9cfc&_ss=e",
+      "permalink": "https://www.mixgreen.cl/products/protein-isolate-prote-na-vegana-sabor-vainilla-2-lb-ultimate-nutrition?_pos=5&_psq=isolate&_psid=7ffd73f4f&_ss=e",
       "available": true,
       "value_score": 45,
       "verdict": {
@@ -5987,7 +8607,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 2109.2,
       "net_protein_grams": 1539.7,
       "cost_per_gram_clp": 69.49,
-      "permalink": "https://allnutrition.cl/products/100-whey-protein-cookies-and-cream-4-65-lb-on?_pos=3&_psq=whey&_psid=cfb3057a4&_ss=e",
+      "permalink": "https://allnutrition.cl/products/100-whey-protein-cookies-and-cream-4-65-lb-on?_pos=3&_psq=whey&_psid=32554aadf&_ss=e",
       "available": true,
       "value_score": 45,
       "verdict": {
@@ -6023,138 +8643,6 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
-      }
-    },
-    {
-      "source": "Supletech",
-      "title": "Iso100% Hydro Whey 2lbs - Foodtech Chocolate",
-      "price": 56990.0,
-      "original_price": 59990.0,
-      "discount_pct": 5.0,
-      "category": "isolate",
-      "weight_grams": 907.2,
-      "net_protein_grams": 780.2,
-      "cost_per_gram_clp": 73.05,
-      "permalink": "https://www.supletech.cl/iso100--hydro-whey-2lbs-foodtech/p",
-      "available": true,
-      "value_score": 45,
-      "verdict": {
-        "status": "NO_CONVIENE",
-        "badge": "⚠️ Sobreprecio / Esperar",
-        "badge_color": "amber",
-        "action": "Esperar rebaja",
-        "reason": "Costo por gramo ($73.05 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
-        "value_score": 45,
-        "trust": {
-          "tier": "Tier S",
-          "brand_name": "Dymatize",
-          "trust_score": 97,
-          "certifications": [
-            "Informed-Choice",
-            "cGMP Certified (USA)"
-          ],
-          "spiking_risk": "Nulo",
-          "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
-        }
-      },
-      "brand_trust": {
-        "tier": "Tier S",
-        "brand_name": "Dymatize",
-        "trust_score": 97,
-        "certifications": [
-          "Informed-Choice",
-          "cGMP Certified (USA)"
-        ],
-        "spiking_risk": "Nulo",
-        "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
-      }
-    },
-    {
-      "source": "Supletech",
-      "title": "Iso100% Hydro Whey 2lbs - Foodtech Vainilla",
-      "price": 56990.0,
-      "original_price": 59990.0,
-      "discount_pct": 5.0,
-      "category": "isolate",
-      "weight_grams": 907.2,
-      "net_protein_grams": 780.2,
-      "cost_per_gram_clp": 73.05,
-      "permalink": "https://www.supletech.cl/iso100--hydro-whey-2lbs-foodtech/p",
-      "available": true,
-      "value_score": 45,
-      "verdict": {
-        "status": "NO_CONVIENE",
-        "badge": "⚠️ Sobreprecio / Esperar",
-        "badge_color": "amber",
-        "action": "Esperar rebaja",
-        "reason": "Costo por gramo ($73.05 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
-        "value_score": 45,
-        "trust": {
-          "tier": "Tier S",
-          "brand_name": "Dymatize",
-          "trust_score": 97,
-          "certifications": [
-            "Informed-Choice",
-            "cGMP Certified (USA)"
-          ],
-          "spiking_risk": "Nulo",
-          "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
-        }
-      },
-      "brand_trust": {
-        "tier": "Tier S",
-        "brand_name": "Dymatize",
-        "trust_score": 97,
-        "certifications": [
-          "Informed-Choice",
-          "cGMP Certified (USA)"
-        ],
-        "spiking_risk": "Nulo",
-        "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
-      }
-    },
-    {
-      "source": "Supletech",
-      "title": "Iso100% Hydro Whey 2lbs - Foodtech Frutos Rojos",
-      "price": 56990.0,
-      "original_price": 59990.0,
-      "discount_pct": 5.0,
-      "category": "isolate",
-      "weight_grams": 907.2,
-      "net_protein_grams": 780.2,
-      "cost_per_gram_clp": 73.05,
-      "permalink": "https://www.supletech.cl/iso100--hydro-whey-2lbs-foodtech/p",
-      "available": true,
-      "value_score": 45,
-      "verdict": {
-        "status": "NO_CONVIENE",
-        "badge": "⚠️ Sobreprecio / Esperar",
-        "badge_color": "amber",
-        "action": "Esperar rebaja",
-        "reason": "Costo por gramo ($73.05 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
-        "value_score": 45,
-        "trust": {
-          "tier": "Tier S",
-          "brand_name": "Dymatize",
-          "trust_score": 97,
-          "certifications": [
-            "Informed-Choice",
-            "cGMP Certified (USA)"
-          ],
-          "spiking_risk": "Nulo",
-          "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
-        }
-      },
-      "brand_trust": {
-        "tier": "Tier S",
-        "brand_name": "Dymatize",
-        "trust_score": 97,
-        "certifications": [
-          "Informed-Choice",
-          "cGMP Certified (USA)"
-        ],
-        "spiking_risk": "Nulo",
-        "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
       }
     },
     {
@@ -6332,6 +8820,186 @@ window.CYBER_DEALS_DATA = {
       }
     },
     {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina 100% Whey Isolate 700 G Vanilla Ostrovit",
+      "price": 37990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 700.0,
+      "net_protein_grams": 602.0,
+      "cost_per_gram_clp": 63.11,
+      "permalink": "https://suplementosalmayor.cl/producto/100-whey-isolate-700-gr-vanilla/",
+      "available": true,
+      "value_score": 44,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($63.11 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 44,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "OstroVit",
+          "trust_score": 86,
+          "certifications": [
+            "Estándar UE (Polonia)",
+            "Análisis J.S. Hamilton por lote",
+            "HACCP"
+          ],
+          "spiking_risk": "Bajo",
+          "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "OstroVit",
+        "trust_score": 86,
+        "certifications": [
+          "Estándar UE (Polonia)",
+          "Análisis J.S. Hamilton por lote",
+          "HACCP"
+        ],
+        "spiking_risk": "Bajo",
+        "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina 100% Whey Isolate 700 G Coconut Cream Ostrovit",
+      "price": 37990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 700.0,
+      "net_protein_grams": 602.0,
+      "cost_per_gram_clp": 63.11,
+      "permalink": "https://suplementosalmayor.cl/producto/100-whey-isolate-700-gr-coconut-cream/",
+      "available": true,
+      "value_score": 44,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($63.11 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 44,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "OstroVit",
+          "trust_score": 86,
+          "certifications": [
+            "Estándar UE (Polonia)",
+            "Análisis J.S. Hamilton por lote",
+            "HACCP"
+          ],
+          "spiking_risk": "Bajo",
+          "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "OstroVit",
+        "trust_score": 86,
+        "certifications": [
+          "Estándar UE (Polonia)",
+          "Análisis J.S. Hamilton por lote",
+          "HACCP"
+        ],
+        "spiking_risk": "Bajo",
+        "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+      }
+    },
+    {
+      "source": "Supletech",
+      "title": "Animal Whey isolate 2lbs - Animal Chocolate",
+      "price": 54990.0,
+      "original_price": 59990.0,
+      "discount_pct": 8.3,
+      "category": "isolate",
+      "weight_grams": 907.2,
+      "net_protein_grams": 780.2,
+      "cost_per_gram_clp": 70.48,
+      "permalink": "https://www.supletech.cl/animal-whey-isolate-2lbs-animal/p",
+      "available": true,
+      "value_score": 44,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($70.48 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 44,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "Animal (Universal Nutrition)",
+          "trust_score": 88,
+          "certifications": [
+            "cGMP Certified (USA)",
+            "Fabricación propia New Jersey"
+          ],
+          "spiking_risk": "Muy Bajo",
+          "notes": "Línea hardcore de Universal Nutrition con más de 40 años en el mercado y formulaciones consistentes."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "Animal (Universal Nutrition)",
+        "trust_score": 88,
+        "certifications": [
+          "cGMP Certified (USA)",
+          "Fabricación propia New Jersey"
+        ],
+        "spiking_risk": "Muy Bajo",
+        "notes": "Línea hardcore de Universal Nutrition con más de 40 años en el mercado y formulaciones consistentes."
+      }
+    },
+    {
+      "source": "Supletech",
+      "title": "Animal Whey isolate 2lbs - Animal Vainilla",
+      "price": 54990.0,
+      "original_price": 59990.0,
+      "discount_pct": 8.3,
+      "category": "isolate",
+      "weight_grams": 907.2,
+      "net_protein_grams": 780.2,
+      "cost_per_gram_clp": 70.48,
+      "permalink": "https://www.supletech.cl/animal-whey-isolate-2lbs-animal/p",
+      "available": true,
+      "value_score": 44,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($70.48 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 44,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "Animal (Universal Nutrition)",
+          "trust_score": 88,
+          "certifications": [
+            "cGMP Certified (USA)",
+            "Fabricación propia New Jersey"
+          ],
+          "spiking_risk": "Muy Bajo",
+          "notes": "Línea hardcore de Universal Nutrition con más de 40 años en el mercado y formulaciones consistentes."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "Animal (Universal Nutrition)",
+        "trust_score": 88,
+        "certifications": [
+          "cGMP Certified (USA)",
+          "Fabricación propia New Jersey"
+        ],
+        "spiking_risk": "Muy Bajo",
+        "notes": "Línea hardcore de Universal Nutrition con más de 40 años en el mercado y formulaciones consistentes."
+      }
+    },
+    {
       "source": "All Nutrition",
       "title": "Isolate Gold Standard, Optimum Nutrition Isolate Protein 2.91 Lb",
       "price": 87990.0,
@@ -6341,7 +9009,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 1320.0,
       "net_protein_grams": 1135.2,
       "cost_per_gram_clp": 77.51,
-      "permalink": "https://allnutrition.cl/products/100-whey-protein-isolate-gf-2-91-lb?_pos=7&_psq=gold+standard&_psid=c6252b962&_ss=e",
+      "permalink": "https://allnutrition.cl/products/100-whey-protein-isolate-gf-2-91-lb?_pos=7&_psq=gold+standard&_psid=003909b1c&_ss=e",
       "available": true,
       "value_score": 44,
       "verdict": {
@@ -6515,7 +9183,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 1000.0,
       "net_protein_grams": 860.0,
       "cost_per_gram_clp": 63.94,
-      "permalink": "https://globalnutrition.cl/products/nutriversum-iso-pro-proteina-aislada-1kg-40-servicios?_pos=10&_psq=mutant+whey&_psid=d7f4b98cc&_ss=e",
+      "permalink": "https://globalnutrition.cl/products/nutriversum-iso-pro-proteina-aislada-1kg-40-servicios?_pos=10&_psq=mutant+whey&_psid=2b1eedc5a&_ss=e",
       "available": true,
       "value_score": 43,
       "verdict": {
@@ -6557,7 +9225,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 907.2,
       "net_protein_grams": 780.2,
       "cost_per_gram_clp": 69.66,
-      "permalink": "https://www.mixgreen.cl/products/iso100-hydro-whey-protein-isolate-sabor-vainilla-2lbs-foodtech?_pos=6&_psq=iso+100&_psid=5496e11d4&_ss=e",
+      "permalink": "https://www.mixgreen.cl/products/iso100-hydro-whey-protein-isolate-sabor-vainilla-2lbs-foodtech?_pos=6&_psq=iso+100&_psid=fc640887d&_ss=e",
       "available": true,
       "value_score": 43,
       "verdict": {
@@ -6739,7 +9407,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 907.2,
       "net_protein_grams": 662.3,
       "cost_per_gram_clp": 55.64,
-      "permalink": "https://www.mixgreen.cl/products/wpc80-100-whey-protein-sin-sabor-2lbs-foodtech?_pos=2&_psq=whey&_psid=981f76ae6&_ss=e",
+      "permalink": "https://www.mixgreen.cl/products/wpc80-100-whey-protein-sin-sabor-2lbs-foodtech?_pos=2&_psq=whey&_psid=68042562a&_ss=e",
       "available": true,
       "value_score": 42,
       "verdict": {
@@ -6781,7 +9449,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 907.2,
       "net_protein_grams": 662.3,
       "cost_per_gram_clp": 55.64,
-      "permalink": "https://www.mixgreen.cl/products/women-whey-protein-frutos-del-bosque-2lb-foodtech?_pos=4&_psq=whey&_psid=981f76ae6&_ss=e",
+      "permalink": "https://www.mixgreen.cl/products/women-whey-protein-frutos-del-bosque-2lb-foodtech?_pos=4&_psq=whey&_psid=68042562a&_ss=e",
       "available": true,
       "value_score": 42,
       "verdict": {
@@ -6823,7 +9491,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 907.2,
       "net_protein_grams": 780.2,
       "cost_per_gram_clp": 61.84,
-      "permalink": "https://www.mixgreen.cl/products/protein-isolate-proteina-vegana-sabor-chocolate-2-lb-ultimate-nutrition?_pos=3&_psq=isolate&_psid=aec7b9cfc&_ss=e",
+      "permalink": "https://www.mixgreen.cl/products/protein-isolate-proteina-vegana-sabor-chocolate-2-lb-ultimate-nutrition?_pos=3&_psq=isolate&_psid=7ffd73f4f&_ss=e",
       "available": true,
       "value_score": 42,
       "verdict": {
@@ -6991,7 +9659,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 907.2,
       "net_protein_grams": 780.2,
       "cost_per_gram_clp": 70.35,
-      "permalink": "https://www.mixgreen.cl/products/iso100-hydro-whey-protein-isolate-sabor-frutos-rojos-2lbs-foodtech?_pos=5&_psq=iso+100&_psid=5496e11d4&_ss=e",
+      "permalink": "https://www.mixgreen.cl/products/iso100-hydro-whey-protein-isolate-sabor-frutos-rojos-2lbs-foodtech?_pos=5&_psq=iso+100&_psid=fc640887d&_ss=e",
       "available": true,
       "value_score": 42,
       "verdict": {
@@ -7035,7 +9703,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 2268.0,
       "net_protein_grams": 1950.5,
       "cost_per_gram_clp": 71.26,
-      "permalink": "https://allnutrition.cl/products/iso-cool-isolate-protein-5-lb-original?_pos=4&_psq=isolate&_psid=be9adf1a4&_ss=e",
+      "permalink": "https://allnutrition.cl/products/iso-cool-isolate-protein-5-lb-original?_pos=4&_psq=isolate&_psid=92ca47293&_ss=e",
       "available": true,
       "value_score": 42,
       "verdict": {
@@ -7067,6 +9735,50 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Línea ProStar con buena reputación histórica en pruebas de nitrógeno y laboratorio."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina ISO 100 3 Lb Cocoa Pebbles Dymatize",
+      "price": 84990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 1360.8,
+      "net_protein_grams": 1170.3,
+      "cost_per_gram_clp": 72.62,
+      "permalink": "https://suplementosalmayor.cl/producto/iso-100-3-lb-cocoa-pebbles/",
+      "available": true,
+      "value_score": 42,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($72.62 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 42,
+        "trust": {
+          "tier": "Tier S",
+          "brand_name": "Dymatize",
+          "trust_score": 97,
+          "certifications": [
+            "Informed-Choice",
+            "cGMP Certified (USA)"
+          ],
+          "spiking_risk": "Nulo",
+          "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier S",
+        "brand_name": "Dymatize",
+        "trust_score": 97,
+        "certifications": [
+          "Informed-Choice",
+          "cGMP Certified (USA)"
+        ],
+        "spiking_risk": "Nulo",
+        "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
       }
     },
     {
@@ -7171,7 +9883,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 907.2,
       "net_protein_grams": 662.3,
       "cost_per_gram_clp": 99.64,
-      "permalink": "https://allnutrition.cl/products/100-whey-protein-2lb-gold-standard?_pos=2&_psq=whey&_psid=cfb3057a4&_ss=e",
+      "permalink": "https://allnutrition.cl/products/100-whey-protein-2lb-gold-standard?_pos=2&_psq=whey&_psid=32554aadf&_ss=e",
       "available": true,
       "value_score": 42,
       "verdict": {
@@ -7219,7 +9931,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 454.0,
       "net_protein_grams": 390.4,
       "cost_per_gram_clp": 102.43,
-      "permalink": "https://globalnutrition.cl/products/biotechusa-iso-whey-zero-454-g-19-servicios-whey-isolate-sin-azucar-y-gluten?_pos=7&_psq=isolate&_psid=0541c65e6&_ss=e",
+      "permalink": "https://globalnutrition.cl/products/biotechusa-iso-whey-zero-454-g-19-servicios-whey-isolate-sin-azucar-y-gluten?_pos=7&_psq=isolate&_psid=7c9ab2a1a&_ss=e",
       "available": true,
       "value_score": 42,
       "verdict": {
@@ -7443,7 +10155,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 947.0,
       "net_protein_grams": 691.3,
       "cost_per_gram_clp": 56.69,
-      "permalink": "https://www.mixgreen.cl/products/whey-protein-chocolate-suizo-947-gr-fnl?_pos=1&_psq=whey&_psid=981f76ae6&_ss=e",
+      "permalink": "https://www.mixgreen.cl/products/whey-protein-chocolate-suizo-947-gr-fnl?_pos=1&_psq=whey&_psid=68042562a&_ss=e",
       "available": true,
       "value_score": 41,
       "verdict": {
@@ -7452,48 +10164,6 @@ window.CYBER_DEALS_DATA = {
         "badge_color": "amber",
         "action": "Esperar rebaja",
         "reason": "Costo por gramo ($56.69 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
-        "value_score": 41,
-        "trust": {
-          "tier": "Tier C",
-          "brand_name": "Marca No Auditada",
-          "trust_score": 55,
-          "certifications": [
-            "Sin sellos auditados"
-          ],
-          "spiking_risk": "Medio / Alto",
-          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
-        }
-      },
-      "brand_trust": {
-        "tier": "Tier C",
-        "brand_name": "Marca No Auditada",
-        "trust_score": 55,
-        "certifications": [
-          "Sin sellos auditados"
-        ],
-        "spiking_risk": "Medio / Alto",
-        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
-      }
-    },
-    {
-      "source": "ChileSuplementos",
-      "title": "Rule 1 Rule1 Whey Protein 1 LB",
-      "price": 21490.0,
-      "original_price": 35190.0,
-      "discount_pct": 38.9,
-      "category": "whey",
-      "weight_grams": 453.6,
-      "net_protein_grams": 331.1,
-      "cost_per_gram_clp": 64.9,
-      "permalink": "https://www.chilesuplementos.cl/producto/rule1-whey-protein-blend-1-lb/",
-      "available": true,
-      "value_score": 41,
-      "verdict": {
-        "status": "INFLADO",
-        "badge": "❌ Falsa Oferta (Precio Inflado)",
-        "badge_color": "rose",
-        "action": "No comprar",
-        "reason": "Muestra un supuesto descuento del 38.9%, pero su costo real por gramo ($64.9) sigue siendo excesivo.",
         "value_score": 41,
         "trust": {
           "tier": "Tier C",
@@ -7583,24 +10253,24 @@ window.CYBER_DEALS_DATA = {
         "value_score": 40,
         "trust": {
           "tier": "Tier C",
-          "brand_name": "Marca No Auditada",
+          "brand_name": "Foodtech",
           "trust_score": 55,
           "certifications": [
-            "Sin sellos auditados"
+            "Resolución Seremi Salud Chile"
           ],
-          "spiking_risk": "Medio / Alto",
-          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+          "spiking_risk": "Medio",
+          "notes": "Marca chilena económica de entrada; sin auditorías independientes de terceros publicadas."
         }
       },
       "brand_trust": {
         "tier": "Tier C",
-        "brand_name": "Marca No Auditada",
+        "brand_name": "Foodtech",
         "trust_score": 55,
         "certifications": [
-          "Sin sellos auditados"
+          "Resolución Seremi Salud Chile"
         ],
-        "spiking_risk": "Medio / Alto",
-        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        "spiking_risk": "Medio",
+        "notes": "Marca chilena económica de entrada; sin auditorías independientes de terceros publicadas."
       }
     },
     {
@@ -7625,24 +10295,108 @@ window.CYBER_DEALS_DATA = {
         "value_score": 40,
         "trust": {
           "tier": "Tier C",
-          "brand_name": "Marca No Auditada",
+          "brand_name": "Foodtech",
           "trust_score": 55,
           "certifications": [
-            "Sin sellos auditados"
+            "Resolución Seremi Salud Chile"
           ],
-          "spiking_risk": "Medio / Alto",
-          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+          "spiking_risk": "Medio",
+          "notes": "Marca chilena económica de entrada; sin auditorías independientes de terceros publicadas."
         }
       },
       "brand_trust": {
         "tier": "Tier C",
-        "brand_name": "Marca No Auditada",
+        "brand_name": "Foodtech",
         "trust_score": 55,
         "certifications": [
-          "Sin sellos auditados"
+          "Resolución Seremi Salud Chile"
         ],
-        "spiking_risk": "Medio / Alto",
-        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        "spiking_risk": "Medio",
+        "notes": "Marca chilena económica de entrada; sin auditorías independientes de terceros publicadas."
+      }
+    },
+    {
+      "source": "Supletech",
+      "title": "100% Whey 2 lbs - Nutrex Chocolate",
+      "price": 44990.0,
+      "original_price": 49990.0,
+      "discount_pct": 10.0,
+      "category": "whey",
+      "weight_grams": 907.2,
+      "net_protein_grams": 662.3,
+      "cost_per_gram_clp": 67.93,
+      "permalink": "https://www.supletech.cl/100--whey-2lbs-nutrex/p",
+      "available": true,
+      "value_score": 40,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($67.93 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 40,
+        "trust": {
+          "tier": "Tier B",
+          "brand_name": "Nutrex Research",
+          "trust_score": 77,
+          "certifications": [
+            "cGMP Certified (USA)"
+          ],
+          "spiking_risk": "Bajo",
+          "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier B",
+        "brand_name": "Nutrex Research",
+        "trust_score": 77,
+        "certifications": [
+          "cGMP Certified (USA)"
+        ],
+        "spiking_risk": "Bajo",
+        "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+      }
+    },
+    {
+      "source": "Supletech",
+      "title": "100% Whey 2 lbs - Nutrex Vainilla",
+      "price": 44990.0,
+      "original_price": 49990.0,
+      "discount_pct": 10.0,
+      "category": "whey",
+      "weight_grams": 907.2,
+      "net_protein_grams": 662.3,
+      "cost_per_gram_clp": 67.93,
+      "permalink": "https://www.supletech.cl/100--whey-2lbs-nutrex/p",
+      "available": true,
+      "value_score": 40,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($67.93 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 40,
+        "trust": {
+          "tier": "Tier B",
+          "brand_name": "Nutrex Research",
+          "trust_score": 77,
+          "certifications": [
+            "cGMP Certified (USA)"
+          ],
+          "spiking_risk": "Bajo",
+          "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier B",
+        "brand_name": "Nutrex Research",
+        "trust_score": 77,
+        "certifications": [
+          "cGMP Certified (USA)"
+        ],
+        "spiking_risk": "Bajo",
+        "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
       }
     },
     {
@@ -7703,7 +10457,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 200.0,
       "net_protein_grams": 146.0,
       "cost_per_gram_clp": 72.53,
-      "permalink": "https://www.mixgreen.cl/products/10058-proteina-canamo-en-polvo-hemp-protein-100-organico-200-g-aquasolar?_pos=10&_psq=casein&_psid=6aae7f933&_ss=e",
+      "permalink": "https://www.mixgreen.cl/products/10058-proteina-canamo-en-polvo-hemp-protein-100-organico-200-g-aquasolar?_pos=10&_psq=casein&_psid=afa3f2d8c&_ss=e",
       "available": true,
       "value_score": 40,
       "verdict": {
@@ -7789,7 +10543,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 743.9,
       "net_protein_grams": 639.8,
       "cost_per_gram_clp": 93.76,
-      "permalink": "https://allnutrition.cl/products/gold-standard-100-isolate-chocolate-bliss-gf-1-64-lb-on?_pos=5&_psq=gold+standard&_psid=c6252b962&_ss=e",
+      "permalink": "https://allnutrition.cl/products/gold-standard-100-isolate-chocolate-bliss-gf-1-64-lb-on?_pos=5&_psq=gold+standard&_psid=003909b1c&_ss=e",
       "available": true,
       "value_score": 40,
       "verdict": {
@@ -7837,7 +10591,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 716.7,
       "net_protein_grams": 616.4,
       "cost_per_gram_clp": 94.08,
-      "permalink": "https://allnutrition.cl/products/gold-standard-100-isolate-vainilla-gf-1-58-lb-on?_pos=8&_psq=gold+standard&_psid=c6252b962&_ss=e",
+      "permalink": "https://allnutrition.cl/products/gold-standard-100-isolate-vainilla-gf-1-58-lb-on?_pos=8&_psq=gold+standard&_psid=003909b1c&_ss=e",
       "available": true,
       "value_score": 40,
       "verdict": {
@@ -7885,7 +10639,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 24.0,
       "net_protein_grams": 20.6,
       "cost_per_gram_clp": 2426.7,
-      "permalink": "https://globalnutrition.cl/products/4active-100-isolate-protein-30-servicios-proteina-aislada-24g-de-proteina-5g-bcaa-y-bajo-en-azucar?_pos=1&_psq=isolate&_psid=0541c65e6&_ss=e",
+      "permalink": "https://globalnutrition.cl/products/4active-100-isolate-protein-30-servicios-proteina-aislada-24g-de-proteina-5g-bcaa-y-bajo-en-azucar?_pos=1&_psq=isolate&_psid=7c9ab2a1a&_ss=e",
       "available": true,
       "value_score": 40,
       "verdict": {
@@ -7915,6 +10669,138 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "Blend económico local; carece de certificación de pureza por laboratorios externos."
+      }
+    },
+    {
+      "source": "SuplementosMayoristas",
+      "title": "100% Whey Protein Premium Line 1lbs - Foodtech Smothie Delite Vainilla",
+      "price": 17763.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "whey",
+      "weight_grams": 453.6,
+      "net_protein_grams": 331.1,
+      "cost_per_gram_clp": 53.65,
+      "permalink": "https://www.suplementosmayoristas.cl/100--whey-protein-premium-line-1lbs-foodtech/p",
+      "available": true,
+      "value_score": 39,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($53.65 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 39,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Foodtech",
+          "trust_score": 55,
+          "certifications": [
+            "Resolución Seremi Salud Chile"
+          ],
+          "spiking_risk": "Medio",
+          "notes": "Marca chilena económica de entrada; sin auditorías independientes de terceros publicadas."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Foodtech",
+        "trust_score": 55,
+        "certifications": [
+          "Resolución Seremi Salud Chile"
+        ],
+        "spiking_risk": "Medio",
+        "notes": "Marca chilena económica de entrada; sin auditorías independientes de terceros publicadas."
+      }
+    },
+    {
+      "source": "SuplementosMayoristas",
+      "title": "100% Whey Protein Premium Line 1lbs - Foodtech Premium Chocolate Flavor",
+      "price": 17763.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "whey",
+      "weight_grams": 453.6,
+      "net_protein_grams": 331.1,
+      "cost_per_gram_clp": 53.65,
+      "permalink": "https://www.suplementosmayoristas.cl/100--whey-protein-premium-line-1lbs-foodtech/p",
+      "available": true,
+      "value_score": 39,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($53.65 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 39,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Foodtech",
+          "trust_score": 55,
+          "certifications": [
+            "Resolución Seremi Salud Chile"
+          ],
+          "spiking_risk": "Medio",
+          "notes": "Marca chilena económica de entrada; sin auditorías independientes de terceros publicadas."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Foodtech",
+        "trust_score": 55,
+        "certifications": [
+          "Resolución Seremi Salud Chile"
+        ],
+        "spiking_risk": "Medio",
+        "notes": "Marca chilena económica de entrada; sin auditorías independientes de terceros publicadas."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "PROTEINA WHEY 175 G BOSTON CREAM DONUT BASIC",
+      "price": 7990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "whey",
+      "weight_grams": 175.0,
+      "net_protein_grams": 127.8,
+      "cost_per_gram_clp": 62.52,
+      "permalink": "https://suplementosalmayor.cl/producto/basic-proteina-whey-175-g-boston-cream-donut/",
+      "available": true,
+      "value_score": 39,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($62.52 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 39,
+        "trust": {
+          "tier": "Tier S",
+          "brand_name": "Optimum Nutrition (ON)",
+          "trust_score": 98,
+          "certifications": [
+            "Informed-Choice",
+            "NSF for Sport",
+            "Labdoor Score A+",
+            "Glanbia QA"
+          ],
+          "spiking_risk": "Nulo",
+          "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier S",
+        "brand_name": "Optimum Nutrition (ON)",
+        "trust_score": 98,
+        "certifications": [
+          "Informed-Choice",
+          "NSF for Sport",
+          "Labdoor Score A+",
+          "Glanbia QA"
+        ],
+        "spiking_risk": "Nulo",
+        "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
       }
     },
     {
@@ -8002,6 +10888,48 @@ window.CYBER_DEALS_DATA = {
       }
     },
     {
+      "source": "SuplementosAlMayor",
+      "title": "PROTEINA ISO XP 1.8 KG STRAWBERRY Applied Nutrition",
+      "price": 98790.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 1800.0,
+      "net_protein_grams": 1548.0,
+      "cost_per_gram_clp": 63.82,
+      "permalink": "https://suplementosalmayor.cl/producto/an-proteina-iso-xp-1-8-kg-strawberry/",
+      "available": true,
+      "value_score": 39,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($63.82 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 39,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Marca No Auditada",
+          "trust_score": 55,
+          "certifications": [
+            "Sin sellos auditados"
+          ],
+          "spiking_risk": "Medio / Alto",
+          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Marca No Auditada",
+        "trust_score": 55,
+        "certifications": [
+          "Sin sellos auditados"
+        ],
+        "spiking_risk": "Medio / Alto",
+        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
       "source": "OutletFit",
       "title": "Protein Isolate 2 Ultimate Nutrition 840 g | Proteína Vegetal",
       "price": 46990.0,
@@ -8043,6 +10971,174 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Línea ProStar con buena reputación histórica en pruebas de nitrógeno y laboratorio."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina Isofit 5.1 Lb Chocolate Shake Nutrex",
+      "price": 109990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "default",
+      "weight_grams": 2313.3,
+      "net_protein_grams": 1688.7,
+      "cost_per_gram_clp": 65.13,
+      "permalink": "https://suplementosalmayor.cl/producto/isofit-5-1-lb-chocolate-shake/",
+      "available": true,
+      "value_score": 39,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($65.13 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 39,
+        "trust": {
+          "tier": "Tier B",
+          "brand_name": "Nutrex Research",
+          "trust_score": 77,
+          "certifications": [
+            "cGMP Certified (USA)"
+          ],
+          "spiking_risk": "Bajo",
+          "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier B",
+        "brand_name": "Nutrex Research",
+        "trust_score": 77,
+        "certifications": [
+          "cGMP Certified (USA)"
+        ],
+        "spiking_risk": "Bajo",
+        "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina Isofit 5.1 Lb Vanilla Bean Nutrex",
+      "price": 109990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "default",
+      "weight_grams": 2313.3,
+      "net_protein_grams": 1688.7,
+      "cost_per_gram_clp": 65.13,
+      "permalink": "https://suplementosalmayor.cl/producto/isofit-5-1-lb-vanilla-bean/",
+      "available": true,
+      "value_score": 39,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($65.13 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 39,
+        "trust": {
+          "tier": "Tier B",
+          "brand_name": "Nutrex Research",
+          "trust_score": 77,
+          "certifications": [
+            "cGMP Certified (USA)"
+          ],
+          "spiking_risk": "Bajo",
+          "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier B",
+        "brand_name": "Nutrex Research",
+        "trust_score": 77,
+        "certifications": [
+          "cGMP Certified (USA)"
+        ],
+        "spiking_risk": "Bajo",
+        "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina Isofit 5.1 Lb Banana Foster Nutrex",
+      "price": 109990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "default",
+      "weight_grams": 2313.3,
+      "net_protein_grams": 1688.7,
+      "cost_per_gram_clp": 65.13,
+      "permalink": "https://suplementosalmayor.cl/producto/isofit-5-1-lb-banana-foster/",
+      "available": true,
+      "value_score": 39,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($65.13 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 39,
+        "trust": {
+          "tier": "Tier B",
+          "brand_name": "Nutrex Research",
+          "trust_score": 77,
+          "certifications": [
+            "cGMP Certified (USA)"
+          ],
+          "spiking_risk": "Bajo",
+          "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier B",
+        "brand_name": "Nutrex Research",
+        "trust_score": 77,
+        "certifications": [
+          "cGMP Certified (USA)"
+        ],
+        "spiking_risk": "Bajo",
+        "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+      }
+    },
+    {
+      "source": "All Nutrition",
+      "title": "Isofit, Nutrex Isolate Protein 2.3 Lb",
+      "price": 67990.0,
+      "original_price": 69990.0,
+      "discount_pct": 2.9,
+      "category": "isolate",
+      "weight_grams": 1043.3,
+      "net_protein_grams": 897.2,
+      "cost_per_gram_clp": 75.78,
+      "permalink": "https://allnutrition.cl/products/isofit-2-3-lb?_pos=6&_psq=isolate&_psid=92ca47293&_ss=e",
+      "available": true,
+      "value_score": 39,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($75.78 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 39,
+        "trust": {
+          "tier": "Tier B",
+          "brand_name": "Nutrex Research",
+          "trust_score": 77,
+          "certifications": [
+            "cGMP Certified (USA)"
+          ],
+          "spiking_risk": "Bajo",
+          "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier B",
+        "brand_name": "Nutrex Research",
+        "trust_score": 77,
+        "certifications": [
+          "cGMP Certified (USA)"
+        ],
+        "spiking_risk": "Bajo",
+        "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
       }
     },
     {
@@ -8143,7 +11239,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 907.2,
       "net_protein_grams": 780.2,
       "cost_per_gram_clp": 90.99,
-      "permalink": "https://allnutrition.cl/products/isocool-2-lb?_pos=7&_psq=isolate&_psid=be9adf1a4&_ss=e",
+      "permalink": "https://allnutrition.cl/products/isocool-2-lb?_pos=7&_psq=isolate&_psid=92ca47293&_ss=e",
       "available": true,
       "value_score": 39,
       "verdict": {
@@ -8187,7 +11283,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 310.0,
       "net_protein_grams": 226.3,
       "cost_per_gram_clp": 145.78,
-      "permalink": "https://allnutrition.cl/products/gold-standard-100-whey-310-gr-optimum-nutrition?_pos=9&_psq=gold+standard&_psid=c6252b962&_ss=e",
+      "permalink": "https://allnutrition.cl/products/gold-standard-100-whey-310-gr-optimum-nutrition?_pos=9&_psq=gold+standard&_psid=003909b1c&_ss=e",
       "available": true,
       "value_score": 39,
       "verdict": {
@@ -8235,7 +11331,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 500.0,
       "net_protein_grams": 365.0,
       "cost_per_gram_clp": 54.77,
-      "permalink": "https://winklernutrition.cl/products/proteina-whey-pro-complex-multi-fase-500-grs?_pos=5&_psq=whey&_psid=cdf830225&_ss=e",
+      "permalink": "https://winklernutrition.cl/products/proteina-whey-pro-complex-multi-fase-500-grs?_pos=5&_psq=whey&_psid=cddecd662&_ss=e",
       "available": true,
       "value_score": 38,
       "verdict": {
@@ -8244,6 +11340,178 @@ window.CYBER_DEALS_DATA = {
         "badge_color": "amber",
         "action": "Esperar rebaja",
         "reason": "Costo por gramo ($54.77 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 38,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Marca No Auditada",
+          "trust_score": 55,
+          "certifications": [
+            "Sin sellos auditados"
+          ],
+          "spiking_risk": "Medio / Alto",
+          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Marca No Auditada",
+        "trust_score": 55,
+        "certifications": [
+          "Sin sellos auditados"
+        ],
+        "spiking_risk": "Medio / Alto",
+        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina Nitro Tech 100% Whey Gold 5 Lb Double Rich Chocolate Muscletech",
+      "price": 101990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "whey",
+      "weight_grams": 2268.0,
+      "net_protein_grams": 1655.6,
+      "cost_per_gram_clp": 61.6,
+      "permalink": "https://suplementosalmayor.cl/nitro-tech-100-whey-gold-5-03-libras-69-porciones-double-rich-chocolate-2/",
+      "available": true,
+      "value_score": 38,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($61.6 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 38,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Marca No Auditada",
+          "trust_score": 55,
+          "certifications": [
+            "Sin sellos auditados"
+          ],
+          "spiking_risk": "Medio / Alto",
+          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Marca No Auditada",
+        "trust_score": 55,
+        "certifications": [
+          "Sin sellos auditados"
+        ],
+        "spiking_risk": "Medio / Alto",
+        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina Nitro Tech 100% Whey Gold 5 Lb Churros Muscletech",
+      "price": 101990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "whey",
+      "weight_grams": 2268.0,
+      "net_protein_grams": 1655.6,
+      "cost_per_gram_clp": 61.6,
+      "permalink": "https://suplementosalmayor.cl/producto/nitro-tech-100-whey-gold-5-lb-churros/",
+      "available": true,
+      "value_score": 38,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($61.6 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 38,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Marca No Auditada",
+          "trust_score": 55,
+          "certifications": [
+            "Sin sellos auditados"
+          ],
+          "spiking_risk": "Medio / Alto",
+          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Marca No Auditada",
+        "trust_score": 55,
+        "certifications": [
+          "Sin sellos auditados"
+        ],
+        "spiking_risk": "Medio / Alto",
+        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina Clear Whey Isolate 400 G Lemonade Ostrovit",
+      "price": 23390.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 400.0,
+      "net_protein_grams": 344.0,
+      "cost_per_gram_clp": 67.99,
+      "permalink": "https://suplementosalmayor.cl/producto/clear-whey-isolate-400-g-lemonade/",
+      "available": true,
+      "value_score": 38,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($67.99 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 38,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "OstroVit",
+          "trust_score": 86,
+          "certifications": [
+            "Estándar UE (Polonia)",
+            "Análisis J.S. Hamilton por lote",
+            "HACCP"
+          ],
+          "spiking_risk": "Bajo",
+          "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "OstroVit",
+        "trust_score": 86,
+        "certifications": [
+          "Estándar UE (Polonia)",
+          "Análisis J.S. Hamilton por lote",
+          "HACCP"
+        ],
+        "spiking_risk": "Bajo",
+        "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina Iso Cool 5 Lb Chocolate Ultimate",
+      "price": 132890.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 2268.0,
+      "net_protein_grams": 1950.5,
+      "cost_per_gram_clp": 68.13,
+      "permalink": "https://suplementosalmayor.cl/producto/iso-cool-isolate-5-lb-chocolate/",
+      "available": true,
+      "value_score": 38,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($68.13 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
         "value_score": 38,
         "trust": {
           "tier": "Tier C",
@@ -8319,7 +11587,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 997.9,
       "net_protein_grams": 728.5,
       "cost_per_gram_clp": 86.47,
-      "permalink": "https://allnutrition.cl/products/prostar-whey-raw-2-2-lb-ul?_pos=5&_psq=mutant+whey&_psid=ada29f348&_ss=e",
+      "permalink": "https://allnutrition.cl/products/prostar-whey-raw-2-2-lb-ul?_pos=5&_psq=mutant+whey&_psid=f5515ff2c&_ss=e",
       "available": true,
       "value_score": 38,
       "verdict": {
@@ -8354,6 +11622,94 @@ window.CYBER_DEALS_DATA = {
       }
     },
     {
+      "source": "SuplementosMayoristas",
+      "title": "Clear Whey Isolate 1lbs - Ghost Blue Raspberry",
+      "price": 35411.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 453.6,
+      "net_protein_grams": 390.1,
+      "cost_per_gram_clp": 90.77,
+      "permalink": "https://www.suplementosmayoristas.cl/clear-whey-isolate-1lbs-ghost/p",
+      "available": true,
+      "value_score": 38,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($90.77 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 38,
+        "trust": {
+          "tier": "Tier S",
+          "brand_name": "Ghost Lifestyle",
+          "trust_score": 95,
+          "certifications": [
+            "100% Transparent Label",
+            "cGMP (USA)"
+          ],
+          "spiking_risk": "Nulo",
+          "notes": "Etiqueta 100% transparente: desglosa los gramos exactos de WPI y WPC sin mezclas ocultas."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier S",
+        "brand_name": "Ghost Lifestyle",
+        "trust_score": 95,
+        "certifications": [
+          "100% Transparent Label",
+          "cGMP (USA)"
+        ],
+        "spiking_risk": "Nulo",
+        "notes": "Etiqueta 100% transparente: desglosa los gramos exactos de WPI y WPC sin mezclas ocultas."
+      }
+    },
+    {
+      "source": "SuplementosMayoristas",
+      "title": "Clear Whey Isolate 1lbs - Ghost Orange cream",
+      "price": 35411.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 453.6,
+      "net_protein_grams": 390.1,
+      "cost_per_gram_clp": 90.77,
+      "permalink": "https://www.suplementosmayoristas.cl/clear-whey-isolate-1lbs-ghost/p",
+      "available": true,
+      "value_score": 38,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($90.77 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 38,
+        "trust": {
+          "tier": "Tier S",
+          "brand_name": "Ghost Lifestyle",
+          "trust_score": 95,
+          "certifications": [
+            "100% Transparent Label",
+            "cGMP (USA)"
+          ],
+          "spiking_risk": "Nulo",
+          "notes": "Etiqueta 100% transparente: desglosa los gramos exactos de WPI y WPC sin mezclas ocultas."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier S",
+        "brand_name": "Ghost Lifestyle",
+        "trust_score": 95,
+        "certifications": [
+          "100% Transparent Label",
+          "cGMP (USA)"
+        ],
+        "spiking_risk": "Nulo",
+        "notes": "Etiqueta 100% transparente: desglosa los gramos exactos de WPI y WPC sin mezclas ocultas."
+      }
+    },
+    {
       "source": "MixGreen",
       "title": "ISO 100, Proteina Whey, Sabor Cocoa Pebbles, 650g",
       "price": 51850.0,
@@ -8363,7 +11719,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 650.0,
       "net_protein_grams": 559.0,
       "cost_per_gram_clp": 92.75,
-      "permalink": "https://www.mixgreen.cl/products/iso-100-proteina-whey-sabor-cocoa-pebbles-650g-dymatize?_pos=6&_psq=isolate&_psid=aec7b9cfc&_ss=e",
+      "permalink": "https://www.mixgreen.cl/products/iso-100-proteina-whey-sabor-cocoa-pebbles-650g-dymatize?_pos=6&_psq=isolate&_psid=7ffd73f4f&_ss=e",
       "available": true,
       "value_score": 38,
       "verdict": {
@@ -8407,7 +11763,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 730.0,
       "net_protein_grams": 627.8,
       "cost_per_gram_clp": 93.74,
-      "permalink": "https://www.mixgreen.cl/products/iso-100-proteina-whey-sabor-fruity-pebbles-730g-dymatize?_pos=4&_psq=isolate&_psid=aec7b9cfc&_ss=e",
+      "permalink": "https://www.mixgreen.cl/products/iso-100-proteina-whey-sabor-fruity-pebbles-730g-dymatize?_pos=4&_psq=isolate&_psid=7ffd73f4f&_ss=e",
       "available": true,
       "value_score": 38,
       "verdict": {
@@ -8451,7 +11807,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 616.9,
       "net_protein_grams": 530.5,
       "cost_per_gram_clp": 93.97,
-      "permalink": "https://www.mixgreen.cl/products/iso-100-proteina-capuccino-1-36lb-dymatize-nutrition?_pos=7&_psq=iso+100&_psid=5496e11d4&_ss=e",
+      "permalink": "https://www.mixgreen.cl/products/iso-100-proteina-capuccino-1-36lb-dymatize-nutrition?_pos=7&_psq=iso+100&_psid=fc640887d&_ss=e",
       "available": true,
       "value_score": 38,
       "verdict": {
@@ -8495,7 +11851,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 907.2,
       "net_protein_grams": 662.3,
       "cost_per_gram_clp": 95.11,
-      "permalink": "https://allnutrition.cl/products/prostar-whey-2-lb-ul?_pos=9&_psq=whey&_psid=cfb3057a4&_ss=e",
+      "permalink": "https://allnutrition.cl/products/prostar-whey-2-lb-ul?_pos=9&_psq=whey&_psid=32554aadf&_ss=e",
       "available": true,
       "value_score": 38,
       "verdict": {
@@ -8530,6 +11886,314 @@ window.CYBER_DEALS_DATA = {
       }
     },
     {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina ISO 100 1.4 Lb Dunkin Cappuccino Dymatize",
+      "price": 56990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 635.0,
+      "net_protein_grams": 546.1,
+      "cost_per_gram_clp": 104.36,
+      "permalink": "https://suplementosalmayor.cl/producto/iso-100-1-4-lb-dunkin-cappuccino/",
+      "available": true,
+      "value_score": 38,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($104.36 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 38,
+        "trust": {
+          "tier": "Tier S",
+          "brand_name": "Dymatize",
+          "trust_score": 97,
+          "certifications": [
+            "Informed-Choice",
+            "cGMP Certified (USA)"
+          ],
+          "spiking_risk": "Nulo",
+          "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier S",
+        "brand_name": "Dymatize",
+        "trust_score": 97,
+        "certifications": [
+          "Informed-Choice",
+          "cGMP Certified (USA)"
+        ],
+        "spiking_risk": "Nulo",
+        "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina ISO 100 1.4 Lb Dunkin Glazed Donut Dymatize",
+      "price": 56990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 635.0,
+      "net_protein_grams": 546.1,
+      "cost_per_gram_clp": 104.36,
+      "permalink": "https://suplementosalmayor.cl/producto/iso-100-1-4-lb-dunkin-glazed-donut/",
+      "available": true,
+      "value_score": 38,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($104.36 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 38,
+        "trust": {
+          "tier": "Tier S",
+          "brand_name": "Dymatize",
+          "trust_score": 97,
+          "certifications": [
+            "Informed-Choice",
+            "cGMP Certified (USA)"
+          ],
+          "spiking_risk": "Nulo",
+          "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier S",
+        "brand_name": "Dymatize",
+        "trust_score": 97,
+        "certifications": [
+          "Informed-Choice",
+          "cGMP Certified (USA)"
+        ],
+        "spiking_risk": "Nulo",
+        "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina ISO 100 1.4 Lb Gourmet Vanilla Dymatize",
+      "price": 56990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 635.0,
+      "net_protein_grams": 546.1,
+      "cost_per_gram_clp": 104.36,
+      "permalink": "https://suplementosalmayor.cl/iso-100-6/",
+      "available": true,
+      "value_score": 38,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($104.36 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 38,
+        "trust": {
+          "tier": "Tier S",
+          "brand_name": "Dymatize",
+          "trust_score": 97,
+          "certifications": [
+            "Informed-Choice",
+            "cGMP Certified (USA)"
+          ],
+          "spiking_risk": "Nulo",
+          "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier S",
+        "brand_name": "Dymatize",
+        "trust_score": 97,
+        "certifications": [
+          "Informed-Choice",
+          "cGMP Certified (USA)"
+        ],
+        "spiking_risk": "Nulo",
+        "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina ISO 100 1.4 Lb Cocoa Pebbles Dymatize",
+      "price": 56990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 635.0,
+      "net_protein_grams": 546.1,
+      "cost_per_gram_clp": 104.36,
+      "permalink": "https://suplementosalmayor.cl/iso-100-2/",
+      "available": true,
+      "value_score": 38,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($104.36 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 38,
+        "trust": {
+          "tier": "Tier S",
+          "brand_name": "Dymatize",
+          "trust_score": 97,
+          "certifications": [
+            "Informed-Choice",
+            "cGMP Certified (USA)"
+          ],
+          "spiking_risk": "Nulo",
+          "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier S",
+        "brand_name": "Dymatize",
+        "trust_score": 97,
+        "certifications": [
+          "Informed-Choice",
+          "cGMP Certified (USA)"
+        ],
+        "spiking_risk": "Nulo",
+        "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina ISO 100 1.4 Lb Birthday Cake Pebbles Dymatize",
+      "price": 56990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 635.0,
+      "net_protein_grams": 546.1,
+      "cost_per_gram_clp": 104.36,
+      "permalink": "https://suplementosalmayor.cl/product/iso-100-14-lb-birthday-cake-pebbles/",
+      "available": true,
+      "value_score": 38,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($104.36 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 38,
+        "trust": {
+          "tier": "Tier S",
+          "brand_name": "Dymatize",
+          "trust_score": 97,
+          "certifications": [
+            "Informed-Choice",
+            "cGMP Certified (USA)"
+          ],
+          "spiking_risk": "Nulo",
+          "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier S",
+        "brand_name": "Dymatize",
+        "trust_score": 97,
+        "certifications": [
+          "Informed-Choice",
+          "cGMP Certified (USA)"
+        ],
+        "spiking_risk": "Nulo",
+        "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina ISO 100 1.4 Lb Fudge Brownie Dymatize",
+      "price": 56990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 635.0,
+      "net_protein_grams": 546.1,
+      "cost_per_gram_clp": 104.36,
+      "permalink": "https://suplementosalmayor.cl/producto/iso-100-14-fudge-brownie/",
+      "available": true,
+      "value_score": 38,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($104.36 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 38,
+        "trust": {
+          "tier": "Tier S",
+          "brand_name": "Dymatize",
+          "trust_score": 97,
+          "certifications": [
+            "Informed-Choice",
+            "cGMP Certified (USA)"
+          ],
+          "spiking_risk": "Nulo",
+          "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier S",
+        "brand_name": "Dymatize",
+        "trust_score": 97,
+        "certifications": [
+          "Informed-Choice",
+          "cGMP Certified (USA)"
+        ],
+        "spiking_risk": "Nulo",
+        "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina ISO 100 1.4 Lb Fruity Pebbles Dymatize",
+      "price": 56990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 635.0,
+      "net_protein_grams": 546.1,
+      "cost_per_gram_clp": 104.36,
+      "permalink": "https://suplementosalmayor.cl/iso-100/",
+      "available": true,
+      "value_score": 38,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($104.36 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 38,
+        "trust": {
+          "tier": "Tier S",
+          "brand_name": "Dymatize",
+          "trust_score": 97,
+          "certifications": [
+            "Informed-Choice",
+            "cGMP Certified (USA)"
+          ],
+          "spiking_risk": "Nulo",
+          "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier S",
+        "brand_name": "Dymatize",
+        "trust_score": 97,
+        "certifications": [
+          "Informed-Choice",
+          "cGMP Certified (USA)"
+        ],
+        "spiking_risk": "Nulo",
+        "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      }
+    },
+    {
       "source": "All Nutrition",
       "title": "Gold Standard, Optimum Nutrition Whey Protein 1.85 Lb",
       "price": 65990.0,
@@ -8539,7 +12203,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 839.1,
       "net_protein_grams": 612.5,
       "cost_per_gram_clp": 107.74,
-      "permalink": "https://allnutrition.cl/products/100-whey-protein-cookies-and-cream-1-85-lb-on?_pos=4&_psq=whey&_psid=cfb3057a4&_ss=e",
+      "permalink": "https://allnutrition.cl/products/100-whey-protein-cookies-and-cream-1-85-lb-on?_pos=4&_psq=whey&_psid=32554aadf&_ss=e",
       "available": true,
       "value_score": 38,
       "verdict": {
@@ -8587,7 +12251,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 739.4,
       "net_protein_grams": 539.8,
       "cost_per_gram_clp": 114.84,
-      "permalink": "https://allnutrition.cl/products/100-plant-protein-1-63-lb-vainilla-on?_pos=8&_psq=caseina&_psid=d741a7761&_ss=e",
+      "permalink": "https://allnutrition.cl/products/100-plant-protein-1-63-lb-vainilla-on?_pos=8&_psq=caseina&_psid=67fc499ff&_ss=e",
       "available": true,
       "value_score": 38,
       "verdict": {
@@ -8752,90 +12416,6 @@ window.CYBER_DEALS_DATA = {
       }
     },
     {
-      "source": "Supletech",
-      "title": "Animal Whey isolate 2lbs - Animal Chocolate",
-      "price": 54990.0,
-      "original_price": 59990.0,
-      "discount_pct": 8.3,
-      "category": "isolate",
-      "weight_grams": 907.2,
-      "net_protein_grams": 780.2,
-      "cost_per_gram_clp": 70.48,
-      "permalink": "https://www.supletech.cl/animal-whey-isolate-2lbs-animal/p",
-      "available": true,
-      "value_score": 36,
-      "verdict": {
-        "status": "NO_CONVIENE",
-        "badge": "⚠️ Sobreprecio / Esperar",
-        "badge_color": "amber",
-        "action": "Esperar rebaja",
-        "reason": "Costo por gramo ($70.48 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
-        "value_score": 36,
-        "trust": {
-          "tier": "Tier C",
-          "brand_name": "Marca No Auditada",
-          "trust_score": 55,
-          "certifications": [
-            "Sin sellos auditados"
-          ],
-          "spiking_risk": "Medio / Alto",
-          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
-        }
-      },
-      "brand_trust": {
-        "tier": "Tier C",
-        "brand_name": "Marca No Auditada",
-        "trust_score": 55,
-        "certifications": [
-          "Sin sellos auditados"
-        ],
-        "spiking_risk": "Medio / Alto",
-        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
-      }
-    },
-    {
-      "source": "Supletech",
-      "title": "Animal Whey isolate 2lbs - Animal Vainilla",
-      "price": 54990.0,
-      "original_price": 59990.0,
-      "discount_pct": 8.3,
-      "category": "isolate",
-      "weight_grams": 907.2,
-      "net_protein_grams": 780.2,
-      "cost_per_gram_clp": 70.48,
-      "permalink": "https://www.supletech.cl/animal-whey-isolate-2lbs-animal/p",
-      "available": true,
-      "value_score": 36,
-      "verdict": {
-        "status": "NO_CONVIENE",
-        "badge": "⚠️ Sobreprecio / Esperar",
-        "badge_color": "amber",
-        "action": "Esperar rebaja",
-        "reason": "Costo por gramo ($70.48 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
-        "value_score": 36,
-        "trust": {
-          "tier": "Tier C",
-          "brand_name": "Marca No Auditada",
-          "trust_score": 55,
-          "certifications": [
-            "Sin sellos auditados"
-          ],
-          "spiking_risk": "Medio / Alto",
-          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
-        }
-      },
-      "brand_trust": {
-        "tier": "Tier C",
-        "brand_name": "Marca No Auditada",
-        "trust_score": 55,
-        "certifications": [
-          "Sin sellos auditados"
-        ],
-        "spiking_risk": "Medio / Alto",
-        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
-      }
-    },
-    {
       "source": "All Nutrition",
       "title": "ISOPURE ZERO CARB PROTEIN 4.5 LB",
       "price": 130990.0,
@@ -8845,7 +12425,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 2041.2,
       "net_protein_grams": 1755.4,
       "cost_per_gram_clp": 74.62,
-      "permalink": "https://allnutrition.cl/products/isopure-zero-carb-protein-4-5-lb?_pos=5&_psq=iso+100&_psid=7bbb45275&_ss=e",
+      "permalink": "https://allnutrition.cl/products/isopure-zero-carb-protein-4-5-lb?_pos=5&_psq=iso+100&_psid=cb990ff0f&_ss=e",
       "available": true,
       "value_score": 36,
       "verdict": {
@@ -8887,7 +12467,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 2000.0,
       "net_protein_grams": 1720.0,
       "cost_per_gram_clp": 76.74,
-      "permalink": "https://winklernutrition.cl/products/proteina-hidrolizada-iso-win-2-kg?_pos=4&_psq=iso+100&_psid=4204023f3&_ss=e",
+      "permalink": "https://winklernutrition.cl/products/proteina-hidrolizada-iso-win-2-kg?_pos=4&_psq=iso+100&_psid=34f14f7aa&_ss=e",
       "available": true,
       "value_score": 36,
       "verdict": {
@@ -8977,7 +12557,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 31.0,
       "net_protein_grams": 22.6,
       "cost_per_gram_clp": 154.42,
-      "permalink": "https://allnutrition.cl/products/sachet-gold-standard-100-whey-protein-31-gr-on?_pos=10&_psq=gold+standard&_psid=c6252b962&_ss=e",
+      "permalink": "https://allnutrition.cl/products/sachet-gold-standard-100-whey-protein-31-gr-on?_pos=10&_psq=gold+standard&_psid=003909b1c&_ss=e",
       "available": true,
       "value_score": 36,
       "verdict": {
@@ -9067,7 +12647,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 907.2,
       "net_protein_grams": 662.3,
       "cost_per_gram_clp": 66.27,
-      "permalink": "https://www.mixgreen.cl/products/tasty-protein-100-whey-sabor-chocolate-mint-2lbs-foodtech?_pos=10&_psq=mutant+whey&_psid=e3a9fc2db&_ss=e",
+      "permalink": "https://www.mixgreen.cl/products/tasty-protein-100-whey-sabor-chocolate-mint-2lbs-foodtech?_pos=10&_psq=mutant+whey&_psid=4ca25d946&_ss=e",
       "available": true,
       "value_score": 35,
       "verdict": {
@@ -9109,7 +12689,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 907.2,
       "net_protein_grams": 662.3,
       "cost_per_gram_clp": 67.93,
-      "permalink": "https://allnutrition.cl/products/trophix-2-lb-syntrax?_pos=5&_psq=caseina&_psid=d741a7761&_ss=e",
+      "permalink": "https://allnutrition.cl/products/trophix-2-lb-syntrax?_pos=5&_psq=caseina&_psid=67fc499ff&_ss=e",
       "available": true,
       "value_score": 35,
       "verdict": {
@@ -9141,90 +12721,6 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Proteína estadounidense con tecnología Promina y buena biodisponibilidad."
-      }
-    },
-    {
-      "source": "Supletech",
-      "title": "100% Whey 2 lbs - Nutrex Chocolate",
-      "price": 44990.0,
-      "original_price": 49990.0,
-      "discount_pct": 10.0,
-      "category": "whey",
-      "weight_grams": 907.2,
-      "net_protein_grams": 662.3,
-      "cost_per_gram_clp": 67.93,
-      "permalink": "https://www.supletech.cl/100--whey-2lbs-nutrex/p",
-      "available": true,
-      "value_score": 35,
-      "verdict": {
-        "status": "NO_CONVIENE",
-        "badge": "⚠️ Sobreprecio / Esperar",
-        "badge_color": "amber",
-        "action": "Esperar rebaja",
-        "reason": "Costo por gramo ($67.93 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
-        "value_score": 35,
-        "trust": {
-          "tier": "Tier C",
-          "brand_name": "Marca No Auditada",
-          "trust_score": 55,
-          "certifications": [
-            "Sin sellos auditados"
-          ],
-          "spiking_risk": "Medio / Alto",
-          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
-        }
-      },
-      "brand_trust": {
-        "tier": "Tier C",
-        "brand_name": "Marca No Auditada",
-        "trust_score": 55,
-        "certifications": [
-          "Sin sellos auditados"
-        ],
-        "spiking_risk": "Medio / Alto",
-        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
-      }
-    },
-    {
-      "source": "Supletech",
-      "title": "100% Whey 2 lbs - Nutrex Vainilla",
-      "price": 44990.0,
-      "original_price": 49990.0,
-      "discount_pct": 10.0,
-      "category": "whey",
-      "weight_grams": 907.2,
-      "net_protein_grams": 662.3,
-      "cost_per_gram_clp": 67.93,
-      "permalink": "https://www.supletech.cl/100--whey-2lbs-nutrex/p",
-      "available": true,
-      "value_score": 35,
-      "verdict": {
-        "status": "NO_CONVIENE",
-        "badge": "⚠️ Sobreprecio / Esperar",
-        "badge_color": "amber",
-        "action": "Esperar rebaja",
-        "reason": "Costo por gramo ($67.93 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
-        "value_score": 35,
-        "trust": {
-          "tier": "Tier C",
-          "brand_name": "Marca No Auditada",
-          "trust_score": 55,
-          "certifications": [
-            "Sin sellos auditados"
-          ],
-          "spiking_risk": "Medio / Alto",
-          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
-        }
-      },
-      "brand_trust": {
-        "tier": "Tier C",
-        "brand_name": "Marca No Auditada",
-        "trust_score": 55,
-        "certifications": [
-          "Sin sellos auditados"
-        ],
-        "spiking_risk": "Medio / Alto",
-        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
       }
     },
     {
@@ -9267,6 +12763,132 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina Isofit 2.3 Lb Vanilla Ice Cream Nutrex",
+      "price": 60990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "default",
+      "weight_grams": 1043.3,
+      "net_protein_grams": 761.6,
+      "cost_per_gram_clp": 80.08,
+      "permalink": "https://suplementosalmayor.cl/producto/isofit-2-3-lb-vanilla-ice-cream/",
+      "available": true,
+      "value_score": 35,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($80.08 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 35,
+        "trust": {
+          "tier": "Tier B",
+          "brand_name": "Nutrex Research",
+          "trust_score": 77,
+          "certifications": [
+            "cGMP Certified (USA)"
+          ],
+          "spiking_risk": "Bajo",
+          "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier B",
+        "brand_name": "Nutrex Research",
+        "trust_score": 77,
+        "certifications": [
+          "cGMP Certified (USA)"
+        ],
+        "spiking_risk": "Bajo",
+        "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina Isofit 2.3 Lb Chocolate Shake Nutrex",
+      "price": 60990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "default",
+      "weight_grams": 1043.3,
+      "net_protein_grams": 761.6,
+      "cost_per_gram_clp": 80.08,
+      "permalink": "https://suplementosalmayor.cl/producto/isofit-2-3-lb-chocolate-shake/",
+      "available": true,
+      "value_score": 35,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($80.08 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 35,
+        "trust": {
+          "tier": "Tier B",
+          "brand_name": "Nutrex Research",
+          "trust_score": 77,
+          "certifications": [
+            "cGMP Certified (USA)"
+          ],
+          "spiking_risk": "Bajo",
+          "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier B",
+        "brand_name": "Nutrex Research",
+        "trust_score": 77,
+        "certifications": [
+          "cGMP Certified (USA)"
+        ],
+        "spiking_risk": "Bajo",
+        "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina Isofit 2.3 Lb Banana Foster Nutrex",
+      "price": 60990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "default",
+      "weight_grams": 1043.3,
+      "net_protein_grams": 761.6,
+      "cost_per_gram_clp": 80.08,
+      "permalink": "https://suplementosalmayor.cl/producto/isofit-2-3-lb-banana-foster/",
+      "available": true,
+      "value_score": 35,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($80.08 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 35,
+        "trust": {
+          "tier": "Tier B",
+          "brand_name": "Nutrex Research",
+          "trust_score": 77,
+          "certifications": [
+            "cGMP Certified (USA)"
+          ],
+          "spiking_risk": "Bajo",
+          "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier B",
+        "brand_name": "Nutrex Research",
+        "trust_score": 77,
+        "certifications": [
+          "cGMP Certified (USA)"
+        ],
+        "spiking_risk": "Bajo",
+        "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
       }
     },
     {
@@ -9363,7 +12985,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 2000.0,
       "net_protein_grams": 1460.0,
       "cost_per_gram_clp": 68.49,
-      "permalink": "https://winklernutrition.cl/products/proteina-whey-pro-win-2-kg?_pos=1&_psq=whey&_psid=cdf830225&_ss=e",
+      "permalink": "https://winklernutrition.cl/products/proteina-whey-pro-win-2-kg?_pos=1&_psq=whey&_psid=cddecd662&_ss=e",
       "available": true,
       "value_score": 34,
       "verdict": {
@@ -9396,6 +13018,178 @@ window.CYBER_DEALS_DATA = {
       }
     },
     {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina WPC80 700 G Sin Sabor Ostrovit",
+      "price": 36990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "default",
+      "weight_grams": 700.0,
+      "net_protein_grams": 511.0,
+      "cost_per_gram_clp": 72.39,
+      "permalink": "https://suplementosalmayor.cl/producto/wpc80-700-g-natural/",
+      "available": true,
+      "value_score": 34,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($72.39 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 34,
+        "trust": {
+          "tier": "Tier A",
+          "brand_name": "OstroVit",
+          "trust_score": 86,
+          "certifications": [
+            "Estándar UE (Polonia)",
+            "Análisis J.S. Hamilton por lote",
+            "HACCP"
+          ],
+          "spiking_risk": "Bajo",
+          "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier A",
+        "brand_name": "OstroVit",
+        "trust_score": 86,
+        "certifications": [
+          "Estándar UE (Polonia)",
+          "Análisis J.S. Hamilton por lote",
+          "HACCP"
+        ],
+        "spiking_risk": "Bajo",
+        "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+      }
+    },
+    {
+      "source": "Supletech",
+      "title": "Iso100% Hydro Whey 2lbs - Foodtech Chocolate",
+      "price": 56990.0,
+      "original_price": 59990.0,
+      "discount_pct": 5.0,
+      "category": "isolate",
+      "weight_grams": 907.2,
+      "net_protein_grams": 780.2,
+      "cost_per_gram_clp": 73.05,
+      "permalink": "https://www.supletech.cl/iso100--hydro-whey-2lbs-foodtech/p",
+      "available": true,
+      "value_score": 34,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($73.05 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 34,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Foodtech",
+          "trust_score": 55,
+          "certifications": [
+            "Resolución Seremi Salud Chile"
+          ],
+          "spiking_risk": "Medio",
+          "notes": "Marca chilena económica de entrada; sin auditorías independientes de terceros publicadas."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Foodtech",
+        "trust_score": 55,
+        "certifications": [
+          "Resolución Seremi Salud Chile"
+        ],
+        "spiking_risk": "Medio",
+        "notes": "Marca chilena económica de entrada; sin auditorías independientes de terceros publicadas."
+      }
+    },
+    {
+      "source": "Supletech",
+      "title": "Iso100% Hydro Whey 2lbs - Foodtech Vainilla",
+      "price": 56990.0,
+      "original_price": 59990.0,
+      "discount_pct": 5.0,
+      "category": "isolate",
+      "weight_grams": 907.2,
+      "net_protein_grams": 780.2,
+      "cost_per_gram_clp": 73.05,
+      "permalink": "https://www.supletech.cl/iso100--hydro-whey-2lbs-foodtech/p",
+      "available": true,
+      "value_score": 34,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($73.05 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 34,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Foodtech",
+          "trust_score": 55,
+          "certifications": [
+            "Resolución Seremi Salud Chile"
+          ],
+          "spiking_risk": "Medio",
+          "notes": "Marca chilena económica de entrada; sin auditorías independientes de terceros publicadas."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Foodtech",
+        "trust_score": 55,
+        "certifications": [
+          "Resolución Seremi Salud Chile"
+        ],
+        "spiking_risk": "Medio",
+        "notes": "Marca chilena económica de entrada; sin auditorías independientes de terceros publicadas."
+      }
+    },
+    {
+      "source": "Supletech",
+      "title": "Iso100% Hydro Whey 2lbs - Foodtech Frutos Rojos",
+      "price": 56990.0,
+      "original_price": 59990.0,
+      "discount_pct": 5.0,
+      "category": "isolate",
+      "weight_grams": 907.2,
+      "net_protein_grams": 780.2,
+      "cost_per_gram_clp": 73.05,
+      "permalink": "https://www.supletech.cl/iso100--hydro-whey-2lbs-foodtech/p",
+      "available": true,
+      "value_score": 34,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($73.05 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 34,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Foodtech",
+          "trust_score": 55,
+          "certifications": [
+            "Resolución Seremi Salud Chile"
+          ],
+          "spiking_risk": "Medio",
+          "notes": "Marca chilena económica de entrada; sin auditorías independientes de terceros publicadas."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Foodtech",
+        "trust_score": 55,
+        "certifications": [
+          "Resolución Seremi Salud Chile"
+        ],
+        "spiking_risk": "Medio",
+        "notes": "Marca chilena económica de entrada; sin auditorías independientes de terceros publicadas."
+      }
+    },
+    {
       "source": "All Nutrition",
       "title": "ProStar, Ultimate Nutrition Whey Protein 1 Lb",
       "price": 42990.0,
@@ -9405,7 +13199,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 453.6,
       "net_protein_grams": 331.1,
       "cost_per_gram_clp": 129.84,
-      "permalink": "https://allnutrition.cl/products/prostar-whey-1-lb-ul-proteina-whey?_pos=10&_psq=whey&_psid=cfb3057a4&_ss=e",
+      "permalink": "https://allnutrition.cl/products/prostar-whey-1-lb-ul-proteina-whey?_pos=10&_psq=whey&_psid=32554aadf&_ss=e",
       "available": true,
       "value_score": 34,
       "verdict": {
@@ -9440,48 +13234,6 @@ window.CYBER_DEALS_DATA = {
       }
     },
     {
-      "source": "All Nutrition",
-      "title": "Isofit, Nutrex Isolate Protein 2.3 Lb",
-      "price": 67990.0,
-      "original_price": 69990.0,
-      "discount_pct": 2.9,
-      "category": "isolate",
-      "weight_grams": 1043.3,
-      "net_protein_grams": 897.2,
-      "cost_per_gram_clp": 75.78,
-      "permalink": "https://allnutrition.cl/products/isofit-2-3-lb?_pos=6&_psq=isolate&_psid=be9adf1a4&_ss=e",
-      "available": true,
-      "value_score": 33,
-      "verdict": {
-        "status": "NO_CONVIENE",
-        "badge": "⚠️ Sobreprecio / Esperar",
-        "badge_color": "amber",
-        "action": "Esperar rebaja",
-        "reason": "Costo por gramo ($75.78 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
-        "value_score": 33,
-        "trust": {
-          "tier": "Tier C",
-          "brand_name": "Marca No Auditada",
-          "trust_score": 55,
-          "certifications": [
-            "Sin sellos auditados"
-          ],
-          "spiking_risk": "Medio / Alto",
-          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
-        }
-      },
-      "brand_trust": {
-        "tier": "Tier C",
-        "brand_name": "Marca No Auditada",
-        "trust_score": 55,
-        "certifications": [
-          "Sin sellos auditados"
-        ],
-        "spiking_risk": "Medio / Alto",
-        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
-      }
-    },
-    {
       "source": "MixGreen",
       "title": "Isolate Protein, Proteína de Suero, Vainilla, 735g",
       "price": 48290.0,
@@ -9491,7 +13243,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 735.0,
       "net_protein_grams": 632.1,
       "cost_per_gram_clp": 76.4,
-      "permalink": "https://www.mixgreen.cl/products/isolate-protein-prote-na-de-suero-vainilla-735g-strive?_pos=7&_psq=whey&_psid=981f76ae6&_ss=e",
+      "permalink": "https://www.mixgreen.cl/products/isolate-protein-prote-na-de-suero-vainilla-735g-strive?_pos=7&_psq=whey&_psid=68042562a&_ss=e",
       "available": true,
       "value_score": 33,
       "verdict": {
@@ -9533,7 +13285,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 907.2,
       "net_protein_grams": 780.2,
       "cost_per_gram_clp": 84.4,
-      "permalink": "https://www.mixgreen.cl/products/iso-cool-sabor-chocolate-creme-2-lb-ultimate-nutrition?_pos=7&_psq=isolate&_psid=aec7b9cfc&_ss=e",
+      "permalink": "https://www.mixgreen.cl/products/iso-cool-sabor-chocolate-creme-2-lb-ultimate-nutrition?_pos=7&_psq=isolate&_psid=7ffd73f4f&_ss=e",
       "available": true,
       "value_score": 33,
       "verdict": {
@@ -9575,7 +13327,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 946.0,
       "net_protein_grams": 690.6,
       "cost_per_gram_clp": 69.06,
-      "permalink": "https://www.mixgreen.cl/products/whey-protein-tres-leches-946-gr-fnl?_pos=9&_psq=whey&_psid=981f76ae6&_ss=e",
+      "permalink": "https://www.mixgreen.cl/products/whey-protein-tres-leches-946-gr-fnl?_pos=9&_psq=whey&_psid=68042562a&_ss=e",
       "available": true,
       "value_score": 32,
       "verdict": {
@@ -9584,6 +13336,48 @@ window.CYBER_DEALS_DATA = {
         "badge_color": "amber",
         "action": "Esperar rebaja",
         "reason": "Costo por gramo ($69.06 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 32,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Marca No Auditada",
+          "trust_score": 55,
+          "certifications": [
+            "Sin sellos auditados"
+          ],
+          "spiking_risk": "Medio / Alto",
+          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Marca No Auditada",
+        "trust_score": 55,
+        "certifications": [
+          "Sin sellos auditados"
+        ],
+        "spiking_risk": "Medio / Alto",
+        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina Isolate 2 Lb Caramel Cold Brew Basic",
+      "price": 54490.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "isolate",
+      "weight_grams": 907.2,
+      "net_protein_grams": 780.2,
+      "cost_per_gram_clp": 69.84,
+      "permalink": "https://suplementosalmayor.cl/producto/basic-isolate-caramel-cold-brew-2-lb/",
+      "available": true,
+      "value_score": 32,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($69.84 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
         "value_score": 32,
         "trust": {
           "tier": "Tier C",
@@ -9617,7 +13411,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 1000.0,
       "net_protein_grams": 730.0,
       "cost_per_gram_clp": 73.77,
-      "permalink": "https://www.mixgreen.cl/products/nutriprotein-proteina-whey-colageno-biotina-sabor-natural-30-porciones-1kg?_pos=6&_psq=mutant+whey&_psid=e3a9fc2db&_ss=e",
+      "permalink": "https://www.mixgreen.cl/products/nutriprotein-proteina-whey-colageno-biotina-sabor-natural-30-porciones-1kg?_pos=6&_psq=mutant+whey&_psid=4ca25d946&_ss=e",
       "available": true,
       "value_score": 32,
       "verdict": {
@@ -9659,7 +13453,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 1360.8,
       "net_protein_grams": 1170.3,
       "cost_per_gram_clp": 80.31,
-      "permalink": "https://allnutrition.cl/products/isopure-zero-carb-protein-3-lb?_pos=6&_psq=iso+100&_psid=7bbb45275&_ss=e",
+      "permalink": "https://allnutrition.cl/products/isopure-zero-carb-protein-3-lb?_pos=6&_psq=iso+100&_psid=cb990ff0f&_ss=e",
       "available": true,
       "value_score": 32,
       "verdict": {
@@ -9701,7 +13495,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 907.2,
       "net_protein_grams": 662.3,
       "cost_per_gram_clp": 81.52,
-      "permalink": "https://allnutrition.cl/products/whey-matrix-2-lb?_pos=2&_psq=casein&_psid=eaf61a785&_ss=e",
+      "permalink": "https://allnutrition.cl/products/whey-matrix-2-lb?_pos=2&_psq=casein&_psid=3af4cab68&_ss=e",
       "available": true,
       "value_score": 32,
       "verdict": {
@@ -9743,7 +13537,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 700.0,
       "net_protein_grams": 602.0,
       "cost_per_gram_clp": 82.97,
-      "permalink": "https://www.mixgreen.cl/products/isolate-protein-prote-na-de-suero-sin-sabor-700-gr-strive?_pos=10&_psq=whey&_psid=981f76ae6&_ss=e",
+      "permalink": "https://www.mixgreen.cl/products/isolate-protein-prote-na-de-suero-sin-sabor-700-gr-strive?_pos=10&_psq=whey&_psid=68042562a&_ss=e",
       "available": true,
       "value_score": 32,
       "verdict": {
@@ -9785,7 +13579,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 1000.0,
       "net_protein_grams": 860.0,
       "cost_per_gram_clp": 87.2,
-      "permalink": "https://winklernutrition.cl/products/proteina-hidrolizada-iso-win-1-kg?_pos=7&_psq=iso+100&_psid=4204023f3&_ss=e",
+      "permalink": "https://winklernutrition.cl/products/proteina-hidrolizada-iso-win-1-kg?_pos=7&_psq=iso+100&_psid=34f14f7aa&_ss=e",
       "available": true,
       "value_score": 32,
       "verdict": {
@@ -9869,7 +13663,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 1000.0,
       "net_protein_grams": 730.0,
       "cost_per_gram_clp": 64.37,
-      "permalink": "https://winklernutrition.cl/products/proteina-whey-femme-protein-1-kg?_pos=7&_psq=whey&_psid=cdf830225&_ss=e",
+      "permalink": "https://winklernutrition.cl/products/proteina-whey-femme-protein-1-kg?_pos=7&_psq=whey&_psid=cddecd662&_ss=e",
       "available": true,
       "value_score": 31,
       "verdict": {
@@ -9944,6 +13738,90 @@ window.CYBER_DEALS_DATA = {
       }
     },
     {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina Nitro Tech 4 Lb Vanilla Muscletech",
+      "price": 91990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "default",
+      "weight_grams": 1814.4,
+      "net_protein_grams": 1324.5,
+      "cost_per_gram_clp": 69.45,
+      "permalink": "https://suplementosalmayor.cl/producto/nitro-tech-4-lb-vanilla/",
+      "available": true,
+      "value_score": 30,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($69.45 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 30,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Marca No Auditada",
+          "trust_score": 55,
+          "certifications": [
+            "Sin sellos auditados"
+          ],
+          "spiking_risk": "Medio / Alto",
+          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Marca No Auditada",
+        "trust_score": 55,
+        "certifications": [
+          "Sin sellos auditados"
+        ],
+        "spiking_risk": "Medio / Alto",
+        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "Proteina Nitro Tech 100% Whey Gold 2 Lb Double Rich Chocolate Muscletech",
+      "price": 48990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "whey",
+      "weight_grams": 907.2,
+      "net_protein_grams": 662.3,
+      "cost_per_gram_clp": 73.97,
+      "permalink": "https://suplementosalmayor.cl/producto/nitro-tech-100-whey-gold-2-lb-double-rich-chocolate/",
+      "available": true,
+      "value_score": 30,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($73.97 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 30,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Marca No Auditada",
+          "trust_score": 55,
+          "certifications": [
+            "Sin sellos auditados"
+          ],
+          "spiking_risk": "Medio / Alto",
+          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Marca No Auditada",
+        "trust_score": 55,
+        "certifications": [
+          "Sin sellos auditados"
+        ],
+        "spiking_risk": "Medio / Alto",
+        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
       "source": "MixGreen",
       "title": "Nutriprotein, Proteina Whey, Sabor Natural,1kg",
       "price": 55890.0,
@@ -9953,7 +13831,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 1000.0,
       "net_protein_grams": 730.0,
       "cost_per_gram_clp": 76.56,
-      "permalink": "https://www.mixgreen.cl/products/nutriprotein-proteina-whey-sabor-natural-1kg-nutrifoods?_pos=7&_psq=mutant+whey&_psid=e3a9fc2db&_ss=e",
+      "permalink": "https://www.mixgreen.cl/products/nutriprotein-proteina-whey-sabor-natural-1kg-nutrifoods?_pos=7&_psq=mutant+whey&_psid=4ca25d946&_ss=e",
       "available": true,
       "value_score": 30,
       "verdict": {
@@ -9995,7 +13873,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 1280.0,
       "net_protein_grams": 934.4,
       "cost_per_gram_clp": 80.25,
-      "permalink": "https://winklernutrition.cl/products/proteina-whey-cooking-1-28-kg?_pos=8&_psq=whey&_psid=cdf830225&_ss=e",
+      "permalink": "https://winklernutrition.cl/products/proteina-whey-cooking-1-28-kg?_pos=8&_psq=whey&_psid=cddecd662&_ss=e",
       "available": true,
       "value_score": 30,
       "verdict": {
@@ -10037,7 +13915,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 1000.0,
       "net_protein_grams": 730.0,
       "cost_per_gram_clp": 82.18,
-      "permalink": "https://winklernutrition.cl/products/proteina-whey-pro-win-1-kg?_pos=2&_psq=whey&_psid=cdf830225&_ss=e",
+      "permalink": "https://winklernutrition.cl/products/proteina-whey-pro-win-1-kg?_pos=2&_psq=whey&_psid=cddecd662&_ss=e",
       "available": true,
       "value_score": 30,
       "verdict": {
@@ -10121,7 +13999,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 840.0,
       "net_protein_grams": 722.4,
       "cost_per_gram_clp": 76.12,
-      "permalink": "https://winklernutrition.cl/products/proteina-iso-bariatrix-840-grs?_pos=5&_psq=iso+100&_psid=4204023f3&_ss=e",
+      "permalink": "https://winklernutrition.cl/products/proteina-iso-bariatrix-840-grs?_pos=5&_psq=iso+100&_psid=34f14f7aa&_ss=e",
       "available": true,
       "value_score": 28,
       "verdict": {
@@ -10163,7 +14041,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 453.6,
       "net_protein_grams": 390.1,
       "cost_per_gram_clp": 115.33,
-      "permalink": "https://allnutrition.cl/products/isopure-zero-carb-protein-1-lb-unflavored?_pos=9&_psq=iso+100&_psid=7bbb45275&_ss=e",
+      "permalink": "https://allnutrition.cl/products/isopure-zero-carb-protein-1-lb-unflavored?_pos=10&_psq=iso+100&_psid=cb990ff0f&_ss=e",
       "available": true,
       "value_score": 28,
       "verdict": {
@@ -10247,7 +14125,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 500.0,
       "net_protein_grams": 365.0,
       "cost_per_gram_clp": 71.48,
-      "permalink": "https://www.mixgreen.cl/products/whey-protein-chocolate-blanco-500-g?_pos=8&_psq=whey&_psid=981f76ae6&_ss=e",
+      "permalink": "https://www.mixgreen.cl/products/whey-protein-chocolate-blanco-500-g?_pos=8&_psq=whey&_psid=68042562a&_ss=e",
       "available": true,
       "value_score": 27,
       "verdict": {
@@ -10289,7 +14167,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 30.0,
       "net_protein_grams": 21.9,
       "cost_per_gram_clp": 399.54,
-      "permalink": "https://www.mixgreen.cl/products/bio-rakun-30g-whenua?_pos=1&_psq=gold+standard&_psid=1518faef2&_ss=e",
+      "permalink": "https://www.mixgreen.cl/products/bio-rakun-30g-whenua?_pos=1&_psq=gold+standard&_psid=582d95140&_ss=e",
       "available": true,
       "value_score": 27,
       "verdict": {
@@ -10331,7 +14209,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": 30.0,
       "net_protein_grams": 21.9,
       "cost_per_gram_clp": 525.11,
-      "permalink": "https://www.mixgreen.cl/products/kai-repel-30g-whenua?_pos=2&_psq=gold+standard&_psid=1518faef2&_ss=e",
+      "permalink": "https://www.mixgreen.cl/products/kai-repel-30g-whenua?_pos=2&_psq=gold+standard&_psid=582d95140&_ss=e",
       "available": true,
       "value_score": 27,
       "verdict": {
@@ -10415,7 +14293,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": null,
       "net_protein_grams": null,
       "cost_per_gram_clp": null,
-      "permalink": "https://allnutrition.cl/products/sinomarin-ninos-isotonico-100ml?_pos=8&_psq=iso+100&_psid=7bbb45275&_ss=e",
+      "permalink": "https://allnutrition.cl/products/sinomarin-ninos-isotonico-100ml?_pos=8&_psq=iso+100&_psid=cb990ff0f&_ss=e",
       "available": true,
       "value_score": 0,
       "verdict": {
@@ -10499,7 +14377,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": null,
       "net_protein_grams": null,
       "cost_per_gram_clp": null,
-      "permalink": "https://winklernutrition.cl/products/pack-7-proteina-whey-pro-win-33-grs?_pos=3&_psq=whey&_psid=cdf830225&_ss=e",
+      "permalink": "https://winklernutrition.cl/products/pack-7-proteina-whey-pro-win-33-grs?_pos=3&_psq=whey&_psid=cddecd662&_ss=e",
       "available": true,
       "value_score": 0,
       "verdict": {
@@ -10541,7 +14419,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": null,
       "net_protein_grams": null,
       "cost_per_gram_clp": null,
-      "permalink": "https://winklernutrition.cl/products/proteina-sachet-whey-pro-win-33-grs?_pos=6&_psq=whey&_psid=cdf830225&_ss=e",
+      "permalink": "https://winklernutrition.cl/products/proteina-sachet-whey-pro-win-33-grs?_pos=6&_psq=whey&_psid=cddecd662&_ss=e",
       "available": true,
       "value_score": 0,
       "verdict": {
@@ -10583,7 +14461,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": null,
       "net_protein_grams": null,
       "cost_per_gram_clp": null,
-      "permalink": "https://winklernutrition.cl/products/pack-7-proteina-whey-cooking-protein-30-grs?_pos=10&_psq=whey&_psid=cdf830225&_ss=e",
+      "permalink": "https://winklernutrition.cl/products/pack-7-proteina-whey-cooking-protein-30-grs?_pos=10&_psq=whey&_psid=cddecd662&_ss=e",
       "available": true,
       "value_score": 0,
       "verdict": {
@@ -10625,7 +14503,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": null,
       "net_protein_grams": null,
       "cost_per_gram_clp": null,
-      "permalink": "https://winklernutrition.cl/products/pack-7-proteina-hidrolizada-iso-win-30-grs?_pos=2&_psq=caseina&_psid=4f6e21961&_ss=e",
+      "permalink": "https://winklernutrition.cl/products/pack-7-proteina-hidrolizada-iso-win-30-grs?_pos=2&_psq=caseina&_psid=1bf604a03&_ss=e",
       "available": true,
       "value_score": 0,
       "verdict": {
@@ -10667,7 +14545,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": null,
       "net_protein_grams": null,
       "cost_per_gram_clp": null,
-      "permalink": "https://winklernutrition.cl/products/proteina-sachet-iso-win-30-grs?_pos=3&_psq=iso+100&_psid=4204023f3&_ss=e",
+      "permalink": "https://winklernutrition.cl/products/proteina-sachet-iso-win-30-grs?_pos=3&_psq=iso+100&_psid=34f14f7aa&_ss=e",
       "available": true,
       "value_score": 0,
       "verdict": {
@@ -10709,7 +14587,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": null,
       "net_protein_grams": null,
       "cost_per_gram_clp": null,
-      "permalink": "https://winklernutrition.cl/products/pack-30-bebida-isotonica-drink-tonic-28-grs?_pos=6&_psq=iso+100&_psid=4204023f3&_ss=e",
+      "permalink": "https://winklernutrition.cl/products/pack-30-bebida-isotonica-drink-tonic-28-grs?_pos=6&_psq=iso+100&_psid=34f14f7aa&_ss=e",
       "available": true,
       "value_score": 0,
       "verdict": {
@@ -11181,7 +15059,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": null,
       "net_protein_grams": null,
       "cost_per_gram_clp": null,
-      "permalink": "https://www.mixgreen.cl/products/ghee-mantequilla-clarificada-210ml-manare?_pos=10&_psq=caseina&_psid=7c1cbc227&_ss=e",
+      "permalink": "https://www.mixgreen.cl/products/ghee-mantequilla-clarificada-210ml-manare?_pos=10&_psq=caseina&_psid=df94191cd&_ss=e",
       "available": true,
       "value_score": 0,
       "verdict": {
@@ -11223,7 +15101,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": null,
       "net_protein_grams": null,
       "cost_per_gram_clp": null,
-      "permalink": "https://www.mixgreen.cl/products/omega-3-mini-fish-oil-1340mg-100-minisoftgel-natures-truth?_pos=4&_psq=iso+100&_psid=5496e11d4&_ss=e",
+      "permalink": "https://www.mixgreen.cl/products/omega-3-mini-fish-oil-1340mg-100-minisoftgel-natures-truth?_pos=4&_psq=iso+100&_psid=fc640887d&_ss=e",
       "available": true,
       "value_score": 0,
       "verdict": {
@@ -11265,7 +15143,7 @@ window.CYBER_DEALS_DATA = {
       "weight_grams": null,
       "net_protein_grams": null,
       "cost_per_gram_clp": null,
-      "permalink": "https://globalnutrition.cl/products/swanson-n-zimes-dairy-90-capsulas-vegetales?_pos=7&_psq=caseina&_psid=b1ac945e7&_ss=e",
+      "permalink": "https://globalnutrition.cl/products/swanson-n-zimes-dairy-90-capsulas-vegetales?_pos=7&_psq=caseina&_psid=f04e0df23&_ss=e",
       "available": true,
       "value_score": 0,
       "verdict": {
@@ -11416,25 +15294,25 @@ window.CYBER_DEALS_DATA = {
         "reason": "No fue posible determinar el peso neto en polvo de forma confiable.",
         "value_score": 0,
         "trust": {
-          "tier": "Tier C",
-          "brand_name": "Marca No Auditada",
-          "trust_score": 55,
+          "tier": "Tier B",
+          "brand_name": "Nutrex Research",
+          "trust_score": 77,
           "certifications": [
-            "Sin sellos auditados"
+            "cGMP Certified (USA)"
           ],
-          "spiking_risk": "Medio / Alto",
-          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+          "spiking_risk": "Bajo",
+          "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
         }
       },
       "brand_trust": {
-        "tier": "Tier C",
-        "brand_name": "Marca No Auditada",
-        "trust_score": 55,
+        "tier": "Tier B",
+        "brand_name": "Nutrex Research",
+        "trust_score": 77,
         "certifications": [
-          "Sin sellos auditados"
+          "cGMP Certified (USA)"
         ],
-        "spiking_risk": "Medio / Alto",
-        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        "spiking_risk": "Bajo",
+        "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
       }
     },
     {
@@ -12004,6 +15882,318 @@ window.CYBER_DEALS_DATA = {
       "net_protein_grams": null,
       "cost_per_gram_clp": null,
       "permalink": "https://www.chilesuplementos.cl/producto/electrolyte-drink-gams-berries-mix/",
+      "available": true,
+      "value_score": 0,
+      "verdict": {
+        "status": "SIN_DATOS",
+        "badge": "⚠️ Sin peso claro",
+        "badge_color": "gray",
+        "action": "Verificar ficha",
+        "reason": "No fue posible determinar el peso neto en polvo de forma confiable.",
+        "value_score": 0,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Marca No Auditada",
+          "trust_score": 55,
+          "certifications": [
+            "Sin sellos auditados"
+          ],
+          "spiking_risk": "Medio / Alto",
+          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Marca No Auditada",
+        "trust_score": 55,
+        "certifications": [
+          "Sin sellos auditados"
+        ],
+        "spiking_risk": "Medio / Alto",
+        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "SuplementosMayoristas",
+      "title": "C4 Whey Protein 28 ser - Cellucor Reese´s Peanut Butter",
+      "price": 41800.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "whey",
+      "weight_grams": null,
+      "net_protein_grams": null,
+      "cost_per_gram_clp": null,
+      "permalink": "https://www.suplementosmayoristas.cl/c4-whey-protein-28ser-cellucor/p",
+      "available": true,
+      "value_score": 0,
+      "verdict": {
+        "status": "SIN_DATOS",
+        "badge": "⚠️ Sin peso claro",
+        "badge_color": "gray",
+        "action": "Verificar ficha",
+        "reason": "No fue posible determinar el peso neto en polvo de forma confiable.",
+        "value_score": 0,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Marca No Auditada",
+          "trust_score": 55,
+          "certifications": [
+            "Sin sellos auditados"
+          ],
+          "spiking_risk": "Medio / Alto",
+          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Marca No Auditada",
+        "trust_score": 55,
+        "certifications": [
+          "Sin sellos auditados"
+        ],
+        "spiking_risk": "Medio / Alto",
+        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "SuplementosMayoristas",
+      "title": "C4 Whey Protein 28 ser - Cellucor Hersheys Chocolate",
+      "price": 27990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "whey",
+      "weight_grams": null,
+      "net_protein_grams": null,
+      "cost_per_gram_clp": null,
+      "permalink": "https://www.suplementosmayoristas.cl/c4-whey-protein-28ser-cellucor/p",
+      "available": true,
+      "value_score": 0,
+      "verdict": {
+        "status": "SIN_DATOS",
+        "badge": "⚠️ Sin peso claro",
+        "badge_color": "gray",
+        "action": "Verificar ficha",
+        "reason": "No fue posible determinar el peso neto en polvo de forma confiable.",
+        "value_score": 0,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Marca No Auditada",
+          "trust_score": 55,
+          "certifications": [
+            "Sin sellos auditados"
+          ],
+          "spiking_risk": "Medio / Alto",
+          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Marca No Auditada",
+        "trust_score": 55,
+        "certifications": [
+          "Sin sellos auditados"
+        ],
+        "spiking_risk": "Medio / Alto",
+        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "SuplementosMayoristas",
+      "title": "Caja Protein Bar Creamy Core 12 Unid - Maxi Nutrition Hazelnut Nougat",
+      "price": 18596.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "default",
+      "weight_grams": null,
+      "net_protein_grams": null,
+      "cost_per_gram_clp": null,
+      "permalink": "https://www.suplementosmayoristas.cl/caja-protein-bar-12unid-maxi-nutrition/p",
+      "available": true,
+      "value_score": 0,
+      "verdict": {
+        "status": "SIN_DATOS",
+        "badge": "⚠️ Sin peso claro",
+        "badge_color": "gray",
+        "action": "Verificar ficha",
+        "reason": "No fue posible determinar el peso neto en polvo de forma confiable.",
+        "value_score": 0,
+        "trust": {
+          "tier": "Tier S",
+          "brand_name": "Optimum Nutrition (ON)",
+          "trust_score": 98,
+          "certifications": [
+            "Informed-Choice",
+            "NSF for Sport",
+            "Labdoor Score A+",
+            "Glanbia QA"
+          ],
+          "spiking_risk": "Nulo",
+          "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier S",
+        "brand_name": "Optimum Nutrition (ON)",
+        "trust_score": 98,
+        "certifications": [
+          "Informed-Choice",
+          "NSF for Sport",
+          "Labdoor Score A+",
+          "Glanbia QA"
+        ],
+        "spiking_risk": "Nulo",
+        "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      }
+    },
+    {
+      "source": "SuplementosMayoristas",
+      "title": "Caja Protein Bar Creamy Core 12 Unid - Maxi Nutrition Peanut Caramel",
+      "price": 18596.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "default",
+      "weight_grams": null,
+      "net_protein_grams": null,
+      "cost_per_gram_clp": null,
+      "permalink": "https://www.suplementosmayoristas.cl/caja-protein-bar-12unid-maxi-nutrition/p",
+      "available": true,
+      "value_score": 0,
+      "verdict": {
+        "status": "SIN_DATOS",
+        "badge": "⚠️ Sin peso claro",
+        "badge_color": "gray",
+        "action": "Verificar ficha",
+        "reason": "No fue posible determinar el peso neto en polvo de forma confiable.",
+        "value_score": 0,
+        "trust": {
+          "tier": "Tier S",
+          "brand_name": "Optimum Nutrition (ON)",
+          "trust_score": 98,
+          "certifications": [
+            "Informed-Choice",
+            "NSF for Sport",
+            "Labdoor Score A+",
+            "Glanbia QA"
+          ],
+          "spiking_risk": "Nulo",
+          "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier S",
+        "brand_name": "Optimum Nutrition (ON)",
+        "trust_score": 98,
+        "certifications": [
+          "Informed-Choice",
+          "NSF for Sport",
+          "Labdoor Score A+",
+          "Glanbia QA"
+        ],
+        "spiking_risk": "Nulo",
+        "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      }
+    },
+    {
+      "source": "SuplementosMayoristas",
+      "title": "Caja Protein Bar Creamy Core 12 Unid - Maxi Nutrition Dark Chocolate Coconut",
+      "price": 18596.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "default",
+      "weight_grams": null,
+      "net_protein_grams": null,
+      "cost_per_gram_clp": null,
+      "permalink": "https://www.suplementosmayoristas.cl/caja-protein-bar-12unid-maxi-nutrition/p",
+      "available": true,
+      "value_score": 0,
+      "verdict": {
+        "status": "SIN_DATOS",
+        "badge": "⚠️ Sin peso claro",
+        "badge_color": "gray",
+        "action": "Verificar ficha",
+        "reason": "No fue posible determinar el peso neto en polvo de forma confiable.",
+        "value_score": 0,
+        "trust": {
+          "tier": "Tier S",
+          "brand_name": "Optimum Nutrition (ON)",
+          "trust_score": 98,
+          "certifications": [
+            "Informed-Choice",
+            "NSF for Sport",
+            "Labdoor Score A+",
+            "Glanbia QA"
+          ],
+          "spiking_risk": "Nulo",
+          "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier S",
+        "brand_name": "Optimum Nutrition (ON)",
+        "trust_score": 98,
+        "certifications": [
+          "Informed-Choice",
+          "NSF for Sport",
+          "Labdoor Score A+",
+          "Glanbia QA"
+        ],
+        "spiking_risk": "Nulo",
+        "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "PROTEIN SHAKE RTD 340 ML COCOA PEBBLES",
+      "price": 3290.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "default",
+      "weight_grams": null,
+      "net_protein_grams": null,
+      "cost_per_gram_clp": null,
+      "permalink": "https://suplementosalmayor.cl/producto/protein-shake-rtd-340-ml-cocoa-pebbles/",
+      "available": true,
+      "value_score": 0,
+      "verdict": {
+        "status": "SIN_DATOS",
+        "badge": "⚠️ Sin peso claro",
+        "badge_color": "gray",
+        "action": "Verificar ficha",
+        "reason": "No fue posible determinar el peso neto en polvo de forma confiable.",
+        "value_score": 0,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Marca No Auditada",
+          "trust_score": 55,
+          "certifications": [
+            "Sin sellos auditados"
+          ],
+          "spiking_risk": "Medio / Alto",
+          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Marca No Auditada",
+        "trust_score": 55,
+        "certifications": [
+          "Sin sellos auditados"
+        ],
+        "spiking_risk": "Medio / Alto",
+        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "PROTEIN SHAKE RTD 340 ML FRUITY PEBBLES",
+      "price": 3290.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "default",
+      "weight_grams": null,
+      "net_protein_grams": null,
+      "cost_per_gram_clp": null,
+      "permalink": "https://suplementosalmayor.cl/producto/protein-shake-rtd-340-ml-fruity-pebbles/",
       "available": true,
       "value_score": 0,
       "verdict": {
