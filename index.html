@@ -778,7 +778,7 @@
 
       dealsContainer.innerHTML = deals.map(item => {
         const v = item.verdict || {};
-        const t = item.trust || {};
+        const t = item.brand_trust || item.trust || (v.trust || {});
         const vClass = getVerdictClass(v.status);
         const catClass = `cat-${item.category || 'whey'}`;
         const costClass = item.cost_per_gram_clp <= 35 ? 'cost-great' : (item.cost_per_gram_clp <= 50 ? 'cost-good' : 'cost-normal');
@@ -858,9 +858,15 @@
 
       // Filtro Tier de Confianza
       if (currentTier === 'verified') {
-        filtered = filtered.filter(d => d.trust && (d.trust.tier === 'Tier S' || d.trust.tier === 'Tier A'));
+        filtered = filtered.filter(d => {
+          const t = d.brand_trust || d.trust || (d.verdict && d.verdict.trust) || {};
+          return t.tier === 'Tier S' || t.tier === 'Tier A';
+        });
       } else if (currentTier !== 'all') {
-        filtered = filtered.filter(d => d.trust && d.trust.tier === currentTier);
+        filtered = filtered.filter(d => {
+          const t = d.brand_trust || d.trust || (d.verdict && d.verdict.trust) || {};
+          return t.tier === currentTier;
+        });
       }
 
       // Filtro Categoría
