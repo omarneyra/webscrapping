@@ -389,23 +389,103 @@ def generate_verdict(product: Dict[str, Any]) -> Dict[str, Any]:
     }
 
 
-def enrich_products_with_analytics(products: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+def update_price_history(
+    products: List[Dict[str, Any]],
+    history_file: Any,
+) -> Dict[str, Any]:
     """
-    Enriquece cada registro de producto con métricas de valor, auditoría de marca y veredicto.
+    Carga el historial de precios por producto (clave única: source + title normalizado),
+    registra el precio actual y retorna el diccionario de historial.
+    """
+    import json
+    from pathlib import Path
+    import time
+
+    p_path = Path(history_file)
+    history: Dict[str, Any] = {}
+    if p_path.exists():
+        try:
+            with open(p_path, "r", encoding="utf-8") as f:
+                history = json.load(f)
+        except Exception:
+            history = {}
+
+    timestamp = time.strftime("%Y-%m-%d %H:%M:%S")
+
+    for item in products:
+        key = f"{item.get('source', '')}::{item.get('title', '').strip().lower()}"
+        price = item.get("price", 0.0)
+        if price <= 0:
+            continue
+
+        if key not in history:
+            history[key] = {
+                "initial_price": price,
+                "first_seen": timestamp,
+                "history": [],
+            }
+
+        # Registrar entrada si el precio cambió o si es la primera vez
+        records = history[key]["history"]
+        if not records or records[-1].get("price") != price:
+            records.append({
+                "timestamp": timestamp,
+                "price": price,
+            })
+
+    try:
+        p_path.parent.mkdir(parents=True, exist_ok=True)
+        with open(p_path, "w", encoding="utf-8") as f:
+            json.dump(history, f, indent=2, ensure_ascii=False)
+    except Exception as e:
+        print(f"[Aviso Historial] Error al guardar {history_file}: {e}")
+
+    return history
+
+
+def enrich_products_with_analytics(
+    products: List[Dict[str, Any]],
+    price_history: Optional[Dict[str, Any]] = None,
+) -> List[Dict[str, Any]]:
+    """
+    Enriquece cada registro de producto con métricas de valor, auditoría de marca,
+    veredicto y detección de cambios de precio respecto a la primera toma (Pre-Cyber).
     """
     enriched = []
     seen = set()
 
     for item in products:
-        key = (item.get("source"), item.get("title"), item.get("price"))
-        if key in seen:
+        key_seen = (item.get("source"), item.get("title"), item.get("price"))
+        if key_seen in seen:
             continue
-        seen.add(key)
+        seen.add(key_seen)
 
         clone = dict(item)
         clone["value_score"] = calculate_value_score(clone)
         clone["verdict"] = generate_verdict(clone)
         clone["brand_trust"] = get_brand_trust_data(clone.get("title", ""))
+
+        # Detección de cambio de precio Cyber vs Pre-Cyber
+        if price_history:
+            h_key = f"{clone.get('source', '')}::{clone.get('title', '').strip().lower()}"
+            hist_entry = price_history.get(h_key)
+            if hist_entry:
+                init_price = hist_entry.get("initial_price", clone["price"])
+                curr_price = clone["price"]
+                diff_amount = round(curr_price - init_price, 0)
+                diff_pct = round(((curr_price - init_price) / init_price) * 100.0, 1) if init_price > 0 else 0.0
+
+                clone["price_change"] = {
+                    "initial_price": init_price,
+                    "diff_clp": diff_amount,
+                    "diff_pct": diff_pct,
+                    "status": "BAJO" if diff_amount < 0 else ("SUBIO" if diff_amount > 0 else "IGUAL"),
+                }
+            else:
+                clone["price_change"] = {"initial_price": clone["price"], "diff_clp": 0, "diff_pct": 0, "status": "NUEVO"}
+        else:
+            clone["price_change"] = {"initial_price": clone["price"], "diff_clp": 0, "diff_pct": 0, "status": "IGUAL"}
+
         enriched.append(clone)
 
     # Ordenar por mejor relación beneficio/precio

@@ -1,6 +1,6 @@
 window.CYBER_DEALS_DATA = {
   "meta": {
-    "timestamp": "2026-10-04 14:47:58",
+    "timestamp": "2026-10-04 15:15:13",
     "total_stores_scanned": 12,
     "total_products_scanned": 588,
     "analyzed_deals_count": 366
@@ -52,6 +52,12 @@ window.CYBER_DEALS_DATA = {
           ],
           "spiking_risk": "Bajo",
           "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+        },
+        "price_change": {
+          "initial_price": 51947.0,
+          "diff_clp": 0.0,
+          "diff_pct": 0.0,
+          "status": "IGUAL"
         }
       },
       "casein": {
@@ -98,6 +104,12 @@ window.CYBER_DEALS_DATA = {
           ],
           "spiking_risk": "Bajo",
           "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+        },
+        "price_change": {
+          "initial_price": 22990.0,
+          "diff_clp": 0.0,
+          "diff_pct": 0.0,
+          "status": "IGUAL"
         }
       }
     },
@@ -156,6 +168,12 @@ window.CYBER_DEALS_DATA = {
             ],
             "spiking_risk": "Muy Bajo",
             "notes": "Planta propia en Canadá (Fit Foods). Sellos Informed-Choice en cada formulación."
+          },
+          "price_change": {
+            "initial_price": 56990.0,
+            "diff_clp": 0.0,
+            "diff_pct": 0.0,
+            "status": "IGUAL"
           }
         },
         "units": 1,
@@ -220,6 +238,12 @@ window.CYBER_DEALS_DATA = {
             ],
             "spiking_risk": "Muy Bajo",
             "notes": "Fabricante europeo bajo estricta regulación de la EFSA. Caseína micelar pura sin rellenos."
+          },
+          "price_change": {
+            "initial_price": 85990.0,
+            "diff_clp": 0.0,
+            "diff_pct": 0.0,
+            "status": "IGUAL"
           }
         },
         "units": 1,
@@ -291,6 +315,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Creada por los fundadores originales de Optimum Nutrition tras vender a Glanbia. Instalaciones propias con certificación cGMP e Informed-Choice."
+      },
+      "price_change": {
+        "initial_price": 54190.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -337,6 +367,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+      },
+      "price_change": {
+        "initial_price": 43990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -385,6 +421,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      },
+      "price_change": {
+        "initial_price": 44990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -429,6 +471,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Planta propia en Canadá (Fit Foods). Sellos Informed-Choice en cada formulación."
+      },
+      "price_change": {
+        "initial_price": 56990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -473,6 +521,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Planta propia en Canadá (Fit Foods). Sellos Informed-Choice en cada formulación."
+      },
+      "price_change": {
+        "initial_price": 61590.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -521,6 +575,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Fabricante europeo bajo estricta regulación de la EFSA. Caseína micelar pura sin rellenos."
+      },
+      "price_change": {
+        "initial_price": 85990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -565,6 +625,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio",
         "notes": "Línea ISO HD de buen nivel; en 2015 enfrentó demandas colectivas por aminoácidos libres en líneas de entrada."
+      },
+      "price_change": {
+        "initial_price": 75990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -611,6 +677,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+      },
+      "price_change": {
+        "initial_price": 49990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -653,6 +725,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "Blend económico local; carece de certificación de pureza por laboratorios externos."
+      },
+      "price_change": {
+        "initial_price": 42990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -697,6 +775,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Planta propia en Canadá (Fit Foods). Sellos Informed-Choice en cada formulación."
+      },
+      "price_change": {
+        "initial_price": 58990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -741,6 +825,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Planta propia en Canadá (Fit Foods). Sellos Informed-Choice en cada formulación."
+      },
+      "price_change": {
+        "initial_price": 97740.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -783,6 +873,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 19990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -831,6 +927,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      },
+      "price_change": {
+        "initial_price": 68990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -873,6 +975,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Alto",
         "notes": "Marca de bajo costo sin sellos de Informed-Choice ni análisis de lote públicos."
+      },
+      "price_change": {
+        "initial_price": 44990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -915,6 +1023,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 58990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -957,6 +1071,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 58990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -1005,6 +1125,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Fabricante europeo bajo estricta regulación de la EFSA. Caseína micelar pura sin rellenos."
+      },
+      "price_change": {
+        "initial_price": 94990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -1049,6 +1175,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Línea hardcore de Universal Nutrition con más de 40 años en el mercado y formulaciones consistentes."
+      },
+      "price_change": {
+        "initial_price": 52400.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -1093,6 +1225,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Línea hardcore de Universal Nutrition con más de 40 años en el mercado y formulaciones consistentes."
+      },
+      "price_change": {
+        "initial_price": 52400.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -1135,6 +1273,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 28990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -1179,6 +1323,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Planta propia en Canadá (Fit Foods). Sellos Informed-Choice en cada formulación."
+      },
+      "price_change": {
+        "initial_price": 64990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -1225,6 +1375,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+      },
+      "price_change": {
+        "initial_price": 57990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -1269,6 +1425,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Línea hardcore de Universal Nutrition con más de 40 años en el mercado y formulaciones consistentes."
+      },
+      "price_change": {
+        "initial_price": 76990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -1317,6 +1479,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      },
+      "price_change": {
+        "initial_price": 91990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -1359,6 +1527,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Alto",
         "notes": "Precios muy bajos pero sin auditorías independientes de pureza proteica ni sellos antidopaje."
+      },
+      "price_change": {
+        "initial_price": 54990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -1401,6 +1575,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+      },
+      "price_change": {
+        "initial_price": 51947.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -1443,6 +1623,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 21390.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -1485,6 +1671,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 64990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -1533,6 +1725,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      },
+      "price_change": {
+        "initial_price": 65190.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -1577,6 +1775,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Filial de Glanbia. Excelente perfil de asimilación y digestibilidad."
+      },
+      "price_change": {
+        "initial_price": 65990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -1625,6 +1829,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Fabricante europeo bajo estricta regulación de la EFSA. Caseína micelar pura sin rellenos."
+      },
+      "price_change": {
+        "initial_price": 74990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -1667,6 +1877,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Alto",
         "notes": "Precios muy bajos pero sin auditorías independientes de pureza proteica ni sellos antidopaje."
+      },
+      "price_change": {
+        "initial_price": 44990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -1711,6 +1927,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio",
         "notes": "Línea ISO HD de buen nivel; en 2015 enfrentó demandas colectivas por aminoácidos libres en líneas de entrada."
+      },
+      "price_change": {
+        "initial_price": 89990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -1753,6 +1975,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Alto",
         "notes": "Precios muy bajos pero sin auditorías independientes de pureza proteica ni sellos antidopaje."
+      },
+      "price_change": {
+        "initial_price": 49990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -1797,6 +2025,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Línea hardcore de Universal Nutrition con más de 40 años en el mercado y formulaciones consistentes."
+      },
+      "price_change": {
+        "initial_price": 47933.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -1841,6 +2075,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Línea hardcore de Universal Nutrition con más de 40 años en el mercado y formulaciones consistentes."
+      },
+      "price_change": {
+        "initial_price": 47933.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -1889,6 +2129,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Fabricante europeo bajo estricta regulación de la EFSA. Caseína micelar pura sin rellenos."
+      },
+      "price_change": {
+        "initial_price": 69990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -1931,6 +2177,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 55992.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -1973,6 +2225,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Alto",
         "notes": "Marca de bajo costo sin sellos de Informed-Choice ni análisis de lote públicos."
+      },
+      "price_change": {
+        "initial_price": 24990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -2019,6 +2277,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Creada por los fundadores originales de Optimum Nutrition tras vender a Glanbia. Instalaciones propias con certificación cGMP e Informed-Choice."
+      },
+      "price_change": {
+        "initial_price": 48990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -2065,6 +2329,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Creada por los fundadores originales de Optimum Nutrition tras vender a Glanbia. Instalaciones propias con certificación cGMP e Informed-Choice."
+      },
+      "price_change": {
+        "initial_price": 48990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -2111,6 +2381,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Creada por los fundadores originales de Optimum Nutrition tras vender a Glanbia. Instalaciones propias con certificación cGMP e Informed-Choice."
+      },
+      "price_change": {
+        "initial_price": 48990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -2153,6 +2429,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 24990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -2199,6 +2481,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+      },
+      "price_change": {
+        "initial_price": 22990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -2245,6 +2533,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Creada por los fundadores originales de Optimum Nutrition tras vender a Glanbia. Instalaciones propias con certificación cGMP e Informed-Choice."
+      },
+      "price_change": {
+        "initial_price": 24990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -2291,6 +2585,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+      },
+      "price_change": {
+        "initial_price": 59490.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -2337,6 +2637,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+      },
+      "price_change": {
+        "initial_price": 59490.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -2383,6 +2689,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+      },
+      "price_change": {
+        "initial_price": 59490.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -2429,6 +2741,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+      },
+      "price_change": {
+        "initial_price": 59490.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -2475,6 +2793,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+      },
+      "price_change": {
+        "initial_price": 59490.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -2517,6 +2841,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 27990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -2559,6 +2889,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 77990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -2601,6 +2937,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 53990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -2643,6 +2985,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 53990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -2689,6 +3037,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+      },
+      "price_change": {
+        "initial_price": 64990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -2733,6 +3087,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Línea hardcore de Universal Nutrition con más de 40 años en el mercado y formulaciones consistentes."
+      },
+      "price_change": {
+        "initial_price": 37990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -2777,6 +3137,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Línea hardcore de Universal Nutrition con más de 40 años en el mercado y formulaciones consistentes."
+      },
+      "price_change": {
+        "initial_price": 37990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -2823,6 +3189,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+      },
+      "price_change": {
+        "initial_price": 25990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -2869,6 +3241,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+      },
+      "price_change": {
+        "initial_price": 25990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -2915,6 +3293,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+      },
+      "price_change": {
+        "initial_price": 25990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -2957,6 +3341,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Alto",
         "notes": "Precio sospechosamente bajo ($22 CLP/g). Alto riesgo de subdosificación o amino spiking."
+      },
+      "price_change": {
+        "initial_price": 32990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -2999,6 +3389,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 23290.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -3041,6 +3437,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 25990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -3083,6 +3485,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "Blend económico local; carece de certificación de pureza por laboratorios externos."
+      },
+      "price_change": {
+        "initial_price": 59990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -3131,6 +3539,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Fabricante europeo bajo estricta regulación de la EFSA. Caseína micelar pura sin rellenos."
+      },
+      "price_change": {
+        "initial_price": 82990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -3175,6 +3589,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Planta propia en Canadá (Fit Foods). Sellos Informed-Choice en cada formulación."
+      },
+      "price_change": {
+        "initial_price": 99990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -3219,6 +3639,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Planta propia en Canadá (Fit Foods). Sellos Informed-Choice en cada formulación."
+      },
+      "price_change": {
+        "initial_price": 99990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -3263,6 +3689,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Etiqueta 100% transparente: desglosa los gramos exactos de WPI y WPC sin mezclas ocultas."
+      },
+      "price_change": {
+        "initial_price": 34990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -3305,6 +3737,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 22990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -3347,6 +3785,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 27992.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -3389,6 +3833,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 27992.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -3431,6 +3881,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 31192.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -3473,6 +3929,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 31192.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -3519,6 +3981,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Creada por los fundadores originales de Optimum Nutrition tras vender a Glanbia. Instalaciones propias con certificación cGMP e Informed-Choice."
+      },
+      "price_change": {
+        "initial_price": 102990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -3561,6 +4029,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 54990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -3607,6 +4081,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Creada por los fundadores originales de Optimum Nutrition tras vender a Glanbia. Instalaciones propias con certificación cGMP e Informed-Choice."
+      },
+      "price_change": {
+        "initial_price": 24990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -3653,6 +4133,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Creada por los fundadores originales de Optimum Nutrition tras vender a Glanbia. Instalaciones propias con certificación cGMP e Informed-Choice."
+      },
+      "price_change": {
+        "initial_price": 24990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -3695,6 +4181,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 57990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -3737,6 +4229,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 24650.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -3779,6 +4277,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "Blend económico local; carece de certificación de pureza por laboratorios externos."
+      },
+      "price_change": {
+        "initial_price": 25990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -3821,6 +4325,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 28990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -3867,6 +4377,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Creada por los fundadores originales de Optimum Nutrition tras vender a Glanbia. Instalaciones propias con certificación cGMP e Informed-Choice."
+      },
+      "price_change": {
+        "initial_price": 102990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -3909,6 +4425,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 68990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -3951,6 +4473,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 46990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -3993,6 +4521,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 47990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -4035,6 +4569,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 10090.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -4077,6 +4617,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 69990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -4119,6 +4665,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 10850.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -4163,6 +4715,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Filial de Glanbia. Excelente perfil de asimilación y digestibilidad."
+      },
+      "price_change": {
+        "initial_price": 78990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -4207,6 +4765,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Filial de Glanbia. Excelente perfil de asimilación y digestibilidad."
+      },
+      "price_change": {
+        "initial_price": 82990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -4255,6 +4819,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      },
+      "price_change": {
+        "initial_price": 94990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -4297,6 +4867,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "Blend económico local; carece de certificación de pureza por laboratorios externos."
+      },
+      "price_change": {
+        "initial_price": 98990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -4341,6 +4917,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Línea ProStar con buena reputación histórica en pruebas de nitrógeno y laboratorio."
+      },
+      "price_change": {
+        "initial_price": 76990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -4389,6 +4971,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      },
+      "price_change": {
+        "initial_price": 118990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -4431,6 +5019,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+      },
+      "price_change": {
+        "initial_price": 28873.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -4473,6 +5067,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+      },
+      "price_change": {
+        "initial_price": 28873.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -4515,6 +5115,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 20990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -4561,6 +5167,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+      },
+      "price_change": {
+        "initial_price": 24990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -4603,6 +5215,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 89990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -4645,6 +5263,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 89990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -4687,6 +5311,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 26190.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -4729,6 +5359,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 89000.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -4773,6 +5409,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Línea hardcore de Universal Nutrition con más de 40 años en el mercado y formulaciones consistentes."
+      },
+      "price_change": {
+        "initial_price": 68990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -4817,6 +5459,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Línea hardcore de Universal Nutrition con más de 40 años en el mercado y formulaciones consistentes."
+      },
+      "price_change": {
+        "initial_price": 68990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -4859,6 +5507,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 103990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -4903,6 +5557,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 129990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -4947,6 +5607,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Proteína estadounidense con tecnología Promina y buena biodisponibilidad."
+      },
+      "price_change": {
+        "initial_price": 79990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -4989,6 +5655,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 42990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -5031,6 +5703,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 42990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -5073,6 +5751,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 42990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -5115,6 +5799,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 79000.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -5157,6 +5847,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 76990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -5199,6 +5895,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 13990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -5247,6 +5949,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      },
+      "price_change": {
+        "initial_price": 32990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -5291,6 +5999,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Filial de Glanbia. Excelente perfil de asimilación y digestibilidad."
+      },
+      "price_change": {
+        "initial_price": 49990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -5335,6 +6049,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Línea ProStar con buena reputación histórica en pruebas de nitrógeno y laboratorio."
+      },
+      "price_change": {
+        "initial_price": 92990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -5377,6 +6097,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 30990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -5425,6 +6151,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      },
+      "price_change": {
+        "initial_price": 79990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -5469,6 +6201,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Línea ProStar con buena reputación histórica en pruebas de nitrógeno y laboratorio."
+      },
+      "price_change": {
+        "initial_price": 91990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -5511,6 +6249,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 42990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -5559,6 +6303,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      },
+      "price_change": {
+        "initial_price": 97190.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -5601,6 +6351,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 32850.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -5643,6 +6399,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio",
         "notes": "Marca chilena económica de entrada; sin auditorías independientes de terceros publicadas."
+      },
+      "price_change": {
+        "initial_price": 40555.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -5685,6 +6447,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio",
         "notes": "Marca chilena económica de entrada; sin auditorías independientes de terceros publicadas."
+      },
+      "price_change": {
+        "initial_price": 40555.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -5727,6 +6495,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+      },
+      "price_change": {
+        "initial_price": 86990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -5771,6 +6545,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Línea ProStar con buena reputación histórica en pruebas de nitrógeno y laboratorio."
+      },
+      "price_change": {
+        "initial_price": 92990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -5819,6 +6599,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      },
+      "price_change": {
+        "initial_price": 91090.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -5861,6 +6647,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 108990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -5909,6 +6701,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      },
+      "price_change": {
+        "initial_price": 94990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -5951,6 +6749,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+      },
+      "price_change": {
+        "initial_price": 113990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -5995,6 +6799,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Proteína estadounidense con tecnología Promina y buena biodisponibilidad."
+      },
+      "price_change": {
+        "initial_price": 41990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -6037,6 +6847,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 11890.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -6081,6 +6897,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 122837.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -6125,6 +6947,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 124990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -6169,6 +6997,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Línea ProStar con buena reputación histórica en pruebas de nitrógeno y laboratorio."
+      },
+      "price_change": {
+        "initial_price": 94490.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -6217,6 +7051,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Fabricante europeo bajo estricta regulación de la EFSA. Caseína micelar pura sin rellenos."
+      },
+      "price_change": {
+        "initial_price": 44990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -6261,6 +7101,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 124490.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -6305,6 +7151,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 124490.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -6349,6 +7201,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 124490.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -6393,6 +7251,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 124490.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -6437,6 +7301,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 124490.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -6481,6 +7351,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 124490.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -6525,6 +7401,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 124490.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -6567,6 +7449,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 29990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -6609,6 +7497,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 29990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -6651,6 +7545,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 90990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -6693,6 +7593,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "Blend económico local; carece de certificación de pureza por laboratorios externos."
+      },
+      "price_change": {
+        "initial_price": 98990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -6737,6 +7643,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 133990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -6781,6 +7693,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 133990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -6823,6 +7741,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Alto",
         "notes": "Marca económica sin auditorías de terceros publicadas."
+      },
+      "price_change": {
+        "initial_price": 29990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -6867,6 +7791,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 128990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -6911,6 +7841,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 128990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -6959,6 +7895,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      },
+      "price_change": {
+        "initial_price": 59990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -7001,6 +7943,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo / Medio",
         "notes": "Marca norteamericana con presencia en gimnasios y formulaciones estándar."
+      },
+      "price_change": {
+        "initial_price": 34255.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -7043,6 +7991,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 49990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -7087,6 +8041,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Etiqueta 100% transparente: desglosa los gramos exactos de WPI y WPC sin mezclas ocultas."
+      },
+      "price_change": {
+        "initial_price": 36854.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -7131,6 +8091,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Etiqueta 100% transparente: desglosa los gramos exactos de WPI y WPC sin mezclas ocultas."
+      },
+      "price_change": {
+        "initial_price": 36854.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -7175,6 +8141,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Etiqueta 100% transparente: desglosa los gramos exactos de WPI y WPC sin mezclas ocultas."
+      },
+      "price_change": {
+        "initial_price": 36855.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -7219,6 +8191,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Etiqueta 100% transparente: desglosa los gramos exactos de WPI y WPC sin mezclas ocultas."
+      },
+      "price_change": {
+        "initial_price": 36854.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -7267,6 +8245,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      },
+      "price_change": {
+        "initial_price": 54990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -7309,6 +8293,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 34990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -7355,6 +8345,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+      },
+      "price_change": {
+        "initial_price": 25990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -7401,6 +8397,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+      },
+      "price_change": {
+        "initial_price": 25990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -7443,6 +8445,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 74990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -7489,6 +8497,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Creada por los fundadores originales de Optimum Nutrition tras vender a Glanbia. Instalaciones propias con certificación cGMP e Informed-Choice."
+      },
+      "price_change": {
+        "initial_price": 21490.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -7531,6 +8545,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "Blend económico local; carece de certificación de pureza por laboratorios externos."
+      },
+      "price_change": {
+        "initial_price": 29990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -7577,6 +8597,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Creada por los fundadores originales de Optimum Nutrition tras vender a Glanbia. Instalaciones propias con certificación cGMP e Informed-Choice."
+      },
+      "price_change": {
+        "initial_price": 45990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -7625,6 +8651,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      },
+      "price_change": {
+        "initial_price": 59990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -7673,6 +8705,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Fabricante europeo bajo estricta regulación de la EFSA. Caseína micelar pura sin rellenos."
+      },
+      "price_change": {
+        "initial_price": 59990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -7717,6 +8755,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 159990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -7761,6 +8805,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 159990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -7803,6 +8853,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio",
         "notes": "Marca chilena económica de entrada; sin auditorías independientes de terceros publicadas."
+      },
+      "price_change": {
+        "initial_price": 37990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -7845,6 +8901,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio",
         "notes": "Marca chilena económica de entrada; sin auditorías independientes de terceros publicadas."
+      },
+      "price_change": {
+        "initial_price": 37990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -7889,6 +8951,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Línea ProStar con buena reputación histórica en pruebas de nitrógeno y laboratorio."
+      },
+      "price_change": {
+        "initial_price": 48990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -7937,6 +9005,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      },
+      "price_change": {
+        "initial_price": 140990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -7985,6 +9059,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Fabricante europeo bajo estricta regulación de la EFSA. Caseína micelar pura sin rellenos."
+      },
+      "price_change": {
+        "initial_price": 60990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -8029,6 +9109,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Filial de Glanbia. Excelente perfil de asimilación y digestibilidad."
+      },
+      "price_change": {
+        "initial_price": 56990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -8077,6 +9163,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      },
+      "price_change": {
+        "initial_price": 89990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -8121,6 +9213,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 159990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -8165,6 +9263,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 159990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -8209,6 +9313,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 159990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -8251,6 +9361,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 92990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -8293,6 +9409,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 94990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -8335,6 +9457,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 46850.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -8377,6 +9505,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 39980.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -8419,6 +9553,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 39980.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -8463,6 +9603,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Planta propia en Canadá (Fit Foods). Sellos Informed-Choice en cada formulación."
+      },
+      "price_change": {
+        "initial_price": 41990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -8511,6 +9657,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      },
+      "price_change": {
+        "initial_price": 106990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -8555,6 +9707,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Etiqueta 100% transparente: desglosa los gramos exactos de WPI y WPC sin mezclas ocultas."
+      },
+      "price_change": {
+        "initial_price": 52990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -8599,6 +9757,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Etiqueta 100% transparente: desglosa los gramos exactos de WPI y WPC sin mezclas ocultas."
+      },
+      "price_change": {
+        "initial_price": 52990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -8643,6 +9807,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Etiqueta 100% transparente: desglosa los gramos exactos de WPI y WPC sin mezclas ocultas."
+      },
+      "price_change": {
+        "initial_price": 52990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -8685,6 +9855,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 37990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -8731,6 +9907,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+      },
+      "price_change": {
+        "initial_price": 37990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -8777,6 +9959,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+      },
+      "price_change": {
+        "initial_price": 37990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -8821,6 +10009,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Línea hardcore de Universal Nutrition con más de 40 años en el mercado y formulaciones consistentes."
+      },
+      "price_change": {
+        "initial_price": 54990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -8865,6 +10059,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Línea hardcore de Universal Nutrition con más de 40 años en el mercado y formulaciones consistentes."
+      },
+      "price_change": {
+        "initial_price": 54990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -8913,6 +10113,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      },
+      "price_change": {
+        "initial_price": 87990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -8955,6 +10161,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Alto",
         "notes": "Marca económica sin auditorías de terceros publicadas."
+      },
+      "price_change": {
+        "initial_price": 69990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -8997,6 +10209,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 29990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -9039,6 +10257,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 54990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -9081,6 +10305,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 54990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -9125,6 +10355,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 54350.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -9173,6 +10409,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Fabricante europeo bajo estricta regulación de la EFSA. Caseína micelar pura sin rellenos."
+      },
+      "price_change": {
+        "initial_price": 109990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -9219,6 +10461,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+      },
+      "price_change": {
+        "initial_price": 32490.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -9263,6 +10511,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 49990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -9305,6 +10559,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 36850.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -9347,6 +10607,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 36850.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -9389,6 +10655,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 48250.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -9431,6 +10703,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo / Medio",
         "notes": "Marca norteamericana con presencia en gimnasios y formulaciones estándar."
+      },
+      "price_change": {
+        "initial_price": 41990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -9475,6 +10753,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 54890.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -9519,6 +10803,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Línea ProStar con buena reputación histórica en pruebas de nitrógeno y laboratorio."
+      },
+      "price_change": {
+        "initial_price": 138990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -9563,6 +10853,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 84990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -9607,6 +10903,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 53990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -9655,6 +10957,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      },
+      "price_change": {
+        "initial_price": 65990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -9703,6 +11011,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Fabricante europeo bajo estricta regulación de la EFSA. Caseína micelar pura sin rellenos."
+      },
+      "price_change": {
+        "initial_price": 39990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -9747,6 +11061,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 53990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -9791,6 +11111,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 57990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -9835,6 +11161,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Etiqueta 100% transparente: desglosa los gramos exactos de WPI y WPC sin mezclas ocultas."
+      },
+      "price_change": {
+        "initial_price": 42990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -9879,6 +11211,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Etiqueta 100% transparente: desglosa los gramos exactos de WPI y WPC sin mezclas ocultas."
+      },
+      "price_change": {
+        "initial_price": 42990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -9921,6 +11259,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 39190.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -9965,6 +11309,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Línea ProStar con buena reputación histórica en pruebas de nitrógeno y laboratorio."
+      },
+      "price_change": {
+        "initial_price": 59990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -10007,6 +11357,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio",
         "notes": "Marca chilena económica de entrada; sin auditorías independientes de terceros publicadas."
+      },
+      "price_change": {
+        "initial_price": 20990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -10049,6 +11405,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio",
         "notes": "Marca chilena económica de entrada; sin auditorías independientes de terceros publicadas."
+      },
+      "price_change": {
+        "initial_price": 20990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -10091,6 +11453,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+      },
+      "price_change": {
+        "initial_price": 44990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -10133,6 +11501,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+      },
+      "price_change": {
+        "initial_price": 44990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -10181,6 +11555,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      },
+      "price_change": {
+        "initial_price": 44990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -10225,6 +11605,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo / Medio",
         "notes": "Marca chilena consolidada. En estudio ODECU/SERNAC tuvo discrepancias menores de rotulación pero usa WPC real."
+      },
+      "price_change": {
+        "initial_price": 54990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -10273,6 +11659,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      },
+      "price_change": {
+        "initial_price": 59990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -10321,6 +11713,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      },
+      "price_change": {
+        "initial_price": 57990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -10363,6 +11761,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio",
         "notes": "Marca chilena económica de entrada; sin auditorías independientes de terceros publicadas."
+      },
+      "price_change": {
+        "initial_price": 17763.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -10405,6 +11809,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio",
         "notes": "Marca chilena económica de entrada; sin auditorías independientes de terceros publicadas."
+      },
+      "price_change": {
+        "initial_price": 17763.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -10447,6 +11857,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 22990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -10489,6 +11905,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 22990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -10531,6 +11953,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 98790.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -10575,6 +12003,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Línea ProStar con buena reputación histórica en pruebas de nitrógeno y laboratorio."
+      },
+      "price_change": {
+        "initial_price": 46990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -10617,6 +12051,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+      },
+      "price_change": {
+        "initial_price": 109990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -10659,6 +12099,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+      },
+      "price_change": {
+        "initial_price": 109990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -10701,6 +12147,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+      },
+      "price_change": {
+        "initial_price": 109990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -10743,6 +12195,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+      },
+      "price_change": {
+        "initial_price": 67990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -10787,6 +12245,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Línea ProStar con buena reputación histórica en pruebas de nitrógeno y laboratorio."
+      },
+      "price_change": {
+        "initial_price": 57990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -10831,6 +12295,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Línea ProStar con buena reputación histórica en pruebas de nitrógeno y laboratorio."
+      },
+      "price_change": {
+        "initial_price": 57990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -10875,6 +12345,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Línea ProStar con buena reputación histórica en pruebas de nitrógeno y laboratorio."
+      },
+      "price_change": {
+        "initial_price": 70990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -10917,6 +12393,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 19990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -10959,6 +12441,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 101990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -11001,6 +12489,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 101990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -11047,6 +12541,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+      },
+      "price_change": {
+        "initial_price": 23390.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -11089,6 +12589,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 132890.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -11131,6 +12637,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 49990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -11175,6 +12687,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Línea ProStar con buena reputación histórica en pruebas de nitrógeno y laboratorio."
+      },
+      "price_change": {
+        "initial_price": 62990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -11219,6 +12737,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Etiqueta 100% transparente: desglosa los gramos exactos de WPI y WPC sin mezclas ocultas."
+      },
+      "price_change": {
+        "initial_price": 35411.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -11263,6 +12787,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Etiqueta 100% transparente: desglosa los gramos exactos de WPI y WPC sin mezclas ocultas."
+      },
+      "price_change": {
+        "initial_price": 35411.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -11307,6 +12837,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 51850.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -11351,6 +12887,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 58850.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -11395,6 +12937,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 49850.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -11439,6 +12987,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Línea ProStar con buena reputación histórica en pruebas de nitrógeno y laboratorio."
+      },
+      "price_change": {
+        "initial_price": 62990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -11483,6 +13037,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 56990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -11527,6 +13087,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 56990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -11571,6 +13137,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 56990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -11615,6 +13187,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 56990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -11659,6 +13237,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 56990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -11703,6 +13287,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 56990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -11747,6 +13337,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 56990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -11795,6 +13391,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      },
+      "price_change": {
+        "initial_price": 65990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -11843,6 +13445,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      },
+      "price_change": {
+        "initial_price": 61990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -11885,6 +13493,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 91990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -11927,6 +13541,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 91990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -11969,6 +13589,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 59990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -12011,6 +13637,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 130990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -12053,6 +13685,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 131990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -12095,6 +13733,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 39990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -12137,6 +13781,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 43890.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -12181,6 +13831,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Proteína estadounidense con tecnología Promina y buena biodisponibilidad."
+      },
+      "price_change": {
+        "initial_price": 44990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -12223,6 +13879,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+      },
+      "price_change": {
+        "initial_price": 60990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -12265,6 +13927,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+      },
+      "price_change": {
+        "initial_price": 60990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -12307,6 +13975,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+      },
+      "price_change": {
+        "initial_price": 60990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -12349,6 +14023,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 24990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -12391,6 +14071,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 24990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -12433,6 +14119,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 99990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -12479,6 +14171,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+      },
+      "price_change": {
+        "initial_price": 36990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -12521,6 +14219,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio",
         "notes": "Marca chilena económica de entrada; sin auditorías independientes de terceros publicadas."
+      },
+      "price_change": {
+        "initial_price": 56990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -12563,6 +14267,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio",
         "notes": "Marca chilena económica de entrada; sin auditorías independientes de terceros publicadas."
+      },
+      "price_change": {
+        "initial_price": 56990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -12605,6 +14315,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio",
         "notes": "Marca chilena económica de entrada; sin auditorías independientes de terceros publicadas."
+      },
+      "price_change": {
+        "initial_price": 56990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -12649,6 +14365,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Línea ProStar con buena reputación histórica en pruebas de nitrógeno y laboratorio."
+      },
+      "price_change": {
+        "initial_price": 42990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -12691,6 +14413,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 48290.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -12733,6 +14461,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 65850.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -12775,6 +14509,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 47690.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -12817,6 +14557,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 54490.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -12859,6 +14605,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 53850.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -12901,6 +14653,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 93990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -12943,6 +14701,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 53990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -12985,6 +14749,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 49950.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -13027,6 +14797,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 74990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -13069,6 +14845,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 46990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -13111,6 +14893,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 91990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -13153,6 +14941,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 48990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -13195,6 +14989,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 55890.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -13237,6 +15037,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 74990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -13279,6 +15085,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 59990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -13321,6 +15133,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Alto",
         "notes": "Marca económica sin auditorías de terceros publicadas."
+      },
+      "price_change": {
+        "initial_price": 49990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -13363,6 +15181,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 54990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -13405,6 +15229,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 44990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -13447,6 +15277,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 26090.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -13495,6 +15331,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      },
+      "price_change": {
+        "initial_price": 32990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -13543,6 +15385,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      },
+      "price_change": {
+        "initial_price": 3490.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -13585,6 +15433,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 8990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -13627,6 +15481,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo / Medio",
         "notes": "Marca norteamericana con presencia en gimnasios y formulaciones estándar."
+      },
+      "price_change": {
+        "initial_price": 3890.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -13669,6 +15529,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 3490.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -13717,6 +15583,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      },
+      "price_change": {
+        "initial_price": 3490.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -13765,6 +15637,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      },
+      "price_change": {
+        "initial_price": 1290.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -13807,6 +15685,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 17990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -13849,6 +15733,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 2690.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -13891,6 +15781,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 18990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -13933,6 +15829,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 24990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -13975,6 +15877,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 3590.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -14017,6 +15925,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 21990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -14065,6 +15979,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      },
+      "price_change": {
+        "initial_price": 1990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -14109,6 +16029,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Línea ProStar con buena reputación histórica en pruebas de nitrógeno y laboratorio."
+      },
+      "price_change": {
+        "initial_price": 97990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -14151,6 +16077,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 1990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -14195,6 +16127,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Filial de Glanbia. Excelente perfil de asimilación y digestibilidad."
+      },
+      "price_change": {
+        "initial_price": 64990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -14237,6 +16175,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 9990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -14279,6 +16223,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 36990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -14321,6 +16271,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 74990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -14363,6 +16319,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 74990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -14405,6 +16367,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 78990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -14447,6 +16415,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 69990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -14489,6 +16463,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 42990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -14531,6 +16511,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 24990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -14573,6 +16559,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 21990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -14615,6 +16607,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 10890.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -14657,6 +16655,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 6790.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -14699,6 +16703,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 10590.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -14741,6 +16751,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 8750.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -14783,6 +16799,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 11500.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -14825,6 +16847,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 20990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -14873,6 +16901,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      },
+      "price_change": {
+        "initial_price": 34990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -14915,6 +16949,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "Blend económico local; carece de certificación de pureza por laboratorios externos."
+      },
+      "price_change": {
+        "initial_price": 49990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -14959,6 +16999,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Muy Bajo",
         "notes": "Filial de Glanbia. Excelente perfil de asimilación y digestibilidad."
+      },
+      "price_change": {
+        "initial_price": 2990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -15007,6 +17053,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      },
+      "price_change": {
+        "initial_price": 16990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -15049,6 +17101,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca consolidada estadounidense con presencia global y estándares cGMP."
+      },
+      "price_change": {
+        "initial_price": 9990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -15091,6 +17149,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 1700.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -15133,6 +17197,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 29990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -15175,6 +17245,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 3990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -15217,6 +17293,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 31990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -15259,6 +17341,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 2490.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -15301,6 +17389,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 2490.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -15343,6 +17437,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 2490.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -15385,6 +17485,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 74990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -15429,6 +17535,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 3230.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -15473,6 +17585,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 3470.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -15515,6 +17633,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 1530.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -15557,6 +17681,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 14690.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -15599,6 +17729,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 15490.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -15643,6 +17779,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      },
+      "price_change": {
+        "initial_price": 3090.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -15691,6 +17833,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      },
+      "price_change": {
+        "initial_price": 8000.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -15737,6 +17885,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
+      },
+      "price_change": {
+        "initial_price": 2450.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -15779,6 +17933,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 7230.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -15821,6 +17981,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 2390.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -15863,6 +18029,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 2470.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -15905,6 +18077,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 41800.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -15947,6 +18125,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 27990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -15995,6 +18179,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      },
+      "price_change": {
+        "initial_price": 18596.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -16043,6 +18233,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      },
+      "price_change": {
+        "initial_price": 18596.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -16091,6 +18287,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      },
+      "price_change": {
+        "initial_price": 18596.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -16133,6 +18335,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 3290.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -16175,6 +18383,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      },
+      "price_change": {
+        "initial_price": 3290.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     },
     {
@@ -16223,6 +18437,12 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      },
+      "price_change": {
+        "initial_price": 7990.0,
+        "diff_clp": 0.0,
+        "diff_pct": 0.0,
+        "status": "IGUAL"
       }
     }
   ]

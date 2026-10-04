@@ -4,6 +4,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
 CACHE_FILE = DATA_DIR / "http_cache.json"
+HISTORY_FILE = DATA_DIR / "price_history.json"
 DEALS_JSON = BASE_DIR / "cyber_deals.json"
 DEALS_JS = BASE_DIR / "cyber_deals.js"
 DEALS_CSV = BASE_DIR / "cyber_deals.csv"

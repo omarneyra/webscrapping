@@ -637,6 +637,7 @@
         <span class="filter-label">Confianza:</span>
         <div class="chips-group" id="tier-chips">
           <button class="chip active" data-tier="all">Todas las Marcas</button>
+          <button class="chip" data-tier="dropped" style="border-color: rgba(16,185,129,0.5); color: #34d399;">📉 Rebajas Reales Cyber</button>
           <button class="chip" data-tier="verified">Solo Auditadas (Tier S & A)</button>
           <button class="chip" data-tier="Tier S">Tier S (Informed-Choice / NSF)</button>
           <button class="chip" data-tier="Tier A">Tier A (EFSA / cGMP Auditado)</button>
@@ -794,6 +795,14 @@
 
         const certsDisplay = (t.certifications && t.certifications.length > 0) ? t.certifications.slice(0, 2).join(' • ') : 'No declaradas';
 
+        const pc = item.price_change || {};
+        let priceChangeHtml = '';
+        if (pc.status === 'BAJO') {
+          priceChangeHtml = `<span style="background: rgba(16,185,129,0.2); color: #34d399; border: 1px solid rgba(16,185,129,0.4); font-size: 0.72rem; font-weight: 700; padding: 2px 7px; border-radius: 6px; margin-left: 6px;">📉 Bajó ${formatCLP(Math.abs(pc.diff_clp))} (-${Math.abs(pc.diff_pct)}%)</span>`;
+        } else if (pc.status === 'SUBIO') {
+          priceChangeHtml = `<span style="background: rgba(244,63,94,0.2); color: #f43f5e; border: 1px solid rgba(244,63,94,0.4); font-size: 0.72rem; font-weight: 700; padding: 2px 7px; border-radius: 6px; margin-left: 6px;">📈 Subió ${formatCLP(pc.diff_clp)} (+${pc.diff_pct}%)</span>`;
+        }
+
         return `
           <article class="deal-card">
             <div>
@@ -820,10 +829,11 @@
 
               <h2 class="card-title" title="${item.title}">${item.title}</h2>
 
-              <div class="price-container">
+              <div class="price-container" style="flex-wrap: wrap; gap: 4px; align-items: baseline;">
                 <span class="current-price">${formatCLP(item.price)}</span>
                 ${origPriceHtml}
                 ${discHtml}
+                ${priceChangeHtml}
               </div>
 
               <div class="metrics-box">
@@ -856,8 +866,10 @@
     function applyFiltersAndRender() {
       let filtered = [...appData.deals];
 
-      // Filtro Tier de Confianza
-      if (currentTier === 'verified') {
+      // Filtro Tier de Confianza y Rebajas
+      if (currentTier === 'dropped') {
+        filtered = filtered.filter(d => d.price_change && d.price_change.status === 'BAJO');
+      } else if (currentTier === 'verified') {
         filtered = filtered.filter(d => {
           const t = d.brand_trust || d.trust || (d.verdict && d.verdict.trust) || {};
           return t.tier === 'Tier S' || t.tier === 'Tier A';

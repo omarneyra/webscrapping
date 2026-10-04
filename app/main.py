@@ -5,6 +5,7 @@ from app.config import (
     STORES_CATALOG,
     SEARCH_QUERIES,
     CACHE_FILE,
+    HISTORY_FILE,
     DEALS_JSON,
     DEALS_JS,
     DEALS_CSV,
@@ -12,6 +13,7 @@ from app.config import (
 from app.cache import load_cache, save_cache
 from app.extraction import scrape_all_stores
 from app.analytics import (
+    update_price_history,
     enrich_products_with_analytics,
     build_optimal_basket,
     generate_market_insights,
@@ -30,7 +32,7 @@ def run_pipeline() -> Dict[str, Any]:
     1. Capa de Caché: Carga el almacenamiento de respuestas previas (ETag / SHA-256).
     2. Capa de Extracción: Descarga y parsea solo lo que cambió de las tiendas chilenas.
     3. Capa de Normalización: Estandariza pesos, precios y calcula pureza neta.
-    4. Capa de Análisis: Evalúa marcas (Tier S/A/B/C), calcula Value Score y canasta óptima.
+    4. Capa de Análisis e Historial: Registra y compara variaciones de precio en vivo vs Pre-Cyber.
     5. Capa de Presentación: Exporta JSON, JS, CSV y muestra resumen en consola.
     """
     print("Iniciando escaneo inteligente de suplementos...")
@@ -47,8 +49,12 @@ def run_pipeline() -> Dict[str, Any]:
     # Guardar estado de caché actualizado
     save_cache(cache_store, CACHE_FILE)
 
-    # 3. Análisis Inteligente
-    enriched_products = enrich_products_with_analytics(raw_products)
+    # 3. Historial de Precios & Comparativa Cyber vs Pre-Cyber
+    price_history = update_price_history(raw_products, HISTORY_FILE)
+    print(f"[Historial] Artículos rastreados en historial: {len(price_history)}")
+
+    # 4. Análisis Inteligente
+    enriched_products = enrich_products_with_analytics(raw_products, price_history)
     market_insights = generate_market_insights(enriched_products)
     optimal_basket = build_optimal_basket(enriched_products, target_months=3)
 
