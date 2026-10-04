@@ -81,26 +81,63 @@
     p.subtitle {
       color: var(--text-muted);
       font-size: 0.95rem;
-      max-width: 800px;
+      max-width: 860px;
     }
+
+    /* Trust & Evidence Matrix Banner */
+    .trust-banner {
+      background: linear-gradient(145deg, #161829 0%, #0d111d 100%);
+      border: 1px solid #2e3458;
+      border-radius: 18px;
+      padding: 22px;
+      margin-bottom: 24px;
+    }
+
+    .trust-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 16px;
+      margin-top: 14px;
+    }
+
+    .trust-card {
+      background: rgba(9, 13, 22, 0.7);
+      border: 1px solid #1e293b;
+      border-radius: 12px;
+      padding: 14px;
+    }
+
+    .trust-badge-pill {
+      display: inline-flex;
+      font-size: 0.72rem;
+      font-weight: 800;
+      padding: 2px 8px;
+      border-radius: 6px;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+
+    .pill-tier-s { background: rgba(245, 158, 11, 0.2); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.4); }
+    .pill-tier-a { background: rgba(16, 185, 129, 0.2); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.4); }
+    .pill-tier-b { background: rgba(59, 130, 246, 0.2); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.4); }
+    .pill-tier-c { background: rgba(244, 63, 94, 0.2); color: #fb7185; border: 1px solid rgba(244, 63, 94, 0.4); }
 
     /* Executive Insights Box */
     .insights-panel {
       background: linear-gradient(145deg, #131b2e 0%, #0d1525 100%);
       border: 1px solid #2a3754;
       border-radius: 18px;
-      padding: 24px;
-      margin-bottom: 28px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+      padding: 22px;
+      margin-bottom: 24px;
     }
 
     .insights-header {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 18px;
+      margin-bottom: 16px;
       border-bottom: 1px solid #1f2d47;
-      padding-bottom: 14px;
+      padding-bottom: 12px;
     }
 
     .insights-title {
@@ -114,8 +151,8 @@
 
     .insights-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 18px;
+      grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+      gap: 16px;
     }
 
     .insight-card {
@@ -147,8 +184,8 @@
       background: linear-gradient(145deg, #1a163a 0%, #101426 100%);
       border: 1px solid #3730a3;
       border-radius: 18px;
-      padding: 24px;
-      margin-bottom: 28px;
+      padding: 22px;
+      margin-bottom: 24px;
     }
 
     .basket-header {
@@ -157,7 +194,7 @@
       justify-content: space-between;
       align-items: center;
       gap: 14px;
-      margin-bottom: 18px;
+      margin-bottom: 16px;
     }
 
     .basket-title {
@@ -190,10 +227,7 @@
       transition: all 0.2s;
     }
 
-    .basket-tab.active {
-      background: #4f46e5;
-      color: #ffffff;
-    }
+    .basket-tab.active { background: #4f46e5; color: #ffffff; }
 
     .basket-content {
       display: grid;
@@ -202,11 +236,7 @@
       align-items: center;
     }
 
-    .basket-items {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
+    .basket-items { display: flex; flex-direction: column; gap: 10px; }
 
     .basket-item-row {
       display: flex;
@@ -228,12 +258,7 @@
       gap: 12px;
     }
 
-    .metric-row {
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.9rem;
-    }
-
+    .metric-row { display: flex; justify-content: space-between; font-size: 0.9rem; }
     .metric-row .val { font-weight: 700; color: #ffffff; }
 
     /* Controls */
@@ -245,7 +270,7 @@
       margin-bottom: 24px;
       display: flex;
       flex-direction: column;
-      gap: 16px;
+      gap: 14px;
     }
 
     .search-row { display: flex; gap: 12px; flex-wrap: wrap; }
@@ -261,8 +286,6 @@
       outline: none;
     }
 
-    .search-box input:focus { border-color: var(--accent-cyan); }
-
     .sort-box select {
       background: #090d18;
       border: 1px solid var(--card-border);
@@ -274,29 +297,17 @@
       cursor: pointer;
     }
 
-    .filters-row {
-      display: flex;
-      gap: 12px;
-      flex-wrap: wrap;
-      align-items: center;
-    }
-
-    .filter-label {
-      font-size: 0.8rem;
-      font-weight: 600;
-      color: var(--text-muted);
-      margin-right: 4px;
-    }
-
-    .chips-group { display: flex; gap: 8px; flex-wrap: wrap; }
+    .filters-row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+    .filter-label { font-size: 0.78rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; }
+    .chips-group { display: flex; gap: 6px; flex-wrap: wrap; }
 
     .chip {
       background: #090d18;
       border: 1px solid var(--card-border);
       color: var(--text-muted);
-      padding: 6px 14px;
+      padding: 5px 12px;
       border-radius: 9999px;
-      font-size: 0.85rem;
+      font-size: 0.8rem;
       font-weight: 500;
       cursor: pointer;
       transition: all 0.15s;
@@ -306,7 +317,7 @@
       background: rgba(99, 102, 241, 0.2);
       border-color: var(--accent-indigo);
       color: #818cf8;
-      font-weight: 600;
+      font-weight: 700;
     }
 
     /* Deals Grid & Enhanced Cards */
@@ -338,13 +349,13 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 12px;
+      margin-bottom: 10px;
     }
 
     .store-badge {
       font-size: 0.75rem;
       font-weight: 700;
-      padding: 4px 10px;
+      padding: 3px 8px;
       border-radius: 6px;
       background: rgba(255, 255, 255, 0.08);
       color: #cbd5e1;
@@ -354,13 +365,26 @@
       font-size: 0.75rem;
       font-weight: 700;
       text-transform: uppercase;
-      padding: 4px 10px;
+      padding: 3px 8px;
       border-radius: 6px;
     }
 
     .cat-whey { background: rgba(59, 130, 246, 0.2); color: #60a5fa; }
     .cat-casein { background: rgba(168, 85, 247, 0.2); color: #c084fc; }
     .cat-isolate { background: rgba(20, 184, 166, 0.2); color: #2dd4bf; }
+
+    /* Trust Pill Box */
+    .trust-meta-box {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: rgba(0, 0, 0, 0.35);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 8px;
+      padding: 6px 10px;
+      margin-bottom: 10px;
+      font-size: 0.72rem;
+    }
 
     /* Verdict Banner on Card */
     .verdict-banner {
@@ -381,10 +405,10 @@
     .verdict-blue { background: rgba(59, 130, 246, 0.15); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.3); }
 
     .card-title {
-      font-size: 1.05rem;
+      font-size: 1.02rem;
       font-weight: 600;
       line-height: 1.4;
-      margin-bottom: 14px;
+      margin-bottom: 12px;
       color: var(--text-main);
       display: -webkit-box;
       -webkit-line-clamp: 2;
@@ -397,10 +421,10 @@
       display: flex;
       align-items: baseline;
       gap: 10px;
-      margin-bottom: 14px;
+      margin-bottom: 12px;
     }
 
-    .current-price { font-size: 1.7rem; font-weight: 800; color: #ffffff; }
+    .current-price { font-size: 1.65rem; font-weight: 800; color: #ffffff; }
     .original-price { font-size: 0.95rem; color: #64748b; text-decoration: line-through; }
     .discount-pill {
       font-size: 0.75rem;
@@ -414,8 +438,8 @@
     .metrics-box {
       background: #090d18;
       border-radius: 10px;
-      padding: 12px;
-      margin-bottom: 14px;
+      padding: 10px 12px;
+      margin-bottom: 12px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -423,7 +447,7 @@
     }
 
     .metric-item { display: flex; flex-direction: column; }
-    .metric-item .m-title { font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; font-weight: 600; }
+    .metric-item .m-title { font-size: 0.68rem; color: var(--text-muted); text-transform: uppercase; font-weight: 600; }
     .metric-item .m-val { font-size: 1.15rem; font-weight: 700; }
 
     .cost-great { color: var(--accent-emerald); }
@@ -431,13 +455,13 @@
     .cost-normal { color: var(--accent-amber); }
 
     .reason-box {
-      font-size: 0.78rem;
+      font-size: 0.76rem;
       color: #94a3b8;
       line-height: 1.4;
       background: rgba(15, 23, 42, 0.6);
       padding: 10px;
       border-radius: 8px;
-      margin-bottom: 16px;
+      margin-bottom: 14px;
       border-left: 3px solid #3b82f6;
     }
 
@@ -448,9 +472,9 @@
       text-decoration: none;
       background: linear-gradient(135deg, #4f46e5 0%, #3730a3 100%);
       color: #ffffff;
-      padding: 12px;
+      padding: 11px;
       border-radius: 10px;
-      font-size: 0.9rem;
+      font-size: 0.88rem;
       font-weight: 600;
       transition: all 0.2s;
     }
@@ -473,40 +497,84 @@
 <body>
   <div class="container">
     <header>
-      <div class="badge-live">CyberMonday Chile 2026 • Live Intelligence</div>
+      <div class="badge-live">CyberMonday Chile 2026 • Auditoría & Radar de Suplementos</div>
       <h1>Monitor Inteligente de Abastecimiento: Whey & Caseína</h1>
       <p class="subtitle">
-        Procesamiento algorítmico de precios en tiempo real, detección de ofertas infladas, cálculo de costo por gramo de proteína neta y optimizador de canasta.
+        Ponderación algorítmica de costo por gramo de proteína neta real en CLP combinada con matriz de evidencia de laboratorio (certificaciones internacionales, trazabilidad de lotes y prevención de amino spiking).
       </p>
     </header>
+
+    <!-- Brand Trust & Laboratory Evidence Matrix -->
+    <section class="trust-banner">
+      <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #2e3458; padding-bottom: 10px;">
+        <h2 style="font-size: 1.05rem; font-weight: 700; color: #ffffff; display: flex; align-items: center; gap: 8px;">
+          <span>🔬</span> Matriz de Confianza de Marcas & Evidencia Científica
+        </h2>
+        <span style="font-size: 0.78rem; color: #94a3b8;">Basado en sellos Informed-Choice, EFSA, Labdoor y alertas SERNAC/ODECU</span>
+      </div>
+
+      <div class="trust-grid">
+        <div class="trust-card" style="border-color: rgba(245, 158, 11, 0.4);">
+          <div class="trust-badge-pill pill-tier-s">Tier S • Estándar Oro</div>
+          <p style="font-weight: 700; font-size: 0.85rem; color: #f8fafc; margin-bottom: 4px;">Optimum Nutrition, Dymatize, Ghost</p>
+          <p style="font-size: 0.78rem; color: #94a3b8; line-height: 1.4;">
+            Sellos <strong>Informed-Choice / NSF for Sport</strong> en cada lote. Glanbia QA, cGMP estricto en EE.UU. Riesgo de amino spiking: <strong>Nulo</strong>.
+          </p>
+        </div>
+
+        <div class="trust-card" style="border-color: rgba(16, 185, 129, 0.4);">
+          <div class="trust-badge-pill pill-tier-a">Tier A • Fabricantes Auditados</div>
+          <p style="font-weight: 700; font-size: 0.85rem; color: #f8fafc; margin-bottom: 4px;">BioTechUSA, Mutant (Fit Foods), OstroVit, BSN</p>
+          <p style="font-size: 0.78rem; color: #94a3b8; line-height: 1.4;">
+            Plantas cGMP propias en Canadá y regulación <strong>EFSA (Unión Europea)</strong> con análisis de lote independientes. Riesgo spiking: <strong>Muy Bajo</strong>.
+          </p>
+        </div>
+
+        <div class="trust-card" style="border-color: rgba(59, 130, 246, 0.4);">
+          <div class="trust-badge-pill pill-tier-b">Tier B • Marcas Tradicionales</div>
+          <p style="font-weight: 700; font-size: 0.85rem; color: #f8fafc; margin-bottom: 4px;">Winkler Nutrition, Ultimate Nutrition, Syntrax, BPI</p>
+          <p style="font-size: 0.78rem; color: #94a3b8; line-height: 1.4;">
+            Resolución Seremi Salud (Chile) y cGMP histórico. WPC declarado. En estudio ODECU mostraron variaciones menores de rotulación pero proteína real.
+          </p>
+        </div>
+
+        <div class="trust-card" style="border-color: rgba(244, 63, 94, 0.4);">
+          <div class="trust-badge-pill pill-tier-c">Tier C • Alerta de Precaución</div>
+          <p style="font-weight: 700; font-size: 0.85rem; color: #f8fafc; margin-bottom: 4px;">Fit Protein, Briahlabs, Hexacore, 4Active</p>
+          <p style="font-size: 0.78rem; color: #94a3b8; line-height: 1.4;">
+            Precios sospechosamente bajos ($22-$27 CLP/g). <strong>Sin certificación de terceros</strong>. Alto riesgo de fillers, colágeno o nitrógeno no proteico.
+          </p>
+        </div>
+      </div>
+    </section>
 
     <!-- Executive Insights -->
     <section class="insights-panel">
       <div class="insights-header">
         <div class="insights-title">
-          <span>🧠</span> Insights Tácticos & Diagnóstico de Mercado
+          <span>🧠</span> Insights Tácticos & Veredicto General
         </div>
         <div style="font-size: 0.8rem; color: #94a3b8;">
-          Actualizado con catálogos oficiales de Supletech, All Nutrition y Winkler
+          10 Tiendas Nacionales Monitoreadas
         </div>
       </div>
       <div class="insights-grid">
         <div class="insight-card">
-          <h3 style="color: #34d399;"><span>🎯</span> ¿Conviene comprar Whey hoy?</h3>
-          <p id="insight-whey">
-            <strong>SÍ, en formatos de 5 Lbs.</strong> La oferta reina de apertura es la Mutant Whey a <strong>$37.2 CLP/g</strong> (20% OFF). Comprar tarros de 2 Lbs sale sobre $52 CLP/g, lo que destruye el margen de conveniencia.
+          <h3 style="color: #34d399;"><span>🎯</span> Ganador Whey Certificada</h3>
+          <p>
+            <strong>Mutant Whey 5 Lb en OutletFit a $56.990</strong> ($34.42 CLP/g). Fabricación cGMP en Canadá con sello Informed-Choice. Es $4.600 más económica que en All Nutrition ($61.590).
           </p>
         </div>
         <div class="insight-card">
-          <h3 style="color: #c084fc;"><span>🌙</span> ¿Conviene comprar Caseína?</h3>
-          <p id="insight-casein">
-            <strong>Solo moderado.</strong> La caseína promedia <strong>$58.7 CLP/g</strong> (un +18% sobre la Whey). No conviene acumular más de 1 pote. La mejor opción actual es la Caseína Micelar Winkler (1 kg a $42.990).
+          <h3 style="color: #c084fc;"><span>🌙</span> Ganador Caseína Certificada</h3>
+          <p>
+            <strong>BioTechUSA Micellar Casein 2.27 kg en GlobalNutrition a $85.990</strong> ($49.84 CLP/g). 5 Lbs de caseína micelar europea pura con estándar EFSA. Rompe el sobreprecio retail.
           </p>
         </div>
         <div class="insight-card">
-          <h3 style="color: #f43f5e;"><span>🛡️</span> Falsas Ofertas Detectadas</h3>
-          <p id="insight-fake">
-            Varios tarros de 2 Lb y marcas premium muestran "25% a 30% OFF", pero con costos por gramo superiores a <strong>$60 CLP/g</strong> (precios de lista inflados previamente). El filtro de veredicto descarta esas trampas.
+          <h3 style="color: #f43f5e;"><span>🛡️</span> Cuidado con las "Gangas" Tier C</h3>
+          <p>
+            Proteínas a $22 CLP/g como Fit Protein o Briahlabs parecen insuperables, pero carecen de auditoría externa. El score de conveniencia prioriza calidad biológica verificada.
           </p>
         </div>
       </div>
@@ -516,7 +584,7 @@
     <section class="basket-panel">
       <div class="basket-header">
         <div class="basket-title">
-          <span>📦</span> Optimizador de Abastecimiento (Canasta Óptima Calculada)
+          <span>📦</span> Canasta Óptima Recomendada (Solo Marcas Auditadas)
         </div>
         <div class="basket-selector">
           <button class="basket-tab" data-months="1">1 Mes</button>
@@ -526,24 +594,24 @@
       </div>
       <div class="basket-content">
         <div class="basket-items" id="basket-items-container">
-          <!-- Items del combo inyectados por JS -->
+          <!-- Inyectado por JS -->
         </div>
         <div class="basket-metrics-summary">
           <div class="metric-row">
             <span style="color: #94a3b8;">Inversión Total del Pack:</span>
-            <span class="val" id="basket-total-cost" style="font-size: 1.25rem; color: #34d399;">$104.580</span>
+            <span class="val" id="basket-total-cost" style="font-size: 1.25rem; color: #34d399;">$142.980</span>
           </div>
           <div class="metric-row">
-            <span style="color: #94a3b8;">Proteína Neta Total:</span>
-            <span class="val" id="basket-total-prot">2.415 g</span>
+            <span style="color: #94a3b8;">Proteína Neta Verificada:</span>
+            <span class="val" id="basket-total-prot">3.380 g</span>
           </div>
           <div class="metric-row">
             <span style="color: #94a3b8;">Costo Ponderado / g:</span>
-            <span class="val" id="basket-avg-cost" style="color: #22d3ee;">$43.30 CLP/g</span>
+            <span class="val" id="basket-avg-cost" style="color: #22d3ee;">$42.30 CLP/g</span>
           </div>
           <div class="metric-row" style="border-top: 1px dashed #2e285a; padding-top: 8px;">
             <span style="color: #94a3b8;">Ahorro vs precio regular:</span>
-            <span class="val" id="basket-savings" style="color: #fbbf24;">+$35.490 CLP</span>
+            <span class="val" id="basket-savings" style="color: #fbbf24;">+$53.000 CLP</span>
           </div>
         </div>
       </div>
@@ -553,11 +621,11 @@
     <section class="controls-panel">
       <div class="search-row">
         <div class="search-box">
-          <input type="text" id="search-input" placeholder="Buscar por marca, sabor, formato (ej. Mutant, Ghost, 5 Lb, Caseína)...">
+          <input type="text" id="search-input" placeholder="Buscar por marca, sabor, formato (ej. Mutant, BioTechUSA, Winkler, Gold Standard, Ghost)...">
         </div>
         <div class="sort-box">
           <select id="sort-select">
-            <option value="score_desc">🏆 Mayor Score de Conveniencia (0 a 100)</option>
+            <option value="score_desc">🏆 Score Global Ponderado (Calidad + Costo)</option>
             <option value="cost_asc">⚡ Mejor Costo/g Proteína (Menor a Mayor)</option>
             <option value="discount_desc">🔥 Mayor % de Descuento</option>
             <option value="price_asc">💵 Menor Precio Total</option>
@@ -566,12 +634,14 @@
       </div>
 
       <div class="filters-row">
-        <span class="filter-label">Veredicto:</span>
-        <div class="chips-group" id="verdict-chips">
-          <button class="chip active" data-verdict="all">Todos</button>
-          <button class="chip" data-verdict="COMPRA_INMEDIATA">🔥 Compras Maestras</button>
-          <button class="chip" data-verdict="BUENA_OPCION">✅ Recomendados</button>
-          <button class="chip" data-verdict="NO_CONVIENE">⚠️ Desaconsejados</button>
+        <span class="filter-label">Confianza:</span>
+        <div class="chips-group" id="tier-chips">
+          <button class="chip active" data-tier="all">Todas las Marcas</button>
+          <button class="chip" data-tier="verified">Solo Auditadas (Tier S & A)</button>
+          <button class="chip" data-tier="Tier S">Tier S (Informed-Choice / NSF)</button>
+          <button class="chip" data-tier="Tier A">Tier A (EFSA / cGMP Auditado)</button>
+          <button class="chip" data-tier="Tier B">Tier B (Consolidada Nacional)</button>
+          <button class="chip" data-tier="Tier C">Tier C (Low-Cost No Auditada)</button>
         </div>
       </div>
 
@@ -588,10 +658,15 @@
       <div class="filters-row">
         <span class="filter-label">Tienda:</span>
         <div class="chips-group" id="store-chips">
-          <button class="chip active" data-store="all">Todas</button>
+          <button class="chip active" data-store="all">Todas (10 tiendas)</button>
+          <button class="chip" data-store="OutletFit">OutletFit</button>
+          <button class="chip" data-store="GlobalNutrition">GlobalNutrition</button>
           <button class="chip" data-store="All Nutrition">All Nutrition</button>
+          <button class="chip" data-store="SportNutriShop">SportNutriShop</button>
+          <button class="chip" data-store="T4T">T4T</button>
+          <button class="chip" data-store="Winkler Nutrition">Winkler</button>
           <button class="chip" data-store="Supletech">Supletech</button>
-          <button class="chip" data-store="Winkler Nutrition">Winkler Nutrition</button>
+          <button class="chip" data-store="ChileSuplementos">ChileSuplementos</button>
         </div>
       </div>
     </section>
@@ -602,7 +677,7 @@
     </main>
 
     <footer>
-      <p>Actualizado para CyberMonday Chile. Algoritmo de decisión alimentado con precios oficiales de catálogo.</p>
+      <p>Actualizado para CyberMonday Chile. Metodología de scoring con ponderación de evidencia de calidad.</p>
     </footer>
   </div>
 
@@ -611,7 +686,7 @@
     let appData = { deals: [], insights: {}, baskets: {} };
     let currentCategory = 'all';
     let currentStore = 'all';
-    let currentVerdict = 'all';
+    let currentTier = 'all';
     let currentSearch = '';
     let currentSort = 'score_desc';
     let selectedMonths = 3;
@@ -655,14 +730,14 @@
       container.innerHTML = basket.items.map(it => `
         <div class="basket-item-row">
           <div>
-            <div style="font-size: 0.75rem; color: #a5b4fc; font-weight: 700; text-transform: uppercase;">
-              ${it.role}
+            <div style="font-size: 0.72rem; color: #a5b4fc; font-weight: 700; text-transform: uppercase;">
+              ${it.role} • <span style="color: #34d399;">${it.trust ? it.trust.tier : 'Auditado'}</span>
             </div>
             <div style="font-weight: 600; font-size: 0.9rem; color: #f8fafc;">
               ${it.units}x ${it.product.title}
             </div>
             <div style="font-size: 0.75rem; color: #94a3b8;">
-              ${it.product.source} • $${it.product.cost_per_gram_clp}/g
+              ${it.product.source} • $${it.product.cost_per_gram_clp}/g real
             </div>
           </div>
           <div style="text-align: right;">
@@ -685,21 +760,25 @@
         case 'BUENA_OPCION': return 'verdict-cyan';
         case 'INFLADO': return 'verdict-rose';
         case 'NO_CONVIENE': return 'verdict-amber';
+        case 'PRECAUCION_MARCA': return 'verdict-amber';
         default: return 'verdict-blue';
       }
     }
 
     function renderDeals(deals) {
       if (!deals.length) {
-        dealsContainer.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 60px 20px; color: #94a3b8;">No se encontraron suplementos con estos filtros.</div>';
+        dealsContainer.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 60px 20px; color: #94a3b8;">No se encontraron suplementos con estos criterios de búsqueda y confianza.</div>';
         return;
       }
 
       dealsContainer.innerHTML = deals.map(item => {
         const v = item.verdict || {};
+        const t = item.trust || {};
         const vClass = getVerdictClass(v.status);
         const catClass = `cat-${item.category || 'whey'}`;
-        const costClass = item.cost_per_gram_clp <= 42 ? 'cost-great' : (item.cost_per_gram_clp <= 52 ? 'cost-good' : 'cost-normal');
+        const costClass = item.cost_per_gram_clp <= 35 ? 'cost-great' : (item.cost_per_gram_clp <= 50 ? 'cost-good' : 'cost-normal');
+
+        const tierBadgeClass = t.tier === 'Tier S' ? 'pill-tier-s' : (t.tier === 'Tier A' ? 'pill-tier-a' : (t.tier === 'Tier B' ? 'pill-tier-b' : 'pill-tier-c'));
 
         const origPriceHtml = item.original_price && item.original_price > item.price
           ? `<span class="original-price">${formatCLP(item.original_price)}</span>`
@@ -707,6 +786,8 @@
         const discHtml = item.discount_pct > 0
           ? `<span class="discount-pill">-${item.discount_pct}% OFF</span>`
           : '';
+
+        const certsDisplay = (t.certifications && t.certifications.length > 0) ? t.certifications.slice(0, 2).join(' • ') : 'No declaradas';
 
         return `
           <article class="deal-card">
@@ -716,10 +797,18 @@
                 <span class="category-badge ${catClass}">${item.category}</span>
               </div>
 
+              <!-- Brand Trust Meta -->
+              <div class="trust-meta-box">
+                <span class="trust-badge-pill ${tierBadgeClass}" style="margin: 0;">${t.tier || 'Tier C'} • ${t.brand_name || 'Genérica'}</span>
+                <span style="color: ${t.spiking_risk === 'Nulo' || t.spiking_risk === 'Muy Bajo' ? '#34d399' : '#fbbf24'}; font-weight: 700;">
+                  Spiking: ${t.spiking_risk || 'No verificado'}
+                </span>
+              </div>
+
               <!-- Verdict Banner -->
               <div class="verdict-banner ${vClass}">
                 <span>${v.badge || 'Revisar'}</span>
-                <span style="font-size: 0.7rem; background: rgba(0,0,0,0.3); padding: 2px 6px; border-radius: 4px;">
+                <span style="font-size: 0.7rem; background: rgba(0,0,0,0.4); padding: 2px 6px; border-radius: 4px;">
                   Score: ${item.value_score || 0}/100
                 </span>
               </div>
@@ -745,6 +834,9 @@
 
               <div class="reason-box">
                 <strong>Análisis:</strong> ${v.reason || 'Sin observación'}
+                <div style="margin-top: 4px; font-size: 0.7rem; color: #a5b4fc;">
+                  <strong>Sellos:</strong> ${certsDisplay}
+                </div>
               </div>
             </div>
 
@@ -759,23 +851,34 @@
     function applyFiltersAndRender() {
       let filtered = [...appData.deals];
 
-      if (currentVerdict !== 'all') {
-        filtered = filtered.filter(d => (d.verdict && d.verdict.status === currentVerdict));
+      // Filtro Tier de Confianza
+      if (currentTier === 'verified') {
+        filtered = filtered.filter(d => d.trust && (d.trust.tier === 'Tier S' || d.trust.tier === 'Tier A'));
+      } else if (currentTier !== 'all') {
+        filtered = filtered.filter(d => d.trust && d.trust.tier === currentTier);
       }
 
+      // Filtro Categoría
       if (currentCategory !== 'all') {
         filtered = filtered.filter(d => d.category === currentCategory);
       }
 
+      // Filtro Tienda
       if (currentStore !== 'all') {
         filtered = filtered.filter(d => d.source.toLowerCase().includes(currentStore.toLowerCase()));
       }
 
+      // Filtro Búsqueda
       if (currentSearch.trim() !== '') {
         const q = currentSearch.toLowerCase();
-        filtered = filtered.filter(d => d.title.toLowerCase().includes(q) || d.source.toLowerCase().includes(q));
+        filtered = filtered.filter(d => 
+          d.title.toLowerCase().includes(q) || 
+          d.source.toLowerCase().includes(q) ||
+          (d.trust && d.trust.brand_name.toLowerCase().includes(q))
+        );
       }
 
+      // Ordenamiento
       filtered.sort((a, b) => {
         if (currentSort === 'score_desc') return (b.value_score || 0) - (a.value_score || 0);
         if (currentSort === 'cost_asc') return (a.cost_per_gram_clp || 999999) - (b.cost_per_gram_clp || 999999);
@@ -800,11 +903,11 @@
       });
     });
 
-    document.querySelectorAll('#verdict-chips .chip').forEach(btn => {
+    document.querySelectorAll('#tier-chips .chip').forEach(btn => {
       btn.addEventListener('click', () => {
-        document.querySelectorAll('#verdict-chips .chip').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('#tier-chips .chip').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
-        currentVerdict = btn.getAttribute('data-verdict');
+        currentTier = btn.getAttribute('data-tier');
         applyFiltersAndRender();
       });
     });
