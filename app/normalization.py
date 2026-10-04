@@ -40,29 +40,42 @@ def extract_weight_grams(title: str) -> Optional[float]:
     """
     Extrae el peso total del envase en gramos a partir del título o descripción.
     Soporta patrones en lbs, libras, kg, kilos y gramos (g/gr/grs).
+    Maneja separadores de miles chilenos como '2.350 g' -> 2350 gramos.
+    Filtra porciones individuales o sachets (< 350g) para no distorsionar el costo de potes.
     """
     if not title:
         return None
 
-    text = title.lower().replace(",", ".")
+    text = title.lower()
+
+    # Detectar gramos con separador de miles: ej. "2.350 g", "2.270 gr"
+    match_thousands_g = re.search(r"(\d{1,2})\.(\d{3})\s*(?:g|gr|grs|gramos)\b", text)
+    if match_thousands_g:
+        val = float(f"{match_thousands_g.group(1)}{match_thousands_g.group(2)}")
+        return round(val, 1)
+
+    # Reemplazar comas por puntos para números decimales
+    text_dec = text.replace(",", ".")
 
     # Buscar libras: ej. "5 lbs", "5lb", "5.5 libras"
-    match_lbs = re.search(r"(\d+(?:\.\d+)?)\s*(?:lbs?|libras?)\b", text)
+    match_lbs = re.search(r"(\d+(?:\.\d+)?)\s*(?:lbs?|libras?)\b", text_dec)
     if match_lbs:
         val = float(match_lbs.group(1))
-        return round(val * LBS_TO_GRAMS, 1)
+        grams = round(val * LBS_TO_GRAMS, 1)
+        return grams if grams >= 350 else None
 
     # Buscar kilogramos: ej. "2.27 kg", "2kg", "2 kilos"
-    match_kg = re.search(r"(\d+(?:\.\d+)?)\s*(?:kg|kilos?)\b", text)
+    match_kg = re.search(r"(\d+(?:\.\d+)?)\s*(?:kg|kilos?)\b", text_dec)
     if match_kg:
         val = float(match_kg.group(1))
-        return round(val * KG_TO_GRAMS, 1)
+        grams = round(val * KG_TO_GRAMS, 1)
+        return grams if grams >= 350 else None
 
-    # Buscar gramos: ej. "908g", "908 g", "1000 grs"
-    match_g = re.search(r"(\d+(?:\.\d+)?)\s*(?:g|gr|grs|gramos)\b", text)
+    # Buscar gramos estándar: ej. "908g", "908 g", "1000 grs"
+    match_g = re.search(r"(\d{3,5})\s*(?:g|gr|grs|gramos)\b", text_dec)
     if match_g:
         val = float(match_g.group(1))
-        return round(val, 1)
+        return round(val, 1) if val >= 350 else None
 
     return None
 

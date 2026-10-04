@@ -509,9 +509,14 @@ def generate_market_insights(products: List[Dict[str, Any]]) -> Dict[str, Any]:
     casein_items = [p for p in valid if p.get("category") == "casein"]
     isolate_items = [p for p in valid if p.get("category") == "isolate"]
 
-    avg_whey_cost = round(sum(p["cost_per_gram_clp"] for p in whey_items) / len(whey_items), 2) if whey_items else 0
-    avg_casein_cost = round(sum(p["cost_per_gram_clp"] for p in casein_items) / len(casein_items), 2) if casein_items else 0
-    avg_iso_cost = round(sum(p["cost_per_gram_clp"] for p in isolate_items) / len(isolate_items), 2) if isolate_items else 0
+    # Filtrar productos para potes reales y eliminar valores extremos atípicos (> 120 CLP/g)
+    whey_clean = [p for p in whey_items if (p.get("cost_per_gram_clp") or 0) <= 120.0]
+    casein_clean = [p for p in casein_items if (p.get("cost_per_gram_clp") or 0) <= 120.0]
+    iso_clean = [p for p in isolate_items if (p.get("cost_per_gram_clp") or 0) <= 140.0]
+
+    avg_whey_cost = round(sum(p["cost_per_gram_clp"] for p in whey_clean) / len(whe_list), 2) if (whe_list := whey_clean or whey_items) else 0
+    avg_casein_cost = round(sum(p["cost_per_gram_clp"] for p in casein_clean) / len(cas_list), 2) if (cas_list := casein_clean or casein_items) else 0
+    avg_iso_cost = round(sum(p["cost_per_gram_clp"] for p in iso_clean) / len(iso_list), 2) if (iso_list := iso_clean or isolate_items) else 0
 
     trusted_whey = [p for p in whey_items if get_brand_trust_data(p["title"])["tier"] in ["Tier S", "Tier A", "Tier B"]]
     best_whey = min(trusted_whey, key=lambda x: x["cost_per_gram_clp"]) if trusted_whey else (min(whey_items, key=lambda x: x["cost_per_gram_clp"]) if whey_items else None)
@@ -524,13 +529,13 @@ def generate_market_insights(products: List[Dict[str, Any]]) -> Dict[str, Any]:
         t = get_brand_trust_data(p["title"])["tier"]
         tier_counts[t] = tier_counts.get(t, 0) + 1
 
-    casein_premium_pct = 0.0
+    diff_pct = 0.0
     if avg_whey_cost > 0 and avg_casein_cost > 0:
-        casein_premium_pct = round(((avg_casein_cost - avg_whey_cost) / avg_whey_cost) * 100.0, 1)
+        diff_pct = round(((avg_casein_cost - avg_whey_cost) / avg_whey_cost) * 100.0, 1)
 
     casein_tactical_advice = (
-        f"La caseína tiene un sobreprecio de +{casein_premium_pct}% respecto a la Whey. "
-        "En marcas auditadas, la BioTechUSA de 2.27 kg en GlobalNutrition ($49.84/g) o Winkler Micellar 1 kg ($56.57/g) son las únicas con balance calidad/precio verificado."
+        f"La caseína micelar promedia ${avg_casein_cost} CLP/g versus ${avg_whey_cost} CLP/g de la Whey concentrada. "
+        "En marcas auditadas, la OstroVit 700g en SuplementosAlMayor ($43.21/g) o BioTechUSA 2.27 kg en GlobalNutrition ($49.84/g) ofrecen el balance más costo-eficiente verificado."
     )
 
     return {
@@ -544,6 +549,6 @@ def generate_market_insights(products: List[Dict[str, Any]]) -> Dict[str, Any]:
             "casein": best_casein,
         },
         "tier_counts": tier_counts,
-        "casein_premium_pct": casein_premium_pct,
+        "casein_premium_pct": diff_pct,
         "casein_tactical_advice": casein_tactical_advice,
     }

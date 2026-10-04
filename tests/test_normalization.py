@@ -18,7 +18,9 @@ class TestNormalization(unittest.TestCase):
         self.assertAlmostEqual(extract_weight_grams("Dymatize Elite Casein 4lb Chocolate"), 1814.4, places=1)
         self.assertEqual(extract_weight_grams("Winkler Whey 2 kg Frutilla"), 2000.0)
         self.assertEqual(extract_weight_grams("Iso 100 Dymatize 908g"), 908.0)
+        self.assertEqual(extract_weight_grams("100% Whey Protein Professional 2.350 g Scitec"), 2350.0)
         self.assertIsNone(extract_weight_grams("Shaker Negro 500ml"))
+        self.assertIsNone(extract_weight_grams("Sachet 30g"))
 
     def test_calculate_discount(self):
         self.assertEqual(calculate_discount(50000.0, 40000.0), 20.0)

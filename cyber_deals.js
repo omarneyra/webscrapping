@@ -1,15 +1,15 @@
 window.CYBER_DEALS_DATA = {
   "meta": {
-    "timestamp": "2026-10-04 14:23:10",
+    "timestamp": "2026-10-04 14:47:58",
     "total_stores_scanned": 12,
     "total_products_scanned": 588,
     "analyzed_deals_count": 366
   },
   "insights": {
     "avg_costs": {
-      "whey": 414.26,
+      "whey": 55.26,
       "casein": 51.01,
-      "isolate": 88.73
+      "isolate": 68.91
     },
     "best_picks": {
       "whey": {
@@ -102,13 +102,13 @@ window.CYBER_DEALS_DATA = {
       }
     },
     "tier_counts": {
-      "Tier S": 78,
+      "Tier S": 72,
       "Tier A": 66,
       "Tier B": 37,
-      "Tier C": 140
+      "Tier C": 127
     },
-    "casein_premium_pct": -87.7,
-    "casein_tactical_advice": "La caseína tiene un sobreprecio de +-87.7% respecto a la Whey. En marcas auditadas, la BioTechUSA de 2.27 kg en GlobalNutrition ($49.84/g) o Winkler Micellar 1 kg ($56.57/g) son las únicas con balance calidad/precio verificado."
+    "casein_premium_pct": -7.7,
+    "casein_tactical_advice": "La caseína micelar promedia $51.01 CLP/g versus $55.26 CLP/g de la Whey concentrada. En marcas auditadas, la OstroVit 700g en SuplementosAlMayor ($43.21/g) o BioTechUSA 2.27 kg en GlobalNutrition ($49.84/g) ofrecen el balance más costo-eficiente verificado."
   },
   "optimal_basket": {
     "target_months": 3,
@@ -611,54 +611,6 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Marca europea low-cost que publica análisis microbiológicos y proteicos independientes por lote."
-      }
-    },
-    {
-      "source": "Supletech",
-      "title": "Protein Bar 45g - Maxi Nutrition Dark Chocolate Coconut",
-      "price": 1290.0,
-      "original_price": 3490.0,
-      "discount_pct": 63.0,
-      "category": "default",
-      "weight_grams": 45.0,
-      "net_protein_grams": 32.9,
-      "cost_per_gram_clp": 39.21,
-      "permalink": "https://www.supletech.cl/protein-bar-45g-maxi-nutrition/p",
-      "available": true,
-      "value_score": 82,
-      "verdict": {
-        "status": "COMPRA_INMEDIATA",
-        "badge": "🔥 Ganga Certificada (Tier S)",
-        "badge_color": "emerald",
-        "action": "Comprar ahora",
-        "reason": "Excelente ratio de $39.21 CLP/g en marca auditada (Optimum Nutrition (ON)). Sellos: Informed-Choice, NSF for Sport.",
-        "value_score": 82,
-        "trust": {
-          "tier": "Tier S",
-          "brand_name": "Optimum Nutrition (ON)",
-          "trust_score": 98,
-          "certifications": [
-            "Informed-Choice",
-            "NSF for Sport",
-            "Labdoor Score A+",
-            "Glanbia QA"
-          ],
-          "spiking_risk": "Nulo",
-          "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
-        }
-      },
-      "brand_trust": {
-        "tier": "Tier S",
-        "brand_name": "Optimum Nutrition (ON)",
-        "trust_score": 98,
-        "certifications": [
-          "Informed-Choice",
-          "NSF for Sport",
-          "Labdoor Score A+",
-          "Glanbia QA"
-        ],
-        "spiking_risk": "Nulo",
-        "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
       }
     },
     {
@@ -4348,48 +4300,6 @@ window.CYBER_DEALS_DATA = {
       }
     },
     {
-      "source": "SportNutriShop",
-      "title": "BETA ALANINA 300GR 75 SERVICIOS - ZEIN",
-      "price": 9990.0,
-      "original_price": 14990.0,
-      "discount_pct": 33.4,
-      "category": "default",
-      "weight_grams": 300.0,
-      "net_protein_grams": 219.0,
-      "cost_per_gram_clp": 45.62,
-      "permalink": "https://www.sportnutrishop.cl/products/beta-alanina-300gr-zein?_pos=6&_psq=caseina&_psid=9b76d0d69&_ss=e",
-      "available": true,
-      "value_score": 63,
-      "verdict": {
-        "status": "NO_CONVIENE",
-        "badge": "⚠️ Sobreprecio / Esperar",
-        "badge_color": "amber",
-        "action": "Esperar rebaja",
-        "reason": "Costo por gramo ($45.62 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
-        "value_score": 63,
-        "trust": {
-          "tier": "Tier C",
-          "brand_name": "Marca No Auditada",
-          "trust_score": 55,
-          "certifications": [
-            "Sin sellos auditados"
-          ],
-          "spiking_risk": "Medio / Alto",
-          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
-        }
-      },
-      "brand_trust": {
-        "tier": "Tier C",
-        "brand_name": "Marca No Auditada",
-        "trust_score": 55,
-        "certifications": [
-          "Sin sellos auditados"
-        ],
-        "spiking_risk": "Medio / Alto",
-        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
-      }
-    },
-    {
       "source": "All Nutrition",
       "title": "Whey Gold, Ultimate Nutrition Whey Protein 5 Lb",
       "price": 76990.0,
@@ -5143,6 +5053,48 @@ window.CYBER_DEALS_DATA = {
         "action": "Evaluar según stock",
         "reason": "Precio de mercado estándar sin descuento llamativo en Marca No Auditada.",
         "value_score": 59,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Marca No Auditada",
+          "trust_score": 55,
+          "certifications": [
+            "Sin sellos auditados"
+          ],
+          "spiking_risk": "Medio / Alto",
+          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Marca No Auditada",
+        "trust_score": 55,
+        "certifications": [
+          "Sin sellos auditados"
+        ],
+        "spiking_risk": "Medio / Alto",
+        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "SportNutriShop",
+      "title": "100% Whey Protein Professional 2.350 g, 78 servicios – Scitec Nutrition",
+      "price": 79000.0,
+      "original_price": 82000.0,
+      "discount_pct": 3.7,
+      "category": "whey",
+      "weight_grams": 2350.0,
+      "net_protein_grams": 1715.5,
+      "cost_per_gram_clp": 46.05,
+      "permalink": "https://www.sportnutrishop.cl/products/100-whey-protein-professional-2-350-grs-78-servicios-scitec-nutrition?_pos=9&_psq=whey&_psid=04d316da4&_ss=e",
+      "available": true,
+      "value_score": 58,
+      "verdict": {
+        "status": "NO_CONVIENE",
+        "badge": "⚠️ Sobreprecio / Esperar",
+        "badge_color": "amber",
+        "action": "Esperar rebaja",
+        "reason": "Costo por gramo ($46.05 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
+        "value_score": 58,
         "trust": {
           "tier": "Tier C",
           "brand_name": "Marca No Auditada",
@@ -7010,48 +6962,6 @@ window.CYBER_DEALS_DATA = {
       }
     },
     {
-      "source": "MixGreen",
-      "title": "Modulo Proteico, 294 g",
-      "price": 10890.0,
-      "original_price": 12900.0,
-      "discount_pct": 15.6,
-      "category": "default",
-      "weight_grams": 294.0,
-      "net_protein_grams": 214.6,
-      "cost_per_gram_clp": 50.75,
-      "permalink": "https://www.mixgreen.cl/products/modulo-proteico-294-g?_pos=1&_psq=caseina&_psid=df94191cd&_ss=e",
-      "available": true,
-      "value_score": 51,
-      "verdict": {
-        "status": "NO_CONVIENE",
-        "badge": "⚠️ Sobreprecio / Esperar",
-        "badge_color": "amber",
-        "action": "Esperar rebaja",
-        "reason": "Costo por gramo ($50.75 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
-        "value_score": 51,
-        "trust": {
-          "tier": "Tier C",
-          "brand_name": "Marca No Auditada",
-          "trust_score": 55,
-          "certifications": [
-            "Sin sellos auditados"
-          ],
-          "spiking_risk": "Medio / Alto",
-          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
-        }
-      },
-      "brand_trust": {
-        "tier": "Tier C",
-        "brand_name": "Marca No Auditada",
-        "trust_score": 55,
-        "certifications": [
-          "Sin sellos auditados"
-        ],
-        "spiking_risk": "Medio / Alto",
-        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
-      }
-    },
-    {
       "source": "SuplementosMayoristas",
       "title": "MRE Lite 2lbs - Redcon1 Fudge Brownie",
       "price": 34255.0,
@@ -7715,48 +7625,6 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
-      }
-    },
-    {
-      "source": "OutletFit",
-      "title": "Protein Bite Chocolate Crunch 60 g | 21 g Proteína",
-      "price": 2490.0,
-      "original_price": 3490.0,
-      "discount_pct": 28.7,
-      "category": "default",
-      "weight_grams": 60.0,
-      "net_protein_grams": 43.8,
-      "cost_per_gram_clp": 56.85,
-      "permalink": "https://www.outletfit.cl/protein-bite-chocolate-crunch-your-goal-60-g",
-      "available": true,
-      "value_score": 48,
-      "verdict": {
-        "status": "INFLADO",
-        "badge": "❌ Falsa Oferta (Precio Inflado)",
-        "badge_color": "rose",
-        "action": "No comprar",
-        "reason": "Muestra un supuesto descuento del 28.7%, pero su costo real por gramo ($56.85) sigue siendo excesivo.",
-        "value_score": 48,
-        "trust": {
-          "tier": "Tier C",
-          "brand_name": "Marca No Auditada",
-          "trust_score": 55,
-          "certifications": [
-            "Sin sellos auditados"
-          ],
-          "spiking_risk": "Medio / Alto",
-          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
-        }
-      },
-      "brand_trust": {
-        "tier": "Tier C",
-        "brand_name": "Marca No Auditada",
-        "trust_score": 55,
-        "certifications": [
-          "Sin sellos auditados"
-        ],
-        "spiking_risk": "Medio / Alto",
-        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
       }
     },
     {
@@ -9524,90 +9392,6 @@ window.CYBER_DEALS_DATA = {
       }
     },
     {
-      "source": "OutletFit",
-      "title": "Protein Bite Caramel Peanuts 55 g | 20 g Proteína",
-      "price": 2490.0,
-      "original_price": 3490.0,
-      "discount_pct": 28.7,
-      "category": "default",
-      "weight_grams": 55.0,
-      "net_protein_grams": 40.1,
-      "cost_per_gram_clp": 62.09,
-      "permalink": "https://www.outletfit.cl/protein-bite-caramel-peanuts-your-goal-55-g",
-      "available": true,
-      "value_score": 42,
-      "verdict": {
-        "status": "INFLADO",
-        "badge": "❌ Falsa Oferta (Precio Inflado)",
-        "badge_color": "rose",
-        "action": "No comprar",
-        "reason": "Muestra un supuesto descuento del 28.7%, pero su costo real por gramo ($62.09) sigue siendo excesivo.",
-        "value_score": 42,
-        "trust": {
-          "tier": "Tier C",
-          "brand_name": "Marca No Auditada",
-          "trust_score": 55,
-          "certifications": [
-            "Sin sellos auditados"
-          ],
-          "spiking_risk": "Medio / Alto",
-          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
-        }
-      },
-      "brand_trust": {
-        "tier": "Tier C",
-        "brand_name": "Marca No Auditada",
-        "trust_score": 55,
-        "certifications": [
-          "Sin sellos auditados"
-        ],
-        "spiking_risk": "Medio / Alto",
-        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
-      }
-    },
-    {
-      "source": "OutletFit",
-      "title": "Protein Bite Black & White 55 g | 21 g Proteína",
-      "price": 2490.0,
-      "original_price": 3490.0,
-      "discount_pct": 28.7,
-      "category": "default",
-      "weight_grams": 55.0,
-      "net_protein_grams": 40.1,
-      "cost_per_gram_clp": 62.09,
-      "permalink": "https://www.outletfit.cl/protein-bite-black-white-your-goal-55-g",
-      "available": true,
-      "value_score": 42,
-      "verdict": {
-        "status": "INFLADO",
-        "badge": "❌ Falsa Oferta (Precio Inflado)",
-        "badge_color": "rose",
-        "action": "No comprar",
-        "reason": "Muestra un supuesto descuento del 28.7%, pero su costo real por gramo ($62.09) sigue siendo excesivo.",
-        "value_score": 42,
-        "trust": {
-          "tier": "Tier C",
-          "brand_name": "Marca No Auditada",
-          "trust_score": 55,
-          "certifications": [
-            "Sin sellos auditados"
-          ],
-          "spiking_risk": "Medio / Alto",
-          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
-        }
-      },
-      "brand_trust": {
-        "tier": "Tier C",
-        "brand_name": "Marca No Auditada",
-        "trust_score": 55,
-        "certifications": [
-          "Sin sellos auditados"
-        ],
-        "spiking_risk": "Medio / Alto",
-        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
-      }
-    },
-    {
       "source": "Supletech",
       "title": "MRE Lite 2lbs - Redcon1 Fudge Brownie",
       "price": 41990.0,
@@ -9779,54 +9563,6 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
-      }
-    },
-    {
-      "source": "ChileSuplementos",
-      "title": "Applied Nutrition Critical Whey 132 G",
-      "price": 8000.0,
-      "original_price": 8990.0,
-      "discount_pct": 11.0,
-      "category": "whey",
-      "weight_grams": 132.0,
-      "net_protein_grams": 96.4,
-      "cost_per_gram_clp": 82.99,
-      "permalink": "https://www.chilesuplementos.cl/producto/critical-whey-132-g/",
-      "available": true,
-      "value_score": 42,
-      "verdict": {
-        "status": "NO_CONVIENE",
-        "badge": "⚠️ Sobreprecio / Esperar",
-        "badge_color": "amber",
-        "action": "Esperar rebaja",
-        "reason": "Costo por gramo ($82.99 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
-        "value_score": 42,
-        "trust": {
-          "tier": "Tier S",
-          "brand_name": "Optimum Nutrition (ON)",
-          "trust_score": 98,
-          "certifications": [
-            "Informed-Choice",
-            "NSF for Sport",
-            "Labdoor Score A+",
-            "Glanbia QA"
-          ],
-          "spiking_risk": "Nulo",
-          "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
-        }
-      },
-      "brand_trust": {
-        "tier": "Tier S",
-        "brand_name": "Optimum Nutrition (ON)",
-        "trust_score": 98,
-        "certifications": [
-          "Informed-Choice",
-          "NSF for Sport",
-          "Labdoor Score A+",
-          "Glanbia QA"
-        ],
-        "spiking_risk": "Nulo",
-        "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
       }
     },
     {
@@ -10448,48 +10184,6 @@ window.CYBER_DEALS_DATA = {
       }
     },
     {
-      "source": "MixGreen",
-      "title": "Hemp Protein, 100% Orgánico, 200 g",
-      "price": 10590.0,
-      "original_price": 15990.0,
-      "discount_pct": 33.8,
-      "category": "default",
-      "weight_grams": 200.0,
-      "net_protein_grams": 146.0,
-      "cost_per_gram_clp": 72.53,
-      "permalink": "https://www.mixgreen.cl/products/10058-proteina-canamo-en-polvo-hemp-protein-100-organico-200-g-aquasolar?_pos=10&_psq=casein&_psid=afa3f2d8c&_ss=e",
-      "available": true,
-      "value_score": 40,
-      "verdict": {
-        "status": "INFLADO",
-        "badge": "❌ Falsa Oferta (Precio Inflado)",
-        "badge_color": "rose",
-        "action": "No comprar",
-        "reason": "Muestra un supuesto descuento del 33.8%, pero su costo real por gramo ($72.53) sigue siendo excesivo.",
-        "value_score": 40,
-        "trust": {
-          "tier": "Tier C",
-          "brand_name": "Marca No Auditada",
-          "trust_score": 55,
-          "certifications": [
-            "Sin sellos auditados"
-          ],
-          "spiking_risk": "Medio / Alto",
-          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
-        }
-      },
-      "brand_trust": {
-        "tier": "Tier C",
-        "brand_name": "Marca No Auditada",
-        "trust_score": 55,
-        "certifications": [
-          "Sin sellos auditados"
-        ],
-        "spiking_risk": "Medio / Alto",
-        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
-      }
-    },
-    {
       "source": "SportNutriShop",
       "title": "Proteína Whey Pro-Win 1 kg, 30 servicios – Winkler Nutrition",
       "price": 54990.0,
@@ -10630,48 +10324,6 @@ window.CYBER_DEALS_DATA = {
       }
     },
     {
-      "source": "GlobalNutrition",
-      "title": "4Active 100% Isolate Protein 30 Servicios | Proteína Aislada 24g de Proteína, 5g BCAA y Bajo en Azúcar",
-      "price": 49990.0,
-      "original_price": 69990.0,
-      "discount_pct": 28.6,
-      "category": "isolate",
-      "weight_grams": 24.0,
-      "net_protein_grams": 20.6,
-      "cost_per_gram_clp": 2426.7,
-      "permalink": "https://globalnutrition.cl/products/4active-100-isolate-protein-30-servicios-proteina-aislada-24g-de-proteina-5g-bcaa-y-bajo-en-azucar?_pos=1&_psq=isolate&_psid=7c9ab2a1a&_ss=e",
-      "available": true,
-      "value_score": 40,
-      "verdict": {
-        "status": "INFLADO",
-        "badge": "❌ Falsa Oferta (Precio Inflado)",
-        "badge_color": "rose",
-        "action": "No comprar",
-        "reason": "Muestra un supuesto descuento del 28.6%, pero su costo real por gramo ($2426.7) sigue siendo excesivo.",
-        "value_score": 40,
-        "trust": {
-          "tier": "Tier C",
-          "brand_name": "4Active",
-          "trust_score": 52,
-          "certifications": [
-            "Sin sellos de calidad internacional"
-          ],
-          "spiking_risk": "Medio / Alto",
-          "notes": "Blend económico local; carece de certificación de pureza por laboratorios externos."
-        }
-      },
-      "brand_trust": {
-        "tier": "Tier C",
-        "brand_name": "4Active",
-        "trust_score": 52,
-        "certifications": [
-          "Sin sellos de calidad internacional"
-        ],
-        "spiking_risk": "Medio / Alto",
-        "notes": "Blend económico local; carece de certificación de pureza por laboratorios externos."
-      }
-    },
-    {
       "source": "SuplementosMayoristas",
       "title": "100% Whey Protein Premium Line 1lbs - Foodtech Smothie Delite Vainilla",
       "price": 17763.0,
@@ -10753,54 +10405,6 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio",
         "notes": "Marca chilena económica de entrada; sin auditorías independientes de terceros publicadas."
-      }
-    },
-    {
-      "source": "SuplementosAlMayor",
-      "title": "PROTEINA WHEY 175 G BOSTON CREAM DONUT BASIC",
-      "price": 7990.0,
-      "original_price": null,
-      "discount_pct": 0.0,
-      "category": "whey",
-      "weight_grams": 175.0,
-      "net_protein_grams": 127.8,
-      "cost_per_gram_clp": 62.52,
-      "permalink": "https://suplementosalmayor.cl/producto/basic-proteina-whey-175-g-boston-cream-donut/",
-      "available": true,
-      "value_score": 39,
-      "verdict": {
-        "status": "NO_CONVIENE",
-        "badge": "⚠️ Sobreprecio / Esperar",
-        "badge_color": "amber",
-        "action": "Esperar rebaja",
-        "reason": "Costo por gramo ($62.52 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
-        "value_score": 39,
-        "trust": {
-          "tier": "Tier S",
-          "brand_name": "Optimum Nutrition (ON)",
-          "trust_score": 98,
-          "certifications": [
-            "Informed-Choice",
-            "NSF for Sport",
-            "Labdoor Score A+",
-            "Glanbia QA"
-          ],
-          "spiking_risk": "Nulo",
-          "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
-        }
-      },
-      "brand_trust": {
-        "tier": "Tier S",
-        "brand_name": "Optimum Nutrition (ON)",
-        "trust_score": 98,
-        "certifications": [
-          "Informed-Choice",
-          "NSF for Sport",
-          "Labdoor Score A+",
-          "Glanbia QA"
-        ],
-        "spiking_risk": "Nulo",
-        "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
       }
     },
     {
@@ -11271,54 +10875,6 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Línea ProStar con buena reputación histórica en pruebas de nitrógeno y laboratorio."
-      }
-    },
-    {
-      "source": "All Nutrition",
-      "title": "GOLD STANDARD 100% WHEY 310 GR, OPTIMUM NUTRITION",
-      "price": 32990.0,
-      "original_price": 34990.0,
-      "discount_pct": 5.7,
-      "category": "whey",
-      "weight_grams": 310.0,
-      "net_protein_grams": 226.3,
-      "cost_per_gram_clp": 145.78,
-      "permalink": "https://allnutrition.cl/products/gold-standard-100-whey-310-gr-optimum-nutrition?_pos=9&_psq=gold+standard&_psid=003909b1c&_ss=e",
-      "available": true,
-      "value_score": 39,
-      "verdict": {
-        "status": "NO_CONVIENE",
-        "badge": "⚠️ Sobreprecio / Esperar",
-        "badge_color": "amber",
-        "action": "Esperar rebaja",
-        "reason": "Costo por gramo ($145.78 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
-        "value_score": 39,
-        "trust": {
-          "tier": "Tier S",
-          "brand_name": "Optimum Nutrition (ON)",
-          "trust_score": 98,
-          "certifications": [
-            "Informed-Choice",
-            "NSF for Sport",
-            "Labdoor Score A+",
-            "Glanbia QA"
-          ],
-          "spiking_risk": "Nulo",
-          "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
-        }
-      },
-      "brand_trust": {
-        "tier": "Tier S",
-        "brand_name": "Optimum Nutrition (ON)",
-        "trust_score": 98,
-        "certifications": [
-          "Informed-Choice",
-          "NSF for Sport",
-          "Labdoor Score A+",
-          "Glanbia QA"
-        ],
-        "spiking_risk": "Nulo",
-        "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
       }
     },
     {
@@ -12500,102 +12056,6 @@ window.CYBER_DEALS_DATA = {
       }
     },
     {
-      "source": "Supletech",
-      "title": "Protein Bar 45g - Maxi Nutrition Peanut Caramel",
-      "price": 3490.0,
-      "original_price": null,
-      "discount_pct": 0.0,
-      "category": "default",
-      "weight_grams": 45.0,
-      "net_protein_grams": 32.9,
-      "cost_per_gram_clp": 106.08,
-      "permalink": "https://www.supletech.cl/protein-bar-45g-maxi-nutrition/p",
-      "available": true,
-      "value_score": 36,
-      "verdict": {
-        "status": "NO_CONVIENE",
-        "badge": "⚠️ Sobreprecio / Esperar",
-        "badge_color": "amber",
-        "action": "Esperar rebaja",
-        "reason": "Costo por gramo ($106.08 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
-        "value_score": 36,
-        "trust": {
-          "tier": "Tier S",
-          "brand_name": "Optimum Nutrition (ON)",
-          "trust_score": 98,
-          "certifications": [
-            "Informed-Choice",
-            "NSF for Sport",
-            "Labdoor Score A+",
-            "Glanbia QA"
-          ],
-          "spiking_risk": "Nulo",
-          "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
-        }
-      },
-      "brand_trust": {
-        "tier": "Tier S",
-        "brand_name": "Optimum Nutrition (ON)",
-        "trust_score": 98,
-        "certifications": [
-          "Informed-Choice",
-          "NSF for Sport",
-          "Labdoor Score A+",
-          "Glanbia QA"
-        ],
-        "spiking_risk": "Nulo",
-        "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
-      }
-    },
-    {
-      "source": "All Nutrition",
-      "title": "SACHET GOLD STANDARD 100% WHEY PROTEIN 31 GR, ON",
-      "price": 3490.0,
-      "original_price": null,
-      "discount_pct": 0.0,
-      "category": "whey",
-      "weight_grams": 31.0,
-      "net_protein_grams": 22.6,
-      "cost_per_gram_clp": 154.42,
-      "permalink": "https://allnutrition.cl/products/sachet-gold-standard-100-whey-protein-31-gr-on?_pos=10&_psq=gold+standard&_psid=003909b1c&_ss=e",
-      "available": true,
-      "value_score": 36,
-      "verdict": {
-        "status": "NO_CONVIENE",
-        "badge": "⚠️ Sobreprecio / Esperar",
-        "badge_color": "amber",
-        "action": "Esperar rebaja",
-        "reason": "Costo por gramo ($154.42 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
-        "value_score": 36,
-        "trust": {
-          "tier": "Tier S",
-          "brand_name": "Optimum Nutrition (ON)",
-          "trust_score": 98,
-          "certifications": [
-            "Informed-Choice",
-            "NSF for Sport",
-            "Labdoor Score A+",
-            "Glanbia QA"
-          ],
-          "spiking_risk": "Nulo",
-          "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
-        }
-      },
-      "brand_trust": {
-        "tier": "Tier S",
-        "brand_name": "Optimum Nutrition (ON)",
-        "trust_score": 98,
-        "certifications": [
-          "Informed-Choice",
-          "NSF for Sport",
-          "Labdoor Score A+",
-          "Glanbia QA"
-        ],
-        "spiking_risk": "Nulo",
-        "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
-      }
-    },
-    {
       "source": "Strongest",
       "title": "WHEY 100% STRONG 900G STRONGEST La proteína que construye resultados reales. diseñada par...",
       "price": 39990.0,
@@ -12721,48 +12181,6 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo",
         "notes": "Proteína estadounidense con tecnología Promina y buena biodisponibilidad."
-      }
-    },
-    {
-      "source": "OutletFit",
-      "title": "Gel Energético Winkler + Cafeína Limón 30 g | 40 mg Cafeína + BCAAs",
-      "price": 1700.0,
-      "original_price": 2100.0,
-      "discount_pct": 19.0,
-      "category": "default",
-      "weight_grams": 30.0,
-      "net_protein_grams": 21.9,
-      "cost_per_gram_clp": 77.63,
-      "permalink": "https://www.outletfit.cl/gel-energetico-winkler-cafeina-limon-30-g-40-mg-cafeina-bcaas",
-      "available": true,
-      "value_score": 35,
-      "verdict": {
-        "status": "NO_CONVIENE",
-        "badge": "⚠️ Sobreprecio / Esperar",
-        "badge_color": "amber",
-        "action": "Esperar rebaja",
-        "reason": "Costo por gramo ($77.63 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
-        "value_score": 35,
-        "trust": {
-          "tier": "Tier C",
-          "brand_name": "Marca No Auditada",
-          "trust_score": 55,
-          "certifications": [
-            "Sin sellos auditados"
-          ],
-          "spiking_risk": "Medio / Alto",
-          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
-        }
-      },
-      "brand_trust": {
-        "tier": "Tier C",
-        "brand_name": "Marca No Auditada",
-        "trust_score": 55,
-        "certifications": [
-          "Sin sellos auditados"
-        ],
-        "spiking_risk": "Medio / Alto",
-        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
       }
     },
     {
@@ -13612,48 +13030,6 @@ window.CYBER_DEALS_DATA = {
       }
     },
     {
-      "source": "T4T",
-      "title": "BEST WHEY ZERO 12 grs Protein Bar – 12 unidades / 49 grs, sabores",
-      "price": 21990.0,
-      "original_price": 24990.0,
-      "discount_pct": 12.0,
-      "category": "whey",
-      "weight_grams": 12.0,
-      "net_protein_grams": 8.8,
-      "cost_per_gram_clp": 2498.86,
-      "permalink": "https://t4t.cl/products/barras-de-proteina-best-whey-zero-12-grs-12-unidades-49-grs-sabores?_pos=10&_psq=casein&_psid=e1d01eebd&_ss=e",
-      "available": true,
-      "value_score": 32,
-      "verdict": {
-        "status": "NO_CONVIENE",
-        "badge": "⚠️ Sobreprecio / Esperar",
-        "badge_color": "amber",
-        "action": "Esperar rebaja",
-        "reason": "Costo por gramo ($2498.86 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
-        "value_score": 32,
-        "trust": {
-          "tier": "Tier C",
-          "brand_name": "Marca No Auditada",
-          "trust_score": 55,
-          "certifications": [
-            "Sin sellos auditados"
-          ],
-          "spiking_risk": "Medio / Alto",
-          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
-        }
-      },
-      "brand_trust": {
-        "tier": "Tier C",
-        "brand_name": "Marca No Auditada",
-        "trust_score": 55,
-        "certifications": [
-          "Sin sellos auditados"
-        ],
-        "spiking_risk": "Medio / Alto",
-        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
-      }
-    },
-    {
       "source": "Winkler Nutrition",
       "title": "Femme Protein - Proteína Whey 1 kg - 30 porciones",
       "price": 46990.0,
@@ -13672,48 +13048,6 @@ window.CYBER_DEALS_DATA = {
         "badge_color": "amber",
         "action": "Esperar rebaja",
         "reason": "Costo por gramo ($64.37 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
-        "value_score": 31,
-        "trust": {
-          "tier": "Tier C",
-          "brand_name": "Marca No Auditada",
-          "trust_score": 55,
-          "certifications": [
-            "Sin sellos auditados"
-          ],
-          "spiking_risk": "Medio / Alto",
-          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
-        }
-      },
-      "brand_trust": {
-        "tier": "Tier C",
-        "brand_name": "Marca No Auditada",
-        "trust_score": 55,
-        "certifications": [
-          "Sin sellos auditados"
-        ],
-        "spiking_risk": "Medio / Alto",
-        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
-      }
-    },
-    {
-      "source": "T4T",
-      "title": "BEST WHEY ZERO 15 grs Protein Bar - 12 unidades / 62 grs, sabores",
-      "price": 24990.0,
-      "original_price": 27990.0,
-      "discount_pct": 10.7,
-      "category": "whey",
-      "weight_grams": 15.0,
-      "net_protein_grams": 10.9,
-      "cost_per_gram_clp": 2292.66,
-      "permalink": "https://t4t.cl/products/best-whey-zero-15-grs-protein-bar-12-unidades-62-grs-sabores?_pos=8&_psq=casein&_psid=e1d01eebd&_ss=e",
-      "available": true,
-      "value_score": 31,
-      "verdict": {
-        "status": "NO_CONVIENE",
-        "badge": "⚠️ Sobreprecio / Esperar",
-        "badge_color": "amber",
-        "action": "Esperar rebaja",
-        "reason": "Costo por gramo ($2292.66 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
         "value_score": 31,
         "trust": {
           "tier": "Tier C",
@@ -14074,48 +13408,6 @@ window.CYBER_DEALS_DATA = {
       }
     },
     {
-      "source": "SportNutriShop",
-      "title": "100% Whey Protein Professional 2.350 g, 78 servicios – Scitec Nutrition",
-      "price": 79000.0,
-      "original_price": 82000.0,
-      "discount_pct": 3.7,
-      "category": "whey",
-      "weight_grams": 2.4,
-      "net_protein_grams": 1.8,
-      "cost_per_gram_clp": 43888.89,
-      "permalink": "https://www.sportnutrishop.cl/products/100-whey-protein-professional-2-350-grs-78-servicios-scitec-nutrition?_pos=9&_psq=whey&_psid=04d316da4&_ss=e",
-      "available": true,
-      "value_score": 28,
-      "verdict": {
-        "status": "NO_CONVIENE",
-        "badge": "⚠️ Sobreprecio / Esperar",
-        "badge_color": "amber",
-        "action": "Esperar rebaja",
-        "reason": "Costo por gramo ($43888.89 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
-        "value_score": 28,
-        "trust": {
-          "tier": "Tier C",
-          "brand_name": "Marca No Auditada",
-          "trust_score": 55,
-          "certifications": [
-            "Sin sellos auditados"
-          ],
-          "spiking_risk": "Medio / Alto",
-          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
-        }
-      },
-      "brand_trust": {
-        "tier": "Tier C",
-        "brand_name": "Marca No Auditada",
-        "trust_score": 55,
-        "certifications": [
-          "Sin sellos auditados"
-        ],
-        "spiking_risk": "Medio / Alto",
-        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
-      }
-    },
-    {
       "source": "MixGreen",
       "title": "Whey Protein, Chocolate Blanco, 500 g",
       "price": 26090.0,
@@ -14158,129 +13450,99 @@ window.CYBER_DEALS_DATA = {
       }
     },
     {
-      "source": "MixGreen",
-      "title": "Bio Rakun, 30g",
-      "price": 8750.0,
-      "original_price": 8990.0,
-      "discount_pct": 2.7,
-      "category": "default",
-      "weight_grams": 30.0,
-      "net_protein_grams": 21.9,
-      "cost_per_gram_clp": 399.54,
-      "permalink": "https://www.mixgreen.cl/products/bio-rakun-30g-whenua?_pos=1&_psq=gold+standard&_psid=582d95140&_ss=e",
+      "source": "All Nutrition",
+      "title": "GOLD STANDARD 100% WHEY 310 GR, OPTIMUM NUTRITION",
+      "price": 32990.0,
+      "original_price": 34990.0,
+      "discount_pct": 5.7,
+      "category": "whey",
+      "weight_grams": null,
+      "net_protein_grams": null,
+      "cost_per_gram_clp": null,
+      "permalink": "https://allnutrition.cl/products/gold-standard-100-whey-310-gr-optimum-nutrition?_pos=9&_psq=gold+standard&_psid=003909b1c&_ss=e",
       "available": true,
-      "value_score": 27,
+      "value_score": 0,
       "verdict": {
-        "status": "NO_CONVIENE",
-        "badge": "⚠️ Sobreprecio / Esperar",
-        "badge_color": "amber",
-        "action": "Esperar rebaja",
-        "reason": "Costo por gramo ($399.54 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
-        "value_score": 27,
+        "status": "SIN_DATOS",
+        "badge": "⚠️ Sin peso claro",
+        "badge_color": "gray",
+        "action": "Verificar ficha",
+        "reason": "No fue posible determinar el peso neto en polvo de forma confiable.",
+        "value_score": 0,
         "trust": {
-          "tier": "Tier C",
-          "brand_name": "Marca No Auditada",
-          "trust_score": 55,
+          "tier": "Tier S",
+          "brand_name": "Optimum Nutrition (ON)",
+          "trust_score": 98,
           "certifications": [
-            "Sin sellos auditados"
+            "Informed-Choice",
+            "NSF for Sport",
+            "Labdoor Score A+",
+            "Glanbia QA"
           ],
-          "spiking_risk": "Medio / Alto",
-          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+          "spiking_risk": "Nulo",
+          "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
         }
       },
       "brand_trust": {
-        "tier": "Tier C",
-        "brand_name": "Marca No Auditada",
-        "trust_score": 55,
+        "tier": "Tier S",
+        "brand_name": "Optimum Nutrition (ON)",
+        "trust_score": 98,
         "certifications": [
-          "Sin sellos auditados"
+          "Informed-Choice",
+          "NSF for Sport",
+          "Labdoor Score A+",
+          "Glanbia QA"
         ],
-        "spiking_risk": "Medio / Alto",
-        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        "spiking_risk": "Nulo",
+        "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
       }
     },
     {
-      "source": "MixGreen",
-      "title": "Kai Repel, 30g",
-      "price": 11500.0,
-      "original_price": 11690.0,
-      "discount_pct": 1.6,
-      "category": "default",
-      "weight_grams": 30.0,
-      "net_protein_grams": 21.9,
-      "cost_per_gram_clp": 525.11,
-      "permalink": "https://www.mixgreen.cl/products/kai-repel-30g-whenua?_pos=2&_psq=gold+standard&_psid=582d95140&_ss=e",
-      "available": true,
-      "value_score": 27,
-      "verdict": {
-        "status": "NO_CONVIENE",
-        "badge": "⚠️ Sobreprecio / Esperar",
-        "badge_color": "amber",
-        "action": "Esperar rebaja",
-        "reason": "Costo por gramo ($525.11 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
-        "value_score": 27,
-        "trust": {
-          "tier": "Tier C",
-          "brand_name": "Marca No Auditada",
-          "trust_score": 55,
-          "certifications": [
-            "Sin sellos auditados"
-          ],
-          "spiking_risk": "Medio / Alto",
-          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
-        }
-      },
-      "brand_trust": {
-        "tier": "Tier C",
-        "brand_name": "Marca No Auditada",
-        "trust_score": 55,
-        "certifications": [
-          "Sin sellos auditados"
-        ],
-        "spiking_risk": "Medio / Alto",
-        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
-      }
-    },
-    {
-      "source": "Supletech",
-      "title": "Protein Bar 45g - Maxi Nutrition",
+      "source": "All Nutrition",
+      "title": "SACHET GOLD STANDARD 100% WHEY PROTEIN 31 GR, ON",
       "price": 3490.0,
       "original_price": null,
       "discount_pct": 0.0,
-      "category": "default",
-      "weight_grams": 45.0,
-      "net_protein_grams": 32.9,
-      "cost_per_gram_clp": 106.08,
-      "permalink": "https://www.supletech.cl/protein-bar-45g-maxi-nutrition/p",
+      "category": "whey",
+      "weight_grams": null,
+      "net_protein_grams": null,
+      "cost_per_gram_clp": null,
+      "permalink": "https://allnutrition.cl/products/sachet-gold-standard-100-whey-protein-31-gr-on?_pos=10&_psq=gold+standard&_psid=003909b1c&_ss=e",
       "available": true,
-      "value_score": 26,
+      "value_score": 0,
       "verdict": {
-        "status": "NO_CONVIENE",
-        "badge": "⚠️ Sobreprecio / Esperar",
-        "badge_color": "amber",
-        "action": "Esperar rebaja",
-        "reason": "Costo por gramo ($106.08 CLP/g) elevado para este Cyber. Conviene buscar marcas en Tier A o formato de 5 Lb.",
-        "value_score": 26,
+        "status": "SIN_DATOS",
+        "badge": "⚠️ Sin peso claro",
+        "badge_color": "gray",
+        "action": "Verificar ficha",
+        "reason": "No fue posible determinar el peso neto en polvo de forma confiable.",
+        "value_score": 0,
         "trust": {
-          "tier": "Tier C",
-          "brand_name": "Marca No Auditada",
-          "trust_score": 55,
+          "tier": "Tier S",
+          "brand_name": "Optimum Nutrition (ON)",
+          "trust_score": 98,
           "certifications": [
-            "Sin sellos auditados"
+            "Informed-Choice",
+            "NSF for Sport",
+            "Labdoor Score A+",
+            "Glanbia QA"
           ],
-          "spiking_risk": "Medio / Alto",
-          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+          "spiking_risk": "Nulo",
+          "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
         }
       },
       "brand_trust": {
-        "tier": "Tier C",
-        "brand_name": "Marca No Auditada",
-        "trust_score": 55,
+        "tier": "Tier S",
+        "brand_name": "Optimum Nutrition (ON)",
+        "trust_score": 98,
         "certifications": [
-          "Sin sellos auditados"
+          "Informed-Choice",
+          "NSF for Sport",
+          "Labdoor Score A+",
+          "Glanbia QA"
         ],
-        "spiking_risk": "Medio / Alto",
-        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        "spiking_risk": "Nulo",
+        "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
       }
     },
     {
@@ -14365,6 +13627,144 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Bajo / Medio",
         "notes": "Marca norteamericana con presencia en gimnasios y formulaciones estándar."
+      }
+    },
+    {
+      "source": "Supletech",
+      "title": "Protein Bar 45g - Maxi Nutrition",
+      "price": 3490.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "default",
+      "weight_grams": null,
+      "net_protein_grams": null,
+      "cost_per_gram_clp": null,
+      "permalink": "https://www.supletech.cl/protein-bar-45g-maxi-nutrition/p",
+      "available": true,
+      "value_score": 0,
+      "verdict": {
+        "status": "SIN_DATOS",
+        "badge": "⚠️ Sin peso claro",
+        "badge_color": "gray",
+        "action": "Verificar ficha",
+        "reason": "No fue posible determinar el peso neto en polvo de forma confiable.",
+        "value_score": 0,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Marca No Auditada",
+          "trust_score": 55,
+          "certifications": [
+            "Sin sellos auditados"
+          ],
+          "spiking_risk": "Medio / Alto",
+          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Marca No Auditada",
+        "trust_score": 55,
+        "certifications": [
+          "Sin sellos auditados"
+        ],
+        "spiking_risk": "Medio / Alto",
+        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "Supletech",
+      "title": "Protein Bar 45g - Maxi Nutrition Peanut Caramel",
+      "price": 3490.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "default",
+      "weight_grams": null,
+      "net_protein_grams": null,
+      "cost_per_gram_clp": null,
+      "permalink": "https://www.supletech.cl/protein-bar-45g-maxi-nutrition/p",
+      "available": true,
+      "value_score": 0,
+      "verdict": {
+        "status": "SIN_DATOS",
+        "badge": "⚠️ Sin peso claro",
+        "badge_color": "gray",
+        "action": "Verificar ficha",
+        "reason": "No fue posible determinar el peso neto en polvo de forma confiable.",
+        "value_score": 0,
+        "trust": {
+          "tier": "Tier S",
+          "brand_name": "Optimum Nutrition (ON)",
+          "trust_score": 98,
+          "certifications": [
+            "Informed-Choice",
+            "NSF for Sport",
+            "Labdoor Score A+",
+            "Glanbia QA"
+          ],
+          "spiking_risk": "Nulo",
+          "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier S",
+        "brand_name": "Optimum Nutrition (ON)",
+        "trust_score": 98,
+        "certifications": [
+          "Informed-Choice",
+          "NSF for Sport",
+          "Labdoor Score A+",
+          "Glanbia QA"
+        ],
+        "spiking_risk": "Nulo",
+        "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      }
+    },
+    {
+      "source": "Supletech",
+      "title": "Protein Bar 45g - Maxi Nutrition Dark Chocolate Coconut",
+      "price": 1290.0,
+      "original_price": 3490.0,
+      "discount_pct": 63.0,
+      "category": "default",
+      "weight_grams": null,
+      "net_protein_grams": null,
+      "cost_per_gram_clp": null,
+      "permalink": "https://www.supletech.cl/protein-bar-45g-maxi-nutrition/p",
+      "available": true,
+      "value_score": 0,
+      "verdict": {
+        "status": "SIN_DATOS",
+        "badge": "⚠️ Sin peso claro",
+        "badge_color": "gray",
+        "action": "Verificar ficha",
+        "reason": "No fue posible determinar el peso neto en polvo de forma confiable.",
+        "value_score": 0,
+        "trust": {
+          "tier": "Tier S",
+          "brand_name": "Optimum Nutrition (ON)",
+          "trust_score": 98,
+          "certifications": [
+            "Informed-Choice",
+            "NSF for Sport",
+            "Labdoor Score A+",
+            "Glanbia QA"
+          ],
+          "spiking_risk": "Nulo",
+          "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier S",
+        "brand_name": "Optimum Nutrition (ON)",
+        "trust_score": 98,
+        "certifications": [
+          "Informed-Choice",
+          "NSF for Sport",
+          "Labdoor Score A+",
+          "Glanbia QA"
+        ],
+        "spiking_risk": "Nulo",
+        "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
       }
     },
     {
@@ -14799,6 +14199,48 @@ window.CYBER_DEALS_DATA = {
     },
     {
       "source": "SportNutriShop",
+      "title": "BETA ALANINA 300GR 75 SERVICIOS - ZEIN",
+      "price": 9990.0,
+      "original_price": 14990.0,
+      "discount_pct": 33.4,
+      "category": "default",
+      "weight_grams": null,
+      "net_protein_grams": null,
+      "cost_per_gram_clp": null,
+      "permalink": "https://www.sportnutrishop.cl/products/beta-alanina-300gr-zein?_pos=6&_psq=caseina&_psid=9b76d0d69&_ss=e",
+      "available": true,
+      "value_score": 0,
+      "verdict": {
+        "status": "SIN_DATOS",
+        "badge": "⚠️ Sin peso claro",
+        "badge_color": "gray",
+        "action": "Verificar ficha",
+        "reason": "No fue posible determinar el peso neto en polvo de forma confiable.",
+        "value_score": 0,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Marca No Auditada",
+          "trust_score": 55,
+          "certifications": [
+            "Sin sellos auditados"
+          ],
+          "spiking_risk": "Medio / Alto",
+          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Marca No Auditada",
+        "trust_score": 55,
+        "certifications": [
+          "Sin sellos auditados"
+        ],
+        "spiking_risk": "Medio / Alto",
+        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "SportNutriShop",
       "title": "Pack de 2 proteínas Isolate para Ellas – Italo Grottini",
       "price": 36990.0,
       "original_price": 49990.0,
@@ -15050,6 +14492,132 @@ window.CYBER_DEALS_DATA = {
       }
     },
     {
+      "source": "T4T",
+      "title": "BEST WHEY ZERO 15 grs Protein Bar - 12 unidades / 62 grs, sabores",
+      "price": 24990.0,
+      "original_price": 27990.0,
+      "discount_pct": 10.7,
+      "category": "whey",
+      "weight_grams": null,
+      "net_protein_grams": null,
+      "cost_per_gram_clp": null,
+      "permalink": "https://t4t.cl/products/best-whey-zero-15-grs-protein-bar-12-unidades-62-grs-sabores?_pos=8&_psq=casein&_psid=e1d01eebd&_ss=e",
+      "available": true,
+      "value_score": 0,
+      "verdict": {
+        "status": "SIN_DATOS",
+        "badge": "⚠️ Sin peso claro",
+        "badge_color": "gray",
+        "action": "Verificar ficha",
+        "reason": "No fue posible determinar el peso neto en polvo de forma confiable.",
+        "value_score": 0,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Marca No Auditada",
+          "trust_score": 55,
+          "certifications": [
+            "Sin sellos auditados"
+          ],
+          "spiking_risk": "Medio / Alto",
+          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Marca No Auditada",
+        "trust_score": 55,
+        "certifications": [
+          "Sin sellos auditados"
+        ],
+        "spiking_risk": "Medio / Alto",
+        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "T4T",
+      "title": "BEST WHEY ZERO 12 grs Protein Bar – 12 unidades / 49 grs, sabores",
+      "price": 21990.0,
+      "original_price": 24990.0,
+      "discount_pct": 12.0,
+      "category": "whey",
+      "weight_grams": null,
+      "net_protein_grams": null,
+      "cost_per_gram_clp": null,
+      "permalink": "https://t4t.cl/products/barras-de-proteina-best-whey-zero-12-grs-12-unidades-49-grs-sabores?_pos=10&_psq=casein&_psid=e1d01eebd&_ss=e",
+      "available": true,
+      "value_score": 0,
+      "verdict": {
+        "status": "SIN_DATOS",
+        "badge": "⚠️ Sin peso claro",
+        "badge_color": "gray",
+        "action": "Verificar ficha",
+        "reason": "No fue posible determinar el peso neto en polvo de forma confiable.",
+        "value_score": 0,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Marca No Auditada",
+          "trust_score": 55,
+          "certifications": [
+            "Sin sellos auditados"
+          ],
+          "spiking_risk": "Medio / Alto",
+          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Marca No Auditada",
+        "trust_score": 55,
+        "certifications": [
+          "Sin sellos auditados"
+        ],
+        "spiking_risk": "Medio / Alto",
+        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "MixGreen",
+      "title": "Modulo Proteico, 294 g",
+      "price": 10890.0,
+      "original_price": 12900.0,
+      "discount_pct": 15.6,
+      "category": "default",
+      "weight_grams": null,
+      "net_protein_grams": null,
+      "cost_per_gram_clp": null,
+      "permalink": "https://www.mixgreen.cl/products/modulo-proteico-294-g?_pos=1&_psq=caseina&_psid=df94191cd&_ss=e",
+      "available": true,
+      "value_score": 0,
+      "verdict": {
+        "status": "SIN_DATOS",
+        "badge": "⚠️ Sin peso claro",
+        "badge_color": "gray",
+        "action": "Verificar ficha",
+        "reason": "No fue posible determinar el peso neto en polvo de forma confiable.",
+        "value_score": 0,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Marca No Auditada",
+          "trust_score": 55,
+          "certifications": [
+            "Sin sellos auditados"
+          ],
+          "spiking_risk": "Medio / Alto",
+          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Marca No Auditada",
+        "trust_score": 55,
+        "certifications": [
+          "Sin sellos auditados"
+        ],
+        "spiking_risk": "Medio / Alto",
+        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
       "source": "MixGreen",
       "title": "Ghee Mantequilla Clarificada, 210ml",
       "price": 6790.0,
@@ -15060,6 +14628,132 @@ window.CYBER_DEALS_DATA = {
       "net_protein_grams": null,
       "cost_per_gram_clp": null,
       "permalink": "https://www.mixgreen.cl/products/ghee-mantequilla-clarificada-210ml-manare?_pos=10&_psq=caseina&_psid=df94191cd&_ss=e",
+      "available": true,
+      "value_score": 0,
+      "verdict": {
+        "status": "SIN_DATOS",
+        "badge": "⚠️ Sin peso claro",
+        "badge_color": "gray",
+        "action": "Verificar ficha",
+        "reason": "No fue posible determinar el peso neto en polvo de forma confiable.",
+        "value_score": 0,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Marca No Auditada",
+          "trust_score": 55,
+          "certifications": [
+            "Sin sellos auditados"
+          ],
+          "spiking_risk": "Medio / Alto",
+          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Marca No Auditada",
+        "trust_score": 55,
+        "certifications": [
+          "Sin sellos auditados"
+        ],
+        "spiking_risk": "Medio / Alto",
+        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "MixGreen",
+      "title": "Hemp Protein, 100% Orgánico, 200 g",
+      "price": 10590.0,
+      "original_price": 15990.0,
+      "discount_pct": 33.8,
+      "category": "default",
+      "weight_grams": null,
+      "net_protein_grams": null,
+      "cost_per_gram_clp": null,
+      "permalink": "https://www.mixgreen.cl/products/10058-proteina-canamo-en-polvo-hemp-protein-100-organico-200-g-aquasolar?_pos=10&_psq=casein&_psid=afa3f2d8c&_ss=e",
+      "available": true,
+      "value_score": 0,
+      "verdict": {
+        "status": "SIN_DATOS",
+        "badge": "⚠️ Sin peso claro",
+        "badge_color": "gray",
+        "action": "Verificar ficha",
+        "reason": "No fue posible determinar el peso neto en polvo de forma confiable.",
+        "value_score": 0,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Marca No Auditada",
+          "trust_score": 55,
+          "certifications": [
+            "Sin sellos auditados"
+          ],
+          "spiking_risk": "Medio / Alto",
+          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Marca No Auditada",
+        "trust_score": 55,
+        "certifications": [
+          "Sin sellos auditados"
+        ],
+        "spiking_risk": "Medio / Alto",
+        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "MixGreen",
+      "title": "Bio Rakun, 30g",
+      "price": 8750.0,
+      "original_price": 8990.0,
+      "discount_pct": 2.7,
+      "category": "default",
+      "weight_grams": null,
+      "net_protein_grams": null,
+      "cost_per_gram_clp": null,
+      "permalink": "https://www.mixgreen.cl/products/bio-rakun-30g-whenua?_pos=1&_psq=gold+standard&_psid=582d95140&_ss=e",
+      "available": true,
+      "value_score": 0,
+      "verdict": {
+        "status": "SIN_DATOS",
+        "badge": "⚠️ Sin peso claro",
+        "badge_color": "gray",
+        "action": "Verificar ficha",
+        "reason": "No fue posible determinar el peso neto en polvo de forma confiable.",
+        "value_score": 0,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Marca No Auditada",
+          "trust_score": 55,
+          "certifications": [
+            "Sin sellos auditados"
+          ],
+          "spiking_risk": "Medio / Alto",
+          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Marca No Auditada",
+        "trust_score": 55,
+        "certifications": [
+          "Sin sellos auditados"
+        ],
+        "spiking_risk": "Medio / Alto",
+        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "MixGreen",
+      "title": "Kai Repel, 30g",
+      "price": 11500.0,
+      "original_price": 11690.0,
+      "discount_pct": 1.6,
+      "category": "default",
+      "weight_grams": null,
+      "net_protein_grams": null,
+      "cost_per_gram_clp": null,
+      "permalink": "https://www.mixgreen.cl/products/kai-repel-30g-whenua?_pos=2&_psq=gold+standard&_psid=582d95140&_ss=e",
       "available": true,
       "value_score": 0,
       "verdict": {
@@ -15179,6 +14873,48 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+      }
+    },
+    {
+      "source": "GlobalNutrition",
+      "title": "4Active 100% Isolate Protein 30 Servicios | Proteína Aislada 24g de Proteína, 5g BCAA y Bajo en Azúcar",
+      "price": 49990.0,
+      "original_price": 69990.0,
+      "discount_pct": 28.6,
+      "category": "isolate",
+      "weight_grams": null,
+      "net_protein_grams": null,
+      "cost_per_gram_clp": null,
+      "permalink": "https://globalnutrition.cl/products/4active-100-isolate-protein-30-servicios-proteina-aislada-24g-de-proteina-5g-bcaa-y-bajo-en-azucar?_pos=1&_psq=isolate&_psid=7c9ab2a1a&_ss=e",
+      "available": true,
+      "value_score": 0,
+      "verdict": {
+        "status": "SIN_DATOS",
+        "badge": "⚠️ Sin peso claro",
+        "badge_color": "gray",
+        "action": "Verificar ficha",
+        "reason": "No fue posible determinar el peso neto en polvo de forma confiable.",
+        "value_score": 0,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "4Active",
+          "trust_score": 52,
+          "certifications": [
+            "Sin sellos de calidad internacional"
+          ],
+          "spiking_risk": "Medio / Alto",
+          "notes": "Blend económico local; carece de certificación de pureza por laboratorios externos."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "4Active",
+        "trust_score": 52,
+        "certifications": [
+          "Sin sellos de calidad internacional"
+        ],
+        "spiking_risk": "Medio / Alto",
+        "notes": "Blend económico local; carece de certificación de pureza por laboratorios externos."
       }
     },
     {
@@ -15317,6 +15053,48 @@ window.CYBER_DEALS_DATA = {
     },
     {
       "source": "OutletFit",
+      "title": "Gel Energético Winkler + Cafeína Limón 30 g | 40 mg Cafeína + BCAAs",
+      "price": 1700.0,
+      "original_price": 2100.0,
+      "discount_pct": 19.0,
+      "category": "default",
+      "weight_grams": null,
+      "net_protein_grams": null,
+      "cost_per_gram_clp": null,
+      "permalink": "https://www.outletfit.cl/gel-energetico-winkler-cafeina-limon-30-g-40-mg-cafeina-bcaas",
+      "available": true,
+      "value_score": 0,
+      "verdict": {
+        "status": "SIN_DATOS",
+        "badge": "⚠️ Sin peso claro",
+        "badge_color": "gray",
+        "action": "Verificar ficha",
+        "reason": "No fue posible determinar el peso neto en polvo de forma confiable.",
+        "value_score": 0,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Marca No Auditada",
+          "trust_score": 55,
+          "certifications": [
+            "Sin sellos auditados"
+          ],
+          "spiking_risk": "Medio / Alto",
+          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Marca No Auditada",
+        "trust_score": 55,
+        "certifications": [
+          "Sin sellos auditados"
+        ],
+        "spiking_risk": "Medio / Alto",
+        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "OutletFit",
       "title": "NAC L Cisteína 600mg Winkler 100 cáps.",
       "price": 29990.0,
       "original_price": 34990.0,
@@ -15410,6 +15188,132 @@ window.CYBER_DEALS_DATA = {
       "net_protein_grams": null,
       "cost_per_gram_clp": null,
       "permalink": "https://www.outletfit.cl/probiotix-high-potency-30-capsulas",
+      "available": true,
+      "value_score": 0,
+      "verdict": {
+        "status": "SIN_DATOS",
+        "badge": "⚠️ Sin peso claro",
+        "badge_color": "gray",
+        "action": "Verificar ficha",
+        "reason": "No fue posible determinar el peso neto en polvo de forma confiable.",
+        "value_score": 0,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Marca No Auditada",
+          "trust_score": 55,
+          "certifications": [
+            "Sin sellos auditados"
+          ],
+          "spiking_risk": "Medio / Alto",
+          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Marca No Auditada",
+        "trust_score": 55,
+        "certifications": [
+          "Sin sellos auditados"
+        ],
+        "spiking_risk": "Medio / Alto",
+        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "OutletFit",
+      "title": "Protein Bite Caramel Peanuts 55 g | 20 g Proteína",
+      "price": 2490.0,
+      "original_price": 3490.0,
+      "discount_pct": 28.7,
+      "category": "default",
+      "weight_grams": null,
+      "net_protein_grams": null,
+      "cost_per_gram_clp": null,
+      "permalink": "https://www.outletfit.cl/protein-bite-caramel-peanuts-your-goal-55-g",
+      "available": true,
+      "value_score": 0,
+      "verdict": {
+        "status": "SIN_DATOS",
+        "badge": "⚠️ Sin peso claro",
+        "badge_color": "gray",
+        "action": "Verificar ficha",
+        "reason": "No fue posible determinar el peso neto en polvo de forma confiable.",
+        "value_score": 0,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Marca No Auditada",
+          "trust_score": 55,
+          "certifications": [
+            "Sin sellos auditados"
+          ],
+          "spiking_risk": "Medio / Alto",
+          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Marca No Auditada",
+        "trust_score": 55,
+        "certifications": [
+          "Sin sellos auditados"
+        ],
+        "spiking_risk": "Medio / Alto",
+        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "OutletFit",
+      "title": "Protein Bite Chocolate Crunch 60 g | 21 g Proteína",
+      "price": 2490.0,
+      "original_price": 3490.0,
+      "discount_pct": 28.7,
+      "category": "default",
+      "weight_grams": null,
+      "net_protein_grams": null,
+      "cost_per_gram_clp": null,
+      "permalink": "https://www.outletfit.cl/protein-bite-chocolate-crunch-your-goal-60-g",
+      "available": true,
+      "value_score": 0,
+      "verdict": {
+        "status": "SIN_DATOS",
+        "badge": "⚠️ Sin peso claro",
+        "badge_color": "gray",
+        "action": "Verificar ficha",
+        "reason": "No fue posible determinar el peso neto en polvo de forma confiable.",
+        "value_score": 0,
+        "trust": {
+          "tier": "Tier C",
+          "brand_name": "Marca No Auditada",
+          "trust_score": 55,
+          "certifications": [
+            "Sin sellos auditados"
+          ],
+          "spiking_risk": "Medio / Alto",
+          "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier C",
+        "brand_name": "Marca No Auditada",
+        "trust_score": 55,
+        "certifications": [
+          "Sin sellos auditados"
+        ],
+        "spiking_risk": "Medio / Alto",
+        "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "OutletFit",
+      "title": "Protein Bite Black & White 55 g | 21 g Proteína",
+      "price": 2490.0,
+      "original_price": 3490.0,
+      "discount_pct": 28.7,
+      "category": "default",
+      "weight_grams": null,
+      "net_protein_grams": null,
+      "cost_per_gram_clp": null,
+      "permalink": "https://www.outletfit.cl/protein-bite-black-white-your-goal-55-g",
       "available": true,
       "value_score": 0,
       "verdict": {
@@ -15739,6 +15643,54 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Nulo",
         "notes": "Líder en aislamiento (ISO 100) y caseína micelar con trazabilidad de lotes certificada."
+      }
+    },
+    {
+      "source": "ChileSuplementos",
+      "title": "Applied Nutrition Critical Whey 132 G",
+      "price": 8000.0,
+      "original_price": 8990.0,
+      "discount_pct": 11.0,
+      "category": "whey",
+      "weight_grams": null,
+      "net_protein_grams": null,
+      "cost_per_gram_clp": null,
+      "permalink": "https://www.chilesuplementos.cl/producto/critical-whey-132-g/",
+      "available": true,
+      "value_score": 0,
+      "verdict": {
+        "status": "SIN_DATOS",
+        "badge": "⚠️ Sin peso claro",
+        "badge_color": "gray",
+        "action": "Verificar ficha",
+        "reason": "No fue posible determinar el peso neto en polvo de forma confiable.",
+        "value_score": 0,
+        "trust": {
+          "tier": "Tier S",
+          "brand_name": "Optimum Nutrition (ON)",
+          "trust_score": 98,
+          "certifications": [
+            "Informed-Choice",
+            "NSF for Sport",
+            "Labdoor Score A+",
+            "Glanbia QA"
+          ],
+          "spiking_risk": "Nulo",
+          "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier S",
+        "brand_name": "Optimum Nutrition (ON)",
+        "trust_score": 98,
+        "certifications": [
+          "Informed-Choice",
+          "NSF for Sport",
+          "Labdoor Score A+",
+          "Glanbia QA"
+        ],
+        "spiking_risk": "Nulo",
+        "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
       }
     },
     {
@@ -16223,6 +16175,54 @@ window.CYBER_DEALS_DATA = {
         ],
         "spiking_risk": "Medio / Alto",
         "notes": "No se encontraron certificados de laboratorios independientes para esta marca."
+      }
+    },
+    {
+      "source": "SuplementosAlMayor",
+      "title": "PROTEINA WHEY 175 G BOSTON CREAM DONUT BASIC",
+      "price": 7990.0,
+      "original_price": null,
+      "discount_pct": 0.0,
+      "category": "whey",
+      "weight_grams": null,
+      "net_protein_grams": null,
+      "cost_per_gram_clp": null,
+      "permalink": "https://suplementosalmayor.cl/producto/basic-proteina-whey-175-g-boston-cream-donut/",
+      "available": true,
+      "value_score": 0,
+      "verdict": {
+        "status": "SIN_DATOS",
+        "badge": "⚠️ Sin peso claro",
+        "badge_color": "gray",
+        "action": "Verificar ficha",
+        "reason": "No fue posible determinar el peso neto en polvo de forma confiable.",
+        "value_score": 0,
+        "trust": {
+          "tier": "Tier S",
+          "brand_name": "Optimum Nutrition (ON)",
+          "trust_score": 98,
+          "certifications": [
+            "Informed-Choice",
+            "NSF for Sport",
+            "Labdoor Score A+",
+            "Glanbia QA"
+          ],
+          "spiking_risk": "Nulo",
+          "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
+        }
+      },
+      "brand_trust": {
+        "tier": "Tier S",
+        "brand_name": "Optimum Nutrition (ON)",
+        "trust_score": 98,
+        "certifications": [
+          "Informed-Choice",
+          "NSF for Sport",
+          "Labdoor Score A+",
+          "Glanbia QA"
+        ],
+        "spiking_risk": "Nulo",
+        "notes": "Estándar de oro mundial. Control directo de materia prima láctea (Glanbia). Cero amino spiking."
       }
     }
   ]
